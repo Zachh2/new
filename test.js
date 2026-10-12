@@ -2,7 +2,7 @@ const { login } = require("fca-nx");
 const fs = require("fs");
 const path = require("path");
 
-const APPSTATE_PATH = path.join(__dirname, "appstatett.json");
+const APPSTATE_PATH = path.join(__dirname, "appstate.json");
 
 
 const options = {
@@ -16,7 +16,7 @@ const options = {
 
 const credentials = {
   email: process.env.FB_EMAIL || "chiwarr@xitroo.com",
-  password: process.env.FB_PASSWORD || "renwen00",
+  password: process.env.FB_PASSWORD || "",
 };
 
 
