@@ -391,13 +391,13 @@
             "started": true,
             "language": "tl",
             "awaitingLanguage": false,
-            "updatedAt": "2026-10-08T13:59:34.574Z",
+            "updatedAt": "2026-10-12T15:40:59.743Z",
             "startedBy": "100064763179341",
             "startedAt": "2026-09-24T11:52:29.858Z",
             "smartGroups": {
                 "history": true,
                 "ai": false,
-                "personality": "funny",
+                "personality": "formal",
                 "mentions": true,
                 "reminderMinutes": 5
             },
@@ -16997,6 +16997,117 @@
             "updatedAt": "2026-10-11T22:21:54.558Z",
             "startedBy": "100065994280183",
             "startedAt": "2026-10-11T22:21:54.558Z"
+        }
+    },
+    "28810301455288309": {
+        "threadInfo": {
+            "threadID": "28810301455288309",
+            "isGroup": true,
+            "threadName": "ICT",
+            "participantIDs": [
+                "61595416107665",
+                "100018374975268",
+                "100064763179341"
+            ],
+            "userInfo": [
+                {
+                    "id": "61595416107665",
+                    "name": "Leilame Dmetria",
+                    "firstName": "Leilame",
+                    "vanity": "",
+                    "url": "https://www.facebook.com/profile.php?id=61595416107665",
+                    "thumbSrc": "https://scontent.fbhz4-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=cp0_dst-png_s60x60&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=xbZPQ_IVpFwQ7kNvwFPYQrr&_nc_oc=AdqgSW8KQLDoxrua2T0sE48JpAjQZUZXMC2NJZ_DKpGzQuruVf9-UWTq4vAqVx_QQh0&_nc_zt=24&_nc_ht=scontent.fbhz4-1.fna&_nc_ss=701a0&oh=00_AQPqC1zbyzITypJdwJU5GI2XPb1E63zOcxc0uR0vMXSu-g&oe=6AF4D5FA",
+                    "profileUrl": "https://scontent.fbhz4-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=cp0_dst-png_s60x60&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=xbZPQ_IVpFwQ7kNvwFPYQrr&_nc_oc=AdqgSW8KQLDoxrua2T0sE48JpAjQZUZXMC2NJZ_DKpGzQuruVf9-UWTq4vAqVx_QQh0&_nc_zt=24&_nc_ht=scontent.fbhz4-1.fna&_nc_ss=701a0&oh=00_AQPqC1zbyzITypJdwJU5GI2XPb1E63zOcxc0uR0vMXSu-g&oe=6AF4D5FA",
+                    "gender": "MALE",
+                    "type": "User",
+                    "isFriend": false,
+                    "isBirthday": false
+                },
+                {
+                    "id": "100018374975268",
+                    "name": "Dalila Kent",
+                    "firstName": "Dalila",
+                    "vanity": "dalila.kent.9",
+                    "url": "https://www.facebook.com/dalila.kent.9",
+                    "thumbSrc": "https://scontent.fbhz4-1.fna.fbcdn.net/v/t39.30808-1/843449267_2140636259892186_5044733021219236161_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=1d2534&_nc_ohc=iLVgvbFrD_cQ7kNvwF04pdP&_nc_oc=Adrvvo4ZFWtwOBvRgCOQxlGKSmb0LY9CwRLhBoQ70IdfIi3npFb-lxubwz0NUPX4rjw&_nc_zt=24&_nc_ht=scontent.fbhz4-1.fna&_nc_gid=mZgqxtJycaGbpn3CpSv6fA&_nc_ss=701a0&oh=00_AQMlKf8NQV2IpBuAV3tj635FZwtHgbqwJNVl3NKQnahEtA&oe=6AD3305C",
+                    "profileUrl": "https://scontent.fbhz4-1.fna.fbcdn.net/v/t39.30808-1/843449267_2140636259892186_5044733021219236161_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=1d2534&_nc_ohc=iLVgvbFrD_cQ7kNvwF04pdP&_nc_oc=Adrvvo4ZFWtwOBvRgCOQxlGKSmb0LY9CwRLhBoQ70IdfIi3npFb-lxubwz0NUPX4rjw&_nc_zt=24&_nc_ht=scontent.fbhz4-1.fna&_nc_gid=mZgqxtJycaGbpn3CpSv6fA&_nc_ss=701a0&oh=00_AQMlKf8NQV2IpBuAV3tj635FZwtHgbqwJNVl3NKQnahEtA&oe=6AD3305C",
+                    "gender": "FEMALE",
+                    "type": "User",
+                    "isFriend": false,
+                    "isBirthday": false
+                },
+                {
+                    "id": "100064763179341",
+                    "name": "Zachary Navea",
+                    "firstName": "Zachary",
+                    "vanity": "zvchaiii",
+                    "url": "https://www.facebook.com/zvchaiii",
+                    "thumbSrc": "https://scontent.fdiq2-1.fna.fbcdn.net/v/t39.30808-1/653808400_1372450578257035_2194792133476625822_n.jpg?stp=cp6_dst-jpg_s60x60_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_ohc=LC3vkwgRe7cQ7kNvwHBGXLs&_nc_oc=AdrDjP1JDXO7wNI1xqSaYgrYdShGb-JpnTyuHELhJYdrDwrVdR6iHPt5TmctRj05acU&_nc_zt=24&_nc_ht=scontent.fdiq2-1.fna&_nc_gid=mZgqxtJycaGbpn3CpSv6fA&_nc_ss=701a0&oh=00_AQN9EifMRz4WxQ4tZHLQZ-5Bs6bNn04ZAQao2FuZ9877FQ&oe=6AD32AE5",
+                    "profileUrl": "https://scontent.fdiq2-1.fna.fbcdn.net/v/t39.30808-1/653808400_1372450578257035_2194792133476625822_n.jpg?stp=cp6_dst-jpg_s60x60_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_ohc=LC3vkwgRe7cQ7kNvwHBGXLs&_nc_oc=AdrDjP1JDXO7wNI1xqSaYgrYdShGb-JpnTyuHELhJYdrDwrVdR6iHPt5TmctRj05acU&_nc_zt=24&_nc_ht=scontent.fdiq2-1.fna&_nc_gid=mZgqxtJycaGbpn3CpSv6fA&_nc_ss=701a0&oh=00_AQN9EifMRz4WxQ4tZHLQZ-5Bs6bNn04ZAQao2FuZ9877FQ&oe=6AD32AE5",
+                    "gender": "MALE",
+                    "type": "User",
+                    "isFriend": true,
+                    "isBirthday": false
+                }
+            ],
+            "unreadCount": 1,
+            "messageCount": 13,
+            "timestamp": "1791845626799",
+            "muteUntil": null,
+            "isSubscribed": true,
+            "isArchived": false,
+            "folder": "INBOX",
+            "cannotReplyReason": null,
+            "eventReminders": [],
+            "emoji": null,
+            "color": null,
+            "threadTheme": null,
+            "nicknames": {},
+            "adminIDs": [
+                {
+                    "id": "100064763179341"
+                }
+            ],
+            "approvalMode": false,
+            "approvalQueue": [],
+            "reactionsMuteMode": "reactions_not_muted",
+            "mentionsMuteMode": "mentions_not_muted",
+            "isPinProtected": false,
+            "relatedPageThread": null,
+            "name": "ICT",
+            "snippet": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Downloading...\n╰┈➤ please wait",
+            "snippetSender": "61595416107665",
+            "snippetAttachments": [],
+            "serverTimestamp": "1791845626799",
+            "imageSrc": null,
+            "isCanonicalUser": false,
+            "isCanonical": false,
+            "recipientsLoadable": true,
+            "hasEmailParticipant": false,
+            "readOnly": false,
+            "canReply": true,
+            "lastMessageTimestamp": null,
+            "lastMessageType": "message",
+            "lastReadTimestamp": "1791845626258",
+            "threadType": 2,
+            "inviteLink": {
+                "enable": false,
+                "link": "https://m.me/j/Ycv93Lgbf3n3J-J-/"
+            }
+        },
+        "createTime": {
+            "timestamp": 1791845600251
+        },
+        "data": {
+            "timestamp": 1791845600251
+        },
+        "botSettings": {
+            "started": true,
+            "language": "en",
+            "awaitingLanguage": false,
+            "updatedAt": "2026-10-12T22:53:33.724Z",
+            "startedBy": "100064763179341",
+            "startedAt": "2026-10-12T22:53:33.724Z"
         }
     }
 }
