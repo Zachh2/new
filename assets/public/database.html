@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Database · Zach_Core</title>
+<link rel="stylesheet" href="/theme.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background:#09090b; color:#e4e4e7; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .card { background:rgba(24,24,27,.9); border:1px solid rgba(255,255,255,.06); }
+  .pill { font-size:9px; letter-spacing:.2em; text-transform:uppercase; font-weight:900; }
+  input, textarea, select { background:rgba(0,0,0,.4); border:1px solid rgba(255,255,255,.1); color:#fff; outline:none; }
+  input:focus, textarea:focus, select:focus { border-color:#6366f1; }
+  table td, table th { white-space:nowrap; }
+  /* phones: let the table scroll sideways instead of crushing it, and stop
+     iOS zooming in every time a field is focused */
+  html { -webkit-text-size-adjust:100%; }
+  body { overflow-x:hidden; padding-bottom:env(safe-area-inset-bottom,0px); }
+  @media (max-width:768px) {
+    table { min-width:600px; }
+    input, textarea, select { font-size:16px !important; }
+    .card { padding:0.9rem !important; }
+    h1 { font-size:1.25rem !important; }
+  }
+  .scroll::-webkit-scrollbar { height:8px; width:8px; }
+  .scroll::-webkit-scrollbar-thumb { background:#3f3f46; border-radius:8px; }
+</style>
+</head>
+<body class="min-h-screen">
+<div class="max-w-6xl mx-auto p-4 md:p-8 space-y-6">
+
+  <!-- header -->
+  <header class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+    <div>
+      <h1 class="text-2xl font-black italic uppercase tracking-tighter text-white">Database</h1>
+      <p id="db-line" class="text-[10px] font-mono text-zinc-500 tracking-widest uppercase mt-1">Checking…</p>
+    </div>
+    <div class="flex gap-2">
+      <span id="live-dot" class="self-center pill text-emerald-400 mr-1">● live</span>
+      <button onclick="syncNow()" class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-3 rounded-2xl pill">Sync now</button>
+      <a href="/" class="bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 px-5 py-3 rounded-2xl pill">Back</a>
+    </div>
+  </header>
+
+  <!-- stats -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div class="card p-4 rounded-3xl"><p class="pill text-zinc-500">Users saved</p><p id="s-users" class="text-xl font-black text-white">–</p></div>
+    <div class="card p-4 rounded-3xl">
+      <p class="pill text-zinc-500">Threads saved</p>
+      <p id="s-threads" class="text-xl font-black text-white">–</p>
+      <p id="s-threads-live" class="text-[8px] text-zinc-600 font-mono uppercase tracking-widest mt-1">&nbsp;</p>
+    </div>
+    <div class="card p-4 rounded-3xl"><p class="pill text-zinc-500">Total cash</p><p id="s-money" class="text-xl font-black text-emerald-400">–</p></div>
+    <div class="card p-4 rounded-3xl"><p class="pill text-zinc-500">Banned</p><p id="s-banned" class="text-xl font-black text-red-400">–</p></div>
+  </div>
+
+  <!-- browse / edit -->
+  <div class="card rounded-3xl p-5 space-y-4">
+    <div class="flex flex-col md:flex-row gap-3 md:items-center">
+      <div class="flex gap-2">
+        <button id="tab-user" onclick="setType('user')" class="px-4 py-2.5 rounded-xl pill bg-indigo-600 text-white">Users</button>
+        <button id="tab-thread" onclick="setType('thread')" class="px-4 py-2.5 rounded-xl pill bg-zinc-800 text-zinc-400">Threads</button>
+      </div>
+      <input id="q" placeholder="Search by name or ID… (type null to list unnamed)" class="flex-1 rounded-xl px-4 py-3 text-xs font-mono" onkeydown="if(event.key==='Enter')search()">
+      <button onclick="search()" class="bg-zinc-800 hover:bg-zinc-700 text-white px-5 py-3 rounded-xl pill">Search</button>
+    </div>
+
+    <div class="overflow-x-auto scroll">
+      <table class="w-full text-xs">
+        <thead><tr id="thead" class="text-zinc-500 pill border-b border-white/5"></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p id="hint" class="text-[10px] text-zinc-600 uppercase tracking-widest"></p>
+  </div>
+
+  <!-- danger zone -->
+  <div class="card rounded-3xl p-5 border border-red-500/20">
+    <h2 class="text-red-400 font-black uppercase tracking-widest text-xs mb-1">Wipe data</h2>
+    <p class="text-[10px] text-zinc-500 uppercase tracking-widest mb-4">
+      A copy of both data files is saved to includes/database/data/backups/ first. Wipes clear the database rows too.
+    </p>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-2">
+      <button onclick="wipe('money')"      class="bg-zinc-800 hover:bg-amber-600 text-white py-3 rounded-xl pill">Reset cash + EXP</button>
+      <button onclick="wipe('bans')"       class="bg-zinc-800 hover:bg-amber-600 text-white py-3 rounded-xl pill">Clear all bans</button>
+      <button onclick="wipe('users')"      class="bg-zinc-800 hover:bg-red-600 text-white py-3 rounded-xl pill">Delete users</button>
+      <button onclick="wipe('threads')"    class="bg-zinc-800 hover:bg-red-600 text-white py-3 rounded-xl pill">Delete threads</button>
+      <button onclick="wipe('everything')" class="bg-red-600/20 border border-red-500/40 hover:bg-red-600 text-red-300 hover:text-white py-3 rounded-xl pill">Everything</button>
+    </div>
+  </div>
+</div>
+
+<!-- record editor -->
+<div id="editor" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/70">
+  <div class="card rounded-3xl w-full max-w-2xl p-6 space-y-4">
+    <div class="flex justify-between items-center">
+      <h3 id="ed-title" class="text-white font-black uppercase tracking-tighter italic">Edit record</h3>
+      <button onclick="closeEditor()" class="text-zinc-500 hover:text-white text-lg">&times;</button>
+    </div>
+    <p class="text-[10px] text-zinc-500 uppercase tracking-widest">
+      Edit the JSON and save. money and exp are numbers; banned is true or false.
+    </p>
+    <textarea id="ed-json" rows="16" spellcheck="false" class="w-full rounded-2xl p-4 font-mono text-[11px] leading-relaxed scroll"></textarea>
+    <p id="ed-err" class="text-[10px] text-red-400 font-mono hidden"></p>
+    <div class="flex gap-2">
+      <button onclick="closeEditor()" class="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white py-3 rounded-xl pill">Cancel</button>
+      <button onclick="saveRecord()" class="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white py-3 rounded-xl pill">Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let TYPE = 'user';
+let editing = null;
+
+const money = n => (Number(n) || 0).toLocaleString();
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+async function api(url, options) {
+  const res = await fetch(url, options);
+  const data = await res.json().catch(() => ({ success: false, error: 'Bad response' }));
+  if (!res.ok || data.success === false) throw new Error(data.error || 'Request failed');
+  return data;
+}
+
+async function health() {
+  try {
+    const d = await api('/api/db/health');
+    document.getElementById('s-users').textContent   = d.local.users;
+    document.getElementById('s-threads').textContent = d.local.threads;
+    // a group only gets a saved record once someone talks in it, so "joined"
+    // and "saved" are normally different numbers - show both.
+    document.getElementById('s-threads-live').textContent =
+      d.local.liveThreads == null ? '' : d.local.liveThreads + ' groups joined';
+    document.getElementById('s-money').textContent   = money(d.local.totalMoney);
+    document.getElementById('s-banned').textContent  = d.local.banned;
+
+    const db = d.db || {};
+    const line = document.getElementById('db-line');
+    if (db.connected) {
+      const ago = db.lastSync ? Math.round((Date.now() - db.lastSync) / 1000) + 's ago' : 'not yet';
+      line.textContent = `MySQL ${db.database} @ ${db.host} · ${db.users} users, ${db.threads} threads · synced ${ago}`;
+      line.className = 'text-[10px] font-mono text-emerald-400 tracking-widest uppercase mt-1';
+    } else if (db.enabled) {
+      line.textContent = 'MySQL unreachable — running on JSON files' + (db.lastError ? ' (' + db.lastError + ')' : '');
+      line.className = 'text-[10px] font-mono text-amber-400 tracking-widest uppercase mt-1';
+    } else {
+      line.textContent = 'MySQL off — running on JSON files';
+      line.className = 'text-[10px] font-mono text-zinc-500 tracking-widest uppercase mt-1';
+    }
+  } catch (e) {
+    document.getElementById('db-line').textContent = 'Status failed: ' + e.message;
+  }
+}
+
+function setType(t) {
+  TYPE = t;
+  document.getElementById('tab-user').className   = 'px-4 py-2.5 rounded-xl pill ' + (t === 'user' ? 'bg-indigo-600 text-white' : 'bg-zinc-800 text-zinc-400');
+  document.getElementById('tab-thread').className = 'px-4 py-2.5 rounded-xl pill ' + (t === 'thread' ? 'bg-indigo-600 text-white' : 'bg-zinc-800 text-zinc-400');
+  search();
+}
+
+async function search() {
+  const q = document.getElementById('q').value.trim();
+  const rows = document.getElementById('rows');
+  const thead = document.getElementById('thead');
+  rows.innerHTML = '<tr><td class="p-4 text-zinc-500 text-[10px] uppercase tracking-widest">Loading…</td></tr>';
+
+  try {
+    if (TYPE === 'user') {
+      thead.innerHTML = '<th class="text-left p-3">Name</th><th class="text-left p-3">ID</th><th class="text-right p-3">Cash</th><th class="text-right p-3">EXP</th><th class="text-right p-3">Actions</th>';
+      const d = await api('/api/users/list?limit=50&search=' + encodeURIComponent(q));
+      document.getElementById('hint').textContent = d.totalUsers + ' user(s) matched · showing up to 50';
+      rows.innerHTML = d.users.map(u => `
+        <tr class="border-b border-white/5 hover:bg-white/5">
+          <td class="p-3 ${u.name ? 'text-white font-bold' : 'font-mono text-zinc-400'}">${u.name ? esc(u.name) : esc(u.userID) + ' <span class="pill text-amber-400">null</span>'}${u.isBanned ? ' <span class="text-red-400 pill">banned</span>' : ''}</td>
+          <td class="p-3 font-mono text-zinc-500">${esc(u.userID)}</td>
+          <td class="p-3 text-right text-emerald-400 font-bold">${money(u.money)}</td>
+          <td class="p-3 text-right text-zinc-400">${money(u.exp)}</td>
+          <td class="p-3 text-right space-x-1">
+            <button onclick="setCash('${u.userID}', ${Number(u.money) || 0})" class="px-3 py-1.5 rounded-lg pill bg-emerald-600/20 text-emerald-400 hover:bg-emerald-600 hover:text-white">Cash</button>
+            <button onclick="edit('user','${u.userID}')" class="px-3 py-1.5 rounded-lg pill bg-zinc-800 text-zinc-300 hover:bg-zinc-700">Edit</button>
+            <button onclick="${u.isBanned ? `unban('${u.userID}')` : `ban('${u.userID}')`}" class="px-3 py-1.5 rounded-lg pill ${u.isBanned ? 'bg-emerald-600 text-white' : 'bg-red-600/20 text-red-400 hover:bg-red-600 hover:text-white'}">${u.isBanned ? 'Unban' : 'Ban'}</button>
+          </td>
+        </tr>`).join('') || '<tr><td class="p-4 text-zinc-500 text-[10px] uppercase tracking-widest">Nothing found</td></tr>';
+    } else {
+      thead.innerHTML = '<th class="text-left p-3">Group</th><th class="text-left p-3">ID</th><th class="text-right p-3">Members</th><th class="text-right p-3">Actions</th>';
+      const d = await api('/api/thread/list');
+      const list = d.threads.filter(t => !q || String(t.threadID).includes(q) || (t.name || '').toLowerCase().includes(q.toLowerCase()));
+      document.getElementById('hint').textContent = list.length + ' thread(s)';
+      rows.innerHTML = list.map(t => `
+        <tr class="border-b border-white/5 hover:bg-white/5">
+          <td class="p-3 text-white font-bold">${esc(t.name || 'Unknown')}</td>
+          <td class="p-3 font-mono text-zinc-500">${esc(t.threadID)}</td>
+          <td class="p-3 text-right text-zinc-400">${t.participants || 0}</td>
+          <td class="p-3 text-right">
+            <button onclick="edit('thread','${t.threadID}')" class="px-3 py-1.5 rounded-lg pill bg-zinc-800 text-zinc-300 hover:bg-zinc-700">Edit</button>
+          </td>
+        </tr>`).join('') || '<tr><td class="p-4 text-zinc-500 text-[10px] uppercase tracking-widest">Nothing found</td></tr>';
+    }
+  } catch (e) {
+    rows.innerHTML = `<tr><td class="p-4 text-red-400 text-[10px] uppercase tracking-widest">${esc(e.message)}</td></tr>`;
+  }
+}
+
+async function setCash(id, current) {
+  const value = prompt('Set cash for ' + id, current);
+  if (value === null) return;
+  const amount = parseInt(value, 10);
+  if (isNaN(amount)) return alert('Numbers only');
+  try {
+    await api('/api/users/moneyset', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, amount })
+    });
+    await search(); await health();
+  } catch (e) { alert(e.message); }
+}
+
+async function ban(id) {
+  const reason = prompt('Ban reason for ' + id, 'Spamming');
+  if (reason === null) return;
+  try { await api('/api/users/ban?id=' + id + '&reason=' + encodeURIComponent(reason)); await search(); await health(); }
+  catch (e) { alert(e.message); }
+}
+
+async function unban(id) {
+  try { await api('/api/users/unban?id=' + id); await search(); await health(); }
+  catch (e) { alert(e.message); }
+}
+
+async function edit(type, id) {
+  try {
+    const d = await api(`/api/db/record?type=${type}&id=${encodeURIComponent(id)}`);
+    editing = { type, id };
+    document.getElementById('ed-title').textContent = (type === 'user' ? 'User ' : 'Thread ') + id;
+    document.getElementById('ed-json').value = JSON.stringify(d.record, null, 2);
+    document.getElementById('ed-err').classList.add('hidden');
+    const box = document.getElementById('editor');
+    box.classList.remove('hidden'); box.classList.add('flex');
+  } catch (e) { alert(e.message); }
+}
+
+function closeEditor() {
+  const box = document.getElementById('editor');
+  box.classList.add('hidden'); box.classList.remove('flex');
+  editing = null;
+}
+
+async function saveRecord() {
+  if (!editing) return;
+  const err = document.getElementById('ed-err');
+  let record;
+  try {
+    record = JSON.parse(document.getElementById('ed-json').value);
+  } catch (e) {
+    err.textContent = 'Invalid JSON: ' + e.message;
+    err.classList.remove('hidden');
+    return;
+  }
+  try {
+    await api('/api/db/record', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: editing.type, id: editing.id, record })
+    });
+    closeEditor(); await search(); await health();
+  } catch (e) {
+    err.textContent = e.message;
+    err.classList.remove('hidden');
+  }
+}
+
+async function wipe(target) {
+  const labels = {
+    money: 'reset every user\'s cash and EXP to 0',
+    bans: 'remove every ban on users and groups',
+    users: 'DELETE every user record',
+    threads: 'DELETE every thread record',
+    everything: 'DELETE every user AND thread record'
+  };
+  if (!confirm('This will ' + labels[target] + '.\n\nA backup file is saved first. Continue?')) return;
+  const typed = prompt('Type WIPE to confirm');
+  if (typed !== 'WIPE') return;
+  try {
+    const d = await api('/api/db/wipe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ target, confirm: typed })
+    });
+    alert('Done. Backup: ' + d.backup);
+    await search(); await health();
+  } catch (e) { alert(e.message); }
+}
+
+async function syncNow() {
+  try { await api('/api/db/sync', { method: 'POST' }); await health(); alert('Synced to MySQL'); }
+  catch (e) { alert(e.message); }
+}
+
+// ---------------------------------------------------------------------------
+// LIVE REFRESH
+// The page used to load once, so a balance changed by a command in Messenger
+// only appeared after pressing Search. Now a 2s probe (/api/db/pulse - two
+// stat() calls, nothing heavy) watches the data files and redraws the table
+// the moment they change. Refreshing pauses while the editor is open or while
+// you are typing in the search box, so it can't interrupt you.
+// ---------------------------------------------------------------------------
+let lastVersion = null;
+let refreshing = false;
+
+async function tick() {
+  if (document.hidden || refreshing) return;
+  if (editing) return;                                   // editor open
+  if (document.activeElement === document.getElementById('q')) return;  // typing
+
+  try {
+    const d = await api('/api/db/pulse');
+    if (lastVersion === null) { lastVersion = d.v; return; }
+    if (d.v === lastVersion) return;
+    lastVersion = d.v;
+
+    refreshing = true;
+    const dot = document.getElementById('live-dot');
+    dot.textContent = '● updating';
+    dot.className = 'self-center pill text-amber-400 mr-1';
+    await Promise.all([health(), search()]);
+    dot.textContent = '● live';
+    dot.className = 'self-center pill text-emerald-400 mr-1';
+  } catch (e) {
+    const dot = document.getElementById('live-dot');
+    if (dot) { dot.textContent = '● offline'; dot.className = 'self-center pill text-red-400 mr-1'; }
+  } finally {
+    refreshing = false;
+  }
+}
+
+health();
+search();
+setInterval(tick, 2000);
+setInterval(health, 15000);
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+const cron = require('node-cron');
+const logger = require('./utils/log');
+const axios = require("axios");
+const fs = require('fs-extra');
+const PREFIX = true;
+
+module.exports = async ({ api }) => {
+  const config = {
+    autoRestart: {
+      status: false,
+      time: 40,
+      note: 'To avoid problems, enable periodic bot restarts',
+    },
+    greetings: [
+      {
+        cronTime: '0 5 * * *',
+        messages: [`Good morning! Have a great day ahead!`],
+      },
+      {
+        cronTime: '0 8 * * *',
+        messages: [`Hello Everyone Time Check 8:00 AM :>`],
+      },
+      {
+        cronTime: '0 10 * * *',
+        messages: [`Hello everyone! How's your day going?`],
+      },
+      {
+        cronTime: '0 12 * * *',
+        messages: [`Lunchtime reminder: Take a break and eat well!`],
+      },
+      {
+        cronTime: '0 14 * * *',
+        messages: [`Reminder: Don't forget your tasks for today!`],
+      },
+      {
+        cronTime: '0 18 * * *',
+        messages: [`Good evening! Relax and enjoy your evening.`],
+      },
+      {
+        cronTime: '0 20 * * *',
+        messages: [`Time to wind down. Have a peaceful evening.`],
+      },
+      {
+        cronTime: '0 22 * * *',
+        messages: [`Good night! Have a restful sleep.`],
+      }
+    ]
+  };
+
+  function calculateCountdown() {
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const christmas = new Date(currentYear, 11, 25);
+    const newYear = new Date(currentYear + 1, 0, 1);
+    
+    if (now > christmas) {
+      const timeDiff = newYear - now;
+      const days = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+      return `🎉 𝗡𝗲𝘄 𝗬𝗲𝗮𝗿 𝗖𝗼𝘂𝗻𝘁𝗱𝗼𝘄𝗻\n━━━━━━━━━━━━━━━━━━\n${days} days until New Year ${currentYear + 1}!`;
+    } else {
+      const timeDiff = christmas - now;
+      const days = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+      return `🎄 𝗖𝗵𝗿𝗶𝘀𝘁𝗺𝗮𝘀 𝗖𝗼𝘂𝗻𝘁𝗱𝗼𝘄𝗻\n━━━━━━━━━━━━━━━━━━\n${days} days until Christmas!`;
+    }
+  }
+
+  // ===========================================================================
+  // SCHEDULED MESSAGES - now opt-in, per-group, and spaced out.
+  //
+  // Before: 8 greetings + 2 countdowns a day were blasted to EVERY group in the
+  // inbox (up to 20) at the exact same second. That's up to 200 identical,
+  // unsolicited messages a day in tight bursts - the pattern Facebook's spam
+  // filter is built to catch.
+  //
+  // Now nothing is sent unless you turn it on in config.json:
+  //   "scheduledMessages": { "enabled": true, "threads": ["<groupID>", ...] }
+  // Only the listed groups receive them, one at a time with a random gap.
+  // ===========================================================================
+  const sched = (global.config && global.config.scheduledMessages) || {};
+  const allowed = Array.isArray(sched.threads) ? sched.threads.map(String) : [];
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  async function broadcast(text, label) {
+    if (sched.enabled !== true || allowed.length === 0) return;
+    for (const threadID of allowed) {
+      if (global.data && global.data.threadBanned && global.data.threadBanned.has(threadID)) continue;
+      try {
+        await api.sendMessage(text, threadID);
+      } catch (error) {
+        console.log(`[${label}] could not send to ${threadID}: ${error && error.error ? error.error : error}`);
+      }
+      await sleep(20000 + Math.floor(Math.random() * 40000)); // 20-60s between groups
+    }
+  }
+
+  if (sched.enabled === true) {
+    console.log(`[schedule] Scheduled messages ON for ${allowed.length} group(s).`);
+  }
+
+  const onlyThese = Array.isArray(sched.only) ? sched.only : null; // optional: ["07:00","18:00"]
+  const want = (cronTime) => {
+    if (!onlyThese) return true;
+    const [m, h] = cronTime.split(" ");
+    return onlyThese.includes(`${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`);
+  };
+
+  if (want('0 7 * * *')) cron.schedule('0 7 * * *', () => {
+    broadcast(`🌅 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 𝗨𝗽𝗱𝗮𝘁𝗲\n━━━━━━━━━━━━━━━━━━\n${calculateCountdown()}`, 'Countdown');
+  }, { scheduled: true, timezone: "Asia/Manila" });
+
+  if (want('0 18 * * *')) cron.schedule('0 18 * * *', () => {
+    broadcast(`🌆 𝗘𝘃𝗲𝗻𝗶𝗻𝗴 𝗨𝗽𝗱𝗮𝘁𝗲\n━━━━━━━━━━━━━━━━━━\n${calculateCountdown()}`, 'Countdown');
+  }, { scheduled: true, timezone: "Asia/Manila" });
+
+  config.greetings.forEach((greeting) => {
+    if (!want(greeting.cronTime)) return;
+    cron.schedule(greeting.cronTime, () => {
+      broadcast(greeting.messages[Math.floor(Math.random() * greeting.messages.length)], 'AutoGreet');
+    }, { scheduled: true, timezone: "Asia/Manila" });
+  });
+
+  if (config.autoRestart.status) {
+    cron.schedule(`*/${config.autoRestart.time} * * * *`, () => {
+      api.getThreadList(20, null, ['INBOX']).then((list) => {
+        list.forEach((thread) => {
+          if (thread.isGroup) {
+            api.sendMessage("🔃 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗣𝗿𝗼𝗰𝗲𝘀𝘀\n━━━━━━━━━━━━━━━━━━\nBot is restarting...", thread.threadID).then(() => {
+              console.log(`Restart message sent to thread`, 'Auto Restart');
+            }).catch((error) => {
+              console.log(`Error sending restart message to thread ${error}`, 'Auto Restart');
+            });
+          }
+        });
+        console.log('Start rebooting the system!', 'Auto Restart');
+        process.exit(1);
+      }).catch((error) => {
+        console.log(`Error getting thread list for restart: ${error}`, 'Auto Restart');
+      });
+    });
+  }
+};

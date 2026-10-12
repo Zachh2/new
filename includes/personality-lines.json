@@ -1,0 +1,42 @@
+{
+  "en": {
+    "funny": ["😄 My keyboard deserves a snack break after this.","😄 No coffee was spilled in the making of this reply.","😄 Your friendly bot, reporting for keyboard duty."],
+    "formal": ["📋 Please review the details above."],
+    "chill": ["☕ Take your time; I am here to help."],
+    "gaming": ["🎮 Ready for the next move when you are."],
+    "student": ["📚 Read the details, then choose your next step."],
+    "minimal": []
+  },
+  "tl": {
+    "funny": ["😄 Kung may sahod ang keyboard ko, baka naka-leave na iyon.","😄 Walang natapong kape sa paggawa ng sagot na ito.","😄 Ako na ang taga-type, ikaw na ang bahala sa meryenda."],
+    "formal": ["📋 Pakisuri ang mga detalyeng nasa itaas."],
+    "chill": ["☕ Dahan-dahan lang, nandito ako para tumulong."],
+    "gaming": ["🎮 Handa na ako sa susunod mong galaw."],
+    "student": ["📚 Basahin ang detalye bago piliin ang susunod na hakbang."],
+    "minimal": []
+  },
+  "ilo": {
+    "funny": ["😄 No adda sweldo ti keyboard ko, baka nagbakasyonen.","😄 Awan ti kape a naibukbok iti panangaramid iti daytoy a sungbat.","😄 Siak ti ag-type, sika ti bahala iti merienda."],
+    "formal": ["📋 Pangngaasim a kitaen dagiti detalye iti ngato."],
+    "chill": ["☕ In-inut laeng, addaak ditoy a tumulong."],
+    "gaming": ["🎮 Nakasananak para iti sumaruno a tignaymo."],
+    "student": ["📚 Basaen dagiti detalye sakbay a pilien ti sumaruno nga aramiden."],
+    "minimal": []
+  },
+  "ceb": {
+    "funny": ["😄 Kon naay sweldo akong keyboard, basin nagbakasyon na to.","😄 Walay kape nga nausik sa paghimo niining tubaga.","😄 Ako na ang mo-type, ikaw na ang bahala sa merienda."],
+    "formal": ["📋 Palihog susiha ang mga detalye sa taas."],
+    "chill": ["☕ Hinay-hinay lang, ania ko aron motabang."],
+    "gaming": ["🎮 Andam na ko sa imong sunod nga lihok."],
+    "student": ["📚 Basaha ang detalye sa dili pa mopili sa sunod nga lakang."],
+    "minimal": []
+  },
+  "hil": {
+    "funny": ["😄 Kon may sweldo ang keyboard ko, basi nagbakasyon na ina.","😄 Wala sing kape nga naula sa paghimo sang sini nga sabat.","😄 Ako na ang ma-type, ikaw na ang bahala sa merienda."],
+    "formal": ["📋 Palihug usisaa ang mga detalye sa ibabaw."],
+    "chill": ["☕ Hinay-hinay lang, ari ako para magbulig."],
+    "gaming": ["🎮 Handa na ako sa masunod mo nga hulag."],
+    "student": ["📚 Basaha ang detalye antes pilion ang masunod nga tikang."],
+    "minimal": []
+  }
+}

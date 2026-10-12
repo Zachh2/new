@@ -1,0 +1,5 @@
+
+╭┈ ❒ [ BOT STARTED ✅ ]
+├ The bot is started — you can now use commands.
+├ Type -help to see all commands.
+╰┈➤ Language: English 🇺🇸

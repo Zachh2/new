@@ -1,0 +1,715 @@
+[
+  {
+    "id": "morning",
+    "phrases": [
+      "good morning",
+      "magandang umaga",
+      "maayong buntag",
+      "maayong aga",
+      "naimbag a bigat"
+    ],
+    "replies": {
+      "en": [
+        "Good morning! One small goal is a good start today. ☀️"
+      ],
+      "tl": [
+        "Magandang umaga! Simulan natin sa isang maliit na goal ngayong araw. ☀️"
+      ],
+      "ilo": [
+        "Naimbag a bigat! Rugiam ti aldaw iti maysa a bassit a panggep. ☀️"
+      ],
+      "ceb": [
+        "Maayong buntag! Sugdi ang adlaw sa usa ka gamay nga tumong. ☀️"
+      ],
+      "hil": [
+        "Maayong aga! Sugdi ang adlaw sa isa ka gamay nga handum. ☀️"
+      ]
+    }
+  },
+  {
+    "id": "afternoon",
+    "phrases": [
+      "good afternoon",
+      "magandang hapon",
+      "maayong hapon",
+      "naimbag a malem"
+    ],
+    "replies": {
+      "en": [
+        "Good afternoon! How is your day going?"
+      ],
+      "tl": [
+        "Magandang hapon! Kumusta ang araw mo?"
+      ],
+      "ilo": [
+        "Naimbag a malem! Kumusta ti aldawmo?"
+      ],
+      "ceb": [
+        "Maayong hapon! Kumusta imong adlaw?"
+      ],
+      "hil": [
+        "Maayong hapon! Kumusta ang adlaw mo?"
+      ]
+    }
+  },
+  {
+    "id": "evening",
+    "phrases": [
+      "good evening",
+      "magandang gabi",
+      "maayong gabii",
+      "maayong gab i",
+      "maayong gab-i",
+      "naimbag a rabii"
+    ],
+    "replies": {
+      "en": [
+        "Good evening! Time to slow down a little. 🌙"
+      ],
+      "tl": [
+        "Magandang gabi! Puwedeng maghinay-hinay muna. 🌙"
+      ],
+      "ilo": [
+        "Naimbag a rabii! Aginana ka pay iti bassit. 🌙"
+      ],
+      "ceb": [
+        "Maayong gabii! Hinay-hinay sa ta karon. 🌙"
+      ],
+      "hil": [
+        "Maayong gab-i! Hinay-hinay anay kita subong. 🌙"
+      ]
+    }
+  },
+  {
+    "id": "night",
+    "phrases": [
+      "good night",
+      "matutulog na ako",
+      "matutulog nako",
+      "tulog na ako",
+      "tulog nako",
+      "matulog na ko",
+      "matulog na ako",
+      "maturogakon"
+    ],
+    "replies": {
+      "en": [
+        "Good night! Rest well; the chat can wait. 🌙"
+      ],
+      "tl": [
+        "Magandang gabi! Pahinga ka na; makakahintay ang GC. 🌙"
+      ],
+      "ilo": [
+        "Naimbag a rabii! Aginana ka; makauray ti GC. 🌙"
+      ],
+      "ceb": [
+        "Maayong gabii! Pahuway na; makahulat ra ang GC. 🌙"
+      ],
+      "hil": [
+        "Maayong gab-i! Pahuway na; makahulat man ang GC. 🌙"
+      ]
+    }
+  },
+  {
+    "id": "how",
+    "phrases": [
+      "how are you",
+      "how r u",
+      "kumusta ka",
+      "kamusta ka",
+      "kumusta kana",
+      "kamusta kana",
+      "kumusta naman",
+      "kumusta kan"
+    ],
+    "replies": {
+      "en": [
+        "Ready to help with local replies and commands! How about you?"
+      ],
+      "tl": [
+        "Handang tumulong sa local replies at commands! Ikaw, kumusta?"
+      ],
+      "ilo": [
+        "Nakasaganaak a tumulong kadagiti lokal a sungbat ken command! Sika, kumusta?"
+      ],
+      "ceb": [
+        "Andam motabang sa lokal nga tubag ug commands! Ikaw, kumusta?"
+      ],
+      "hil": [
+        "Handa magbulig sa lokal nga sabat kag commands! Ikaw, kumusta?"
+      ]
+    }
+  },
+  {
+    "id": "name",
+    "phrases": [
+      "what is your name",
+      "what's your name",
+      "who are you",
+      "sino ka",
+      "anong pangalan mo",
+      "ano pangalan mo",
+      "kinsa ka",
+      "unsay ngalan nimo",
+      "sin o ka",
+      "sin-o ka",
+      "ano ngalan mo",
+      "siasino ka",
+      "ania ti naganmo"
+    ],
+    "replies": {
+      "en": [
+        "I'm Chia, your group bot. My local chat uses prepared replies, not a language model."
+      ],
+      "tl": [
+        "Ako si Chia, ang bot ng GC. Naka-template ang local chat ko; hindi ito language model."
+      ],
+      "ilo": [
+        "Siak ni Chia, ti bot ti GC. Dagiti lokal a sungbatko ket naisagana; saanak a language model."
+      ],
+      "ceb": [
+        "Ako si Chia, ang bot sa GC. Giandam daan ang akong lokal nga mga tubag; dili ni language model."
+      ],
+      "hil": [
+        "Ako si Chia, ang bot sang GC. Nakaandam na ang akon lokal nga mga sabat; indi ini language model."
+      ]
+    }
+  },
+  {
+    "id": "capabilities",
+    "phrases": [
+      "what can you do",
+      "ano kaya mo",
+      "anong kaya mo",
+      "ano magagawa mo",
+      "unsay mahimo nimo",
+      "ano mahimo mo",
+      "ania ti kabaelam",
+      "local help"
+    ],
+    "replies": {
+      "en": [
+        "I can greet, tell simple jokes, suggest captions, encourage you, calculate and show Philippine time. Use the help command for the bot's full command list."
+      ],
+      "tl": [
+        "Kaya kong bumati, magbiro, magbigay ng caption, manghikayat, magkuwenta at magsabi ng oras sa Pilipinas. Gamitin ang help command para sa buong command list."
+      ],
+      "ilo": [
+        "Mabalinak ti agkablaaw, agangaw, mangted ti caption, mangpabileg, agkuenta ken mangibaga ti oras iti Pilipinas. Usarem ti help command para iti amin a command."
+      ],
+      "ceb": [
+        "Makahimo ko og pangumusta, yano nga komedya, caption, pagdasig, kuwenta ug oras sa Pilipinas. Gamita ang help command para sa tibuok listahan."
+      ],
+      "hil": [
+        "Makapangumusta ako, makahatag sang komedya, caption, pagdasig, kuwenta kag oras sa Pilipinas. Gamita ang help command para sa bug-os nga listahan."
+      ]
+    }
+  },
+  {
+    "id": "thanks",
+    "phrases": [
+      "thanks",
+      "thank you",
+      "salamat",
+      "salamat po",
+      "salamat gid",
+      "daghang salamat",
+      "daghan salamat",
+      "agyamanak",
+      "agyaman kami"
+    ],
+    "replies": {
+      "en": [
+        "You're welcome! Happy to help. ✨"
+      ],
+      "tl": [
+        "Walang anuman! Nandito lang ako. ✨"
+      ],
+      "ilo": [
+        "Awan aniaman! Addaak laeng ditoy. ✨"
+      ],
+      "ceb": [
+        "Walay sapayan! Ania ra ko. ✨"
+      ],
+      "hil": [
+        "Wala sing anuman! Ari lang ako. ✨"
+      ]
+    }
+  },
+  {
+    "id": "apology",
+    "phrases": [
+      "sorry",
+      "pasensya",
+      "pasensya na",
+      "patawad",
+      "pasayloa ko",
+      "pasensya gid",
+      "pakawanennak"
+    ],
+    "replies": {
+      "en": [
+        "It's okay. We can try again."
+      ],
+      "tl": [
+        "Ayos lang. Subukan natin ulit."
+      ],
+      "ilo": [
+        "Awan ti problema. Padasentayo manen."
+      ],
+      "ceb": [
+        "Okay ra. Sulayan nato pag-usab."
+      ],
+      "hil": [
+        "Okay lang. Tilawan ta liwat."
+      ]
+    }
+  },
+  {
+    "id": "bye",
+    "phrases": [
+      "bye",
+      "goodbye",
+      "see you",
+      "paalam",
+      "alis na ako",
+      "aalis na ako",
+      "una na ko",
+      "halin na ako",
+      "agpakadaakon"
+    ],
+    "replies": {
+      "en": [
+        "See you! Take care. 👋"
+      ],
+      "tl": [
+        "Sige, ingat ka! 👋"
+      ],
+      "ilo": [
+        "Agannad ka! Agkita manen. 👋"
+      ],
+      "ceb": [
+        "Sige, amping! 👋"
+      ],
+      "hil": [
+        "Sige, halong! 👋"
+      ]
+    }
+  },
+  {
+    "id": "joke",
+    "phrases": [
+      "tell me a joke",
+      "make me laugh",
+      "mag joke ka",
+      "magjoke ka",
+      "magbiro ka",
+      "patawanin mo ako",
+      "patawanin moko",
+      "pag joke",
+      "pakataw a ko",
+      "pakatawa ko",
+      "pataw a ko",
+      "aganguy ka",
+      "agangaw ka"
+    ],
+    "replies": {
+      "en": [
+        "I planned to tell a joke about Wi-Fi… but we had no connection. 😅"
+      ],
+      "tl": [
+        "May joke ako tungkol sa Wi-Fi… kaso walang connection sa atin. 😅"
+      ],
+      "ilo": [
+        "Adda koma angawko maipapan iti Wi-Fi… ngem awan ti koneksiontayo. 😅"
+      ],
+      "ceb": [
+        "Naa koy komedya bahin sa Wi-Fi… pero wala tay koneksiyon. 😅"
+      ],
+      "hil": [
+        "May komedya ako parte sa Wi-Fi… pero wala kita koneksiyon. 😅"
+      ]
+    }
+  },
+  {
+    "id": "encourage",
+    "phrases": [
+      "motivate me",
+      "encourage me",
+      "motivation",
+      "pampalakas ng loob",
+      "kaya ko ba",
+      "dasigi ko",
+      "palig una ko",
+      "pabilgennak"
+    ],
+    "replies": {
+      "en": [
+        "You don't have to finish everything today. Pick one small step and begin there."
+      ],
+      "tl": [
+        "Hindi kailangang matapos lahat ngayon. Pumili muna ng isang maliit na hakbang."
+      ],
+      "ilo": [
+        "Saan a masapul a malpas amin ita. Rugiam iti maysa a bassit nga addang."
+      ],
+      "ceb": [
+        "Dili kinahanglan mahuman ang tanan karon. Sugdi sa usa ka gamay nga lakang."
+      ],
+      "hil": [
+        "Indi kinahanglan matapos tanan subong. Sugdi sa isa ka gamay nga tikang."
+      ]
+    }
+  },
+  {
+    "id": "tired",
+    "phrases": [
+      "i am tired",
+      "i'm tired",
+      "im tired",
+      "pagod ako",
+      "pagod na ako",
+      "kapoy ko",
+      "kapoy na ko",
+      "kapoy ako",
+      "nabannogak"
+    ],
+    "replies": {
+      "en": [
+        "Take a short break if you can. You can return to the task one step at a time."
+      ],
+      "tl": [
+        "Pahinga muna kung kaya. Balikan ang gawain nang paunti-unti."
+      ],
+      "ilo": [
+        "Aginana ka pay no mabalin. Isublim ti aramidem iti tunggal bassit nga addang."
+      ],
+      "ceb": [
+        "Pahuway sa kung mahimo. Baliki ang buluhaton hinay-hinay."
+      ],
+      "hil": [
+        "Pahuway anay kon mahimo. Baliki ang buluhaton sing amat-amat."
+      ]
+    }
+  },
+  {
+    "id": "sad",
+    "phrases": [
+      "i am sad",
+      "i'm sad",
+      "im sad",
+      "malungkot ako",
+      "malungkot na ako",
+      "nasasaktan ako",
+      "guol ko",
+      "nasubo ako",
+      "nalidayak"
+    ],
+    "replies": {
+      "en": [
+        "That sounds hard. Would you like to share what happened? My replies are basic, but you can also reach out to someone you trust."
+      ],
+      "tl": [
+        "Mukhang mabigat iyan. Gusto mong ikuwento? Basic lang ang mga sagot ko; puwede ka ring lumapit sa taong pinagkakatiwalaan mo."
+      ],
+      "ilo": [
+        "Kasla nadagsen dayta. Kayatmo nga ibingay ti napasamak? Simple laeng dagiti sungbatko; mabalinmo met ti makisarita iti pagtaltalkam."
+      ],
+      "ceb": [
+        "Murag bug-at na. Gusto ka mosulti unsay nahitabo? Yano ra akong mga tubag; mahimo ka usab moduol sa imong gisaligan."
+      ],
+      "hil": [
+        "Daw mabug-at ina. Gusto mo isugid ang natabo? Simple lang ang akon sabat; mahimo ka man magpalapit sa imo ginasaligan."
+      ]
+    }
+  },
+  {
+    "id": "bored",
+    "phrases": [
+      "i am bored",
+      "i'm bored",
+      "im bored",
+      "bored ako",
+      "nababagot ako",
+      "laay kaayo",
+      "gilaay ko",
+      "nalaay ako"
+    ],
+    "replies": {
+      "en": [
+        "Try a small GC game: everyone shares one good thing from today. No pressure to join."
+      ],
+      "tl": [
+        "GC game muna: tig-isang magandang nangyari ngayong araw. Walang pilitan sumali."
+      ],
+      "ilo": [
+        "Padasen ti ay-ayam iti GC: tunggal maysa mangibingay ti nasayaat a napasamak ita. Awan ti pilitan."
+      ],
+      "ceb": [
+        "Dula sa GC: matag usa mosulti og usa ka maayong nahitabo karon. Walay pinugsanay."
+      ],
+      "hil": [
+        "Hampang sa GC: kada isa magsugid sang isa ka maayo nga natabo subong. Wala sing pilitan."
+      ]
+    }
+  },
+  {
+    "id": "hungry",
+    "phrases": [
+      "i am hungry",
+      "i'm hungry",
+      "im hungry",
+      "gutom ako",
+      "gutom na ako",
+      "gigutom ko",
+      "gutom ko",
+      "mabisinak"
+    ],
+    "replies": {
+      "en": [
+        "Time for a food break if you can. What's available at home?"
+      ],
+      "tl": [
+        "Kain muna kung kaya. Ano ang available diyan sa inyo?"
+      ],
+      "ilo": [
+        "Mangan ka pay no mabalin. Ania ti adda a makan idiay balayyo?"
+      ],
+      "ceb": [
+        "Kaon sa kung mahimo. Unsay pagkaon nga naa diha?"
+      ],
+      "hil": [
+        "Kaon anay kon mahimo. Ano ang pagkaon nga ara dira?"
+      ]
+    }
+  },
+  {
+    "id": "study",
+    "phrases": [
+      "study tips",
+      "paano mag aral",
+      "paano mag-aral",
+      "unsaon pagtuon",
+      "paano magtuon",
+      "kasano ti agadal"
+    ],
+    "replies": {
+      "en": [
+        "Choose one topic, study for 20 minutes, then explain it in your own words. Take a short break before the next topic."
+      ],
+      "tl": [
+        "Pumili ng isang topic, mag-aral nang 20 minuto, saka ipaliwanag sa sariling salita. Magpahinga bago ang susunod."
+      ],
+      "ilo": [
+        "Pilien ti maysa a topiko, agadal iti 20 a minuto, kalpasanna ilawlawagmo iti bukodmo a sasao. Aginana sakbay ti sumaruno."
+      ],
+      "ceb": [
+        "Pili og usa ka topic, tuon sulod sa 20 minutos, dayon ipasabot sa imong kaugalingong pulong. Pahuway una sa sunod."
+      ],
+      "hil": [
+        "Pili sang isa ka topiko, magtuon sing 20 minutos, dayon ipaathag sa kaugalingon mo nga mga pulong. Pahuway antes sang masunod."
+      ]
+    }
+  },
+  {
+    "id": "birthday",
+    "phrases": [
+      "birthday greeting",
+      "happy birthday",
+      "batiin mo birthday",
+      "pang birthday",
+      "malipayong adlawng natawhan",
+      "malipayon nga kaadlawan",
+      "naragsak a panagkasangay"
+    ],
+    "replies": {
+      "en": [
+        "Happy birthday! May your year have good company, happy memories and room to grow. 🎂"
+      ],
+      "tl": [
+        "Maligayang kaarawan! Sana mapuno ng mabubuting kasama, masasayang alaala at pag-unlad ang taon mo. 🎂"
+      ],
+      "ilo": [
+        "Naragsak a panagkasangay! Sapay koma ta adda nasayaat a kakadua, naragsak a lagip ken panagdur-as iti tawenmo. 🎂"
+      ],
+      "ceb": [
+        "Malipayong adlawng natawhan! Hinaot puno sa maayong kauban, malipayong handumanan ug pag-uswag ang imong tuig. 🎂"
+      ],
+      "hil": [
+        "Malipayon nga kaadlawan! Kabay nga puno sang maayo nga mga kaupod, malipayon nga handumanan kag pag-uswag ang tuig mo. 🎂"
+      ]
+    }
+  },
+  {
+    "id": "congrats",
+    "phrases": [
+      "congratulations",
+      "congrats",
+      "batiin mo ako",
+      "nakapasa ako",
+      "nakapasa ko",
+      "nakapasar ko",
+      "nakapasar ako",
+      "nakalpasak"
+    ],
+    "replies": {
+      "en": [
+        "Congratulations! Take a moment to enjoy what you've achieved. 🎉"
+      ],
+      "tl": [
+        "Congrats! Ipagdiwang mo muna ang pinaghirapan mo. 🎉"
+      ],
+      "ilo": [
+        "Kablaaw! Ragsakam ti nagbunga ti panagreggetmo. 🎉"
+      ],
+      "ceb": [
+        "Congrats! Saulog sa imong nakab-ot. 🎉"
+      ],
+      "hil": [
+        "Congrats! Sauloga anay ang imo nakab-ot. 🎉"
+      ]
+    }
+  },
+  {
+    "id": "compliment",
+    "phrases": [
+      "ang galing mo",
+      "galing mo",
+      "you're helpful",
+      "you are helpful",
+      "maayo ka",
+      "maayo ka gid",
+      "nalaingka"
+    ],
+    "replies": {
+      "en": [
+        "Thank you! Tell me if a command or reply needs fixing."
+      ],
+      "tl": [
+        "Salamat! Sabihin mo kapag may command o sagot na kailangang ayusin."
+      ],
+      "ilo": [
+        "Agyamanak! Ibagam no adda command wenno sungbat a masapul a maurnos."
+      ],
+      "ceb": [
+        "Salamat! Sultihi ko kung naay command o tubag nga kinahanglan ayohon."
+      ],
+      "hil": [
+        "Salamat! Hambali ako kon may command ukon sabat nga dapat kay-uhon."
+      ]
+    }
+  },
+  {
+    "id": "friendship",
+    "phrases": [
+      "friendship advice",
+      "payo sa kaibigan",
+      "away kami ng kaibigan ko",
+      "away mi sa akong amigo",
+      "away kami sang abyan ko"
+    ],
+    "replies": {
+      "en": [
+        "Start with what happened and how you felt, without guessing their intentions. Give each other time to reply."
+      ],
+      "tl": [
+        "Simulan sa nangyari at naramdaman mo, nang hindi hinuhulaan ang intensiyon niya. Bigyan ang isa't isa ng oras sumagot."
+      ],
+      "ilo": [
+        "Rugian iti napasamak ken nariknam, saan a pugpugtuan ti panggepna. Ikkan ti tunggal maysa ti tiempo a sumungbat."
+      ],
+      "ceb": [
+        "Sugdi sa nahitabo ug imong gibati, ayaw tag-ana ang iyang tuyo. Hatagi ang usag usa og panahon motubag."
+      ],
+      "hil": [
+        "Sugdi sa natabo kag imo nabatyagan, indi pagtag-anaa ang iya tuyo. Hatagi ang isa kag isa sang tion magsabat."
+      ]
+    }
+  },
+  {
+    "id": "crush",
+    "phrases": [
+      "crush advice",
+      "payo sa crush",
+      "paano umamin",
+      "unsaon pag confess",
+      "unsaon pag-confess",
+      "paano magtug an"
+    ],
+    "replies": {
+      "en": [
+        "Keep it simple and respectful: say you enjoy talking with them, then ask whether they'd like to spend time together. Accept their answer."
+      ],
+      "tl": [
+        "Simple at magalang lang: sabihin mong gusto mo siyang kausap, saka yayain kung gusto niyang makasama ka. Irespeto ang sagot niya."
+      ],
+      "ilo": [
+        "Simple ken nadayaw laeng: ibagam a kayatmo ti makisarita kenkuana, kalpasanna saludsodem no kayatna ti makikadua kenka. Raemen ti sungbatna."
+      ],
+      "ceb": [
+        "Yano ug matinahuron: ingna nga ganahan ka makig-istorya niya, dayon pangutan-a kung gusto ba siya makig-uban. Tahora iyang tubag."
+      ],
+      "hil": [
+        "Simple kag matinahuron: ihambal nga gusto mo siya kaistorya, dayon pamangkuta kon gusto niya mag-upod sa imo. Tahura ang iya sabat."
+      ]
+    }
+  },
+  {
+    "id": "privacy",
+    "phrases": [
+      "are you human",
+      "tao ka ba",
+      "tao ka",
+      "bot ka ba",
+      "tawo ka",
+      "tao ka bala",
+      "tattao ka kadi"
+    ],
+    "replies": {
+      "en": [
+        "I'm a bot. Please avoid sharing passwords or private account details in the GC."
+      ],
+      "tl": [
+        "Bot ako. Iwasang magbahagi ng password o pribadong detalye ng account sa GC."
+      ],
+      "ilo": [
+        "Botak. Liklikan ti mangibingay ti password wenno pribado a detalye ti account iti GC."
+      ],
+      "ceb": [
+        "Bot ko. Ayaw ipaambit ang password o pribadong detalye sa account dinhi sa GC."
+      ],
+      "hil": [
+        "Bot ako. Indi magpaambit sang password ukon pribado nga detalye sang account sa GC."
+      ]
+    }
+  },
+  {
+    "id": "repeat",
+    "phrases": [
+      "another joke",
+      "isa pang joke",
+      "isa pa nga",
+      "another one",
+      "usa pa ka joke",
+      "isa pa gid nga joke",
+      "sabali pay nga angaw"
+    ],
+    "replies": {
+      "en": [
+        "My alarm and I have a daily meeting. I always press “reschedule.” 😅"
+      ],
+      "tl": [
+        "May meeting kami ng alarm ko araw-araw. Lagi kong pinipindot ang “mamaya na.” 😅"
+      ],
+      "ilo": [
+        "Adda mitingmi ti alarmko iti inaldaw. Kanayon a “madamdama” ti sungbatko. 😅"
+      ],
+      "ceb": [
+        "Naa mi meeting sa akong alarm kada adlaw. Pirme nako tubagon og “unya na.” 😅"
+      ],
+      "hil": [
+        "May miting kami sang alarm ko kada adlaw. Pirme ko ginasabat “karun lang.” 😅"
+      ]
+    }
+  }
+]

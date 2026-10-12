@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>ZACH_CORE Terminal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0e1117;
+            color: #e6edf3;
+        }
+
+        .terminal-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #0e1117;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 3px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #484f58;
+        }
+
+        .replit-cursor {
+            display: inline-block;
+            width: 7px;
+            height: 1.1em;
+            background-color: #f0f6fc;
+            animation: blink 1s step-end infinite;
+            vertical-align: -2px;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+    <link rel="stylesheet" href="/theme.css">
+    <script defer src="/palette.js"></script>
+    <script defer src="/telemetry.js"></script>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0e1117">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ZACH_CORE">
+    <link rel="apple-touch-icon" href="/icon.svg">
+    <script defer src="/mobile.js"></script>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+
+    <header class="flex items-center justify-between px-4 py-2.5 border-b border-[#21262d] bg-[#161b22] select-none">
+        <div class="flex items-center gap-3">
+            <div class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span class="text-xs font-semibold text-[#c9d1d9] tracking-tight">shell</span>
+            </div>
+            <span class="text-gray-600">/</span>
+            <span class="text-xs text-gray-400 font-mono">bash</span>
+        </div>
+        <div class="flex items-center gap-3">
+            <span id="connection-status" class="text-[11px] text-emerald-400 font-medium">Connected</span>
+            <button onclick="location.href='/'" class="text-xs text-gray-400 hover:text-white transition-colors bg-[#21262d] hover:bg-[#30363d] px-2.5 py-1 rounded border border-[#30363d]">
+                ✕
+            </button>
+        </div>
+    </header>
+
+    <main id="terminal-scroll" class="flex-grow overflow-y-auto p-4 terminal-font text-xs sm:text-sm custom-scrollbar">
+        <div class="max-w-7xl mx-auto space-y-1.5">
+            <div class="text-gray-400 text-xs mb-3 select-none">
+                <p>ZACH_CORE Workspace Shell</p>
+                <p class="text-gray-500">Type interactive commands (e.g., <span class="text-gray-300">opencode-ai</span>, <span class="text-gray-300">htop</span>, <span class="text-gray-300">nano</span>)</p>
+            </div>
+
+            <div id="log-container" class="space-y-1"></div>
+
+            <form id="terminal-form" class="relative flex items-start mt-2">
+                <div id="prompt-label" class="text-emerald-400 font-medium mr-2 select-none whitespace-nowrap pt-0.5">
+                    $
+                </div>
+                <div class="flex-grow relative overflow-hidden">
+                    <input type="text" id="command-input" 
+                        class="w-full bg-transparent border-none outline-none text-[#e6edf3] caret-transparent terminal-font text-xs sm:text-sm p-0 m-0 leading-normal" 
+                        autofocus spellcheck="false" autocomplete="off" autocapitalize="off">
+                    <div id="visual-cursor" class="replit-cursor absolute top-0"></div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script>
+        const input = document.getElementById('command-input');
+        const output = document.getElementById('log-container');
+        const form = document.getElementById('terminal-form');
+        const scrollContainer = document.getElementById('terminal-scroll');
+        const visualCursor = document.getElementById('visual-cursor');
+        const promptLabel = document.getElementById('prompt-label');
+        const connectionStatus = document.getElementById('connection-status');
+
+        const protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
+        let ws;
+        let commandHistory = [];
+        let historyIndex = -1;
+
+        function initWebSocket() {
+            ws = new WebSocket(`${protocol}://${window.location.host}`);
+
+            ws.onopen = () => {
+                connectionStatus.textContent = "Connected";
+                connectionStatus.className = "text-[11px] text-emerald-400 font-medium";
+            };
+
+            ws.onmessage = (event) => appendOutput(event.data);
+            
+            ws.onerror = () => {
+                connectionStatus.textContent = "Disconnected";
+                connectionStatus.className = "text-[11px] text-rose-400 font-medium";
+                appendOutput("shell: connection error", false, "text-rose-400");
+            };
+
+            ws.onclose = () => {
+                connectionStatus.textContent = "Offline";
+                connectionStatus.className = "text-[11px] text-amber-400 font-medium";
+            };
+        }
+
+        initWebSocket();
+
+        function updateCursorPosition() {
+            const textWidth = getTextWidth(input.value, getComputedStyle(input).font);
+            visualCursor.style.left = `${textWidth}px`;
+        }
+
+        input.addEventListener('input', updateCursorPosition);
+
+        input.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                if (commandHistory.length > 0 && historyIndex < commandHistory.length - 1) {
+                    historyIndex++;
+                    input.value = commandHistory[commandHistory.length - 1 - historyIndex];
+                    updateCursorPosition();
+                }
+            } else if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                if (historyIndex > 0) {
+                    historyIndex--;
+                    input.value = commandHistory[commandHistory.length - 1 - historyIndex];
+                    updateCursorPosition();
+                } else if (historyIndex === 0) {
+                    historyIndex = -1;
+                    input.value = '';
+                    updateCursorPosition();
+                }
+            }
+        });
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const cmd = input.value.trim();
+            if (!cmd) return;
+
+            commandHistory.push(cmd);
+            historyIndex = -1;
+
+            appendOutput(cmd, true);
+
+            const lowerCmd = cmd.toLowerCase();
+            if (lowerCmd === 'clear') {
+                output.innerHTML = '';
+            } else {
+                if (ws && ws.readyState === WebSocket.OPEN) {
+                    ws.send(cmd);
+                } else {
+                    appendOutput("shell: socket not connected", false, "text-rose-400");
+                }
+            }
+
+            input.value = '';
+            visualCursor.style.left = '0px';
+            scrollToBottom();
+        });
+
+        function appendOutput(text, isCommand = false, customClass = "text-[#e6edf3]") {
+            const div = document.createElement('div');
+            if (isCommand) {
+                div.innerHTML = `<span class="text-emerald-400 font-medium mr-2">$</span><span class="text-[#e6edf3]">${escapeHtml(text)}</span>`;
+            } else {
+                div.className = `leading-relaxed whitespace-pre-wrap terminal-font ${customClass}`;
+                div.textContent = text;
+            }
+            output.appendChild(div);
+            scrollToBottom();
+        }
+
+        function escapeHtml(str) {
+            return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        }
+
+        function scrollToBottom() {
+            scrollContainer.scrollTop = scrollContainer.scrollHeight;
+        }
+
+        function getTextWidth(text, font) {
+            const canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
+            const context = canvas.getContext("2d");
+            context.font = font;
+            return context.measureText(text).width;
+        }
+
+        document.addEventListener('click', () => {
+            if (!window.getSelection().toString()) {
+                input.focus();
+            }
+        });
+    </script>
+</body>
+</html>

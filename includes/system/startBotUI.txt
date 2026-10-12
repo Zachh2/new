@@ -1,0 +1,6 @@
+
+╭┈ ❒ [ START BOT ✅ ]
+├ Choose a language / Pumili ng wika:
+├  ①  Tagalog  — reply  tl
+├  ②  English  — reply  en
+╰┈➤ reply with tl or en

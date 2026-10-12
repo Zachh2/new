@@ -1,0 +1,239 @@
+{
+  "version": "1.8.0",
+  "language": "en",
+  "DeveloperMode": true,
+  "autoCreateDB": true,
+  "allowInbox": true,
+  "autoClean": true,
+  "autoRestartOnCrash": true,
+  "singleInstance": true,
+  "adminOnly": false,
+  "encryptSt": false,
+  "removeSt": false,
+  "UPDATE": {
+    "Package": true,
+    "EXCLUDED": [
+      "chalk",
+      "mqtt",
+      "https-proxy-agent",
+      "gradient-string"
+    ],
+    "Info": "This section manages the bot's automatic package updates. To disable this function, set 'Package' to false. If you only want to exclude specific packages, set them to true and add them in the 'EXCLUDED' list."
+  },
+  "commandDisabled": [
+    "pin.js",
+    "admincall.js"
+  ],
+  "eventDisabled": [],
+  "BOTNAME": "chia",
+  "PREFIX": "-",
+  "ADMINBOT": [
+    "100064763179341",
+    "61559937724619",
+    ""
+  ],
+  "DESIGN": {
+    "Title": "Zach Bot",
+    "Theme": "Blue",
+    "Admin": "HutchinGD",
+    "Setup": {
+      "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
+      "Themes": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
+    }
+  },
+  "APPSTATEPATH": "appstate.json",
+  "appStatePath": "appstate.json",
+  "DEL_FUNCTION": false,
+  "ADD_FUNCTION": true,
+  "FCAOption": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false,
+    "logLevel": "error",
+    "selfListen": false,
+    "online": true,
+    "proxy": "http://td-customer-cstEErx1odba:tmBua1ogscfb@bpxy0inl.pr.thordata.net:9999",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "bypassRegion": "SIN",
+    "autoReconnect": false,
+    "listenTyping": true,
+    "Info": "IMPORTANT: use a RESIDENTIAL proxy (same country as the account, stable exit IP). The current datacenter URL is a checkpoint trigger. Keep forceLogin=false so the bot always reuses the cookie appstate and never forces a fresh login path."
+  },
+  "e2ee": {
+    "memoryOnly": true,
+    "autoReconnect": true,
+    "logLevel": "none",
+    "devicePath": null
+  },
+  "connectE2EE": true,
+  "enableTypingIndicator": true,
+  "typingDuration": 2000,
+  "autoReLogin": true,
+  "keepAlive": true,
+  "reloginInterval": 60,
+  "keepAliveInterval": 900,
+  "maxReLoginAttempts": 8,
+  "reLoginBackoffMax": 900000,
+  "pacingEnabled": true,
+  "minActionInterval": 1200,
+  "actionJitter": 2500,
+  "sessionGuardian": {
+    "enabled": false,
+    "pollEveryTicks": 4
+  },
+  "proxy": "http://td-customer-cstEErx1odba:tmBua1ogscfb@bpxy0inl.pr.thordata.net:9999",
+  "safety": {
+    "enabled": true,
+    "sendPerMinute": 18,
+    "sendPerHour": 350,
+    "lightPerMinute": 40,
+    "minGapMs": 900,
+    "maxGapMs": 2200,
+    "maxQueue": 120,
+    "repeatLimit": 3,
+    "announceGapMs": 8000,
+    "groupActionsPerMinute": 6,
+    "groupActionsPerHour": 60,
+    "Info": "Paces everything the bot sends. Lower the numbers if Facebook still restricts the account; raise them only if replies feel too slow."
+  },
+  "sessionGuard": {
+    "intervalMinutes": 15,
+    "failAttempts": 2,
+    "Info": "Probes the live session every intervalMinutes and detects a logout early (blanked c_user/xs cookies or the library's logged-in flag). failAttempts bad probes in a row must happen before it acts. On detection it stops the listener and backs up the last good appstate. A credentials.json relogin only happens if passwordRelogin is true."
+  },
+  "passwordRelogin": false,
+  "Info": "If passwordRelogin is true, credentials.json (or FB_EMAIL/FB_PASSWORD) lets the bot log itself back in after a logout, at most once every 30 min. Default off: server-IP password logins are a common checkpoint trigger, and a logged-out account is better left for a human with a fresh appstate.json. Kept OFF here on purpose - the account is currently flagged for automated behavior; do not re-enable until it is cleared and the proxy is residential.",
+  "cooldownUI": {
+    "enabled": true,
+    "live": true,
+    "maxEdits": 2,
+    "Info": "The countdown box shown when a command is still cooling down. maxEdits:2 = one redraw plus the 'ready' edit. live:false = no countdown, just the final edit."
+  },
+  "scheduledMessages": {
+    "enabled": false,
+    "threads": [],
+    "Info": "Timed greetings/countdowns. Off by default. To use, set enabled to true and list ONLY the group IDs that want them."
+  },
+  "database": {
+    "enabled": true,
+    "type": "mysql",
+    "host": "65.109.100.181",
+    "port": 3306,
+    "name": "s66215_bot",
+    "user": "u66215_EzLXB2LYIL",
+    "password": "mo3Erq0ATeYiphfd@l!Ew^ik",
+    "syncSeconds": 20,
+    "forceRestore": false,
+    "extraFiles": [
+      "modules/commands/cache/afk.json",
+      "modules/commands/cache/autorep.json",
+      "modules/commands/cache/autoreact.json",
+      "modules/commands/cache/money.json",
+      "modules/commands/cache/daily.json",
+      "modules/commands/cache/work.json",
+      "modules/commands/warnData.json",
+      "modules/database/antirobbery.json",
+      "modules/database/chatRestrict.json",
+      "includes/database/data/deletedThreads.json",
+      "includes/database/data/userNames.json"
+    ],
+    "Info": "Panel MySQL mirror. Credentials can also come from env vars DB_HOST/DB_PORT/DB_NAME/DB_USER/DB_PASSWORD, which is safer. forceRestore:true rebuilds the JSON files from the database on the next boot (use after a wipe)."
+  },
+  "logEvents": false,
+  "watchdogMinutes": 60,
+  "ai": {
+    "pollinations": true,
+    "pollinationsModel": "openai",
+    "endpoints": [
+      "https://doux.gleeze.com/ai/chatgpt?prompt={prompt}&model=chatgpt4"
+    ],
+    "imageEndpoint": "https://doux.gleeze.com/ai/chipp?message={prompt}&url={url}",
+    "Info": "-ai providers. Pollinations (free, no API key) is tried first, then the gpti package's models, then any HTTP endpoints below. Put {prompt} where the question goes ({url} for images). Run '-ai status' in chat to see which are answering."
+  },
+  "cedds": {
+    "base": "https://ceddsrestapi.vercel.app",
+    "ai": "/ai/chatplus?message={prompt}&model={model}",
+    "aiModel": "gpt-4o-mini",
+    "pinterest": "/imagegen/pinterest?q={query}&limit={limit}",
+    "ytsearch": "/search/ytsearch?query={query}",
+    "ytdownload": false,
+    "Info": "ceddsrestapi.vercel.app endpoints, used by -ai, -pinterest and -video. ytsearch only finds videos; the download itself goes through videoDownload.order. If the API gets a download endpoint, put it in ytdownload (e.g. /download/ytmp4?url={url}) and it will be used first. Placeholders: {prompt} {model} {query} {limit} {url} {id}."
+  },
+  "smfahim": {
+    "base": "https://smfahim.xyz",
+    "carbon": "/maker/carbonify?text={text}&type={type}",
+    "emoji": "/maker/emoji/gif/v1?emoji={emoji}",
+    "make": "/ai/deepfake/gen?prompt={prompt}&imageUrl={image}",
+    "cartoon": "/tools/cartoonize?imageUrl={image}",
+    "Info": "smfahim.xyz endpoints for -carbon, -emoji, -make and -cartoon. Placeholders: {text} {type} {emoji} {prompt} {image}."
+  },
+  "videoDownload": {
+    "order": [
+      "cedds",
+      "rapid",
+      "piped",
+      "invidious",
+      "btch",
+      "ruhend",
+      "ytdl"
+    ],
+    "cookie": "",
+    "playerClients": [
+      "IOS",
+      "ANDROID",
+      "TV",
+      "WEB_EMBEDDED",
+      "WEB"
+    ],
+    "piped": [
+      "https://pipedapi.kavin.rocks",
+      "https://pipedapi.adminforge.de",
+      "https://api.piped.private.coffee",
+      "https://pipedapi.reallyaweso.me"
+    ],
+    "invidious": [
+      "https://inv.nadeko.net",
+      "https://invidious.nerdvpn.de",
+      "https://invidious.jing.rocks",
+      "https://iv.melmac.space"
+    ],
+    "Info": "Download sources for -video, tried in the order above until one works. rapid = the ytstream keys (shared list + your own RAPIDAPI_KEY if set), piped/invidious = public front-ends, btch/ruhend = npm scrapers, ytdl = straight from YouTube (blocked on many servers). All free. Reorder or remove names as they stop working."
+  },
+  "video": {
+    "YOUTUBE_API": "AIzaSyBPR1uDMfJStcXygGdxTniad8FxdmA9tIY"
+  },
+  "onlinePresence": false,
+  "daily": {
+    "cooldownTime": 43200000,
+    "rewardCoin": 500
+  },
+  "work": {
+    "cooldownTime": 1200000
+  },
+  "help": {
+    "autoUnsend": true,
+    "delayUnsend": 60
+  },
+  "adminUpdate": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "adminNoti": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "sing": {
+    "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
+    "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+  },
+  "audio": {
+    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+  },
+  "menu": {
+    "autoUnsend": true,
+    "delayUnsend": 60
+  }
+}

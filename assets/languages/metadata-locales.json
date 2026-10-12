@@ -1,0 +1,997 @@
+{
+  "m2": [
+    "[sungbatan wenno teksto]",
+    "[tubaga o teksto]",
+    "[sabati ukon teksto]"
+  ],
+  "m45": [
+    "[rason]",
+    "[rason]",
+    "[rason]"
+  ],
+  "m54": [
+    "<saludsod> · sungbatan ti sungbat tapno agtultuloy ti panagsasarita",
+    "<pangutana> · tubaga ang tubag aron mapadayon ang panag-istorya",
+    "<pamangkot> · sabta ang sabat para magpadayon ang pag-istoryahanay"
+  ],
+  "m106": [
+    "Awan ti titulo",
+    "Walay titulo",
+    "Wala sing titulo"
+  ],
+  "m110": [
+    "Video iti Facebook",
+    "Video sa Facebook",
+    "Video sa Facebook"
+  ],
+  "m119": [
+    "Video iti Pinterest",
+    "Video sa Pinterest",
+    "Video sa Pinterest"
+  ],
+  "m134": [
+    "[autorep] => [teksto a masapul a sungbatan]",
+    "[autorep] => [teksto nga angay tubagon]",
+    "[autorep] => [teksto nga dapat sabton]"
+  ],
+  "m163": [
+    "[i-tag] wenno [sungbatan ti mensahe] \"rason\"",
+    "[i-tag] o [tubaga ang mensahe] \"rason\"",
+    "[i-tag] ukon [sabti ang mensahe] \"rason\""
+  ],
+  "m164": [
+    "maysa pay a pakdaar iti agar-aramat",
+    "dugang usa ka pasidaan sa tiggamit",
+    "isa pa ka paandam sa gumalámít"
+  ],
+  "m165": [
+    "ban [i-tag] \"rason ti pakdaar\"",
+    "ban [i-tag] \"rason sa pasidaan\"",
+    "ban [i-tag] \"rason sang paandam\""
+  ],
+  "m166": [
+    "kitaen ti listaan dagiti na-ban iti grupo",
+    "tan-awa ang lista sa mga na-ban sa grupo",
+    "tan-awa ang listahan sang mga na-ban sa grupo"
+  ],
+  "m168": [
+    "ikkaten ti agar-aramat iti listaan dagiti na-ban",
+    "tangtangon ang tiggamit sa lista sa mga na-ban",
+    "kuhaon ang gumalámít sa listahan sang mga na-ban"
+  ],
+  "m169": [
+    "ban unban [ID ti agar-aramat nga ikkaten]",
+    "ban unban [ID sa tiggamit nga tangtangon]",
+    "ban unban [ID sang gumalámít nga kuhaon]"
+  ],
+  "m170": [
+    "\"i-tag\" wenno \"awan\" wenno \"kitaen amin\"",
+    "\"i-tag\" o \"blangko\" o \"tan-awa tanan\"",
+    "\"i-tag\" ukon \"wala\" ukon \"tan-awa tanan\""
+  ],
+  "m199": [
+    "[video/teksto] [mensahe]",
+    "[video/teksto] [mensahe]",
+    "[video/teksto] [mensahe]"
+  ],
+  "m218": [
+    "[mensahe]",
+    "[mensahe]",
+    "[mensahe]"
+  ],
+  "m231": [
+    "<code> · carbon -t 3 <code> (tema 1-6)",
+    "<code> · carbon -t 3 <code> (tema 1-6)",
+    "<code> · carbon -t 3 <code> (tema 1-6)"
+  ],
+  "m245": [
+    "sungbatan ti ladawan · @i-tag · link ti ladawan · awan = avatarmo",
+    "tubaga ang hulagway · @i-tag · link sa hulagway · walay sulod = imong avatar",
+    "sabti ang laragway · @i-tag · link sang laragway · wala sing sulod = imo avatar"
+  ],
+  "m254": [
+    "teksto",
+    "teksto",
+    "teksto"
+  ],
+  "m272": [
+    "[i-tag/sungbatan/amin/bilang ti amin/amin a kahon]",
+    "[i-tag/tubaga/tanan/ihap sa tanan/tanang kahon]",
+    "[i-tag/sabti/tanan/kadamuon sang tanan/tanan nga kahon]"
+  ],
+  "m281": [
+    "@agar-aramat / sungbatan / uid",
+    "@tiggamit / tubaga / uid",
+    "@gumalámít / sabti / uid"
+  ],
+  "m292": [
+    "[load/unload/loadAll/unloadAll/info/share/install] [nagan ti modulo]",
+    "[load/unload/loadAll/unloadAll/info/share/install] [ngalan sa modulo]",
+    "[load/unload/loadAll/unloadAll/info/share/install] [ngalan sang modulo]"
+  ],
+  "m331": [
+    "[ stock <banag> <bilang> | restock | every <min> | api <url> | clear ]",
+    "[ stock <butang> <ihap> | restock | every <min> | api <url> | clear ]",
+    "[ stock <butang> <kantidad> | restock | every <min> | api <url> | clear ]"
+  ],
+  "m344": [
+    "nasardeng (manual a panagaramat)",
+    "giundang (manwal nga paagi)",
+    "ginpauntat (manwal nga paagi)"
+  ],
+  "m358": [
+    " (nagbiddut ti API: ",
+    " (napakyas ang API: ",
+    " (napaslawan ang API: "
+  ],
+  "m362": [
+    "bilangen dagiti sao, parapo, ken alpanumeriko [teksto]",
+    "ihapa ang mga pulong, parapo, ug alpanumeriko [teksto]",
+    "isipon ang mga pulong, parapo, kag alpanumeriko [teksto]"
+  ],
+  "m389": [
+    "[@i-tag | sungbatan ti ladawan]",
+    "[@i-tag | tubaga ang hulagway]",
+    "[@i-tag | sabti ang laragway]"
+  ],
+  "m401": [
+    "sungbatan ti mensahe saka i-type ti <prefix>edit <mensahem>",
+    "tubaga ang mensahe unya i-type ang <prefix>edit <imong_mensahe>",
+    "sabti ang mensahe kag i-type ang <prefix>edit <imo_mensahe>"
+  ],
+  "m413": [
+    "maysa a mensahe iti tunggal resulta",
+    "usa ka mensahe sa matag resulta",
+    "isa ka mensahe sa kada resulta"
+  ],
+  "m414": [
+    "pagbaliwan ti mensahe ti pagkarga agingga iti resulta",
+    "iusab ang mensahe sa pagkarga hangtod sa resulta",
+    "bag-uhon ang mensahe sang pagkarga hasta sa resulta"
+  ],
+  "m430": [
+    " (nabaliwan manipud iti dashboard)",
+    " (giusab gikan sa dashboard)",
+    " (ginbag-o halin sa dashboard)"
+  ],
+  "m432": [
+    "<emoji> · kas pagarigan: emoji 🔥",
+    "<emoji> · pananglitan: emoji 🔥",
+    "<emoji> · halimbawa: emoji 🔥"
+  ],
+  "m458": [
+    "🎉 Nangabak",
+    "🎉 Nakadaog",
+    "🎉 Nagdaog"
+  ],
+  "m459": [
+    "❌ Naabak",
+    "❌ Napildi",
+    "❌ Napierde"
+  ],
+  "m463": [
+    "❌ Sungbatan ti mensahe nga addaan audio, video wenno ladawan",
+    "❌ Tubaga ang mensahe nga adunay audio, video o hulagway",
+    "❌ Sabti ang mensahe nga may audio, video ukon laragway"
+  ],
+  "m503": [
+    "Ti pannakaammo ket pigsa.",
+    "Ang kahibalo maoy kusog.",
+    "Ang kaalam amo ang kusog."
+  ],
+  "m504": [
+    "Ti kina-simple ket nasayaat a pannakaurnos.",
+    "Ang kayano maoy labing maayong disenyo.",
+    "Ang kasimple amo ang pinakamayo nga disenyo."
+  ],
+  "m505": [
+    "Ti code kasla panagpatawa. No masapul nga ilawlawag, saan a nasayaat.",
+    "Ang code sama sa kataw-anan. Kon kinahanglan pa ipasabot, dili na maayo.",
+    "Ang code daw balahason. Kon kinahanglan pa ipaathag, indi na nami."
+  ],
+  "m506": [
+    "Agitalinaed a managayat ken agadal.",
+    "Padayon nga mangita ug magtuon.",
+    "Padayon nga magtinguha kag magtuon."
+  ],
+  "m507": [
+    "Pagalagadan ti agpapauna",
+    "Giya para sa nagsugod pa",
+    "Giya para sa nagsugod pa"
+  ],
+  "m539": [
+    "[kick] [i-tag wenno sungbatan] [rason]",
+    "[kick] [i-tag o tubaga] [rason]",
+    "[kick] [i-tag ukon sabti] [rason]"
+  ],
+  "m553": [
+    "Di ammo a grupo",
+    "Wala mailhi nga grupo",
+    "Wala makilala nga grupo"
+  ],
+  "m560": [
+    "lyrics [nagan ti kanta]",
+    "lyrics [ngalan sa kanta]",
+    "lyrics [ngalan sang kanta]"
+  ],
+  "m568": [
+    "<aramiden> (sungbatan ti ladawan wenno idikit ti link)",
+    "<buhaton> (tubaga ang hulagway o idikit ang link)",
+    "<himuon> (sabti ang laragway ukon idikit ang link)"
+  ],
+  "m610": [
+    "<nagan ti kanta>",
+    "<ngalan sa kanta>",
+    "<ngalan sang kanta>"
+  ],
+  "m632": [
+    "[create/delete/check] [teksto]",
+    "[create/delete/check] [teksto]",
+    "[create/delete/check] [teksto]"
+  ],
+  "m644": [
+    "Awan ti aktibo a nota",
+    "Walay aktibong pahinumdom",
+    "Wala sing aktibo nga pahinumdom"
+  ],
+  "m649": [
+    "[sao a biruken] | info [pakete] | [pakete]",
+    "[mga pulong sa pagpangita] | info [pakete] | [pakete]",
+    "[mga pulong nga pangitaon] | info [pakete] | [pakete]"
+  ],
+  "m698": [
+    "Saan a umiso a bilang ti %1",
+    "Dili balidong numero ang %1",
+    "Indi balido nga numero ang %1"
+  ],
+  "m699": [
+    "Napawilan ti %1 a grupo!",
+    "Gibalibaran ang %1 ka grupo!",
+    "Ginbalibaran ang %1 ka grupo!"
+  ],
+  "m700": [
+    "Napalubosan ti grupom a mangusar iti bot",
+    "Giaprubahan ang imong grupo sa paggamit sa bot",
+    "Ginpahanugutan ang imo grupo nga gamiton ang bot"
+  ],
+  "m701": [
+    "Nasayaat a naaprubaran ti %1 a grupo!",
+    "Malampusong naaprubahan ang %1 ka grupo!",
+    "Madalag-on nga naaprubahan ang %1 ka grupo!"
+  ],
+  "m702": [
+    "Saan a maala ti listaan dagiti agur-uray a grupo!",
+    "Dili makuha ang lista sa mga grupong naghulat!",
+    "Indi makuha ang listahan sang mga grupo nga nagahulat!"
+  ],
+  "m703": [
+    "»「AGUR-URAY」«❮ Bilang dagiti grupo a maaprubaran: %1 ❯\n\n%2",
+    "»「NAGHULAT」«❮ Ihap sa mga grupong aprobahan: %1 ❯\n\n%2",
+    "»「NAGAHULAT」«❮ Kadamuon sang mga grupo nga aprobahan: %1 ❯\n\n%2"
+  ],
+  "m704": [
+    "「AGUR-URAY」Awan ti grupo iti listaan dagiti agur-uray",
+    "「NAGHULAT」Walay grupo sa lista sa mga naghulat",
+    "「NAGAHULAT」Wala sing grupo sa listahan sang mga nagahulat"
+  ],
+  "m718": [
+    "[panid]",
+    "[panid]",
+    "[pahina]"
+  ],
+  "m731": [
+    "[teksto]",
+    "[teksto]",
+    "[teksto]"
+  ],
+  "m738": [
+    "<sao a biruken> [-bilang] · kas pagarigan: pinterest cat aesthetic -6",
+    "<mga pulong sa pagpangita> [-ihap] · pananglitan: pinterest cat aesthetic -6",
+    "<mga pulong nga pangitaon> [-kantidad] · halimbawa: pinterest cat aesthetic -6"
+  ],
+  "m751": [
+    "sao a biruken",
+    "pulong sa pagpangita",
+    "pulong nga pangitaon"
+  ],
+  "m801": [
+    "🤝 Agpapada",
+    "🤝 Tabla",
+    "🤝 Tabla"
+  ],
+  "m805": [
+    "[Teksto]",
+    "[Teksto]",
+    "[Teksto]"
+  ],
+  "m868": [
+    "[pusta]",
+    "[pusta]",
+    "[pusta]"
+  ],
+  "m874": [
+    "Nangabak ka",
+    "Nakadaog ka",
+    "Nagdaog ka"
+  ],
+  "m875": [
+    "Naabak ka",
+    "Napildi ka",
+    "Napierde ka"
+  ],
+  "m878": [
+    "/spotify <nagan ti kanta>",
+    "/spotify <ngalan sa kanta>",
+    "/spotify <ngalan sang kanta>"
+  ],
+  "m961": [
+    "Saanmo a mabalin nga ikkaten ti mensahe ti sabali.",
+    "Dili nimo mahimong tangtangon ang mensahe sa uban.",
+    "Indi mo mahimo kuhaon ang mensahe sang iban."
+  ],
+  "m962": [
+    "Masapul nga sungbatam nga umuna ti mensahe tapno maikkatmo.",
+    "Tubaga una ang mensahe aron matangtang nimo.",
+    "Sabti anay ang mensahe para makuha mo."
+  ],
+  "m971": [
+    "[unban/ban/search] [ID wenno teksto]",
+    "[unban/ban/search] [ID o teksto]",
+    "[unban/ban/search] [ID ukon teksto]"
+  ],
+  "m972": [
+    "Amin a komando",
+    "Tanang sugo",
+    "Tanan nga sugo"
+  ],
+  "m973": [
+    "[ Panag-ban ] Na-ban ti agar-aramat: %1",
+    "[ Pag-ban ] Na-ban ang tiggamit: %1",
+    "[ Pag-ban ] Na-ban ang gumalámít: %1"
+  ],
+  "m974": [
+    "[ Panag-unban ] Na-unban ti agar-aramat: %1",
+    "[ Pag-unban ] Na-unban ang tiggamit: %1",
+    "[ Pag-unban ] Na-unban ang gumalámít: %1"
+  ],
+  "m975": [
+    "[ Panag-ban ti komando ] Napawil ti komando ken %1",
+    "[ Pag-ban sa sugo ] Gidid-an ang sugo alang kang %1",
+    "[ Pag-ban sang sugo ] Ginbawalan ang sugo para kay %1"
+  ],
+  "m976": [
+    "[ Panag-unban ti komando ] Napalubosan manen ti %1 ken %2",
+    "[ Pag-unban sa sugo ] Gitugotan pag-usab ang %1 alang kang %2",
+    "[ Pag-unban sang sugo ] Gintugutan liwat ang %1 para kay %2"
+  ],
+  "m977": [
+    "%1 Saan a maaramid ti kiddawmo",
+    "%1 Dili mahimo ang imong gihangyo",
+    "%1 Indi mahimo ang imo ginpangabay"
+  ],
+  "m978": [
+    "%1 Awan iti database ti ID nga inkabilmo",
+    "%1 Wala sa database ang ID nga imong gibutang",
+    "%1 Wala sa database ang ID nga imo ginbutang"
+  ],
+  "m979": [
+    "[ Panag-ban ] Na-ban sakbay idi %2 %3 ni %1",
+    "[ Pag-ban ] Na-ban na kaniadtong %2 %3 si %1",
+    "[ Pag-ban ] Na-ban na sang %2 %3 si %1"
+  ],
+  "m980": [
+    "[ Panag-unban ] Saan pay a na-ban ti agar-aramat",
+    "[ Pag-unban ] Wala pa na-ban ang tiggamit",
+    "[ Pag-unban ] Wala pa na-ban ang gumalámít"
+  ],
+  "m981": [
+    "%1 Ikkam ti komando a kayatmo a pawilan!",
+    "%1 Ihatag ang sugo nga gusto nimong idili!",
+    "%1 Ihatag ang sugo nga gusto mo bawalan!"
+  ],
+  "m982": [
+    "[ Panag-unban ti komando ] Saan pay a na-ban ti ID ti agar-aramat",
+    "[ Pag-unban sa sugo ] Wala pa na-ban ang ID sa tiggamit",
+    "[ Pag-unban sang sugo ] Wala pa na-ban ang ID sang gumalámít"
+  ],
+  "m983": [
+    "[ Panag-ban ] Kiddawmo a i-ban ti agar-aramat:\n- ID ken nagan: %1%2\n\n❮ Ag-react iti daytoy a mensahe tapno makompleto ❯",
+    "[ Pag-ban ] Gihangyo nimo nga i-ban ang tiggamit:\n- ID ug ngalan: %1%2\n\n❮ Pag-react niining mensahe aron makompleto ❯",
+    "[ Pag-ban ] Ginapangabay mo nga i-ban ang gumalámít:\n- ID kag ngalan: %1%2\n\n❮ Mag-react sa sini nga mensahe para matapos ❯"
+  ],
+  "m984": [
+    "[ Panag-unban ] Kiddawmo nga i-unban ti agar-aramat:\n- ID ken nagan: %1\n\n❮ Ag-react iti daytoy a mensahe tapno makompleto ❯",
+    "[ Pag-unban ] Gihangyo nimo nga i-unban ang tiggamit:\n- ID ug ngalan: %1\n\n❮ Pag-react niining mensahe aron makompleto ❯",
+    "[ Pag-unban ] Ginapangabay mo nga i-unban ang gumalámít:\n- ID kag ngalan: %1\n\n❮ Mag-react sa sini nga mensahe para matapos ❯"
+  ],
+  "m985": [
+    "[ Panag-ban ti komando ] Kiddawmo a pawilan ti komando ken agar-aramat:\n- ID ken nagan: %1\n- Komando: %2\n\n❮ Ag-react iti daytoy a mensahe tapno makompleto ❯",
+    "[ Pag-ban sa sugo ] Gihangyo nimo nga idili ang sugo alang sa tiggamit:\n- ID ug ngalan: %1\n- Sugo: %2\n\n❮ Pag-react niining mensahe aron makompleto ❯",
+    "[ Pag-ban sang sugo ] Ginapangabay mo nga bawalan ang sugo sang gumalámít:\n- ID kag ngalan: %1\n- Sugo: %2\n\n❮ Mag-react sa sini nga mensahe para matapos ❯"
+  ],
+  "m986": [
+    "[ Panag-unban ti komando ] Kiddawmo nga palubosan ti komando ken agar-aramat:\n- ID ken nagan: %1\n- Komando: %2\n\n❮ Ag-react iti daytoy a mensahe tapno makompleto ❯",
+    "[ Pag-unban sa sugo ] Gihangyo nimo nga tugotan ang sugo alang sa tiggamit:\n- ID ug ngalan: %1\n- Sugo: %2\n\n❮ Pag-react niining mensahe aron makompleto ❯",
+    "[ Pag-unban sang sugo ] Ginapangabay mo nga tugutan ang sugo sang gumalámít:\n- ID kag ngalan: %1\n- Sugo: %2\n\n❮ Mag-react sa sini nga mensahe para matapos ❯"
+  ],
+  "m987": [
+    "Daytoy ti resultam: \n",
+    "Mao ni ang imong resulta: \n",
+    "Amo ini ang imo resulta: \n"
+  ],
+  "m988": [
+    "Awan ti resulta iti inkabilmo!",
+    "Walay resulta sa imong gisulod!",
+    "Wala sing resulta sa imo ginbutang!"
+  ],
+  "m989": [
+    "[ Listaan dagiti agar-aramat ] Adda %1 a na-ban; adtoy ti %2 nga agar-aramat\n\n%3",
+    "[ Lista sa mga tiggamit ] Adunay %1 ka na-ban; ania ang %2 ka tiggamit\n\n%3",
+    "[ Listahan sang mga gumalámít ] May %1 ka na-ban; ari ang %2 ka gumalámít\n\n%3"
+  ],
+  "m990": [
+    "[ Impormasion ti agar-aramat ] Adtoy ti impormasion ti birukem:\n- ID ken nagan: %1n- Na-ban?: %2 %3 %4\n- Napawil a komando?: %5",
+    "[ Impormasyon sa tiggamit ] Ania ang impormasyon sa imong gipangita:\n- ID ug ngalan: %1n- Na-ban?: %2 %3 %4\n- Gidili nga sugo?: %5",
+    "[ Impormasyon sang gumalámít ] Ari ang impormasyon sang imo ginapangita:\n- ID kag ngalan: %1n- Na-ban?: %2 %3 %4\n- Ginbawal nga sugo?: %5"
+  ],
+  "m1003": [
+    "[sao a biruken a video]",
+    "[video nga pangitaon]",
+    "[video nga pangitaon]"
+  ],
+  "m1061": [
+    "[nagan ti siudad]",
+    "[ngalan sa siyudad]",
+    "[ngalan sang siyudad]"
+  ],
+  "m1093": [
+    "wq [teksto | nagsurat | kolor]",
+    "wq [teksto | nagsulat | kolor]",
+    "wq [teksto | nagsulat | kolor]"
+  ],
+  "m1114": [
+    "Nabaliwan ti nagan ti grupo iti: {0}",
+    "Giusab ang ngalan sa grupo ngadto sa: {0}",
+    "Ginbag-o ang ngalan sang grupo sa: {0}"
+  ],
+  "m1115": [
+    "Naikkat ti nagan ti grupo",
+    "Gihawanan ang ngalan sa grupo",
+    "Ginkuha ang ngalan sang grupo"
+  ],
+  "m1121": [
+    "Awan ti emoji ",
+    "Walay emoji ",
+    "Wala sing emoji "
+  ],
+  "wordError": [
+    "Biddut",
+    "Sayop",
+    "Sala"
+  ],
+  "wordYes": [
+    "Wen",
+    "Oo",
+    "Huo"
+  ],
+  "wordNo": [
+    "Saan",
+    "Dili",
+    "Indi"
+  ],
+  "wordStatus": [
+    "Kasasaad",
+    "Kahimtang",
+    "Kahimtangan"
+  ],
+  "wordTime": [
+    "Oras",
+    "Oras",
+    "Oras"
+  ],
+  "wordUser": [
+    "Agar-aramat",
+    "Tiggamit",
+    "Gumalámít"
+  ],
+  "wordMember": [
+    "Kameng",
+    "Miyembro",
+    "Miyembro"
+  ],
+  "wordGroup": [
+    "Grupo",
+    "Grupo",
+    "Grupo"
+  ],
+  "wordAdmin": [
+    "Admin",
+    "Admin",
+    "Admin"
+  ],
+  "wordMoney": [
+    "Kuarta",
+    "Kwarta",
+    "Kwarta"
+  ],
+  "wordLevel": [
+    "Tukad",
+    "Ang-ang",
+    "Lebel"
+  ],
+  "wordRank": [
+    "Ranggo",
+    "Ranggo",
+    "Ranggo"
+  ],
+  "wordBalance": [
+    "Natda a kuarta",
+    "Nahibiling kwarta",
+    "Nabilin nga kwarta"
+  ],
+  "wordSuccess": [
+    "Nagballigi",
+    "Malampuson",
+    "Madalag-on"
+  ],
+  "wordFailed": [
+    "Nagbiddut",
+    "Napakyas",
+    "Napaslawan"
+  ],
+  "m400": [
+    "Baliwan dagiti mensahe ti bot!",
+    "Usba ang mga mensahe sa bot!",
+    "Bag-uhon ang mga mensahe sang bot!"
+  ],
+  "m709": [
+    "phub [teksto]",
+    "phub [teksto]",
+    "phub [teksto]"
+  ],
+  "m803": [
+    "Mensahe manipud iti teksto a naisao",
+    "Mensahe nga gisulti gikan sa teksto",
+    "Mensahe nga ginpamulong halin sa teksto"
+  ],
+  "m844": [
+    "Makisarita ken Sim",
+    "Pakig-istorya kang Sim",
+    "Makig-istorya kay Sim"
+  ],
+  "m1108": [
+    "Panagbaliw ti impormasion ti grupo",
+    "Kausaban sa impormasyon sa grupo",
+    "Pagbag-o sang impormasyon sang grupo"
+  ],
+  "m1124": [
+    "Panangsalaknib ti grupo kontra saan a napalubosan a panagbaliw",
+    "Pagpanalipod sa grupo batok sa walay permiso nga kausaban",
+    "Pagbantay sang grupo batok sa wala sing permiso nga pagbag-o"
+  ],
+  "m1131": [
+    "PAKAAMMO TI PANAGBALIW TI GRUPO",
+    "PAHIBALO SA KAUSABAN SA GRUPO",
+    "PAHIBALO SANG PAGBAG-O SANG GRUPO"
+  ],
+  "m1144": [
+    "Ipakaammo no adda pumanaw a bot wenno tao iti grupo",
+    "Pahibalo kon adunay bot o tawo nga mogawas sa grupo",
+    "Pahibalo kon may bot ukon tawo nga maghalin sa grupo"
+  ],
+  "m532": [
+    "Kitaen ti ID ken detalye ti sticker",
+    "Tan-awa ang ID ug detalye sa sticker",
+    "Tan-awa ang ID kag detalye sang sticker"
+  ],
+  "m1092": [
+    "Mangaramid ti ladawan ti quote",
+    "Paghimo og hulagway sa quote",
+    "Paghimo sang laragway sang quote"
+  ],
+  "m567": [
+    "Urnosen ti retrato babaen ti AI",
+    "Usba ang litrato gamit ang AI",
+    "Ilisi ang hitsura sang litrato gamit ang AI"
+  ],
+  "m937": [
+    "Kitaen dagiti nangato nga EXP",
+    "Tan-awa ang labing taas nga EXP",
+    "Tan-awa ang pinakamataas nga EXP"
+  ],
+  "m253": [
+    "Ti pusa agsao iti mensahem",
+    "Ipasulti sa iring ang imong mensahe",
+    "Ipasugid sa kuring ang imo mensahe"
+  ],
+  "m957": [
+    "I-unsend dagiti mensahe ti bot",
+    "I-unsend ang mga mensahe sa bot",
+    "I-unsend ang mga mensahe sang bot"
+  ],
+  "m291": [
+    "Panangimaton kadagiti command ti bot",
+    "Pagdumala sa mga command sa bot",
+    "Pagdumala sang mga command sang bot"
+  ],
+  "m1042": [
+    "Mangted ti ballaag kadagiti miembro",
+    "Paghatag og pasidaan sa mga miyembro",
+    "Paghatag sang paandam sa mga miyembro"
+  ],
+  "m361": [
+    "Bilangen dagiti sao ken parapo",
+    "Ihap ang mga pulong ug parapo",
+    "Isipon ang mga pulong kag parapo"
+  ],
+  "m795": [
+    "Ag-ay-ayam ti bato, papel, ken gunting",
+    "Dula og bato, papel, gunting",
+    "Hampang sang bato, papel, gunting"
+  ],
+  "m408": [
+    "I-on wenno i-off ti panang-edit ti mensahe",
+    "I-on o i-off ang pag-edit sa mensahe",
+    "I-on ukon i-off ang pag-edit sang mensahe"
+  ],
+  "m431": [
+    "Mangaramid ti dakkel nga emoji GIF",
+    "Paghimo og dako nga emoji GIF",
+    "Paghimo sang daku nga emoji GIF"
+  ],
+  "m867": [
+    "Ag-ay-ayam iti slot",
+    "Dula sa slot",
+    "Hampang sang slot"
+  ],
+  "m149": [
+    "Awtomatiko a panagbasa ti mensahe",
+    "Awtomatikong pagbasa sa mensahe",
+    "Awtomatiko nga pagbasa sang mensahe"
+  ],
+  "m737": [
+    "Biruken dagiti ladawan iti Pinterest",
+    "Pangitaa ang mga hulagway sa Pinterest",
+    "Pangitaa ang mga laragway sa Pinterest"
+  ],
+  "m393": [
+    "Mangaramid ti Discord message",
+    "Paghimo og Discord message",
+    "Paghimo sang Discord message"
+  ],
+  "m970": [
+    "I-ban wenno i-unblock dagiti user",
+    "I-ban o i-unblock ang mga user",
+    "I-ban ukon i-unblock ang mga user"
+  ],
+  "m460": [
+    "Alaen ti download link",
+    "Kuhaa ang download link",
+    "Kuhaa ang download link"
+  ],
+  "m93": [
+    "Awtomatiko a panang-download ti video",
+    "Awtomatikong pag-download og video",
+    "Awtomatiko nga pag-download sang video"
+  ],
+  "m1": [
+    "Panangikabil ti code manipud iti link",
+    "Pagbutang og code gikan sa link",
+    "Pagbutang sang code halin sa link"
+  ],
+  "m897": [
+    "Mangaramid ti Supreme logo",
+    "Paghimo og Supreme logo",
+    "Paghimo sang Supreme logo"
+  ],
+  "m466": [
+    "Panangsalaknib iti grupo",
+    "Pagpanalipod sa grupo",
+    "Pagproteher sang grupo"
+  ],
+  "m1002": [
+    "Ag-play ti YouTube video",
+    "Pag-play og YouTube video",
+    "Pag-play sang YouTube video"
+  ],
+  "m838": [
+    "Mangaramid ti random a TikTok video",
+    "Paghimo og random nga TikTok video",
+    "Paghimo sang random nga TikTok video"
+  ],
+  "m367": [
+    "Kitaen dagiti estadistika ti grupo",
+    "Tan-awa ang estadistika sa grupo",
+    "Tan-awa ang estadistika sang grupo"
+  ],
+  "m708": [
+    "Mangaramid ti phub style a komento",
+    "Paghimo og phub style nga komento",
+    "Paghimo sang phub style nga komento"
+  ],
+  "m822": [
+    "Patarayen dagiti shell command",
+    "Pagpadagan og shell command",
+    "Pagpadalagan sang shell command"
+  ],
+  "m758": [
+    "Awtomatiko a sungbat no saludsoden ti prefix",
+    "Awtomatikong tubag bahin sa prefix",
+    "Awtomatiko nga sabat parte sa prefix"
+  ],
+  "m53": [
+    "Agdamag iti AI",
+    "Pangutana sa AI",
+    "Pamangkot sa AI"
+  ],
+  "m330": [
+    "Kitaen dagiti stock ti compshop",
+    "Tan-awa ang stock sa compshop",
+    "Tan-awa ang stock sang compshop"
+  ],
+  "m952": [
+    "Ikkaten ti font ti mensahe ti bot",
+    "Tangtanga ang font sa mensahe sa bot",
+    "Kuhaa ang font sang mensahe sang bot"
+  ],
+  "m820": [
+    "Ibingay ti contact ti user",
+    "Ipaambit ang contact sa user",
+    "Ipaambit ang contact sang user"
+  ],
+  "m161": [
+    "Panangban iti miembro ti grupo",
+    "Pag-ban og miyembro sa grupo",
+    "Pag-ban sang miyembro sa grupo"
+  ],
+  "m963": [
+    "Kitaen ti oras a nakastart ti bot, OS, RAM ken storage",
+    "Tan-awa ang uptime, OS, RAM ug storage",
+    "Tan-awa ang uptime, OS, RAM kag storage"
+  ],
+  "m1060": [
+    "Kitaen ti kasasaad ti paniempo",
+    "Tan-awa ang kahimtang sa panahon",
+    "Tan-awa ang kahimtangan sang panahon"
+  ],
+  "m804": [
+    "Mangipatulod ti mensahe kadagiti grupo",
+    "Pagpadala og mensahe sa mga grupo",
+    "Pagpadala sang mensahe sa mga grupo"
+  ],
+  "m13": [
+    "Pananginayon ti user iti grupo",
+    "Pagdugang og user sa grupo",
+    "Pagdugang sang user sa grupo"
+  ],
+  "m949": [
+    "Alaen ti Facebook UID ti user",
+    "Kuhaa ang Facebook UID sa user",
+    "Kuhaa ang Facebook UID sang user"
+  ],
+  "m44": [
+    "Panag-on wenno panag-off ti AFK",
+    "Pag-on o pag-off sa AFK",
+    "Pag-on ukon pag-off sang AFK"
+  ],
+  "m717": [
+    "Agpili ken mangipatulod ti video",
+    "Pagpili ug pagpadala og video",
+    "Pagpili kag pagpadala sang video"
+  ],
+  "m750": [
+    "Mangaramid ti ladawan babaen ti AI",
+    "Paghimo og hulagway gamit ang AI",
+    "Paghimo sang laragway gamit ang AI"
+  ],
+  "m244": [
+    "Mangaramid ti cartoon manipud iti retrato",
+    "Paghimong cartoon sa litrato",
+    "Paghimo sang cartoon sa litrato"
+  ],
+  "m280": [
+    "Ikabil ti user iti billboard",
+    "Ibutang ang user sa billboard",
+    "Ibutang ang user sa billboard"
+  ],
+  "m782": [
+    "Kitaen ti rangkom ken lebel",
+    "Tan-awa ang ranggo ug lebel",
+    "Tan-awa ang ranggo kag lebel"
+  ],
+  "m538": [
+    "Ikkaten ti user iti grupo",
+    "Tangtanga ang user sa grupo",
+    "Kuhaa ang user sa grupo"
+  ],
+  "m79": [
+    "Panangsuot iti API endpoint",
+    "Pagsulay sa API endpoint",
+    "Pagsulay sang API endpoint"
+  ],
+  "m476": [
+    "Kitaen dagiti mabalin nga usaren a command",
+    "Tan-awa ang magamit nga mga command",
+    "Tan-awa ang mahimo gamiton nga mga command"
+  ],
+  "m877": [
+    "Biruken ken i-download ti musika iti Spotify",
+    "Pangitaa ug i-download ang musika sa Spotify",
+    "Pangitaa kag i-download ang musika sa Spotify"
+  ],
+  "m25": [
+    "Dagiti setting ti admin",
+    "Mga setting sa admin",
+    "Mga setting sang admin"
+  ],
+  "m132": [
+    "Awtomatiko a sungbat iti mensahe",
+    "Awtomatikong tubag sa mensahe",
+    "Awtomatiko nga sabat sa mensahe"
+  ],
+  "m913": [
+    "Kitaen ti TikTok profile",
+    "Tan-awa ang TikTok profile",
+    "Tan-awa ang TikTok profile"
+  ],
+  "m441": [
+    "Patarayen ti JavaScript code",
+    "Pagpadagan og JavaScript code",
+    "Pagpadalagan sang JavaScript code"
+  ],
+  "m271": [
+    "Bilangen dagiti mensahe",
+    "Ihap ang mga mensahe",
+    "Isipon ang mga mensahe"
+  ],
+  "m609": [
+    "Ag-play ken ag-download ti musika",
+    "Pag-play ug pag-download og musika",
+    "Pag-play kag pag-download sang musika"
+  ],
+  "m679": [
+    "Rummuar iti grupo",
+    "Mogawas sa grupo",
+    "Maghalin sa grupo"
+  ],
+  "m843": [
+    "Makisarita ken Sim",
+    "Pakig-istorya kang Sim",
+    "Pakig-istorya kay Sim"
+  ],
+  "m388": [
+    "Ibelleng ti user iti basurahan",
+    "Ihulog ang user sa basurahan",
+    "Ihulog ang user sa basurahan"
+  ],
+  "m681": [
+    "Mangipatulod ti kuarta",
+    "Pagpadala og kuwarta",
+    "Pagpadala sang kuwarta"
+  ],
+  "m578": [
+    "Panangimaton kadagiti miembro ti grupo",
+    "Pagdumala sa mga miyembro sa grupo",
+    "Pagdumala sang mga miyembro sang grupo"
+  ],
+  "m209": [
+    "Panangsuot iti button",
+    "Pagsulay sa button",
+    "Pagsulay sang button"
+  ],
+  "m1080": [
+    "Agtrabaho tapno kumita ti kuarta",
+    "Pagtrabaho aron makakwarta",
+    "Pagtrabaho agod makakwarta"
+  ],
+  "m559": [
+    "Biruken dagiti lyrics ti kanta",
+    "Pangitaa ang lyrics sa kanta",
+    "Pangitaa ang lyrics sang kanta"
+  ],
+  "m198": [
+    "Mangaramid ti Brat text wenno video",
+    "Paghimo og Brat text o video",
+    "Paghimo sang Brat text ukon video"
+  ],
+  "m631": [
+    "Panangimaton iti Messenger notes",
+    "Pagdumala sa Messenger notes",
+    "Pagdumala sang Messenger notes"
+  ],
+  "m802": [
+    "Mangaramid ti boses manipud iti teksto",
+    "Paghimo og tingog gikan sa teksto",
+    "Paghimo sang tingog halin sa teksto"
+  ],
+  "m648": [
+    "Biruken dagiti npm package",
+    "Pangitaa ang mga npm package",
+    "Pangitaa ang mga npm package"
+  ],
+  "m812": [
+    "Isagana ti kuarta wenno EXP ti user",
+    "Itakda ang kuwarta o EXP sa user",
+    "Itakda ang kuwarta ukon EXP sang user"
+  ],
+  "m382": [
+    "Aldaw-aldo a gunggona",
+    "Adlaw-adlaw nga ganti",
+    "Adlaw-adlaw nga premyo"
+  ],
+  "m931": [
+    "Kitaen dagiti kabaknangan",
+    "Tan-awa ang labing adunahan",
+    "Tan-awa ang pinakadato"
+  ],
+  "m191": [
+    "Panangpalabo ti avatar",
+    "Pagpalabo sa avatar",
+    "Pagpalabo sang avatar"
+  ],
+  "m773": [
+    "Mangaramid ti ladawan ti quote",
+    "Paghimo og hulagway sa quote",
+    "Paghimo sang laragway sang quote"
+  ],
+  "m155": [
+    "Kitaen ti balanse",
+    "Tan-awa ang balanse",
+    "Tan-awa ang balanse"
+  ],
+  "m905": [
+    "Alaen ti ID ken ladawan ti grupo",
+    "Kuhaa ang ID ug hulagway sa grupo",
+    "Kuhaa ang ID kag laragway sang grupo"
+  ],
+  "m217": [
+    "Mangipatulod ti ulat kadagiti admin",
+    "Pagpadala og report sa mga admin",
+    "Pagpadala sang report sa mga admin"
+  ],
+  "m787": [
+    "I-restart ti bot",
+    "I-restart ang bot",
+    "I-restart ang bot"
+  ],
+  "m230": [
+    "Mangaramid ti ladawan manipud iti code",
+    "Paghimo og hulagway gikan sa code",
+    "Paghimo sang laragway halin sa code"
+  ],
+  "m448": [
+    "Ag-flip ti sinsilyo",
+    "Pag-flip og sensilyo",
+    "Pag-flip sang sensilyo"
+  ],
+  "m122": [
+    "Awtomatiko a reaction",
+    "Awtomatikong reaction",
+    "Awtomatiko nga reaction"
+  ],
+  "m887": [
+    "Kitaen ti kasasaad ti sistema ken memorya",
+    "Tan-awa ang kahimtang sa sistema ug memorya",
+    "Tan-awa ang kahimtangan sang sistema kag memorya"
+  ],
+  "m942": [
+    "Mangaramid ti Trump-style a tweet",
+    "Paghimo og Trump-style nga tweet",
+    "Paghimo sang Trump-style nga tweet"
+  ],
+  "m831": [
+    "Pagparisen ti dua a user",
+    "Pagpares sa duha ka user",
+    "Pagpares sang duha ka user"
+  ],
+  "m730": [
+    "I-tag amin a miembro",
+    "I-tag ang tanang miyembro",
+    "I-tag ang tanan nga miyembro"
+  ],
+  "m263": [
+    "Pananglapped iti chat dagiti saan nga admin",
+    "Pagpugong sa chat sa dili admin",
+    "Pagpugong sang chat sang indi admin"
+  ]
+}

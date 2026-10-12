@@ -1,0 +1,892 @@
+{
+  "m479": {
+    "ilo": "╭┈ ❒ [ HELP ⏳ ]\n├ Ikarkarga dagiti command...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ HELP ⏳ ]\n├ Gikarga ang mga command...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ HELP ⏳ ]\n├ Ginaparga ang mga command...\n╰┈➤ palihog hulat"
+  },
+  "m480": {
+    "ilo": "Awán ti naisurat a pannakausar",
+    "ceb": "Walay nakasaad nga paggamit",
+    "hil": "Wala sang nakasulat nga paggamit"
+  },
+  "m508": {
+    "ilo": "Awán ti panangiladawan",
+    "ceb": "Walay paghulagway",
+    "hil": "Wala sang paglaragway"
+  },
+  "m510": {
+    "ilo": "❌ Saan a nasarakan ti command.",
+    "ceb": "❌ Wala makit-an ang command.",
+    "hil": "❌ Wala makita ang command."
+  },
+  "m482": {
+    "ilo": "❌ Saan a nasarakan ti command.",
+    "ceb": "❌ Wala makit-an ang command.",
+    "hil": "❌ Wala makita ang command."
+  },
+  "m483": {
+    "ilo": "= LISTAAN DAGITI COMMAND =\n\n━━━━━━༺༻━━━━━━\n╭┈ ❒ Usarem: {0}\n╰┈➤ Usarem daytoy a prefix\n━━━━━━༺༻━━━━━━\n",
+    "ceb": "= LISTAHAN SA MGA COMMAND =\n\n━━━━━━༺༻━━━━━━\n╭┈ ❒ Gamita: {0}\n╰┈➤ Gamita ini nga prefix\n━━━━━━༺༻━━━━━━\n",
+    "hil": "= LISTAHAN SANG MGA COMMAND =\n\n━━━━━━༺༻━━━━━━\n╭┈ ❒ Gamita: {0}\n╰┈➤ Gamita ini nga prefix\n━━━━━━༺༻━━━━━━\n"
+  },
+  "m484": {
+    "ilo": "\n━━━━━━━━━━━━\n╭┈ ❒「 {0} 」➪ {1}\n╰┈➤ Panangiladawan: {2}\n╰┈➤ Panagur-uray: {3}s\n╰┈➤ Kategoria: {4}\n━━━━━━━━━━━━\n",
+    "ceb": "\n━━━━━━━━━━━━\n╭┈ ❒「 {0} 」➪ {1}\n╰┈➤ Paghulagway: {2}\n╰┈➤ Panahon sa paghulat: {3}s\n╰┈➤ Kategorya: {4}\n━━━━━━━━━━━━\n",
+    "hil": "\n━━━━━━━━━━━━\n╭┈ ❒「 {0} 」➪ {1}\n╰┈➤ Paglaragway: {2}\n╰┈➤ Oras sang paghulat: {3}s\n╰┈➤ Kategorya: {4}\n━━━━━━━━━━━━\n"
+  },
+  "m485": {
+    "ilo": "\n━━━━━━༺༻━━━━━━\n[ 🕜 TIME ]\n{0} || {1} || {2}\n\nBot ni Zach\n",
+    "ceb": "\n━━━━━━༺༻━━━━━━\n[ 🕜 TIME ]\n{0} || {1} || {2}\n\nBot ni Zach\n",
+    "hil": "\n━━━━━━༺༻━━━━━━\n[ 🕜 TIME ]\n{0} || {1} || {2}\n\nBot ni Zach\n"
+  },
+  "m486": {
+    "ilo": "📋 Amin a command: {0}\n",
+    "ceb": "📋 Tanang command: {0}\n",
+    "hil": "📋 Tanan nga command: {0}\n"
+  },
+  "m487": {
+    "ilo": "🔢 Usarem: {0}help <panid> (1-{1})\n",
+    "ceb": "🔢 Gamita: {0}help <pahina> (1-{1})\n",
+    "hil": "🔢 Gamita: {0}help <pahina> (1-{1})\n"
+  },
+  "m488": {
+    "ilo": "📜 Usarem: {0}help all\n",
+    "ceb": "📜 Gamita: {0}help all\n",
+    "hil": "📜 Gamita: {0}help all\n"
+  },
+  "m489": {
+    "ilo": "ℹ️ Usarem: {0}help <command>",
+    "ceb": "ℹ️ Gamita: {0}help <command>",
+    "hil": "ℹ️ Gamita: {0}help <command>"
+  },
+  "m490": {
+    "ilo": "❌ Saan a husto ti panid. Mabalin a panid: 1-{0}",
+    "ceb": "❌ Dili sakto ang pahina. Mga pahina: 1-{0}",
+    "hil": "❌ Indi husto ang pahina. Mga pahina: 1-{0}"
+  },
+  "m491": {
+    "ilo": "ℹ️ Usarem: {0}help <command>",
+    "ceb": "ℹ️ Gamita: {0}help <command>",
+    "hil": "ℹ️ Gamita: {0}help <command>"
+  },
+  "m492": {
+    "ilo": "🔍 IMPORMASION TI COMMAND\n",
+    "ceb": "🔍 IMPORMASYON SA COMMAND\n",
+    "hil": "🔍 IMPORMASYON SANG COMMAND\n"
+  },
+  "m493": {
+    "ilo": "📛 Nagan: {0}\n",
+    "ceb": "📛 Ngalan: {0}\n",
+    "hil": "📛 Ngalan: {0}\n"
+  },
+  "m494": {
+    "ilo": "📖 Panangiladawan: {0}\n",
+    "ceb": "📖 Paghulagway: {0}\n",
+    "hil": "📖 Paglaragway: {0}\n"
+  },
+  "m495": {
+    "ilo": "📖 Kategoria: {0}\n",
+    "ceb": "📖 Kategorya: {0}\n",
+    "hil": "📖 Kategorya: {0}\n"
+  },
+  "m496": {
+    "ilo": "📖 Bersion: {0}\n",
+    "ceb": "📖 Bersyon: {0}\n",
+    "hil": "📖 Bersyon: {0}\n"
+  },
+  "m497": {
+    "ilo": "📖 Nangaramid: {0}\n",
+    "ceb": "📖 Mga naghimo: {0}\n",
+    "hil": "📖 Mga naghimo: {0}\n"
+  },
+  "m498": {
+    "ilo": "⏱️ Panagur-uray: {0}s\n",
+    "ceb": "⏱️ Panahon sa paghulat: {0}s\n",
+    "hil": "⏱️ Oras sang paghulat: {0}s\n"
+  },
+  "m499": {
+    "ilo": "💡 Pannakausar: {0}{1}\n\n",
+    "ceb": "💡 Paggamit: {0}{1}\n\n",
+    "hil": "💡 Paggamit: {0}{1}\n\n"
+  },
+  "m500": {
+    "ilo": "❌ Saan a nasarakan ti command \"{0}\". Usarem ang \"{1}help 1\".",
+    "ceb": "❌ Wala makit-an ang command \"{0}\". Gamita ang \"{1}help 1\".",
+    "hil": "❌ Wala makita ang command \"{0}\". Gamita ang \"{1}help 1\"."
+  },
+  "m501": {
+    "ilo": "📖 AMIN A COMMAND\n",
+    "ceb": "📖 TANANG COMMAND\n",
+    "hil": "📖 TANAN NGA COMMAND\n"
+  },
+  "m502": {
+    "ilo": "❌ Adda biddut iti panangikarga dagiti command.",
+    "ceb": "❌ Adunay sayop sa pagkarga sa mga command.",
+    "hil": "❌ May sala sa pagkarga sang mga command."
+  },
+  "m511": {
+    "ilo": "LISTAAN DAGITI COMMAND\n━━━━━━━━━━━━━━━\n",
+    "ceb": "LISTAHAN SA MGA COMMAND\n━━━━━━━━━━━━━━━\n",
+    "hil": "LISTAHAN SANG MGA COMMAND\n━━━━━━━━━━━━━━━\n"
+  },
+  "m512": {
+    "ilo": "\n╭┈ ❒ [ {0} ] : PREFIX\n╰   ⁞ ❏. {1}: {2}\n   📝 {3}\n━━━━━━━━━━━━━━━\n",
+    "ceb": "\n╭┈ ❒ [ {0} ] : PREFIX\n╰   ⁞ ❏. {1}: {2}\n   📝 {3}\n━━━━━━━━━━━━━━━\n",
+    "hil": "\n╭┈ ❒ [ {0} ] : PREFIX\n╰   ⁞ ❏. {1}: {2}\n   📝 {3}\n━━━━━━━━━━━━━━━\n"
+  },
+  "m513": {
+    "ilo": "\nPanid: 『{0}/{1}』\n",
+    "ceb": "\nPahina: 『{0}/{1}』\n",
+    "hil": "\nPahina: 『{0}/{1}』\n"
+  },
+  "m514": {
+    "ilo": "🔢 Usarem: {0}help <panid> (1-{1})\n",
+    "ceb": "🔢 Gamita: {0}help <pahina> (1-{1})\n",
+    "hil": "🔢 Gamita: {0}help <pahina> (1-{1})\n"
+  },
+  "m515": {
+    "ilo": "📜 Usarem: {0}help all\n",
+    "ceb": "📜 Gamita: {0}help all\n",
+    "hil": "📜 Gamita: {0}help all\n"
+  },
+  "m516": {
+    "ilo": "ℹ️ Usarem: {0}help <command>\n\n",
+    "ceb": "ℹ️ Gamita: {0}help <command>\n\n",
+    "hil": "ℹ️ Gamita: {0}help <command>\n\n"
+  },
+  "m517": {
+    "ilo": "💡 {0}",
+    "ceb": "💡 {0}",
+    "hil": "💡 {0}"
+  },
+  "m518": {
+    "ilo": "❌ Saan a husto ti panid. Mabalin a panid: 1-{0}",
+    "ceb": "❌ Dili sakto ang pahina. Mga pahina: 1-{0}",
+    "hil": "❌ Indi husto ang pahina. Mga pahina: 1-{0}"
+  },
+  "m519": {
+    "ilo": " 「 IMPORMASION TI COMMAND 」\n\n",
+    "ceb": " 「 IMPORMASYON SA COMMAND 」\n\n",
+    "hil": " 「 IMPORMASYON SANG COMMAND 」\n\n"
+  },
+  "m520": {
+    "ilo": "➛ Nagan: {0}\n",
+    "ceb": "➛ Ngalan: {0}\n",
+    "hil": "➛ Ngalan: {0}\n"
+  },
+  "m521": {
+    "ilo": "➛ Bersion: {0}\n",
+    "ceb": "➛ Bersyon: {0}\n",
+    "hil": "➛ Bersyon: {0}\n"
+  },
+  "m522": {
+    "ilo": "➛ Kategoria: {0}\n",
+    "ceb": "➛ Kategorya: {0}\n",
+    "hil": "➛ Kategorya: {0}\n"
+  },
+  "m523": {
+    "ilo": "➛ Panangiladawan: {0}\n",
+    "ceb": "➛ Paghulagway: {0}\n",
+    "hil": "➛ Paglaragway: {0}\n"
+  },
+  "m524": {
+    "ilo": "➛ Pannakausar: {0}{1}\n",
+    "ceb": "➛ Paggamit: {0}{1}\n",
+    "hil": "➛ Paggamit: {0}{1}\n"
+  },
+  "m525": {
+    "ilo": "➛ Nangaramid: {0}\n",
+    "ceb": "➛ Mga naghimo: {0}\n",
+    "hil": "➛ Mga naghimo: {0}\n"
+  },
+  "m526": {
+    "ilo": "➛ Panagur-uray: {0} s\n\n",
+    "ceb": "➛ Panahon sa paghulat: {0} s\n\n",
+    "hil": "➛ Oras sang paghulat: {0} s\n\n"
+  },
+  "m527": {
+    "ilo": "❌ Saan a nasarakan ti command \"{0}\".",
+    "ceb": "❌ Wala makit-an ang command \"{0}\".",
+    "hil": "❌ Wala makita ang command \"{0}\"."
+  },
+  "m528": {
+    "ilo": "AMIN A COMMAND\n━━━━━━━━━━━━━━━\n",
+    "ceb": "TANANG COMMAND\n━━━━━━━━━━━━━━━\n",
+    "hil": "TANAN NGA COMMAND\n━━━━━━━━━━━━━━━\n"
+  },
+  "m529": {
+    "ilo": "\n📋 Amin a command: {0}\n",
+    "ceb": "\n📋 Tanang command: {0}\n",
+    "hil": "\n📋 Tanan nga command: {0}\n"
+  },
+  "m530": {
+    "ilo": "❌ Adda biddut iti panangikarga dagiti command.",
+    "ceb": "❌ Adunay sayop sa pagkarga sa mga command.",
+    "hil": "❌ May sala sa pagkarga sang mga command."
+  },
+  "m1164": {
+    "ilo": "╰┈➤ Usarem ang {0}help",
+    "ceb": "╰┈➤ Gamita ang {0}help",
+    "hil": "╰┈➤ Gamita ang {0}help"
+  },
+  "m1166": {
+    "ilo": "├ Prefix: {0}",
+    "ceb": "├ Prefix: {0}",
+    "hil": "├ Prefix: {0}"
+  },
+  "m1167": {
+    "ilo": "├ Panangusar: {0}help  ·  {1}ping",
+    "ceb": "├ Pananglitan: {0}help  ·  {1}ping",
+    "hil": "├ Pananglitan: {0}help  ·  {1}ping"
+  },
+  "m1168": {
+    "ilo": "[ MODE ] - Bot admin laeng ti mabalin nga agusar iti bot",
+    "ceb": "[ MODE ] - Bot admin lang ang makagamit sa bot",
+    "hil": "[ MODE ] - Bot admin lang ang makagamit sang bot"
+  },
+  "m1169": {
+    "ilo": "├ Saan a nasarakan ti command \"{0}\".",
+    "ceb": "├ Wala makit-an ang command \"{0}\".",
+    "hil": "├ Wala makita ang command \"{0}\"."
+  },
+  "m1170": {
+    "ilo": "├ Daytoy kadi ti kayat mo: {0}{1}?",
+    "ceb": "├ Mao ba ni ang imong pasabot: {0}{1}?",
+    "hil": "├ Amo bala ini ang buot mo silingon: {0}{1}?"
+  },
+  "wordDescription": {
+    "ilo": "Panangiladawan",
+    "ceb": "Paghulagway",
+    "hil": "Paglaragway"
+  },
+  "wordCategory": {
+    "ilo": "Kategoria",
+    "ceb": "Kategorya",
+    "hil": "Kategorya"
+  },
+  "wordUsage": {
+    "ilo": "Pannakausar",
+    "ceb": "Paggamit",
+    "hil": "Paggamit"
+  },
+  "wordCredits": {
+    "ilo": "Nangaramid",
+    "ceb": "Mga naghimo",
+    "hil": "Mga naghimo"
+  },
+  "wordPage": {
+    "ilo": "Panid",
+    "ceb": "Pahina",
+    "hil": "Pahina"
+  },
+  "wordName": {
+    "ilo": "Nagan",
+    "ceb": "Ngalan",
+    "hil": "Ngalan"
+  },
+  "wordTotal": {
+    "ilo": "Amin a command",
+    "ceb": "Tanang command",
+    "hil": "Tanan nga command"
+  },
+  "wordUnknown": {
+    "ilo": "Saan a nasarakan ti command",
+    "ceb": "Wala makit-an ang command",
+    "hil": "Wala makita ang command"
+  },
+  "wordGeneral": {
+    "ilo": "Sapasap",
+    "ceb": "Kinatibuk-an",
+    "hil": "Kabilugan"
+  },
+  "wordNoUsage": {
+    "ilo": "Awán ti naisurat a pannakausar",
+    "ceb": "Walay nakasaad nga paggamit",
+    "hil": "Wala sang nakasulat nga paggamit"
+  },
+  "wordNoDescription": {
+    "ilo": "Awán ti panangiladawan",
+    "ceb": "Walay paghulagway",
+    "hil": "Wala sang paglaragway"
+  },
+  "wordWaiting": {
+    "ilo": "Panagur-uray",
+    "ceb": "Panahon sa paghulat",
+    "hil": "Oras sang paghulat"
+  },
+  "m155": {
+    "ilo": "Kitaen ti balanse",
+    "ceb": "Tan-awa ang balanse",
+    "hil": "Tan-awa ang balanse"
+  },
+  "m476": {
+    "ilo": "Ipakita dagiti mabalin nga command",
+    "ceb": "Ipakita ang mga magamit nga command",
+    "hil": "Ipakita ang mga puwede nga command"
+  },
+  "m477": {
+    "ilo": "[nagan ti command] wenno [amin] wenno [panid]",
+    "ceb": "[ngalan sa command] o [tanan] o [pahina]",
+    "hil": "[ngalan sang command] ukon [tanan] ukon [pahina]"
+  },
+  "m1": {
+    "ilo": "Ikabil ti code manipud buildtooldev ken pastebin",
+    "ceb": "Ibutang ang code gikan sa buildtooldev ug pastebin",
+    "hil": "Ibutang ang code halin sa buildtooldev kag pastebin"
+  },
+  "m13": {
+    "ilo": "Manginayon iti user iti grupo babaen ti ID",
+    "ceb": "Idugang ang user sa grupo pinaagi sa ID",
+    "hil": "Idugang ang user sa grupo paagi sa ID"
+  },
+  "m25": {
+    "ilo": "Dagiti setting ti admin",
+    "ceb": "Mga setting sa admin",
+    "hil": "Mga setting sang admin"
+  },
+  "m44": {
+    "ilo": "Ikabil wenno ikkaten ti AFK status",
+    "ceb": "Ibutang o tangtangon ang AFK status",
+    "hil": "Ibutang ukon kuhaon ang AFK status"
+  },
+  "m53": {
+    "ilo": "Agdamag iti AI — padasenna dagiti provider agingga a masungbatan",
+    "ceb": "Pangutan-a ang AI — mosulay kini og mga provider hangtod adunay motubag",
+    "hil": "Pamangkuta ang AI — magtilaw ini sang mga provider tubtob may magsabat"
+  },
+  "m79": {
+    "ilo": "Padasen dagiti API endpoint ken ipakita ti sungbat",
+    "ceb": "Sulayi ang API endpoints ug ipakita ang tubag",
+    "hil": "Tilawi ang API endpoints kag ipakita ang sabat"
+  },
+  "m93": {
+    "ilo": "Automatiko nga ag-download kadagiti video ti TikTok, Facebook, Instagram ken Pinterest",
+    "ceb": "Awtomatikong i-download ang mga video sa TikTok, Facebook, Instagram ug Pinterest",
+    "hil": "Awtomatiko nga i-download ang mga video sa TikTok, Facebook, Instagram kag Pinterest"
+  },
+  "m122": {
+    "ilo": "Automatiko a sistema ti reaction",
+    "ceb": "Awtomatikong sistema sa reaction",
+    "hil": "Awtomatiko nga sistema sang reaction"
+  },
+  "m132": {
+    "ilo": "Mangaramid iti auto reply para iti maysa a mensahe",
+    "ceb": "Paghimo og awtomatikong tubag sa usa ka mensahe",
+    "hil": "Paghimo sang awtomatiko nga sabat sa isa ka mensahe"
+  },
+  "m149": {
+    "ilo": "I-on wenno i-off ti automatiko a panagbasa kadagiti baro a mensahe",
+    "ceb": "I-on o i-off ang awtomatikong pagbasa sa bag-ong mga mensahe",
+    "hil": "I-on ukon i-off ang awtomatiko nga pagbasa sang bag-o nga mga mensahe"
+  },
+  "m271": {
+    "ilo": "Bilangen dagiti mensahe",
+    "ceb": "Ihap ang mga mensahe",
+    "hil": "Isipa ang mga mensahe"
+  },
+  "m367": {
+    "ilo": "Ipakita dagiti estadistika ti grupo",
+    "ceb": "Ipakita ang estadistika sa grupo",
+    "hil": "Ipakita ang estadistika sang grupo"
+  },
+  "m382": {
+    "ilo": "Inaldaw a gungguna",
+    "ceb": "Adlaw-adlaw nga ganti",
+    "hil": "Adlaw-adlaw nga balos"
+  },
+  "m730": {
+    "ilo": "I-tag amin a miyembro",
+    "ceb": "I-tag ang tanang miyembro",
+    "hil": "I-tag ang tanan nga miyembro"
+  },
+  "m758": {
+    "ilo": "Automatiko a panangsungbat kadagiti damag maipapan iti prefix",
+    "ceb": "Awtomatikong tubag sa pangutana bahin sa prefix",
+    "hil": "Awtomatiko nga sabat sa pamangkot parte sa prefix"
+  },
+  "m787": {
+    "ilo": "I-restart ti bot",
+    "ceb": "I-restart ang bot",
+    "hil": "I-restart ang bot"
+  },
+  "m887": {
+    "ilo": "Ipakita ti kasasaad ti sistema ken memorya",
+    "ceb": "Ipakita ang kahimtang sa sistema ug memorya",
+    "hil": "Ipakita ang kahimtangan sang sistema kag memorya"
+  },
+  "m1080": {
+    "ilo": "Agtrabaho tapno agsapul iti kuarta",
+    "ceb": "Pagtrabaho aron makakwarta",
+    "hil": "Pagtrabaho agod makakwarta"
+  },
+  "m158": {
+    "ilo": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Balansem: {0} 💰",
+    "ceb": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Imong balanse: {0} 💰",
+    "hil": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Imo balanse: {0} 💰"
+  },
+  "m159": {
+    "ilo": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ User: {0}\n╰┈➤ Balanse: {1} 💰",
+    "ceb": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ User: {0}\n╰┈➤ Balanse: {1} 💰",
+    "hil": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ User: {0}\n╰┈➤ Balanse: {1} 💰"
+  },
+  "m372": {
+    "ilo": "💬 Mensahe: {0}",
+    "ceb": "💬 Mga mensahe: {0}",
+    "hil": "💬 Mga mensahe: {0}"
+  },
+  "m373": {
+    "ilo": "👑 Admin: {0}",
+    "ceb": "👑 Mga admin: {0}",
+    "hil": "👑 Mga admin: {0}"
+  },
+  "m374": {
+    "ilo": "👥 Miyembro: {0}",
+    "ceb": "👥 Mga miyembro: {0}",
+    "hil": "👥 Mga miyembro: {0}"
+  },
+  "m375": {
+    "ilo": "👨 Lalaki: {0}",
+    "ceb": "👨 Lalaki: {0}",
+    "hil": "👨 Lalaki: {0}"
+  },
+  "m376": {
+    "ilo": "👩 Babai: {0}",
+    "ceb": "👩 Babaye: {0}",
+    "hil": "👩 Babayi: {0}"
+  },
+  "m377": {
+    "ilo": "🏳️ Dadduma: {0}",
+    "ceb": "🏳️ Uban pa: {0}",
+    "hil": "🏳️ Iban pa: {0}"
+  },
+  "m378": {
+    "ilo": "🏘️ Amin a grupo: {0}",
+    "ceb": "🏘️ Tanang grupo: {0}",
+    "hil": "🏘️ Tanan nga grupo: {0}"
+  },
+  "m379": {
+    "ilo": "👤 Amin a user: {0}",
+    "ceb": "👤 Tanang user: {0}",
+    "hil": "👤 Tanan nga user: {0}"
+  },
+  "m380": {
+    "ilo": "❌ Saan a husto ti pinili",
+    "ceb": "❌ Dili sakto ang gipili",
+    "hil": "❌ Indi husto ang ginpili"
+  },
+  "m383": {
+    "ilo": "Saan a nasarakan ti database",
+    "ceb": "Wala makit-i ang database",
+    "hil": "Wala makita ang database"
+  },
+  "m384": {
+    "ilo": "╭┈ ❒ [ DAILY ❌ ]\n╰┈➤ Naalamon ti gungguna\n╰┈➤ Agsubli kalpasan ti {0}h {1}m",
+    "ceb": "╭┈ ❒ [ DAILY ❌ ]\n╰┈➤ Nakuha na ang ganti\n╰┈➤ Balik human sa {0}h {1}m",
+    "hil": "╭┈ ❒ [ DAILY ❌ ]\n╰┈➤ Nakuha mo na ang balos\n╰┈➤ Balik pagkatapos sang {0}h {1}m"
+  },
+  "m385": {
+    "ilo": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Alaen ti gungguna...",
+    "ceb": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Gikuha ang ganti...",
+    "hil": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Ginakuha ang balos..."
+  },
+  "m386": {
+    "ilo": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Isagsagana ti gungguna...\n╰┈➤ Ikabil ti bonus...",
+    "ceb": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Giandam ang ganti...\n╰┈➤ Gidugang ang bonus...",
+    "hil": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Ginaaman ang balos...\n╰┈➤ Ginadugang ang bonus..."
+  },
+  "m387": {
+    "ilo": "╭┈ ❒ [ DAILY REWARD ✅ ]\n╰┈➤ Gungguna: +{0} 💰\n╰┈➤ Bonus: +{1} manipud Jonell Bembangan Corporation ✨\n╰┈➤ Balanse: {2} 🏦",
+    "ceb": "╭┈ ❒ [ DAILY REWARD ✅ ]\n╰┈➤ Ganti: +{0} 💰\n╰┈➤ Bonus: +{1} gikan sa Jonell Bembangan Corporation ✨\n╰┈➤ Balanse: {2} 🏦",
+    "hil": "╭┈ ❒ [ DAILY REWARD ✅ ]\n╰┈➤ Balos: +{0} 💰\n╰┈➤ Bonus: +{1} halin sa Jonell Bembangan Corporation ✨\n╰┈➤ Balanse: {2} 🏦"
+  },
+  "m734": {
+    "ilo": "📢 Dumngeg amin!",
+    "ceb": "📢 Paminaw ang tanan!",
+    "hil": "📢 Pamati ang tanan!"
+  },
+  "m735": {
+    "ilo": "╭┈ ❒ [ PING 📢 ]\n╰┈➤ Ay-ayaban amin a miyembro...\n\n{0}",
+    "ceb": "╭┈ ❒ [ PING 📢 ]\n╰┈➤ Gitawag ang tanang miyembro...\n\n{0}",
+    "hil": "╭┈ ❒ [ PING 📢 ]\n╰┈➤ Ginatawag ang tanan nga miyembro...\n\n{0}"
+  },
+  "m736": {
+    "ilo": "╭┈ ❒ [ PING ❌ ]\n╰┈➤ Saan a na-tag dagiti miyembro",
+    "ceb": "╭┈ ❒ [ PING ❌ ]\n╰┈➤ Wala ma-tag ang mga miyembro",
+    "hil": "╭┈ ❒ [ PING ❌ ]\n╰┈➤ Wala ma-tag ang mga miyembro"
+  },
+  "m5": {
+    "ilo": "╭┈ ❒ [ ADC ⏳ ]\n├ Isagsagana...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ ADC ⏳ ]\n├ Giproseso...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ ADC ⏳ ]\n├ Ginaproseso...\n╰┈➤ palihog hulat"
+  },
+  "m16": {
+    "ilo": "╭┈ ❒ [ ADDUSER ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ ADDUSER ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ ADDUSER ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m36": {
+    "ilo": "╭┈ ❒ [ ADMIN ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ ADMIN ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ ADMIN ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m50": {
+    "ilo": "╭┈ ❒ [ AFK ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ AFK ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ AFK ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m83": {
+    "ilo": "╭┈ ❒ [ APITEST ⏳ ]\n├ Padasen ti endpoint...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ APITEST ⏳ ]\n├ Gisulayan ang endpoint...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ APITEST ⏳ ]\n├ Ginatilawan ang endpoint...\n╰┈➤ palihog hulat"
+  },
+  "m125": {
+    "ilo": "╭┈ ❒ [ AUTOREACT ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ AUTOREACT ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ AUTOREACT ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m136": {
+    "ilo": "╭┈ ❒ [ AUTOREP ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ AUTOREP ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ AUTOREP ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m157": {
+    "ilo": "╭┈ ❒ [ BALANCE ⏳ ]\n├ Isagsagana...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ BALANCE ⏳ ]\n├ Giproseso...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ BALANCE ⏳ ]\n├ Ginaproseso...\n╰┈➤ palihog hulat"
+  },
+  "m175": {
+    "ilo": "╭┈ ❒ [ BAN ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ BAN ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ BAN ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m193": {
+    "ilo": "╭┈ ❒ [ BLUR ⏳ ]\n├ Isagsagana ti avatar...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ BLUR ⏳ ]\n├ Giandam ang avatar...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ BLUR ⏳ ]\n├ Ginaaman ang avatar...\n╰┈➤ palihog hulat"
+  },
+  "m202": {
+    "ilo": "╭┈ ❒ [ BRAT {0} 🎬 ]\n╰┈➤ Aramiden...\n╰┈➤ Urayem man...",
+    "ceb": "╭┈ ❒ [ BRAT {0} 🎬 ]\n╰┈➤ Gihimo...\n╰┈➤ Palihug paghulat...",
+    "hil": "╭┈ ❒ [ BRAT {0} 🎬 ]\n╰┈➤ Ginahimo...\n╰┈➤ Palihog hulat..."
+  },
+  "m211": {
+    "ilo": "╭┈ ❒ [ BUTTON ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ BUTTON ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ BUTTON ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m220": {
+    "ilo": "╭┈ ❒ [ CALLAD ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ CALLAD ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ CALLAD ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m274": {
+    "ilo": "╭┈ ❒ [ CHECKTT ⏳ ]\n├ Ipatulod...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ CHECKTT ⏳ ]\n├ Gipadala...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ CHECKTT ⏳ ]\n├ Ginapadala...\n╰┈➤ palihog hulat"
+  },
+  "m364": {
+    "ilo": "╭┈ ❒ [ COUNT ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ COUNT ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ COUNT ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m370": {
+    "ilo": "╭┈ ❒ [ COUNTMEM ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ COUNTMEM ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ COUNTMEM ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m396": {
+    "ilo": "╭┈ ❒ [ DISCORD ⏳ ]\n├ Aramiden ti mensahe...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ DISCORD ⏳ ]\n├ Gihimo ang mensahe...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ DISCORD ⏳ ]\n├ Ginahimo ang mensahe...\n╰┈➤ palihog hulat"
+  },
+  "m403": {
+    "ilo": "╭┈ ❒ [ EDIT ⏳ ]\n├ Ipatulod...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ EDIT ⏳ ]\n├ Gipadala...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ EDIT ⏳ ]\n├ Ginapadala...\n╰┈➤ palihog hulat"
+  },
+  "m444": {
+    "ilo": "╭┈ ❒ [ EVAL ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ EVAL ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ EVAL ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m450": {
+    "ilo": "╭┈ ❒ [ FLIP ⏳ ]\n├ Ipatulid...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ FLIP ⏳ ]\n├ Gipaligid...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ FLIP ⏳ ]\n├ Ginaligid...\n╰┈➤ palihog hulat"
+  },
+  "m465": {
+    "ilo": "╭┈ ❒ [ GETLINK ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ GETLINK ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ GETLINK ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m469": {
+    "ilo": "╭┈ ❒ [ GP ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ GP ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ GP ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m535": {
+    "ilo": "╭┈ ❒ [ IDST ⏳ ]\n├ Ipatulod...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ IDST ⏳ ]\n├ Gipadala...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ IDST ⏳ ]\n├ Ginapadala...\n╰┈➤ palihog hulat"
+  },
+  "m541": {
+    "ilo": "╭┈ ❒ [ KICK ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ KICK ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ KICK ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m563": {
+    "ilo": "╭┈ ❒ [ LYRICS ⏳ ]\n├ Sapsapulen ti lyrics...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ LYRICS ⏳ ]\n├ Gipangita ang lyrics...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ LYRICS ⏳ ]\n├ Ginapangita ang lyrics...\n╰┈➤ palihog hulat"
+  },
+  "m586": {
+    "ilo": "╭┈ ❒ [ MEMBER ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ MEMBER ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ MEMBER ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m612": {
+    "ilo": "⏳ Music command is in cooldown. Please wait {0} seconds.",
+    "ceb": "⏳ Music command is in cooldown. Please wait {0} seconds.",
+    "hil": "⏳ Music command is in cooldown. Please wait {0} seconds."
+  },
+  "m615": {
+    "ilo": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Idadownload...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Gina-download...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Gina-download...\n╰┈➤ palihog hulat"
+  },
+  "m621": {
+    "ilo": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Aramiden a video...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Gihimong video...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Ginahimo nga video...\n╰┈➤ palihog hulat"
+  },
+  "m634": {
+    "ilo": "╭┈ ❒ [ NOTE ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ NOTE ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ NOTE ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m688": {
+    "ilo": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ 🔄 Sapsapulen ti user...\n╰┈➤ Urayem man...",
+    "ceb": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ 🔄 Gipangita ang user...\n╰┈➤ Palihug paghulat...",
+    "hil": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ 🔄 Ginapangita ang user...\n╰┈➤ Palihog hulat..."
+  },
+  "m706": {
+    "ilo": "╭┈ ❒ [ PENDING ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ PENDING ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ PENDING ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m720": {
+    "ilo": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Alaen ti video...\n╰┈➤ Urayem man...",
+    "ceb": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Gikuha ang video...\n╰┈➤ Palihug paghulat...",
+    "hil": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Ginakuha ang video...\n╰┈➤ Palihog hulat..."
+  },
+  "m733": {
+    "ilo": "╭┈ ❒ [ PING ⏳ ]\n├ Agtrabaho...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ PING ⏳ ]\n├ Nagtrabaho...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ PING ⏳ ]\n├ Nagatrabaho...\n╰┈➤ palihog hulat"
+  },
+  "m754": {
+    "ilo": "╭┈ ❒ [ POLI ⏳ ]\n├ Aramiden...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ POLI ⏳ ]\n├ Gihimo...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ POLI ⏳ ]\n├ Ginahimo...\n╰┈➤ palihog hulat"
+  },
+  "m772": {
+    "ilo": "╭┈ ❒ [ PREFIX ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ PREFIX ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ PREFIX ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m776": {
+    "ilo": "╭┈ ❒ [ QUOTE ⏳ ]\n├ Aramiden ti quote...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ QUOTE ⏳ ]\n├ Gihimo ang quote...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ QUOTE ⏳ ]\n├ Ginahimo ang quote...\n╰┈➤ palihog hulat"
+  },
+  "m797": {
+    "ilo": "╭┈ ❒ [ RPS ⏳ ]\n├ Ipatulid...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ RPS ⏳ ]\n├ Gipaligid...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ RPS ⏳ ]\n├ Ginaligid...\n╰┈➤ palihog hulat"
+  },
+  "m807": {
+    "ilo": "╭┈ ❒ [ SENDNOTI ⏳ ]\n├ Ipatulod...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SENDNOTI ⏳ ]\n├ Gipadala...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SENDNOTI ⏳ ]\n├ Ginapadala...\n╰┈➤ palihog hulat"
+  },
+  "m814": {
+    "ilo": "╭┈ ❒ [ SETMONEY ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SETMONEY ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SETMONEY ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m825": {
+    "ilo": "╭┈ ❒ [ SHELL ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SHELL ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SHELL ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m834": {
+    "ilo": "╭┈ ❒ [ SHIP ⏳ ]\n├ Pagsilpuen...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SHIP ⏳ ]\n├ Gipasumpay...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SHIP ⏳ ]\n├ Ginapasumpay...\n╰┈➤ palihog hulat"
+  },
+  "m846": {
+    "ilo": "╭┈ ❒ [ SIM ⏳ ]\n├ Agpanpanunot...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SIM ⏳ ]\n├ Naghunahuna...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SIM ⏳ ]\n├ Nagahunahuna...\n╰┈➤ palihog hulat"
+  },
+  "m869": {
+    "ilo": "⏳ Urayem man...",
+    "ceb": "⏳ Palihug paghulat...",
+    "hil": "⏳ Palihog hulat..."
+  },
+  "m872": {
+    "ilo": "╭┈ ❒ [ SLOT ⏳ ]\n├ Agliklik...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SLOT ⏳ ]\n├ Gipatuyok...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SLOT ⏳ ]\n├ Ginapatuyok...\n╰┈➤ palihog hulat"
+  },
+  "m881": {
+    "ilo": "╭┈ ❒ [ SPOTIFY ⏳ ]\n├ Sapsapulen...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SPOTIFY ⏳ ]\n├ Gipangita...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SPOTIFY ⏳ ]\n├ Ginapangita...\n╰┈➤ palihog hulat"
+  },
+  "m890": {
+    "ilo": "╭┈ ❒ [ STATS ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ STATS ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ STATS ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m900": {
+    "ilo": "╭┈ ❒ [ SUPREME ⏳ ]\n├ Aramiden ti ladawan...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ SUPREME ⏳ ]\n├ Gihimo ang hulagway...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ SUPREME ⏳ ]\n├ Ginahimo ang larawan...\n╰┈➤ palihog hulat"
+  },
+  "m908": {
+    "ilo": "╭┈ ❒ [ TID ⏳ ]\n├ Alaen ti impormasyon ti grupo...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ TID ⏳ ]\n├ Gikuha ang impormasyon sa grupo...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ TID ⏳ ]\n├ Ginakuha ang impormasyon sang grupo...\n╰┈➤ palihog hulat"
+  },
+  "m917": {
+    "ilo": "╭┈ ❒ [ TIKSTALK ⏳ ]\n├ Alaen ti profile...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ TIKSTALK ⏳ ]\n├ Gikuha ang profile...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ TIKSTALK ⏳ ]\n├ Ginakuha ang profile...\n╰┈➤ palihog hulat"
+  },
+  "m951": {
+    "ilo": "╭┈ ❒ [ UID ⏳ ]\n├ Isagsagana...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ UID ⏳ ]\n├ Giproseso...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ UID ⏳ ]\n├ Ginaproseso...\n╰┈➤ palihog hulat"
+  },
+  "m960": {
+    "ilo": "╭┈ ❒ [ UNSEND ⏳ ]\n├ Ipatulod...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ UNSEND ⏳ ]\n├ Gipadala...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ UNSEND ⏳ ]\n├ Ginapadala...\n╰┈➤ palihog hulat"
+  },
+  "m966": {
+    "ilo": "╭┈ ❒ [ UPT ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ UPT ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ UPT ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m997": {
+    "ilo": "╭┈ ❒ [ USER ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ USER ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ USER ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m1035": {
+    "ilo": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Idadownload...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Gina-download...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Gina-download...\n╰┈➤ palihog hulat"
+  },
+  "m1038": {
+    "ilo": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Sapsapulen...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Gipangita...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Ginapangita...\n╰┈➤ palihog hulat"
+  },
+  "m1045": {
+    "ilo": "╭┈ ❒ [ WARN ⏳ ]\n├ Ipatpatungpal...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ WARN ⏳ ]\n├ Gipatuman...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ WARN ⏳ ]\n├ Ginapatuman...\n╰┈➤ palihog hulat"
+  },
+  "m1064": {
+    "ilo": "╭┈ ❒ [ WEATHER ⏳ ]\n├ Alaen ti impormasyon ti paniempo...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ WEATHER ⏳ ]\n├ Gikuha ang impormasyon sa panahon...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ WEATHER ⏳ ]\n├ Ginakuha ang impormasyon sang panahon...\n╰┈➤ palihog hulat"
+  },
+  "m1088": {
+    "ilo": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Agtartrabaho a nalaing...\n╰┈➤ Urayem man...",
+    "ceb": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Nagtrabaho pag-ayo...\n╰┈➤ Palihug paghulat...",
+    "hil": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Nagatrabaho sing maayo...\n╰┈➤ Palihog hulat..."
+  },
+  "m1096": {
+    "ilo": "╭┈ ❒ [ WQ ⏳ ]\n├ Aramiden ti ladawan...\n╰┈➤ urayem man",
+    "ceb": "╭┈ ❒ [ WQ ⏳ ]\n├ Gihimo ang hulagway...\n╰┈➤ palihug paghulat",
+    "hil": "╭┈ ❒ [ WQ ⏳ ]\n├ Ginahimo ang larawan...\n╰┈➤ palihog hulat"
+  },
+  "m1145": {
+    "ilo": "naikkat",
+    "ceb": "gitangtang",
+    "hil": "ginpahalin"
+  },
+  "m1146": {
+    "ilo": "pinilina a pumanaw",
+    "ceb": "mibiya sa kaugalingon",
+    "hil": "naghalin sa iya kaugalingon"
+  },
+  "m1147": {
+    "ilo": "Naikkat : Pumanaw",
+    "ceb": "Gitangtang : Mibiya",
+    "hil": "Ginpahalin : Naghalin"
+  },
+  "m1148": {
+    "ilo": "Pimmana iti grupo",
+    "ceb": "Mibiya sa grupo",
+    "hil": "Naghalin sa grupo"
+  },
+  "m1149": {
+    "ilo": "🚪 Naikkat ni {0} manipud iti daytoy a grupo | Gapu: {1} | 👥 Nabati a miyembro: {2}",
+    "ceb": "🚪 Wala na si {0} sa grupong chat | Rason: {1} | 👥 Nabilin nga miyembro: {2}",
+    "hil": "🚪 Wala na si {0} sa sini nga grupo | Rason: {1} | 👥 Nabilin nga miyembro: {2}"
+  },
+  "m1150": {
+    "ilo": "Naimbag a rabii",
+    "ceb": "Maayong gabii",
+    "hil": "Maayong gab-i"
+  },
+  "m1151": {
+    "ilo": "Naimbag a bigat",
+    "ceb": "Maayong buntag",
+    "hil": "Maayong aga"
+  },
+  "m1152": {
+    "ilo": "Naimbag a malem",
+    "ceb": "Maayong hapon",
+    "hil": "Maayong hapon"
+  },
+  "m1153": {
+    "ilo": "╭┈ ❒ [ PANAGUR-URAY ✅ ]",
+    "ceb": "╭┈ ❒ [ PAGHULAT ✅ ]",
+    "hil": "╭┈ ❒ [ PAGHULAT ✅ ]"
+  },
+  "m1154": {
+    "ilo": "├ Mabalinmon nga usaren ti {0}{1}",
+    "ceb": "├ Magamit na ang {0}{1}",
+    "hil": "├ Mahimo na gamiton ang {0}{1}"
+  },
+  "m1155": {
+    "ilo": "╰┈➤ Ituloymon",
+    "ceb": "╰┈➤ Padayon na",
+    "hil": "╰┈➤ Padayon na"
+  },
+  "m1156": {
+    "ilo": "╭┈ ❒ [ PANAGUR-URAY ⏳ ]",
+    "ceb": "╭┈ ❒ [ PAGHULAT ⏳ ]",
+    "hil": "╭┈ ❒ [ PAGHULAT ⏳ ]"
+  },
+  "m1157": {
+    "ilo": "├ Agur-uray pay ti {0}{1}",
+    "ceb": "├ Kinahanglan pa maghulat ang {0}{1}",
+    "hil": "├ Kinahanglan pa maghulat ang {0}{1}"
+  },
+  "m1158": {
+    "ilo": "├ {0}  {1}s ti nabati",
+    "ceb": "├ {0}  {1}s ang nahibilin",
+    "hil": "├ {0}  {1}s ang nabilin"
+  },
+  "m1159": {
+    "ilo": "╰┈➤ Baliwak daytoy no mabalinmon",
+    "ceb": "╰┈➤ Usbon ko kini kung magamit na",
+    "hil": "╰┈➤ Ilisan ko ini kon magamit na"
+  }
+}

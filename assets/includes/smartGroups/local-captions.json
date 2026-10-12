@@ -1,0 +1,204 @@
+[
+  {
+    "id": "love",
+    "keywords": [
+      "love",
+      "pag ibig",
+      "pag-ibig",
+      "mahal",
+      "gugma",
+      "palangga",
+      "ayat"
+    ],
+    "replies": {
+      "en": [
+        "With you, ordinary days feel special.",
+        "A little love in every moment."
+      ],
+      "tl": [
+        "Sa piling mo, espesyal ang ordinaryong araw.",
+        "Pagmamahal sa bawat munting sandali."
+      ],
+      "ilo": [
+        "Kadua ka, naisangsangayan ti ordinaryo nga aldaw.",
+        "Ayat iti tunggal bassit a kanito."
+      ],
+      "ceb": [
+        "Uban nimo, espesyal ang ordinaryong adlaw.",
+        "Gugma sa matag gamay nga higayon."
+      ],
+      "hil": [
+        "Upod ka, espesyal ang ordinaryo nga adlaw.",
+        "Gugma sa kada gamay nga tion."
+      ]
+    }
+  },
+  {
+    "id": "family",
+    "keywords": [
+      "family",
+      "pamilya",
+      "pamilia"
+    ],
+    "replies": {
+      "en": [
+        "My favorite place is wherever my family is.",
+        "Home is made of the people we love."
+      ],
+      "tl": [
+        "Kung nasaan ang pamilya, naroon ang tahanan.",
+        "Mga taong dahilan ng aking pagbangon."
+      ],
+      "ilo": [
+        "No sadino ti pamilia, adda sadiay ti pagtaengan.",
+        "Dagiti ay-ayaten, isu ti pigsa iti inaldaw."
+      ],
+      "ceb": [
+        "Asa ang pamilya, didto ang panimalay.",
+        "Ang akong mga hinungdan sa pagpadayon."
+      ],
+      "hil": [
+        "Kon diin ang pamilya, didto ang puluy-an.",
+        "Ang akon mga rason sa pagpadayon."
+      ]
+    }
+  },
+  {
+    "id": "friends",
+    "keywords": [
+      "friends",
+      "friendship",
+      "barkada",
+      "kaibigan",
+      "amigo",
+      "amiga",
+      "abyan",
+      "gayyem"
+    ],
+    "replies": {
+      "en": [
+        "Small plans, big laughs.",
+        "Good company makes the best memories."
+      ],
+      "tl": [
+        "Simpleng lakad, walang katapusang tawanan.",
+        "Magandang samahan, magagandang alaala."
+      ],
+      "ilo": [
+        "Simple a pannakikadua, adu a katawa.",
+        "Nasayaat a gagayyem, napintas a lagip."
+      ],
+      "ceb": [
+        "Yano nga laag, daghang katawa.",
+        "Maayong kauban, nindot nga handumanan."
+      ],
+      "hil": [
+        "Simple nga lagaw, madamo nga kadlaw.",
+        "Maayo nga mga kaupod, matahom nga handumanan."
+      ]
+    }
+  },
+  {
+    "id": "travel",
+    "keywords": [
+      "travel",
+      "beach",
+      "dagat",
+      "bakasyon",
+      "vacation",
+      "la ag",
+      "laag",
+      "lagaw",
+      "baybay"
+    ],
+    "replies": {
+      "en": [
+        "A little pause, a new view.",
+        "Collecting moments along the way."
+      ],
+      "tl": [
+        "Sandaling pahinga, bagong tanawin.",
+        "Bawat lakad, may bagong alaala."
+      ],
+      "ilo": [
+        "Bassit a panaginana, baro a buya.",
+        "Tunggal panagpagpagna, baro a lagip."
+      ],
+      "ceb": [
+        "Gamay nga pahulay, bag-ong talan-awon.",
+        "Matag laag, bag-ong handumanan."
+      ],
+      "hil": [
+        "Gamay nga pahuway, bag-o nga talan-awon.",
+        "Kada lagaw, bag-o nga handumanan."
+      ]
+    }
+  },
+  {
+    "id": "study",
+    "keywords": [
+      "study",
+      "school",
+      "student",
+      "aral",
+      "tuon",
+      "adal",
+      "graduation"
+    ],
+    "replies": {
+      "en": [
+        "Learning one step at a time.",
+        "Today's small effort is tomorrow's progress."
+      ],
+      "tl": [
+        "Paunti-unti, may natututuhan.",
+        "Maliit na pagsisikap ngayon, pag-unlad bukas."
+      ],
+      "ilo": [
+        "Tunggal addang, adda masursuro.",
+        "Bassit a panagregget ita, panagdur-as inton bigat."
+      ],
+      "ceb": [
+        "Hinay-hinay, naay nakat-onan.",
+        "Gamay nga paningkamot karon, pag-uswag ugma."
+      ],
+      "hil": [
+        "Amat-amat, may natun-an.",
+        "Gamay nga pagpanikasog subong, pag-uswag buwas."
+      ]
+    }
+  },
+  {
+    "id": "self",
+    "keywords": [
+      "self",
+      "selfie",
+      "myself",
+      "sarili",
+      "kaugalingon",
+      "bagik"
+    ],
+    "replies": {
+      "en": [
+        "Growing at my own pace.",
+        "A small step forward still counts."
+      ],
+      "tl": [
+        "Umuusad sa sarili kong bilis.",
+        "Kahit maliit na hakbang, pag-usad pa rin."
+      ],
+      "ilo": [
+        "Agdur-asak iti bukodko a katulin.",
+        "Uray bassit nga addang, panagdur-as latta."
+      ],
+      "ceb": [
+        "Nag-uswag sa akong kaugalingong dagan.",
+        "Bisan gamay nga lakang, pag-uswag gihapon."
+      ],
+      "hil": [
+        "Nagauswag sa akon kaugalingon nga kadalag-an.",
+        "Bisan gamay nga tikang, pag-uswag gihapon."
+      ]
+    }
+  }
+]

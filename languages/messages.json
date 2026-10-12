@@ -1,0 +1,5083 @@
+{
+  "m1": {
+    "source": "Apply code from buildtooldev and pastebin",
+    "en": "Apply code from buildtooldev and pastebin",
+    "tl": "Maglagay ng code mula sa buildtooldev at pastebin"
+  },
+  "m2": {
+    "source": "[reply or text]",
+    "en": "[reply or text]",
+    "tl": "[reply o teksto]"
+  },
+  "m3": {
+    "source": "Please reply to the link you want to apply the code to or write the file name to upload the code to pastebin!",
+    "en": "Please reply to the link you want to apply the code to or write the file name to upload the code to pastebin!",
+    "tl": "I-reply ang link ng code na ilalagay, o ilagay ang pangalan ng file na ia-upload sa pastebin!"
+  },
+  "m5": {
+    "source": "╭┈ ❒ [ ADC ⏳ ]\n├ Processing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ ADC ⏳ ]\n├ Processing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ ADC ⏳ ]\n├ Pinoproseso...\n╰┈➤ pakihintay"
+  },
+  "m6": {
+    "source": "Command {0} does not exist!.",
+    "en": "Command {0} does not exist!.",
+    "tl": "Walang command na {0}!"
+  },
+  "m7": {
+    "source": "Code applied {0}.js, use command load to use!",
+    "en": "Code applied {0}.js, use command load to use!",
+    "tl": "Nailagay ang code sa {0}.js. Gamitin ang command load para magamit ito!"
+  },
+  "m8": {
+    "source": "Please only reply to the link (contains nothing but links)",
+    "en": "Please only reply to the link (contains nothing but links)",
+    "tl": "Link lamang ang i-reply; huwag isama ang ibang teksto."
+  },
+  "m9": {
+    "source": "An error occurred while applying the new code to \"{0}.js\".",
+    "en": "An error occurred while applying the new code to \"{0}.js\".",
+    "tl": "❌ Nagkaproblema sa paglalagay ng bagong code sa \"{0}.js\"."
+  },
+  "m10": {
+    "source": "Added this code \"{0}.js\", use command load to use!",
+    "en": "Added this code \"{0}.js\", use command load to use!",
+    "tl": "Naidagdag ang code sa \"{0}.js\". Gamitin ang command load para magamit ito!"
+  },
+  "m11": {
+    "source": "Added this code \"{0}.js\" If an error occurs, change the drive file to txt!",
+    "en": "Added this code \"{0}.js\" If an error occurs, change the drive file to txt!",
+    "tl": "Naidagdag ang code sa \"{0}.js\". Kung may error, gawing txt ang file sa Drive!"
+  },
+  "m13": {
+    "source": "Add user to group by id",
+    "en": "Add user to group by id",
+    "tl": "Magdagdag ng miyembro sa GC gamit ang ID"
+  },
+  "m16": {
+    "source": "╭┈ ❒ [ ADDUSER ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ ADDUSER ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ ADDUSER ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m17": {
+    "source": "Please enter an id/link profile user to add.",
+    "en": "Please enter an id/link profile user to add.",
+    "tl": "Ilagay ang ID o profile link ng taong idadagdag."
+  },
+  "m18": {
+    "source": "User ID not found.",
+    "en": "User ID not found.",
+    "tl": "Hindi nakita ang user ID."
+  },
+  "m19": {
+    "source": "Facebook users",
+    "en": "Facebook users",
+    "tl": "Mga gumagamit ng Facebook"
+  },
+  "m20": {
+    "source": "{0} is already in the group.",
+    "en": "{0} is already in the group.",
+    "tl": "Nasa GC na si {0}."
+  },
+  "m21": {
+    "source": "Can't add {0} in group.",
+    "en": "Can't add {0} in group.",
+    "tl": "❌ Hindi maidagdag si {0} sa GC."
+  },
+  "m22": {
+    "source": "Added {0} to the approved list !",
+    "en": "Added {0} to the approved list !",
+    "tl": "Naidagdag si {0} sa listahan ng mga naaprubahan!"
+  },
+  "m23": {
+    "source": "Added {0} to the group !",
+    "en": "Added {0} to the group !",
+    "tl": "Naidagdag si {0} sa GC!"
+  },
+  "m25": {
+    "source": "Admin Settings",
+    "en": "Admin Settings",
+    "tl": "Mga setting ng admin"
+  },
+  "m27": {
+    "source": "⚡️ Danh sách toàn bộ người điều hành bot: \n\n%1",
+    "en": "⚡️ List of all bot admins: \n\n%1",
+    "tl": "⚡️ Listahan ng lahat ng bot admin: \n\n%1"
+  },
+  "m28": {
+    "source": "⚡️ Bạn không đủ quyền hạn để có thể sử dụng chức năng \"%1\"",
+    "en": "⚡️ You do not have permission to use \"%1\"",
+    "tl": "⚡️ Wala kang pahintulot na gamitin ang \"%1\""
+  },
+  "m29": {
+    "source": "⚡️ Đã thêm %1 người dùng trở thành người điều hành bot:\n\n%2",
+    "en": "⚡️ Added %1 users as bot admins:\n\n%2",
+    "tl": "⚡️ Nadagdag ang %1 user bilang bot admin:\n\n%2"
+  },
+  "m30": {
+    "source": "⚡️Đã gỡ bỏ %1 người điều hành bot:\n\n%2",
+    "en": "⚡️ Removed %1 bot admins:\n\n%2",
+    "tl": "⚡️ Naalis ang %1 bot admin:\n\n%2"
+  },
+  "m31": {
+    "source": "[Admin] Admin list: \n\n%1",
+    "en": "[Admin] Admin list: \n\n%1",
+    "tl": "[Admin] Listahan ng mga admin:\n\n%1"
+  },
+  "m32": {
+    "source": "[Admin] You have no permission to use \"%1\"",
+    "en": "[Admin] You have no permission to use \"%1\"",
+    "tl": "[Admin] Wala kang pahintulot na gamitin ang \"%1\""
+  },
+  "m33": {
+    "source": "[Admin] Added %1 Admin :\n\n%2",
+    "en": "[Admin] Added %1 Admin :\n\n%2",
+    "tl": "[Admin] Naidagdag ang %1 admin:\n\n%2"
+  },
+  "m34": {
+    "source": "[Admin] Remove %1 Admin:\n\n%2",
+    "en": "[Admin] Remove %1 Admin:\n\n%2",
+    "tl": "[Admin] Inalis ang %1 admin:\n\n%2"
+  },
+  "m36": {
+    "source": "╭┈ ❒ [ ADMIN ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ ADMIN ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ ADMIN ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m38": {
+    "source": "Quyền lồn biên giới!",
+    "en": "You do not have permission!",
+    "tl": "❌ Wala kang pahintulot na gawin ito."
+  },
+  "m40": {
+    "source": "» Bật thành công admin only",
+    "en": "» Admin-only mode enabled",
+    "tl": "» Na-on na ang mode para sa bot admin lamang."
+  },
+  "m41": {
+    "source": "» Tắt thành công admin only",
+    "en": "» Admin-only mode disabled",
+    "tl": "» Na-off na ang mode para sa bot admin lamang."
+  },
+  "m42": {
+    "source": "» Tắt thành công chế độ admin (tất cả mọi người đều có thể sử dụng bot)",
+    "en": "» Admin mode disabled (everyone can use the bot)",
+    "tl": "» Na-off na ang admin mode. Lahat ay maaaring gumamit ng bot."
+  },
+  "m43": {
+    "source": "» Bật thành công chế độ admin (chỉ admin box mới có thể sử dụng bot)",
+    "en": "» Admin mode enabled (only group admins can use the bot)",
+    "tl": "» Na-on na ang admin mode. Mga admin lamang ng GC ang maaaring gumamit ng bot."
+  },
+  "m44": {
+    "source": "Set or remove AFK status",
+    "en": "Set or remove AFK status",
+    "tl": "Ilagay o alisin ang AFK status"
+  },
+  "m45": {
+    "source": "[reason]",
+    "en": "[reason]",
+    "tl": "[dahilan]"
+  },
+  "m47": {
+    "source": "✅ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗕𝗮𝗰𝗸\n━━━━━━━━━━━━━━━━━━\nYou are no longer AFK.",
+    "en": "✅ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗕𝗮𝗰𝗸\n━━━━━━━━━━━━━━━━━━\nYou are no longer AFK.",
+    "tl": "✅ Maligayang pagbabalik\n━━━━━━━━━━━━━━━━━━\nHindi ka na AFK."
+  },
+  "m48": {
+    "source": "💤 𝗨𝘀𝗲𝗿 𝗔𝗙𝗞\n━━━━━━━━━━━━━━━━━━\n{0} is currently AFK.\nReason: {1}\nSince: {2}",
+    "en": "💤 𝗨𝘀𝗲𝗿 𝗔𝗙𝗞\n━━━━━━━━━━━━━━━━━━\n{0} is currently AFK.\nReason: {1}\nSince: {2}",
+    "tl": "💤 Naka-AFK\n━━━━━━━━━━━━━━━━━━\nKasalukuyang AFK si {0}.\nDahilan: {1}\nMula: {2}"
+  },
+  "m50": {
+    "source": "╭┈ ❒ [ AFK ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ AFK ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ AFK ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m51": {
+    "source": "No reason provided",
+    "en": "No reason provided",
+    "tl": "Walang ibinigay na dahilan"
+  },
+  "m52": {
+    "source": "💤 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗻𝗼𝘄 𝗔𝗙𝗞\n━━━━━━━━━━━━━━━━━━\nReason: {0}\nSince: {1}",
+    "en": "💤 𝗬𝗼𝘂 𝗮𝗿𝗲 𝗻𝗼𝘄 𝗔𝗙𝗞\n━━━━━━━━━━━━━━━━━━\nReason: {0}\nSince: {1}",
+    "tl": "💤 Naka-AFK ka na\n━━━━━━━━━━━━━━━━━━\nDahilan: {0}\nMula: {1}"
+  },
+  "m53": {
+    "source": "Ask AI anything — tries several free providers until one answers",
+    "en": "Ask AI anything — tries several free providers until one answers",
+    "tl": "Magtanong sa AI; susubukan ang mga provider hanggang may sumagot"
+  },
+  "m54": {
+    "source": "<question>   ·   reply to the answer to keep the conversation going",
+    "en": "<question>   ·   reply to the answer to keep the conversation going",
+    "tl": "<tanong> · i-reply ang sagot para magpatuloy ang usapan"
+  },
+  "m55": {
+    "source": " timed out",
+    "en": " timed out",
+    "tl": " lumampas sa oras ng paghihintay"
+  },
+  "m57": {
+    "source": "No AI provider available. Run: npm install gpti",
+    "en": "No AI provider available. Run: npm install gpti",
+    "tl": "Walang magamit na AI provider. Patakbuhin: npm install gpti"
+  },
+  "m58": {
+    "source": "Every provider failed",
+    "en": "Every provider failed",
+    "tl": "❌ Walang provider na sumagot"
+  },
+  "m60": {
+    "source": "├ Tried: {0}",
+    "en": "├ Tried: {0}",
+    "tl": "├ Nasubukan: {0}"
+  },
+  "m61": {
+    "source": "Try again shortly — free AI hosts come and go",
+    "en": "Try again shortly — free AI hosts come and go",
+    "tl": "Subukan muli mamaya; maaaring pansamantalang hindi gumagana ang libreng AI service"
+  },
+  "m62": {
+    "source": "{0} · {1}s · reply to continue",
+    "en": "{0} · {1}s · reply to continue",
+    "tl": "{0} · {1}s · i-reply para magpatuloy"
+  },
+  "m66": {
+    "source": "├ ⚠️ {0} — empty reply",
+    "en": "├ ⚠️ {0} — empty reply",
+    "tl": "├ ⚠️ {0} — walang laman ang sagot"
+  },
+  "m67": {
+    "source": "├ No providers configured.",
+    "en": "├ No providers configured.",
+    "tl": "├ Walang naka-set na provider."
+  },
+  "m68": {
+    "source": "✅ = answering right now",
+    "en": "✅ = answering right now",
+    "tl": "✅ = kasalukuyang sumasagot"
+  },
+  "m69": {
+    "source": "no answer",
+    "en": "no answer",
+    "tl": "walang sagot"
+  },
+  "m70": {
+    "source": "image · reply to continue",
+    "en": "image · reply to continue",
+    "tl": "larawan · i-reply para magpatuloy"
+  },
+  "m71": {
+    "source": "├ Couldn't read that image.",
+    "en": "├ Couldn't read that image.",
+    "tl": "├ ❌ Hindi mabasa ang larawang iyon."
+  },
+  "m72": {
+    "source": "The image service may be down — try asking in words",
+    "en": "The image service may be down — try asking in words",
+    "tl": "Maaaring hindi gumagana ang serbisyo ng larawan; subukang magtanong gamit ang teksto"
+  },
+  "m73": {
+    "source": "├ Ask me anything.",
+    "en": "├ Ask me anything.",
+    "tl": "├ Maaari kang magtanong ng kahit ano."
+  },
+  "m74": {
+    "source": "├ {0}ai what is biology",
+    "en": "├ {0}ai what is biology",
+    "tl": "├ {0}ai ano ang biyolohiya"
+  },
+  "m75": {
+    "source": "├ {0}ai explain photosynthesis simply",
+    "en": "├ {0}ai explain photosynthesis simply",
+    "tl": "├ {0}ai ipaliwanag nang simple ang photosynthesis"
+  },
+  "m76": {
+    "source": "├ Reply to my answer to keep the same conversation.",
+    "en": "├ Reply to my answer to keep the same conversation.",
+    "tl": "├ I-reply ang sagot ko para ipagpatuloy ang usapan."
+  },
+  "m77": {
+    "source": "├ {0}ai status — check which providers are up",
+    "en": "├ {0}ai status — check which providers are up",
+    "tl": "├ {0}ai status — tingnan kung aling provider ang gumagana"
+  },
+  "m78": {
+    "source": "Powered by ChatGpt Plus",
+    "en": "Powered by ChatGpt Plus",
+    "tl": "Pinapagana ng ChatGpt Plus"
+  },
+  "m79": {
+    "source": "Test API endpoints and display response information",
+    "en": "Test API endpoints and display response information",
+    "tl": "Subukan ang API at ipakita ang impormasyon ng tugon"
+  },
+  "m81": {
+    "source": "❓ 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📍 Please provide API URL\nExample: /apitest https://api.example.com/data\n━━━━━━━━━━━━━━━━━━",
+    "en": "❓ 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📍 Please provide API URL\nExample: /apitest https://api.example.com/data\n━━━━━━━━━━━━━━━━━━",
+    "tl": "❓ PAGGAMIT\n━━━━━━━━━━━━━━━━━━\n📍 Ilagay ang URL ng API\nHalimbawa: /apitest https://api.example.com/data\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m83": {
+    "source": "╭┈ ❒ [ APITEST ⏳ ]\n├ Testing endpoint...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ APITEST ⏳ ]\n├ Testing endpoint...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ APITEST ⏳ ]\n├ Sinusubukan ang endpoint...\n╰┈➤ pakihintay"
+  },
+  "m84": {
+    "source": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📎 𝗧𝗵𝗶𝘀 𝗔𝗣𝗜 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗵𝗮𝘀 𝗮𝘁𝘁𝗮𝗰𝗵𝗺𝗲𝗻𝘁 ({5})\n━━━━━━━━━━━━━━━━━━",
+    "en": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📎 𝗧𝗵𝗶𝘀 𝗔𝗣𝗜 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗵𝗮𝘀 𝗮𝘁𝘁𝗮𝗰𝗵𝗺𝗲𝗻𝘁 ({5})\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📁 RESULTA NG API TEST\n━━━━━━━━━━━━━━━━━━\n📊 Status code: {0} {1}\n⏱️ Oras ng tugon: {2}ms\n📦 Uri ng nilalaman: {3}\n💾 Haba ng nilalaman: {4} bytes\n\n📎 May kalakip ang tugon ({5})\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m85": {
+    "source": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📎 𝗧𝗵𝗶𝘀 𝗔𝗣𝗜 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗵𝗮𝘀 𝗮𝘁𝘁𝗮𝗰𝗵𝗺𝗲𝗻𝘁 (𝗜𝗺𝗮𝗴𝗲)\n━━━━━━━━━━━━━━━━━━",
+    "en": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📎 𝗧𝗵𝗶𝘀 𝗔𝗣𝗜 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗵𝗮𝘀 𝗮𝘁𝘁𝗮𝗰𝗵𝗺𝗲𝗻𝘁 (𝗜𝗺𝗮𝗴𝗲)\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📁 RESULTA NG API TEST\n━━━━━━━━━━━━━━━━━━\n📊 Status code: {0} {1}\n⏱️ Oras ng tugon: {2}ms\n📦 Uri ng nilalaman: {3}\n💾 Haba ng nilalaman: {4} bytes\n\n📎 May kalakip na larawan ang tugon\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m86": {
+    "source": "\n\n... (response truncated)",
+    "en": "\n\n... (response truncated)",
+    "tl": "\n\n... (pinaikli ang tugon)"
+  },
+  "m87": {
+    "source": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📄 𝗝𝗦𝗢𝗡 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲:\n{5}\n━━━━━━━━━━━━━━━━━━",
+    "en": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📄 𝗝𝗦𝗢𝗡 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲:\n{5}\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📁 RESULTA NG API TEST\n━━━━━━━━━━━━━━━━━━\n📊 Status code: {0} {1}\n⏱️ Oras ng tugon: {2}ms\n📦 Uri ng nilalaman: {3}\n💾 Haba ng nilalaman: {4} bytes\n\n📄 Tugon na JSON:\n{5}\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m88": {
+    "source": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📝 𝗧𝗲𝘅𝘁 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲:\n{5}\n━━━━━━━━━━━━━━━━━━",
+    "en": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📝 𝗧𝗲𝘅𝘁 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲:\n{5}\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📁 RESULTA NG API TEST\n━━━━━━━━━━━━━━━━━━\n📊 Status code: {0} {1}\n⏱️ Oras ng tugon: {2}ms\n📦 Uri ng nilalaman: {3}\n💾 Haba ng nilalaman: {4} bytes\n\n📝 Tugon na teksto:\n{5}\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m89": {
+    "source": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📦 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝘁𝘆𝗽𝗲\n━━━━━━━━━━━━━━━━━━",
+    "en": "📁 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0} {1}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {2}ms\n📦 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲: {3}\n💾 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗟𝗲𝗻𝗴𝘁𝗵: {4} bytes\n\n📦 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝘁𝘆𝗽𝗲\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📁 RESULTA NG API TEST\n━━━━━━━━━━━━━━━━━━\n📊 Status code: {0} {1}\n⏱️ Oras ng tugon: {2}ms\n📦 Uri ng nilalaman: {3}\n💾 Haba ng nilalaman: {4} bytes\n\n📦 Hindi kilalang uri ng tugon\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m90": {
+    "source": "❌ 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {1}ms\n💀 𝗘𝗿𝗿𝗼𝗿: {2}\n━━━━━━━━━━━━━━━━━━",
+    "en": "❌ 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n📊 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲: {0}\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {1}ms\n💀 𝗘𝗿𝗿𝗼𝗿: {2}\n━━━━━━━━━━━━━━━━━━",
+    "tl": "❌ ERROR SA API TEST\n━━━━━━━━━━━━━━━━━━\n📊 Status code: {0}\n⏱️ Oras ng tugon: {1}ms\n💀 Error: {2}\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m91": {
+    "source": "❌ 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗘𝗻𝗱𝗽𝗼𝗶𝗻𝘁 𝗡𝗼𝘁 𝗙𝗼𝘂𝗻𝗱\n━━━━━━━━━━━━━━━━━━\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {0}ms\n💀 𝗘𝗿𝗿𝗼𝗿: No response received from server\n━━━━━━━━━━━━━━━━━━",
+    "en": "❌ 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗘𝗻𝗱𝗽𝗼𝗶𝗻𝘁 𝗡𝗼𝘁 𝗙𝗼𝘂𝗻𝗱\n━━━━━━━━━━━━━━━━━━\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {0}ms\n💀 𝗘𝗿𝗿𝗼𝗿: No response received from server\n━━━━━━━━━━━━━━━━━━",
+    "tl": "❌ HINDI NAKITA ANG API ENDPOINT\n━━━━━━━━━━━━━━━━━━\n⏱️ Oras ng tugon: {0}ms\n💀 Walang natanggap na tugon mula sa server\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m92": {
+    "source": "❌ 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {0}ms\n💀 𝗘𝗿𝗿𝗼𝗿: {1}\n━━━━━━━━━━━━━━━━━━",
+    "en": "❌ 𝗔𝗣𝗜 𝗧𝗘𝗦𝗧 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n⏱️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝗧𝗶𝗺𝗲: {0}ms\n💀 𝗘𝗿𝗿𝗼𝗿: {1}\n━━━━━━━━━━━━━━━━━━",
+    "tl": "❌ ERROR SA API TEST\n━━━━━━━━━━━━━━━━━━\n⏱️ Oras ng tugon: {0}ms\n💀 Error: {1}\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m93": {
+    "source": "Automatically download TikTok, Facebook, Instagram, and Pinterest videos",
+    "en": "Automatically download TikTok, Facebook, Instagram, and Pinterest videos",
+    "tl": "Awtomatikong mag-download ng video mula sa TikTok, Facebook, Instagram at Pinterest"
+  },
+  "m96": {
+    "source": "🟢 | 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋 𝗁𝖺𝗌 𝖻𝖾𝖾𝗇 𝖳𝖴𝖱𝖭𝖤𝖣 𝖮𝖭",
+    "en": "🟢 | 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋 𝗁𝖺𝗌 𝖻𝖾𝖾𝗇 𝖳𝖴𝖱𝖭𝖤𝖣 𝖮𝖭",
+    "tl": "🟢 | NAKA-ON na ang awtomatikong pag-download"
+  },
+  "m97": {
+    "source": "❌ | 𝖥𝖺𝗂𝗅𝖾𝖽 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝗇 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋",
+    "en": "❌ | 𝖥𝖺𝗂𝗅𝖾𝖽 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝗇 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋",
+    "tl": "❌ | Hindi ma-on ang awtomatikong pag-download"
+  },
+  "m98": {
+    "source": "🔴 | 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋 𝗁𝖺𝗌 𝖻𝖾𝖾𝗇 𝖳𝖴𝖱𝖭𝖤𝖣 𝖮𝖥𝖥",
+    "en": "🔴 | 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋 𝗁𝖺𝗌 𝖻𝖾𝖾𝗇 𝖳𝖴𝖱𝖭𝖤𝖣 𝖮𝖥𝖥",
+    "tl": "🔴 | NAKA-OFF na ang awtomatikong pag-download"
+  },
+  "m99": {
+    "source": "❌ | 𝖥𝖺𝗂𝗅𝖾𝖽 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝖿𝖿 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋",
+    "en": "❌ | 𝖥𝖺𝗂𝗅𝖾𝖽 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝖿𝖿 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋",
+    "tl": "❌ | Hindi ma-off ang awtomatikong pag-download"
+  },
+  "m100": {
+    "source": "🟢 𝖮𝖭",
+    "en": "🟢 𝖮𝖭",
+    "tl": "🟢 NAKA-ON"
+  },
+  "m101": {
+    "source": "🔴 𝖮𝖥𝖥",
+    "en": "🔴 𝖮𝖥𝖥",
+    "tl": "🔴 NAKA-OFF"
+  },
+  "m102": {
+    "source": "📝 | 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋 𝖲𝗍𝖺𝗍𝗎𝗌: {0}\n━━━━━━━━━━━━━━━━━━\n𝖴𝗌𝖾: 𝖺𝖽𝗈𝗐𝗇 𝗈𝗇 - 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝗇 𝖺𝗎𝗍𝗈 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋\n𝖴𝗌𝖾: 𝖺𝖽𝗈𝗐𝗇 𝗈𝖿𝖿 - 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝖿𝖿 𝖺𝗎𝗍𝗈 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋",
+    "en": "📝 | 𝖠𝗎𝗍𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋 𝖲𝗍𝖺𝗍𝗎𝗌: {0}\n━━━━━━━━━━━━━━━━━━\n𝖴𝗌𝖾: 𝖺𝖽𝗈𝗐𝗇 𝗈𝗇 - 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝗇 𝖺𝗎𝗍𝗈 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋\n𝖴𝗌𝖾: 𝖺𝖽𝗈𝗐𝗇 𝗈𝖿𝖿 - 𝗍𝗈 𝗍𝗎𝗋𝗇 𝗈𝖿𝖿 𝖺𝗎𝗍𝗈 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝗋",
+    "tl": "📝 | Awtomatikong pag-download: {0}\n━━━━━━━━━━━━━━━━━━\nGamitin: adown on - para i-on\nGamitin: adown off - para i-off"
+  },
+  "m103": {
+    "source": "⏳ Downloading...",
+    "en": "⏳ Downloading...",
+    "tl": "⏳ Dina-download..."
+  },
+  "m104": {
+    "source": "No video URL found",
+    "en": "No video URL found",
+    "tl": "Walang nakitang URL ng video"
+  },
+  "m105": {
+    "source": "🎵 𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n❤️ 𝗟𝗶𝗸𝗲𝘀: {1}\n👤 𝗔𝘂𝘁𝗵𝗼𝗿: {2}\n━━━━━━━━━━━━━━━━━━",
+    "en": "🎵 𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n❤️ 𝗟𝗶𝗸𝗲𝘀: {1}\n👤 𝗔𝘂𝘁𝗵𝗼𝗿: {2}\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🎵 PAG-DOWNLOAD SA TIKTOK\n━━━━━━━━━━━━━━━━━━\n📝 Pamagat: {0}\n❤️ Mga like: {1}\n👤 May-akda: {2}\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m106": {
+    "source": "No Title",
+    "en": "No Title",
+    "tl": "Walang pamagat"
+  },
+  "m108": {
+    "source": "❌ TIKTOK: failed to download",
+    "en": "❌ TIKTOK: failed to download",
+    "tl": "❌ TIKTOK: hindi ma-download"
+  },
+  "m109": {
+    "source": "📹 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n✅ 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝖽 𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝗏𝗂𝖽𝖾𝗈\n━━━━━━━━━━━━━━━━━━",
+    "en": "📹 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n✅ 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝖽 𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄 𝗏𝗂𝖽𝖾𝗈\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📹 PAG-DOWNLOAD SA FACEBOOK\n━━━━━━━━━━━━━━━━━━\n📝 Pamagat: {0}\n✅ Na-download na ang video sa Facebook\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m110": {
+    "source": "Facebook Video",
+    "en": "Facebook Video",
+    "tl": "Video sa Facebook"
+  },
+  "m112": {
+    "source": "❌ FACEBOOK: failed to download",
+    "en": "❌ FACEBOOK: failed to download",
+    "tl": "❌ FACEBOOK: hindi ma-download"
+  },
+  "m113": {
+    "source": "Invalid Instagram API response",
+    "en": "Invalid Instagram API response",
+    "tl": "Hindi wastong tugon mula sa Instagram API"
+  },
+  "m114": {
+    "source": "📸 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝘆𝗽𝗲: {0}\n✅ 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝖽 𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆 𝗏𝗂𝖽𝖾𝗈\n━━━━━━━━━━━━━━━━━━",
+    "en": "📸 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝘆𝗽𝗲: {0}\n✅ 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝖽 𝖨𝗇𝗌𝗍𝖺𝗀𝗋𝖺𝗆 𝗏𝗂𝖽𝖾𝗈\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📸 PAG-DOWNLOAD SA INSTAGRAM\n━━━━━━━━━━━━━━━━━━\n📝 Uri: {0}\n✅ Na-download na ang video sa Instagram\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m116": {
+    "source": "❌ INSTAGRAM: failed to download",
+    "en": "❌ INSTAGRAM: failed to download",
+    "tl": "❌ INSTAGRAM: hindi ma-download"
+  },
+  "m117": {
+    "source": "Invalid Pinterest API response",
+    "en": "Invalid Pinterest API response",
+    "tl": "Hindi wastong tugon mula sa Pinterest API"
+  },
+  "m118": {
+    "source": "📌 𝗣𝗜𝗡𝗧𝗘𝗥𝗘𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n📊 𝗦𝗶𝘇𝗲: {1}\n✅ 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝖽 𝖯𝗂𝗇𝗍𝖾𝗋𝖾𝗌𝗍 𝗏𝗂𝖽𝖾𝗈\n━━━━━━━━━━━━━━━━━━",
+    "en": "📌 𝗣𝗜𝗡𝗧𝗘𝗥𝗘𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n📊 𝗦𝗶𝘇𝗲: {1}\n✅ 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽𝖾𝖽 𝖯𝗂𝗇𝗍𝖾𝗋𝖾𝗌𝗍 𝗏𝗂𝖽𝖾𝗈\n━━━━━━━━━━━━━━━━━━",
+    "tl": "📌 PAG-DOWNLOAD SA PINTEREST\n━━━━━━━━━━━━━━━━━━\n📝 Pamagat: {0}\n📊 Laki: {1}\n✅ Na-download na ang video sa Pinterest\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m119": {
+    "source": "Pinterest Video",
+    "en": "Pinterest Video",
+    "tl": "Video sa Pinterest"
+  },
+  "m121": {
+    "source": "❌ PINTEREST: failed to download",
+    "en": "❌ PINTEREST: failed to download",
+    "tl": "❌ PINTEREST: hindi ma-download"
+  },
+  "m122": {
+    "source": "Auto reaction system",
+    "en": "Auto reaction system",
+    "tl": "Sistema ng awtomatikong reaction"
+  },
+  "m125": {
+    "source": "╭┈ ❒ [ AUTOREACT ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ AUTOREACT ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ AUTOREACT ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m126": {
+    "source": "🟢 ON",
+    "en": "🟢 ON",
+    "tl": "🟢 NAKA-ON"
+  },
+  "m127": {
+    "source": "🔴 OFF",
+    "en": "🔴 OFF",
+    "tl": "🔴 NAKA-OFF"
+  },
+  "m128": {
+    "source": "⚙️ Auto Reaction Status: {0}\n━━━━━━━━━━━━━━━━━━\nUsage: autoreact on/off",
+    "en": "⚙️ Auto Reaction Status: {0}\n━━━━━━━━━━━━━━━━━━\nUsage: autoreact on/off",
+    "tl": "⚙️ Awtomatikong reaction: {0}\n━━━━━━━━━━━━━━━━━━\nPaggamit: autoreact on/off"
+  },
+  "m129": {
+    "source": "✅ Auto Reaction has been turned ON for this group.",
+    "en": "✅ Auto Reaction has been turned ON for this group.",
+    "tl": "✅ Naka-on na ang awtomatikong reaction sa GC na ito."
+  },
+  "m130": {
+    "source": "❌ Auto Reaction has been turned OFF for this group.",
+    "en": "❌ Auto Reaction has been turned OFF for this group.",
+    "tl": "❌ Naka-off na ang awtomatikong reaction sa GC na ito."
+  },
+  "m131": {
+    "source": "⚙️ Invalid parameter. Use: autoreact on/off",
+    "en": "⚙️ Invalid parameter. Use: autoreact on/off",
+    "tl": "⚙️ Hindi wastong opsyon. Gamitin: autoreact on/off"
+  },
+  "m132": {
+    "source": "create autorep for 1 message",
+    "en": "create autorep for 1 message",
+    "tl": "Gumawa ng awtomatikong sagot sa isang mensahe"
+  },
+  "m133": {
+    "source": "Group Chat",
+    "en": "Group Chat",
+    "tl": "Group chat"
+  },
+  "m134": {
+    "source": "[autorep] => [text need autorep]",
+    "en": "[autorep] => [text need autorep]",
+    "tl": "[autorep] => [tekstong sasagutin]"
+  },
+  "m136": {
+    "source": "╭┈ ❒ [ AUTOREP ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ AUTOREP ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ AUTOREP ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m137": {
+    "source": "Sai rồi",
+    "en": "Incorrect.",
+    "tl": "❌ Mali ang paggamit."
+  },
+  "m138": {
+    "source": "The autorep you need to delete was not found",
+    "en": "The autorep you need to delete was not found",
+    "tl": "Hindi nakita ang awtomatikong sagot na buburahin"
+  },
+  "m139": {
+    "source": "Deleted autorep successfully!",
+    "en": "Deleted autorep successfully!",
+    "tl": "Nabura na ang awtomatikong sagot!"
+  },
+  "m140": {
+    "source": "There is no autorep at the moment",
+    "en": "There is no autorep at the moment",
+    "tl": "Wala pang awtomatikong sagot"
+  },
+  "m141": {
+    "source": "There is no autorep at the moment 🦄💜",
+    "en": "There is no autorep at the moment 🦄💜",
+    "tl": "Wala pang awtomatikong sagot 🦄💜"
+  },
+  "m142": {
+    "source": "Here is the autorep included in the group: ",
+    "en": "Here is the autorep included in the group: ",
+    "tl": "Mga awtomatikong sagot sa GC: "
+  },
+  "m143": {
+    "source": "You are using it wrong 🦄💜",
+    "en": "You are using it wrong 🦄💜",
+    "tl": "Mali ang paggamit mo nito 🦄💜"
+  },
+  "m144": {
+    "source": "2 different inputs and outputs 🦄💜",
+    "en": "2 different inputs and outputs 🦄💜",
+    "tl": "Dapat magkaiba ang input at output 🦄💜"
+  },
+  "m145": {
+    "source": "Lack of input",
+    "en": "Lack of input",
+    "tl": "Kulang ang input"
+  },
+  "m146": {
+    "source": "Lack of output",
+    "en": "Lack of output",
+    "tl": "Kulang ang output"
+  },
+  "m147": {
+    "source": "Create autorep successfully",
+    "en": "Create autorep successfully",
+    "tl": "Nagawa na ang awtomatikong sagot"
+  },
+  "m148": {
+    "source": "Autorep already exists in this group",
+    "en": "Autorep already exists in this group",
+    "tl": "May ganitong awtomatikong sagot na sa GC"
+  },
+  "m149": {
+    "source": "Turn on/off automatically seen when new messages are available",
+    "en": "Turn on/off automatically seen when new messages are available",
+    "tl": "I-on o i-off ang awtomatikong pag-seen sa mga bagong mensahe"
+  },
+  "m151": {
+    "source": "The autoseen function is now enabled for new messages.",
+    "en": "The autoseen function is now enabled for new messages.",
+    "tl": "Naka-on na ang awtomatikong pag-seen ng bagong mensahe."
+  },
+  "m152": {
+    "source": "The autoseen function has been disabled for new messages.",
+    "en": "The autoseen function has been disabled for new messages.",
+    "tl": "Naka-off na ang awtomatikong pag-seen ng bagong mensahe."
+  },
+  "m153": {
+    "source": "Incorrect syntax",
+    "en": "Incorrect syntax",
+    "tl": "Mali ang format ng command"
+  },
+  "m155": {
+    "source": "Check balance",
+    "en": "Check balance",
+    "tl": "Tingnan ang balanse"
+  },
+  "m157": {
+    "source": "╭┈ ❒ [ BALANCE ⏳ ]\n├ Processing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ BALANCE ⏳ ]\n├ Processing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ BALANCE ⏳ ]\n├ Pinoproseso...\n╰┈➤ pakihintay"
+  },
+  "m158": {
+    "source": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Your Balance: {0} 💰",
+    "en": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Your Balance: {0} 💰",
+    "tl": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Balanse mo: {0} 💰"
+  },
+  "m159": {
+    "source": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ User: {0}\n╰┈➤ Balance: {1} 💰",
+    "en": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ User: {0}\n╰┈➤ Balance: {1} 💰",
+    "tl": "╭┈ ❒ [ BALANCE 🏦 ]\n╰┈➤ Gumagamit: {0}\n╰┈➤ Balanse: {1} 💰"
+  },
+  "m161": {
+    "source": "Permanently ban members from the group (Remember to set the qtv bot)\nAuthor: NTKhang",
+    "en": "Permanently ban members from the group (Remember to set the qtv bot)\nAuthor: NTKhang",
+    "tl": "Permanenteng i-ban ang miyembro sa GC. Kailangan ng admin access ng bot.\nMay-akda: NTKhang"
+  },
+  "m163": {
+    "source": "[tag] or [reply message] \"reason\"",
+    "en": "[tag] or [reply message] \"reason\"",
+    "tl": "[tag] o [reply sa mensahe] \"dahilan\""
+  },
+  "m164": {
+    "source": "1 more warning user",
+    "en": "1 more warning user",
+    "tl": "Magbigay ng babala sa miyembro"
+  },
+  "m165": {
+    "source": "ban [tag] \"reason for warning\"",
+    "en": "ban [tag] \"reason for warning\"",
+    "tl": "ban [tag] \"dahilan ng babala\""
+  },
+  "m166": {
+    "source": "see the list of users banned from the group",
+    "en": "see the list of users banned from the group",
+    "tl": "Tingnan ang listahan ng naka-ban sa GC"
+  },
+  "m168": {
+    "source": "remove the user from the list of banned groups",
+    "en": "remove the user from the list of banned groups",
+    "tl": "Alisin ang miyembro sa listahan ng naka-ban"
+  },
+  "m169": {
+    "source": "ban unban [id of user to delete]",
+    "en": "ban unban [id of user to delete]",
+    "tl": "ban unban [ID ng aalisin]"
+  },
+  "m170": {
+    "source": "\"tag\" or \"blank\" or \"view all\", respectively used to see how many times the person tagged or yourself or a member of the box has been warned ",
+    "en": "\"tag\" or \"blank\" or \"view all\", respectively used to see how many times the person tagged or yourself or a member of the box has been warned ",
+    "tl": "Gamitin ang tag, blangko, o view all para makita ang mga babala sa napiling miyembro, sa iyo, o sa lahat."
+  },
+  "m172": {
+    "source": "Reset all data in your group",
+    "en": "Reset all data in your group",
+    "tl": "I-reset ang lahat ng data ng iyong GC"
+  },
+  "m175": {
+    "source": "╭┈ ❒ [ BAN ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ BAN ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ BAN ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m176": {
+    "source": "The bot needs group admin rights to use this command\nPlease add and try again!",
+    "en": "The bot needs group admin rights to use this command\nPlease add and try again!",
+    "tl": "Kailangan ng bot ng admin access sa GC para sa command na ito.\nGawing admin ang bot at subukan muli!"
+  },
+  "m177": {
+    "source": "✅You have never been warned",
+    "en": "✅You have never been warned",
+    "tl": "✅ Wala ka pang natatanggap na babala"
+  },
+  "m178": {
+    "source": "❎You have been warned for the reason : {0}",
+    "en": "❎You have been warned for the reason : {0}",
+    "tl": "❎ Nakatanggap ka ng babala dahil sa: {0}"
+  },
+  "m179": {
+    "source": " Never been warned\n",
+    "en": " Never been warned\n",
+    "tl": " Wala pang babala\n"
+  },
+  "m180": {
+    "source": "✅No one in your group has been warned yet",
+    "en": "✅No one in your group has been warned yet",
+    "tl": "✅ Wala pang nabibigyan ng babala sa GC"
+  },
+  "m181": {
+    "source": "List of members who have been warned:\n",
+    "en": "List of members who have been warned:\n",
+    "tl": "Mga miyembrong may babala:\n"
+  },
+  "m182": {
+    "source": "❎Right cunt border!",
+    "en": "❎ You do not have permission!",
+    "tl": "❎ Wala kang pahintulot na gawin ito!"
+  },
+  "m183": {
+    "source": "❎Need to enter the id of the person to be removed from the banned list of the group",
+    "en": "❎Need to enter the id of the person to be removed from the banned list of the group",
+    "tl": "❎ Ilagay ang ID ng taong aalisin sa listahan ng naka-ban sa GC"
+  },
+  "m184": {
+    "source": "✅This person hasn't been banned from your group yet",
+    "en": "✅This person hasn't been banned from your group yet",
+    "tl": "✅ Hindi naka-ban sa GC ang taong ito"
+  },
+  "m185": {
+    "source": "✅Removed the member with id {0} from the group banned list",
+    "en": "✅Removed the member with id {0} from the group banned list",
+    "tl": "✅ Inalis ang miyembrong may ID {0} sa listahan ng naka-ban"
+  },
+  "m186": {
+    "source": "✅No one in your group has been banned from the group yet",
+    "en": "✅No one in your group has been banned from the group yet",
+    "tl": "✅ Walang naka-ban sa GC"
+  },
+  "m187": {
+    "source": "❎Members who have been banned from the group:\n",
+    "en": "❎Members who have been banned from the group:\n",
+    "tl": "❎ Mga miyembrong naka-ban sa GC:\n"
+  },
+  "m188": {
+    "source": "Right cunt border!",
+    "en": "You do not have permission!",
+    "tl": "❌ Wala kang pahintulot na gawin ito!"
+  },
+  "m189": {
+    "source": "No reason was given",
+    "en": "No reason was given",
+    "tl": "Walang ibinigay na dahilan"
+  },
+  "m190": {
+    "source": "Banned members {0} permanently leave the group for the reason: {1}",
+    "en": "Banned members {0} permanently leave the group for the reason: {1}",
+    "tl": "Permanenteng naka-ban si {0} sa GC dahil sa: {1}"
+  },
+  "m191": {
+    "source": "Blur avatar (Popcat v2)",
+    "en": "Blur avatar (Popcat v2)",
+    "tl": "Palabuin ang avatar gamit ang Popcat v2"
+  },
+  "m193": {
+    "source": "╭┈ ❒ [ BLUR ⏳ ]\n├ Processing avatar...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ BLUR ⏳ ]\n├ Processing avatar...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ BLUR ⏳ ]\n├ Pinoproseso ang avatar...\n╰┈➤ pakihintay"
+  },
+  "m194": {
+    "source": "Avatar blurred",
+    "en": "Avatar blurred",
+    "tl": "Napalabo na ang avatar"
+  },
+  "m196": {
+    "source": "Failed to process avatar",
+    "en": "Failed to process avatar",
+    "tl": "❌ Hindi maproseso ang avatar"
+  },
+  "m198": {
+    "source": "Generate brat text or video",
+    "en": "Generate brat text or video",
+    "tl": "Gumawa ng brat na teksto o video"
+  },
+  "m199": {
+    "source": "[video/text] [message]",
+    "en": "[video/text] [message]",
+    "tl": "[video/text] [mensahe]"
+  },
+  "m200": {
+    "source": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Usage:\n╰┈➤ /bratex video hello\n╰┈➤ /bratex text hello",
+    "en": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Usage:\n╰┈➤ /bratex video hello\n╰┈➤ /bratex text hello",
+    "tl": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Paggamit:\n╰┈➤ /bratex video hello\n╰┈➤ /bratex text hello"
+  },
+  "m201": {
+    "source": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Please enter text",
+    "en": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Please enter text",
+    "tl": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Maglagay ng teksto"
+  },
+  "m202": {
+    "source": "╭┈ ❒ [ BRAT {0} 🎬 ]\n╰┈➤ Generating...\n╰┈➤ Please wait...",
+    "en": "╭┈ ❒ [ BRAT {0} 🎬 ]\n╰┈➤ Generating...\n╰┈➤ Please wait...",
+    "tl": "╭┈ ❒ [ BRAT {0} 🎬 ]\n╰┈➤ Ginagawa...\n╰┈➤ Sandali lang..."
+  },
+  "m203": {
+    "source": "╭┈ ❒ [ BRAT VIDEO ✅ ]\n╰┈➤ Done",
+    "en": "╭┈ ❒ [ BRAT VIDEO ✅ ]\n╰┈➤ Done",
+    "tl": "╭┈ ❒ [ BRAT VIDEO ✅ ]\n╰┈➤ Tapos na"
+  },
+  "m204": {
+    "source": "🎬 Brat video:\n\"{0}\"",
+    "en": "🎬 Brat video:\n\"{0}\"",
+    "tl": "🎬 Brat na video:\n\"{0}\""
+  },
+  "m205": {
+    "source": "╭┈ ❒ [ BRAT TEXT ✅ ]\n╰┈➤ Done",
+    "en": "╭┈ ❒ [ BRAT TEXT ✅ ]\n╰┈➤ Done",
+    "tl": "╭┈ ❒ [ BRAT TEXT ✅ ]\n╰┈➤ Tapos na"
+  },
+  "m206": {
+    "source": "📝 Brat text:\n\"{0}\"",
+    "en": "📝 Brat text:\n\"{0}\"",
+    "tl": "📝 Brat na teksto:\n\"{0}\""
+  },
+  "m208": {
+    "source": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Failed to generate",
+    "en": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Failed to generate",
+    "tl": "╭┈ ❒ [ BRAT ❌ ]\n╰┈➤ Hindi magawa"
+  },
+  "m209": {
+    "source": "Test button functionality",
+    "en": "Test button functionality",
+    "tl": "Subukan ang paggana ng button"
+  },
+  "m211": {
+    "source": "╭┈ ❒ [ BUTTON ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ BUTTON ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ BUTTON ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m212": {
+    "source": "Click the button below to test!",
+    "en": "Click the button below to test!",
+    "tl": "Pindutin ang button sa ibaba para subukan!"
+  },
+  "m214": {
+    "source": "✅ Button clicked! Action triggered.",
+    "en": "✅ Button clicked! Action triggered.",
+    "tl": "✅ Napindot ang button! Naisagawa ang aksyon."
+  },
+  "m216": {
+    "source": "❌ Error: {0}",
+    "en": "❌ Error: {0}",
+    "tl": "❌ Error: {0}"
+  },
+  "m217": {
+    "source": "Send report to admins (multi GC + reply)",
+    "en": "Send report to admins (multi GC + reply)",
+    "tl": "Magpadala ng ulat sa mga admin at tumanggap ng sagot"
+  },
+  "m218": {
+    "source": "[message]",
+    "en": "[message]",
+    "tl": "[mensahe]"
+  },
+  "m220": {
+    "source": "╭┈ ❒ [ CALLAD ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ CALLAD ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ CALLAD ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m221": {
+    "source": "⚠️ This command needs the 'moment-timezone' package.\nRun: npm install moment-timezone",
+    "en": "⚠️ This command needs the 'moment-timezone' package.\nRun: npm install moment-timezone",
+    "tl": "⚠️ Kailangan ng command na ito ang moment-timezone.\nPatakbuhin: npm install moment-timezone"
+  },
+  "m222": {
+    "source": "❌ Please enter a message to report",
+    "en": "❌ Please enter a message to report",
+    "tl": "❌ Ilagay ang mensaheng iuulat"
+  },
+  "m223": {
+    "source": "Unknown User",
+    "en": "Unknown User",
+    "tl": "Hindi kilalang gumagamit"
+  },
+  "m225": {
+    "source": "Unnamed Group",
+    "en": "Unnamed Group",
+    "tl": "GC na walang pangalan"
+  },
+  "m226": {
+    "source": "🚨 NEW REPORT\n\n👤 Name: {0}\n🆔 UID: {1}\n💬 Thread: {2}\n🧵 TID: {3}\n\n📝 Message:\n{4}\n\n🕒 Time: {5}\n\n👉 Reply to this message to respond",
+    "en": "🚨 NEW REPORT\n\n👤 Name: {0}\n🆔 UID: {1}\n💬 Thread: {2}\n🧵 TID: {3}\n\n📝 Message:\n{4}\n\n🕒 Time: {5}\n\n👉 Reply to this message to respond",
+    "tl": "🚨 BAGONG ULAT\n\n👤 Pangalan: {0}\n🆔 UID: {1}\n💬 GC: {2}\n🧵 TID: {3}\n\n📝 Mensahe:\n{4}\n\n🕒 Oras: {5}\n\n👉 I-reply ang mensaheng ito para sumagot"
+  },
+  "m228": {
+    "source": "📨 Report sent to admins!\n\n📝 {0}\n🕒 {1}",
+    "en": "📨 Report sent to admins!\n\n📝 {0}\n🕒 {1}",
+    "tl": "📨 Naipadala na ang ulat sa mga admin!\n\n📝 {0}\n🕒 {1}"
+  },
+  "m229": {
+    "source": "📩 Admin Reply:\n\n{0}",
+    "en": "📩 Admin Reply:\n\n{0}",
+    "tl": "📩 Sagot ng admin:\n\n{0}"
+  },
+  "m230": {
+    "source": "Turn code into a carbon-style image",
+    "en": "Turn code into a carbon-style image",
+    "tl": "Gawing larawan na carbon-style ang code"
+  },
+  "m231": {
+    "source": "<code>   ·   carbon -t 3 <code>   (theme 1-6)",
+    "en": "<code>   ·   carbon -t 3 <code>   (theme 1-6)",
+    "tl": "<code> · carbon -t 3 <code> (tema 1-6)"
+  },
+  "m232": {
+    "source": "the API sent back something that isn't an image",
+    "en": "the API sent back something that isn't an image",
+    "tl": "Hindi larawan ang ibinalik ng API"
+  },
+  "m233": {
+    "source": "no image link in the response",
+    "en": "no image link in the response",
+    "tl": "Walang link ng larawan sa tugon"
+  },
+  "m235": {
+    "source": "Give me some code, or reply to a message that has it.",
+    "en": "Give me some code, or reply to a message that has it.",
+    "tl": "Magbigay ng code o i-reply ang mensaheng may code."
+  },
+  "m238": {
+    "source": "Themes 1-6",
+    "en": "Themes 1-6",
+    "tl": "Mga tema 1-6"
+  },
+  "m240": {
+    "source": "🖼️ carbon · theme {0}",
+    "en": "🖼️ carbon · theme {0}",
+    "tl": "🖼️ carbon · tema {0}"
+  },
+  "m241": {
+    "source": "the API answered {0}",
+    "en": "the API answered {0}",
+    "tl": "Sumagot ang API ng {0}"
+  },
+  "m242": {
+    "source": "Couldn't make the image: {0}",
+    "en": "Couldn't make the image: {0}",
+    "tl": "❌ Hindi magawa ang larawan: {0}"
+  },
+  "m243": {
+    "source": "Try shorter code, or another theme",
+    "en": "Try shorter code, or another theme",
+    "tl": "Subukan ang mas maikling code o ibang tema"
+  },
+  "m244": {
+    "source": "Turn a photo into a cartoon",
+    "en": "Turn a photo into a cartoon",
+    "tl": "Gawing cartoon ang larawan"
+  },
+  "m245": {
+    "source": "reply to a photo  ·  @mention  ·  image link  ·  nothing = your avatar",
+    "en": "reply to a photo  ·  @mention  ·  image link  ·  nothing = your avatar",
+    "tl": "I-reply ang larawan · @mention · link ng larawan · blangko = iyong avatar"
+  },
+  "m248": {
+    "source": "the result came back empty",
+    "en": "the result came back empty",
+    "tl": "Walang laman ang resulta"
+  },
+  "m249": {
+    "source": "Couldn't cartoonise that: {0}",
+    "en": "Couldn't cartoonise that: {0}",
+    "tl": "❌ Hindi magawang cartoon: {0}"
+  },
+  "m250": {
+    "source": "The photo has to be reachable from the internet.",
+    "en": "The photo has to be reachable from the internet.",
+    "tl": "Dapat mabuksan sa internet ang larawan."
+  },
+  "m251": {
+    "source": "Try replying to a clear photo of a face",
+    "en": "Try replying to a clear photo of a face",
+    "tl": "Subukang i-reply ang malinaw na larawan ng mukha"
+  },
+  "m253": {
+    "source": "Cat says your message",
+    "en": "Cat says your message",
+    "tl": "Ilagay ang mensahe mo sa larawan ng pusa"
+  },
+  "m254": {
+    "source": "text",
+    "en": "text",
+    "tl": "teksto"
+  },
+  "m255": {
+    "source": "╭┈ ❒ [ CATSAY ❌ ]\n╰┈➤ Please enter text",
+    "en": "╭┈ ❒ [ CATSAY ❌ ]\n╰┈➤ Please enter text",
+    "tl": "╭┈ ❒ [ CATSAY ❌ ]\n╰┈➤ Maglagay ng teksto"
+  },
+  "m257": {
+    "source": "╭┈ ❒ [ CATSAY ⏳ ]\n╰┈➤ Fetching cat image...",
+    "en": "╭┈ ❒ [ CATSAY ⏳ ]\n╰┈➤ Fetching cat image...",
+    "tl": "╭┈ ❒ [ CATSAY ⏳ ]\n╰┈➤ Kinukuha ang larawan ng pusa..."
+  },
+  "m258": {
+    "source": "Invalid image data",
+    "en": "Invalid image data",
+    "tl": "Hindi wastong data ng larawan"
+  },
+  "m259": {
+    "source": "File not saved",
+    "en": "File not saved",
+    "tl": "Hindi na-save ang file"
+  },
+  "m262": {
+    "source": "╭┈ ❒ [ CATSAY ❌ ]\n╰┈➤ Failed to fetch cat image",
+    "en": "╭┈ ❒ [ CATSAY ❌ ]\n╰┈➤ Failed to fetch cat image",
+    "tl": "╭┈ ❒ [ CATSAY ❌ ]\n╰┈➤ Hindi makuha ang larawan ng pusa"
+  },
+  "m263": {
+    "source": "Chat restriction for non-admins",
+    "en": "Chat restriction for non-admins",
+    "tl": "Limitahan ang pakikipag-chat ng hindi admin"
+  },
+  "m265": {
+    "source": "Facebook User",
+    "en": "Facebook User",
+    "tl": "Gumagamit ng Facebook"
+  },
+  "m266": {
+    "source": "🔒 𝗨𝗦𝗘𝗥 𝗥𝗘𝗠𝗢𝗩𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n❌ {0} has been auto-removed due to chat restrictions.\n━━━━━━━━━━━━━━━━━━\n🛡️ Chat Restriction System",
+    "en": "🔒 𝗨𝗦𝗘𝗥 𝗥𝗘𝗠𝗢𝗩𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n❌ {0} has been auto-removed due to chat restrictions.\n━━━━━━━━━━━━━━━━━━\n🛡️ Chat Restriction System",
+    "tl": "🔒 INALIS ANG MIYEMBRO\n━━━━━━━━━━━━━━━━━━\n❌ Awtomatikong inalis si {0} dahil sa limitasyon sa chat.\n━━━━━━━━━━━━━━━━━━\n🛡️ Limitasyon sa chat"
+  },
+  "m267": {
+    "source": "⛔ 𝗔𝗖𝗖𝗘𝗦𝗦 𝗗𝗘𝗡𝗜𝗘𝗗\n━━━━━━━━━━━━━━━━━━\nOnly group admins can manage chat restrictions.\n━━━━━━━━━━━━━━━━━━",
+    "en": "⛔ 𝗔𝗖𝗖𝗘𝗦𝗦 𝗗𝗘𝗡𝗜𝗘𝗗\n━━━━━━━━━━━━━━━━━━\nOnly group admins can manage chat restrictions.\n━━━━━━━━━━━━━━━━━━",
+    "tl": "⛔ WALANG PAHINTULOT\n━━━━━━━━━━━━━━━━━━\nMga admin ng GC lamang ang maaaring magtakda ng limitasyon sa chat.\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m268": {
+    "source": "🔒 𝗖𝗛𝗔𝗧 𝗥𝗘𝗦𝗧𝗥𝗜𝗖𝗧𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n🛑 Non-admins will now be removed if they chat.\n━━━━━━━━━━━━━━━━━━\n📢 Use '/chat on' to unlock chat.",
+    "en": "🔒 𝗖𝗛𝗔𝗧 𝗥𝗘𝗦𝗧𝗥𝗜𝗖𝗧𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n🛑 Non-admins will now be removed if they chat.\n━━━━━━━━━━━━━━━━━━\n📢 Use '/chat on' to unlock chat.",
+    "tl": "🔒 LIMITADO ANG CHAT\n━━━━━━━━━━━━━━━━━━\n🛑 Aalisin ang hindi admin kapag nag-chat.\n━━━━━━━━━━━━━━━━━━\n📢 Gamitin ang '/chat on' para alisin ang limitasyon."
+  },
+  "m269": {
+    "source": "✅ 𝗖𝗛𝗔𝗧 𝗨𝗡𝗟𝗢𝗖𝗞𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n💬 All members can now chat freely.\n━━━━━━━━━━━━━━━━━━\n📢 Use '/chat off' to restrict.",
+    "en": "✅ 𝗖𝗛𝗔𝗧 𝗨𝗡𝗟𝗢𝗖𝗞𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n💬 All members can now chat freely.\n━━━━━━━━━━━━━━━━━━\n📢 Use '/chat off' to restrict.",
+    "tl": "✅ BUKAS NA ANG CHAT\n━━━━━━━━━━━━━━━━━━\n💬 Maaari nang mag-chat ang lahat ng miyembro.\n━━━━━━━━━━━━━━━━━━\n📢 Gamitin ang '/chat off' para maglagay ng limitasyon."
+  },
+  "m270": {
+    "source": "❓ 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📍 Use '/chat on' to allow chatting or '/chat off' to restrict.\n━━━━━━━━━━━━━━━━━━\n⚙️ Chat Control",
+    "en": "❓ 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📍 Use '/chat on' to allow chatting or '/chat off' to restrict.\n━━━━━━━━━━━━━━━━━━\n⚙️ Chat Control",
+    "tl": "❓ PAGGAMIT\n━━━━━━━━━━━━━━━━━━\n📍 '/chat on' para payagan ang chat o '/chat off' para limitahan ito.\n━━━━━━━━━━━━━━━━━━\n⚙️ Kontrol ng chat"
+  },
+  "m271": {
+    "source": "Count messages",
+    "en": "Count messages",
+    "tl": "Bilangin ang mga mensahe"
+  },
+  "m272": {
+    "source": "[tag/reply/all/all number/all box]",
+    "en": "[tag/reply/all/all number/all box]",
+    "tl": "[tag/reply/all/all numero/all box]"
+  },
+  "m274": {
+    "source": "╭┈ ❒ [ CHECKTT ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ CHECKTT ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ CHECKTT ⏳ ]\n├ Ipinapadala...\n╰┈➤ pakihintay"
+  },
+  "m275": {
+    "source": "[{0}]: {1}: {2} messages\n",
+    "en": "[{0}]: {1}: {2} messages\n",
+    "tl": "[{0}]: {1}: {2} mensahe\n"
+  },
+  "m276": {
+    "source": "\n--Page {0}/{1}--\nuse {2}checktt <number_of_pages>",
+    "en": "\n--Page {0}/{1}--\nuse {2}checktt <number_of_pages>",
+    "tl": "\n--Pahina {0}/{1}--\nGamitin ang {2}checktt <numero_ng_pahina>"
+  },
+  "m277": {
+    "source": "👤 User: {0}\n🏆 Rank: {1}\nMessages 💬: {2}\n💹 Interaction rate: {3}%",
+    "en": "👤 User: {0}\n🏆 Rank: {1}\nMessages 💬: {2}\n💹 Interaction rate: {3}%",
+    "tl": "👤 Gumagamit: {0}\n🏆 Ranggo: {1}\nMga mensahe 💬: {2}\n💹 Antas ng pakikilahok: {3}%"
+  },
+  "m278": {
+    "source": "👤 User: {0}\n🏆 Rank: {1}\n💬 Messages: {2}\n💹 Interaction rate: {3}%",
+    "en": "👤 User: {0}\n🏆 Rank: {1}\n💬 Messages: {2}\n💹 Interaction rate: {3}%",
+    "tl": "👤 Gumagamit: {0}\n🏆 Ranggo: {1}\n💬 Mga mensahe: {2}\n💹 Antas ng pakikilahok: {3}%"
+  },
+  "m280": {
+    "source": "Put user on billboard",
+    "en": "Put user on billboard",
+    "tl": "Ilagay ang tao sa billboard"
+  },
+  "m281": {
+    "source": "@user / reply / uid",
+    "en": "@user / reply / uid",
+    "tl": "@user / reply / uid"
+  },
+  "m282": {
+    "source": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Please mention, reply or input UID",
+    "en": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Please mention, reply or input UID",
+    "tl": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Mag-mention, mag-reply, o maglagay ng UID"
+  },
+  "m283": {
+    "source": "╭┈ ❒ [ BILLBOARD 🏙️ ]\n╰┈➤ Creating billboard...",
+    "en": "╭┈ ❒ [ BILLBOARD 🏙️ ]\n╰┈➤ Creating billboard...",
+    "tl": "╭┈ ❒ [ BILLBOARD 🏙️ ]\n╰┈➤ Ginagawa ang billboard..."
+  },
+  "m284": {
+    "source": "╭┈ ❒ [ BILLBOARD 🏙️ ]\n╰┈➤ Processing...\n╰┈➤ 50% complete",
+    "en": "╭┈ ❒ [ BILLBOARD 🏙️ ]\n╰┈➤ Processing...\n╰┈➤ 50% complete",
+    "tl": "╭┈ ❒ [ BILLBOARD 🏙️ ]\n╰┈➤ Pinoproseso...\n╰┈➤ 50% nang tapos"
+  },
+  "m285": {
+    "source": "╭┈ ❒ [ BILLBOARD ✅ ]\n╰┈➤ {0} is now on billboard!",
+    "en": "╭┈ ❒ [ BILLBOARD ✅ ]\n╰┈➤ {0} is now on billboard!",
+    "tl": "╭┈ ❒ [ BILLBOARD ✅ ]\n╰┈➤ Nasa billboard na si {0}!"
+  },
+  "m286": {
+    "source": "🏙️ {0} is now on the city billboard!",
+    "en": "🏙️ {0} is now on the city billboard!",
+    "tl": "🏙️ Nasa billboard na ng lungsod si {0}!"
+  },
+  "m287": {
+    "source": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Failed to write file",
+    "en": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Failed to write file",
+    "tl": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Hindi maisulat ang file"
+  },
+  "m288": {
+    "source": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Failed to generate",
+    "en": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Failed to generate",
+    "tl": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Hindi magawa"
+  },
+  "m289": {
+    "source": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Error occurred",
+    "en": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Error occurred",
+    "tl": "╭┈ ❒ [ BILLBOARD ❌ ]\n╰┈➤ Nagkaroon ng error"
+  },
+  "m291": {
+    "source": "Manage/Control all bot modules",
+    "en": "Manage/Control all bot modules",
+    "tl": "Pamahalaan ang lahat ng module ng bot"
+  },
+  "m292": {
+    "source": "[load/unload/loadAll/unloadAll/info/share/install] [name module]",
+    "en": "[load/unload/loadAll/unloadAll/info/share/install] [name module]",
+    "tl": "[load/unload/loadAll/unloadAll/info/share/install] [pangalan ng module]"
+  },
+  "m293": {
+    "source": "Module is malformed!",
+    "en": "Module is malformed!",
+    "tl": "Hindi tama ang format ng module!"
+  },
+  "m294": {
+    "source": "Not found package ",
+    "en": "Not found package ",
+    "tl": "Hindi nakita ang package "
+  },
+  "m295": {
+    "source": " support for module ",
+    "en": " support for module ",
+    "tl": " na kailangan ng module "
+  },
+  "m297": {
+    "source": "Unable to load package ",
+    "en": "Unable to load package ",
+    "tl": "Hindi ma-load ang package "
+  },
+  "m298": {
+    "source": " for module ",
+    "en": " for module ",
+    "tl": " para sa module "
+  },
+  "m299": {
+    "source": ", error: ",
+    "en": ", error: ",
+    "tl": ", error: "
+  },
+  "m300": {
+    "source": "Successfully downloaded the entire package for the module ",
+    "en": "Successfully downloaded the entire package for the module ",
+    "tl": "Na-download na ang lahat ng package para sa module "
+  },
+  "m301": {
+    "source": "Loaded config ",
+    "en": "Loaded config ",
+    "tl": "Na-load ang setting "
+  },
+  "m302": {
+    "source": "Failed to load config module, error: ",
+    "en": "Failed to load config module, error: ",
+    "tl": "Hindi ma-load ang setting ng module, error: "
+  },
+  "m303": {
+    "source": "Unable to onLoad module, error: ",
+    "en": "Unable to onLoad module, error: ",
+    "tl": "Hindi ma-onLoad ang module, error: "
+  },
+  "m304": {
+    "source": "Loaded command ",
+    "en": "Loaded command ",
+    "tl": "Na-load ang command "
+  },
+  "m305": {
+    "source": "Modules that had problems loading: ",
+    "en": "Modules that had problems loading: ",
+    "tl": "Mga module na hindi ma-load: "
+  },
+  "m306": {
+    "source": "✅ 𝗟𝗼𝗮𝗱𝗲𝗱 ",
+    "en": "✅ 𝗟𝗼𝗮𝗱𝗲𝗱 ",
+    "tl": "✅ Na-load ang "
+  },
+  "m307": {
+    "source": "Unloaded command {0}!",
+    "en": "Unloaded command {0}!",
+    "tl": "Na-unload ang command {0}!"
+  },
+  "m308": {
+    "source": "❌ 𝗨𝗻𝗹𝗼𝗮𝗱𝗲𝗱 {0} module(s)",
+    "en": "❌ 𝗨𝗻𝗹𝗼𝗮𝗱𝗲𝗱 {0} module(s)",
+    "tl": "❌ Na-unload ang {0} module"
+  },
+  "m309": {
+    "source": "⚠️ 𝗠𝗼𝗱𝘂𝗹𝗲 𝗻𝗮𝗺𝗲 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗲 𝗲𝗺𝗽𝘁𝘆!",
+    "en": "⚠️ 𝗠𝗼𝗱𝘂𝗹𝗲 𝗻𝗮𝗺𝗲 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗲 𝗲𝗺𝗽𝘁𝘆!",
+    "tl": "⚠️ Hindi maaaring blangko ang pangalan ng module!"
+  },
+  "m310": {
+    "source": "⏳ Loading...",
+    "en": "⏳ Loading...",
+    "tl": "⏳ Nilo-load..."
+  },
+  "m311": {
+    "source": "⏳ Unloading...",
+    "en": "⏳ Unloading...",
+    "tl": "⏳ Ina-unload..."
+  },
+  "m312": {
+    "source": "⏳ Reloading All Modules....",
+    "en": "⏳ Reloading All Modules....",
+    "tl": "⏳ Nire-reload ang lahat ng module..."
+  },
+  "m313": {
+    "source": "✅ 𝗦𝘂𝗰𝗰𝗲𝘀𝘀\n━━━━━━━━━━━━━━━━━━\nReloaded all modules commands.",
+    "en": "✅ 𝗦𝘂𝗰𝗰𝗲𝘀𝘀\n━━━━━━━━━━━━━━━━━━\nReloaded all modules commands.",
+    "tl": "✅ TAGUMPAY\n━━━━━━━━━━━━━━━━━━\nNa-reload na ang lahat ng command module."
+  },
+  "m314": {
+    "source": "⚠️ 𝗧𝗵𝗲 𝗺𝗼𝗱𝘂𝗹𝗲 𝘆𝗼𝘂 𝗲𝗻𝘁𝗲𝗿𝗲𝗱 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗲𝘅𝗶𝘀𝘁!",
+    "en": "⚠️ 𝗧𝗵𝗲 𝗺𝗼𝗱𝘂𝗹𝗲 𝘆𝗼𝘂 𝗲𝗻𝘁𝗲𝗿𝗲𝗱 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗲𝘅𝗶𝘀𝘁!",
+    "tl": "⚠️ Walang module na ganyan!"
+  },
+  "m315": {
+    "source": "📦 𝗠𝗼𝗱𝘂𝗹𝗲 𝗜𝗻𝗳𝗼\n",
+    "en": "📦 𝗠𝗼𝗱𝘂𝗹𝗲 𝗜𝗻𝗳𝗼\n",
+    "tl": "📦 Impormasyon ng module\n"
+  },
+  "m316": {
+    "source": "📝 𝗡𝗮𝗺𝗲: ",
+    "en": "📝 𝗡𝗮𝗺𝗲: ",
+    "tl": "📝 Pangalan: "
+  },
+  "m317": {
+    "source": "👤 𝗖𝗿𝗲𝗱𝗶𝘁𝘀: ",
+    "en": "👤 𝗖𝗿𝗲𝗱𝗶𝘁𝘀: ",
+    "tl": "👤 Mga gumawa: "
+  },
+  "m318": {
+    "source": "📌 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: ",
+    "en": "📌 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: ",
+    "tl": "📌 Bersyon: "
+  },
+  "m319": {
+    "source": "🔐 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻: ",
+    "en": "🔐 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻: ",
+    "tl": "🔐 Pahintulot: "
+  },
+  "m320": {
+    "source": "Bot operator",
+    "en": "Bot operator",
+    "tl": "Tagapamahala ng bot"
+  },
+  "m321": {
+    "source": "⏱️ 𝗖𝗼𝗼𝗹𝗱𝗼𝘄𝗻: ",
+    "en": "⏱️ 𝗖𝗼𝗼𝗹𝗱𝗼𝘄𝗻: ",
+    "tl": "⏱️ Oras ng paghihintay: "
+  },
+  "m322": {
+    "source": "📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲𝘀: ",
+    "en": "📦 𝗣𝗮𝗰𝗸𝗮𝗴𝗲𝘀: ",
+    "tl": "📦 Mga package: "
+  },
+  "m323": {
+    "source": "⚠️ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗽𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗻𝗮𝗺𝗲 𝘁𝗼 𝘀𝗵𝗮𝗿𝗲.",
+    "en": "⚠️ 𝗣𝗹𝗲𝗮𝘀𝗲 𝗽𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗻𝗮𝗺𝗲 𝘁𝗼 𝘀𝗵𝗮𝗿𝗲.",
+    "tl": "⚠️ Ilagay ang pangalan ng command na ibabahagi."
+  },
+  "m324": {
+    "source": "⚠️ 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗻𝗼𝘁 𝗳𝗼𝘂𝗻𝗱.",
+    "en": "⚠️ 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗻𝗼𝘁 𝗳𝗼𝘂𝗻𝗱.",
+    "tl": "⚠️ Hindi nakita ang command."
+  },
+  "m325": {
+    "source": "📤 𝗦𝗵𝗮𝗿𝗲𝗱 𝗖𝗼𝗺𝗺𝗮𝗻𝗱\n",
+    "en": "📤 𝗦𝗵𝗮𝗿𝗲𝗱 𝗖𝗼𝗺𝗺𝗮𝗻𝗱\n",
+    "tl": "📤 Ibinahaging command\n"
+  },
+  "m326": {
+    "source": "⚠️ Usage: ?cmd install <name> <code>",
+    "en": "⚠️ Usage: ?cmd install <name> <code>",
+    "tl": "⚠️ Paggamit: ?cmd install <pangalan> <code>"
+  },
+  "m327": {
+    "source": "✅ 𝗠𝗼𝗱𝘂𝗹𝗲 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗲𝗱\n",
+    "en": "✅ 𝗠𝗼𝗱𝘂𝗹𝗲 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗲𝗱\n",
+    "tl": "✅ Na-install ang module\n"
+  },
+  "m328": {
+    "source": "❌ 𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗘𝗿𝗿𝗼𝗿\n",
+    "en": "❌ 𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗘𝗿𝗿𝗼𝗿\n",
+    "tl": "❌ Error sa pag-install\n"
+  },
+  "m329": {
+    "source": "⚠️ 𝗜𝗻𝘃𝗮𝗹𝗶𝗱 𝗰𝗼𝗺𝗺𝗮𝗻𝗱. Usage: ?cmd load/unload/loadAll/unloadAll/info/share/install",
+    "en": "⚠️ 𝗜𝗻𝘃𝗮𝗹𝗶𝗱 𝗰𝗼𝗺𝗺𝗮𝗻𝗱. Usage: ?cmd load/unload/loadAll/unloadAll/info/share/install",
+    "tl": "⚠️ Hindi wastong command. Paggamit: ?cmd load/unload/loadAll/unloadAll/info/share/install"
+  },
+  "m330": {
+    "source": "Compshop in-game stock tracker (GPU, keyboard, etc.)",
+    "en": "Compshop in-game stock tracker (GPU, keyboard, etc.)",
+    "tl": "Subaybayan ang stock sa larong compshop (GPU, keyboard, atbp.)"
+  },
+  "m331": {
+    "source": "[ stock <item> <qty> | restock | every <min> | api <url> | clear ]",
+    "en": "[ stock <item> <qty> | restock | every <min> | api <url> | clear ]",
+    "tl": "[ stock <item> <dami> | restock | every <minuto> | api <url> | clear ]"
+  },
+  "m333": {
+    "source": "├ Admins only",
+    "en": "├ Admins only",
+    "tl": "├ Para sa admin lamang"
+  },
+  "m334": {
+    "source": "╰┈➤ ask a bot admin to update the stock",
+    "en": "╰┈➤ ask a bot admin to update the stock",
+    "tl": "╰┈➤ Magpatulong sa bot admin para i-update ang stock"
+  },
+  "m335": {
+    "source": "├ Usage: compshop stock <item> <qty>",
+    "en": "├ Usage: compshop stock <item> <qty>",
+    "tl": "├ Paggamit: compshop stock <item> <dami>"
+  },
+  "m336": {
+    "source": "╰┈➤ e.g. compshop stock RTX 4090 3",
+    "en": "╰┈➤ e.g. compshop stock RTX 4090 3",
+    "tl": "╰┈➤ Halimbawa: compshop stock RTX 4090 3"
+  },
+  "m337": {
+    "source": "├ {0}: {1} in stock",
+    "en": "├ {0}: {1} in stock",
+    "tl": "├ {0}: {1} ang stock"
+  },
+  "m338": {
+    "source": "├ Restock logged",
+    "en": "├ Restock logged",
+    "tl": "├ Naitala ang pagdagdag ng stock"
+  },
+  "m339": {
+    "source": "├ Next expected in {0} min",
+    "en": "├ Next expected in {0} min",
+    "tl": "├ Inaasahan sa loob ng {0} minuto"
+  },
+  "m340": {
+    "source": "╰┈➤ Usage: compshop every <minutes>",
+    "en": "╰┈➤ Usage: compshop every <minutes>",
+    "tl": "╰┈➤ Paggamit: compshop every <minuto>"
+  },
+  "m341": {
+    "source": "├ Restock cadence: every {0} min",
+    "en": "├ Restock cadence: every {0} min",
+    "tl": "├ Pagdagdag ng stock: bawat {0} minuto"
+  },
+  "m342": {
+    "source": "write failed",
+    "en": "write failed",
+    "tl": "❌ Hindi maisulat"
+  },
+  "m343": {
+    "source": "├ Stock API: {0}",
+    "en": "├ Stock API: {0}",
+    "tl": "├ API ng stock: {0}"
+  },
+  "m344": {
+    "source": "disabled (manual mode)",
+    "en": "disabled (manual mode)",
+    "tl": "naka-off (manwal)"
+  },
+  "m345": {
+    "source": "├ Stock list cleared",
+    "en": "├ Stock list cleared",
+    "tl": "├ Nilinis ang listahan ng stock"
+  },
+  "m346": {
+    "source": "live api",
+    "en": "live api",
+    "tl": "aktuwal na API"
+  },
+  "m347": {
+    "source": "├ No stock recorded yet",
+    "en": "├ No stock recorded yet",
+    "tl": "├ Wala pang naitalang stock"
+  },
+  "m348": {
+    "source": "├ Admins can log it as they see it:",
+    "en": "├ Admins can log it as they see it:",
+    "tl": "├ Maaaring itala ng admin ang nakikitang stock:"
+  },
+  "m352": {
+    "source": "├ Or point it at a stock API:",
+    "en": "├ Or point it at a stock API:",
+    "tl": "├ O magtakda ng API ng stock:"
+  },
+  "m354": {
+    "source": "├ 📦 {0} in stock · {1} sold out",
+    "en": "├ 📦 {0} in stock · {1} sold out",
+    "tl": "├ 📦 {0} ang may stock · {1} ang ubos na"
+  },
+  "m355": {
+    "source": "├ ⏰ Next restock in {0}",
+    "en": "├ ⏰ Next restock in {0}",
+    "tl": "├ ⏰ Susunod na stock sa {0}"
+  },
+  "m356": {
+    "source": "├ ⬜⬜⬜⬜⬜ {0} — SOLD OUT",
+    "en": "├ ⬜⬜⬜⬜⬜ {0} — SOLD OUT",
+    "tl": "├ ⬜⬜⬜⬜⬜ {0} — UBOS NA"
+  },
+  "m357": {
+    "source": "├ source: {0}{1}",
+    "en": "├ source: {0}{1}",
+    "tl": "├ pinagmulan: {0}{1}"
+  },
+  "m358": {
+    "source": " (api failed: ",
+    "en": " (api failed: ",
+    "tl": " (hindi gumana ang API: "
+  },
+  "m359": {
+    "source": "├ updated: {0}",
+    "en": "├ updated: {0}",
+    "tl": "├ na-update: {0}"
+  },
+  "m361": {
+    "source": "Counts the number of words, paragraphs, and alphanumeric characters in a given input string.",
+    "en": "Counts the number of words, paragraphs, and alphanumeric characters in a given input string.",
+    "tl": "Bilangin ang mga salita, talata, titik at numero sa ibinigay na teksto"
+  },
+  "m362": {
+    "source": "count words, paragraphs, and alphanumerics [input]",
+    "en": "count words, paragraphs, and alphanumerics [input]",
+    "tl": "count [tekstong bibilangin]"
+  },
+  "m364": {
+    "source": "╭┈ ❒ [ COUNT ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ COUNT ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ COUNT ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m365": {
+    "source": "❯ There are {0} word(s), {1} paragraph(s), and {2} alphanumeric character(s) in your input.",
+    "en": "❯ There are {0} word(s), {1} paragraph(s), and {2} alphanumeric character(s) in your input.",
+    "tl": "❯ May {0} salita, {1} talata, at {2} titik o numero sa iyong teksto."
+  },
+  "m367": {
+    "source": "Count group stats",
+    "en": "Count group stats",
+    "tl": "Bilangin ang mga impormasyon ng GC"
+  },
+  "m370": {
+    "source": "╭┈ ❒ [ COUNTMEM ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ COUNTMEM ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ COUNTMEM ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m371": {
+    "source": "╭┈ ❒ [ COUNT ❌ ]\n╰┈➤ Please choose:\n╰┈➤ message/admin/member/male/female/other/allgroup/alluser",
+    "en": "╭┈ ❒ [ COUNT ❌ ]\n╰┈➤ Please choose:\n╰┈➤ message/admin/member/male/female/other/allgroup/alluser",
+    "tl": "╭┈ ❒ [ COUNT ❌ ]\n╰┈➤ Pumili:\n╰┈➤ message/admin/member/male/female/other/allgroup/alluser"
+  },
+  "m372": {
+    "source": "💬 Messages: {0}",
+    "en": "💬 Messages: {0}",
+    "tl": "💬 Mga mensahe: {0}"
+  },
+  "m373": {
+    "source": "👑 Admins: {0}",
+    "en": "👑 Admins: {0}",
+    "tl": "👑 Mga admin: {0}"
+  },
+  "m374": {
+    "source": "👥 Members: {0}",
+    "en": "👥 Members: {0}",
+    "tl": "👥 Mga miyembro: {0}"
+  },
+  "m375": {
+    "source": "👨 Male: {0}",
+    "en": "👨 Male: {0}",
+    "tl": "👨 Lalaki: {0}"
+  },
+  "m376": {
+    "source": "👩 Female: {0}",
+    "en": "👩 Female: {0}",
+    "tl": "👩 Babae: {0}"
+  },
+  "m377": {
+    "source": "🏳️ Other: {0}",
+    "en": "🏳️ Other: {0}",
+    "tl": "🏳️ Iba pa: {0}"
+  },
+  "m378": {
+    "source": "🏘️ Total Groups: {0}",
+    "en": "🏘️ Total Groups: {0}",
+    "tl": "🏘️ Kabuuang GC: {0}"
+  },
+  "m379": {
+    "source": "👤 Total Users: {0}",
+    "en": "👤 Total Users: {0}",
+    "tl": "👤 Kabuuang gumagamit: {0}"
+  },
+  "m380": {
+    "source": "❌ Invalid option",
+    "en": "❌ Invalid option",
+    "tl": "❌ Hindi wastong opsyon"
+  },
+  "m382": {
+    "source": "Daily reward",
+    "en": "Daily reward",
+    "tl": "Pang-araw-araw na gantimpala"
+  },
+  "m383": {
+    "source": "Database not found",
+    "en": "Database not found",
+    "tl": "Hindi nakita ang database"
+  },
+  "m384": {
+    "source": "╭┈ ❒ [ DAILY ❌ ]\n╰┈➤ Already claimed\n╰┈➤ Come back in {0}h {1}m",
+    "en": "╭┈ ❒ [ DAILY ❌ ]\n╰┈➤ Already claimed\n╰┈➤ Come back in {0}h {1}m",
+    "tl": "╭┈ ❒ [ DAILY ❌ ]\n╰┈➤ Nakuha mo na ang gantimpala\n╰┈➤ Bumalik pagkalipas ng {0} oras at {1} minuto"
+  },
+  "m385": {
+    "source": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Claiming reward...",
+    "en": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Claiming reward...",
+    "tl": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Kinukuha ang gantimpala..."
+  },
+  "m386": {
+    "source": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Preparing reward...\n╰┈➤ Applying bonus...",
+    "en": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Preparing reward...\n╰┈➤ Applying bonus...",
+    "tl": "╭┈ ❒ [ DAILY 🎁 ]\n╰┈➤ Inihahanda ang gantimpala...\n╰┈➤ Idinadagdag ang bonus..."
+  },
+  "m387": {
+    "source": "╭┈ ❒ [ DAILY REWARD ✅ ]\n╰┈➤ Reward: +{0} 💰\n╰┈➤ Bonus: +{1} From Jonell Bembangan Corporation ✨\n╰┈➤ Balance: {2} 🏦",
+    "en": "╭┈ ❒ [ DAILY REWARD ✅ ]\n╰┈➤ Reward: +{0} 💰\n╰┈➤ Bonus: +{1} From Jonell Bembangan Corporation ✨\n╰┈➤ Balance: {2} 🏦",
+    "tl": "╭┈ ❒ [ DAILY ✅ ]\n╰┈➤ Gantimpala: +{0} 💰\n╰┈➤ Bonus: +{1} mula sa Jonell Bembangan Corporation ✨\n╰┈➤ Balanse: {2} 🏦"
+  },
+  "m388": {
+    "source": "Throw someone in the trash",
+    "en": "Throw someone in the trash",
+    "tl": "Gumawa ng larawang may taong nasa basurahan"
+  },
+  "m389": {
+    "source": "[@mention | reply to a photo]",
+    "en": "[@mention | reply to a photo]",
+    "tl": "[@mention | reply sa larawan]"
+  },
+  "m390": {
+    "source": "couldn't load that profile picture",
+    "en": "couldn't load that profile picture",
+    "tl": "❌ Hindi ma-load ang larawan ng profile"
+  },
+  "m391": {
+    "source": "╭┈ ❒ [ DELETE ❌ ]\n├ {0}\n╰┈➤ try again with another picture",
+    "en": "╭┈ ❒ [ DELETE ❌ ]\n├ {0}\n╰┈➤ try again with another picture",
+    "tl": "╭┈ ❒ [ DELETE ❌ ]\n├ {0}\n╰┈➤ Subukan muli gamit ang ibang larawan"
+  },
+  "m392": {
+    "source": "the effect returned nothing",
+    "en": "the effect returned nothing",
+    "tl": "Walang ibinalik na epekto"
+  },
+  "m393": {
+    "source": "Discord message generator",
+    "en": "Discord message generator",
+    "tl": "Gumawa ng mensaheng mukhang galing sa Discord"
+  },
+  "m394": {
+    "source": "Please provide message text",
+    "en": "Please provide message text",
+    "tl": "Ilagay ang teksto ng mensahe"
+  },
+  "m396": {
+    "source": "╭┈ ❒ [ DISCORD ⏳ ]\n├ Generating message...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ DISCORD ⏳ ]\n├ Generating message...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ DISCORD ⏳ ]\n├ Ginagawa ang mensahe...\n╰┈➤ pakihintay"
+  },
+  "m397": {
+    "source": "Message generated",
+    "en": "Message generated",
+    "tl": "Nagawa na ang mensahe"
+  },
+  "m399": {
+    "source": "Failed to generate message",
+    "en": "Failed to generate message",
+    "tl": "❌ Hindi magawa ang mensahe"
+  },
+  "m400": {
+    "source": "Edit Bot's messages!",
+    "en": "Edit Bot's messages!",
+    "tl": "Baguhin ang mensahe ng bot"
+  },
+  "m401": {
+    "source": "reply to a message then type <prefix>edit <your_message>",
+    "en": "reply to a message then type <prefix>edit <your_message>",
+    "tl": "I-reply ang mensahe at i-type ang <prefix>edit <mensahe_mo>"
+  },
+  "m403": {
+    "source": "╭┈ ❒ [ EDIT ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ EDIT ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ EDIT ⏳ ]\n├ Ipinapadala...\n╰┈➤ pakihintay"
+  },
+  "m404": {
+    "source": "❌ | Unsupported Version.",
+    "en": "❌ | Unsupported Version.",
+    "tl": "❌ | Hindi suportado ang bersyon."
+  },
+  "m405": {
+    "source": "❌ | Invalid input. Please reply to a bot message to edit.",
+    "en": "❌ | Invalid input. Please reply to a bot message to edit.",
+    "tl": "❌ | Hindi wastong input. I-reply ang mensahe ng bot na babaguhin."
+  },
+  "m406": {
+    "source": "Error editing message",
+    "en": "Error editing message",
+    "tl": "Error sa pagbabago ng mensahe"
+  },
+  "m407": {
+    "source": "❌ | An error occurred while editing the message. Please try again later.",
+    "en": "❌ | An error occurred while editing the message. Please try again later.",
+    "tl": "❌ | Nagka-error sa pagbabago ng mensahe. Subukan muli mamaya."
+  },
+  "m408": {
+    "source": "Turn the live edit-message behaviour on or off for every command",
+    "en": "Turn the live edit-message behaviour on or off for every command",
+    "tl": "I-on o i-off ang pag-edit ng loading message para sa lahat ng command"
+  },
+  "m411": {
+    "source": "├ Edit mode : {0}",
+    "en": "├ Edit mode : {0}",
+    "tl": "├ Mode ng pag-edit: {0}"
+  },
+  "m412": {
+    "source": "├ Behaviour : {0}",
+    "en": "├ Behaviour : {0}",
+    "tl": "├ Gagawin: {0}"
+  },
+  "m413": {
+    "source": "one message per result",
+    "en": "one message per result",
+    "tl": "isang mensahe sa bawat resulta"
+  },
+  "m414": {
+    "source": "loading message edits into the result",
+    "en": "loading message edits into the result",
+    "tl": "papalitan ang loading message ng resulta"
+  },
+  "m415": {
+    "source": "╰┈➤ use: {0}editmsg on  |  off",
+    "en": "╰┈➤ use: {0}editmsg on  |  off",
+    "tl": "╰┈➤ Gamitin: {0}editmsg on | off"
+  },
+  "m416": {
+    "source": "├ Already enabled",
+    "en": "├ Already enabled",
+    "tl": "├ Naka-on na"
+  },
+  "m417": {
+    "source": "╰┈➤ nothing changed",
+    "en": "╰┈➤ nothing changed",
+    "tl": "╰┈➤ Walang binago"
+  },
+  "m418": {
+    "source": "├ Edit mode ENABLED",
+    "en": "├ Edit mode ENABLED",
+    "tl": "├ NAKA-ON ang mode ng pag-edit"
+  },
+  "m419": {
+    "source": "├ Commands now send a loading message",
+    "en": "├ Commands now send a loading message",
+    "tl": "├ Magpapadala na ng loading message ang mga command"
+  },
+  "m420": {
+    "source": "╰┈➤ then edit it with the result",
+    "en": "╰┈➤ then edit it with the result",
+    "tl": "╰┈➤ at papalitan ito ng resulta"
+  },
+  "m421": {
+    "source": "├ Could not write the settings file",
+    "en": "├ Could not write the settings file",
+    "tl": "├ ❌ Hindi maisulat ang file ng mga setting"
+  },
+  "m422": {
+    "source": "╰┈➤ change applied for this session only",
+    "en": "╰┈➤ change applied for this session only",
+    "tl": "╰┈➤ Para lamang sa kasalukuyang session ang pagbabago"
+  },
+  "m423": {
+    "source": "├ Already disabled",
+    "en": "├ Already disabled",
+    "tl": "├ Naka-off na"
+  },
+  "m424": {
+    "source": "├ Edit mode DISABLED",
+    "en": "├ Edit mode DISABLED",
+    "tl": "├ NAKA-OFF ang mode ng pag-edit"
+  },
+  "m425": {
+    "source": "├ No more loading messages",
+    "en": "├ No more loading messages",
+    "tl": "├ Wala nang loading message"
+  },
+  "m426": {
+    "source": "╰┈➤ commands reply once with the result",
+    "en": "╰┈➤ commands reply once with the result",
+    "tl": "╰┈➤ Isang beses na sasagot ang command kasama ang resulta"
+  },
+  "m427": {
+    "source": "├ Unknown option: ",
+    "en": "├ Unknown option: ",
+    "tl": "├ Hindi kilalang opsyon: "
+  },
+  "m428": {
+    "source": "╰┈➤ use: on / off / status",
+    "en": "╰┈➤ use: on / off / status",
+    "tl": "╰┈➤ Gamitin: on / off / status"
+  },
+  "m430": {
+    "source": " (changed from dashboard)",
+    "en": " (changed from dashboard)",
+    "tl": " (binago mula sa dashboard)"
+  },
+  "m431": {
+    "source": "Turn an emoji into a big animated gif",
+    "en": "Turn an emoji into a big animated gif",
+    "tl": "Gawing malaking animated GIF ang emoji"
+  },
+  "m432": {
+    "source": "<emoji>   e.g. emoji 🔥",
+    "en": "<emoji>   e.g. emoji 🔥",
+    "tl": "<emoji> halimbawa: emoji 🔥"
+  },
+  "m434": {
+    "source": "Send me an emoji.",
+    "en": "Send me an emoji.",
+    "tl": "Magpadala ng emoji."
+  },
+  "m437": {
+    "source": "One emoji at a time",
+    "en": "One emoji at a time",
+    "tl": "Isang emoji lamang sa bawat paggamit"
+  },
+  "m439": {
+    "source": "No gif for {0}: {1}",
+    "en": "No gif for {0}: {1}",
+    "tl": "Walang GIF para sa {0}: {1}"
+  },
+  "m440": {
+    "source": "Some emojis aren't supported",
+    "en": "Some emojis aren't supported",
+    "tl": "May mga emoji na hindi suportado"
+  },
+  "m441": {
+    "source": "Execute JavaScript code",
+    "en": "Execute JavaScript code",
+    "tl": "Patakbuhin ang JavaScript code"
+  },
+  "m444": {
+    "source": "╭┈ ❒ [ EVAL ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ EVAL ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ EVAL ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m445": {
+    "source": "❌ Please provide code to execute.",
+    "en": "❌ Please provide code to execute.",
+    "tl": "❌ Ilagay ang code na patatakbuhin."
+  },
+  "m448": {
+    "source": "Flip coin (10% win + EXP)",
+    "en": "Flip coin (10% win + EXP)",
+    "tl": "Maghagis ng barya (10% tsansa ng panalo at EXP)"
+  },
+  "m450": {
+    "source": "╭┈ ❒ [ FLIP ⏳ ]\n├ Rolling...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ FLIP ⏳ ]\n├ Rolling...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ FLIP ⏳ ]\n├ Rolling...\n╰┈➤ pakihintay"
+  },
+  "m451": {
+    "source": "❌ Database not found",
+    "en": "❌ Database not found",
+    "tl": "❌ Hindi nakita ang database"
+  },
+  "m452": {
+    "source": "❌ Use: flip heads 100",
+    "en": "❌ Use: flip heads 100",
+    "tl": "❌ Gamitin: flip heads 100"
+  },
+  "m453": {
+    "source": "❌ Choose heads or tails",
+    "en": "❌ Choose heads or tails",
+    "tl": "❌ Pumili ng heads o tails"
+  },
+  "m454": {
+    "source": "❌ Invalid bet",
+    "en": "❌ Invalid bet",
+    "tl": "❌ Hindi wastong taya"
+  },
+  "m455": {
+    "source": "❌ Not enough money",
+    "en": "❌ Not enough money",
+    "tl": "❌ Kulang ang pera"
+  },
+  "m456": {
+    "source": "\n╰┈➤ 🎉 You received: {0} EXP ⭐",
+    "en": "\n╰┈➤ 🎉 You received: {0} EXP ⭐",
+    "tl": "\n╰┈➤ 🎉 Natanggap mo: {0} EXP ⭐"
+  },
+  "m457": {
+    "source": "╭┈ ❒ [ FLIP ]\n╰┈➤ You: {0}\n╰┈➤ Result: {1}\n╰┈➤ {2}: {3} 💰{4}\n╰┈➤ Balance: {5} 🏦",
+    "en": "╭┈ ❒ [ FLIP ]\n╰┈➤ You: {0}\n╰┈➤ Result: {1}\n╰┈➤ {2}: {3} 💰{4}\n╰┈➤ Balance: {5} 🏦",
+    "tl": "╭┈ ❒ [ FLIP ]\n╰┈➤ Pinili mo: {0}\n╰┈➤ Resulta: {1}\n╰┈➤ {2}: {3} 💰{4}\n╰┈➤ Balanse: {5} 🏦"
+  },
+  "m458": {
+    "source": "🎉 Win",
+    "en": "🎉 Win",
+    "tl": "🎉 Panalo"
+  },
+  "m459": {
+    "source": "❌ Lose",
+    "en": "❌ Lose",
+    "tl": "❌ Talo"
+  },
+  "m460": {
+    "source": "Get the URL Download from Video, Audio is sent from the group",
+    "en": "Get the URL Download from Video, Audio is sent from the group",
+    "tl": "Kunin ang download URL ng video o audio na ipinadala sa GC"
+  },
+  "m463": {
+    "source": "❌ Your need reply a message have contain an audio, video or picture",
+    "en": "❌ Your need reply a message have contain an audio, video or picture",
+    "tl": "❌ I-reply ang mensaheng may audio, video o larawan"
+  },
+  "m465": {
+    "source": "╭┈ ❒ [ GETLINK ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ GETLINK ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ GETLINK ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m466": {
+    "source": "Group Protection (anti-robbery, admin, name, and image guard)",
+    "en": "Group Protection (anti-robbery, admin, name, and image guard)",
+    "tl": "Proteksyon ng GC laban sa pagbabago ng admin, pangalan at larawan"
+  },
+  "m469": {
+    "source": "╭┈ ❒ [ GP ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ GP ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ GP ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m470": {
+    "source": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗘𝗡𝗔𝗕𝗟𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n✅ Anti-Admin Change Protection\n✅ Anti-Name Change Protection\n✅ Anti-Image Change Protection\n━━━━━━━━━━━━━━━━━━\nAll security measures are now active!",
+    "en": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗘𝗡𝗔𝗕𝗟𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n✅ Anti-Admin Change Protection\n✅ Anti-Name Change Protection\n✅ Anti-Image Change Protection\n━━━━━━━━━━━━━━━━━━\nAll security measures are now active!",
+    "tl": "🛡️ NAKA-ON ANG PROTEKSYON NG GC\n━━━━━━━━━━━━━━━━━━\n✅ Proteksyon laban sa pagbabago ng admin\n✅ Proteksyon laban sa pagbabago ng pangalan\n✅ Proteksyon laban sa pagbabago ng larawan\n━━━━━━━━━━━━━━━━━━\nAktibo na ang lahat ng proteksyon!"
+  },
+  "m471": {
+    "source": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗗𝗜𝗦𝗔𝗕𝗟𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n❌ Anti-Admin Change Protection\n❌ Anti-Name Change Protection\n❌ Anti-Image Change Protection\n━━━━━━━━━━━━━━━━━━\nAll security measures are now turned off!",
+    "en": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗗𝗜𝗦𝗔𝗕𝗟𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n❌ Anti-Admin Change Protection\n❌ Anti-Name Change Protection\n❌ Anti-Image Change Protection\n━━━━━━━━━━━━━━━━━━\nAll security measures are now turned off!",
+    "tl": "🛡️ NAKA-OFF ANG PROTEKSYON NG GC\n━━━━━━━━━━━━━━━━━━\n❌ Proteksyon laban sa pagbabago ng admin\n❌ Proteksyon laban sa pagbabago ng pangalan\n❌ Proteksyon laban sa pagbabago ng larawan\n━━━━━━━━━━━━━━━━━━\nNaka-off na ang lahat ng proteksyon!"
+  },
+  "m472": {
+    "source": "🟢 ACTIVE",
+    "en": "🟢 ACTIVE",
+    "tl": "🟢 AKTIBO"
+  },
+  "m473": {
+    "source": "🔴 INACTIVE",
+    "en": "🔴 INACTIVE",
+    "tl": "🔴 HINDI AKTIBO"
+  },
+  "m474": {
+    "source": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗦𝗧𝗔𝗧𝗨𝗦\n━━━━━━━━━━━━━━━━━━\n📊 Status: {0}\n\nUsage: /gp on - Turn on protection\n/gp off - Turn off protection\n/gp status - Check current status",
+    "en": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗦𝗧𝗔𝗧𝗨𝗦\n━━━━━━━━━━━━━━━━━━\n📊 Status: {0}\n\nUsage: /gp on - Turn on protection\n/gp off - Turn off protection\n/gp status - Check current status",
+    "tl": "🛡️ PROTEKSYON NG GC\n━━━━━━━━━━━━━━━━━━\n📊 Kalagayan: {0}\n\nPaggamit: /gp on - I-on ang proteksyon\n/gp off - I-off ang proteksyon\n/gp status - Tingnan ang kalagayan"
+  },
+  "m475": {
+    "source": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗦𝗬𝗦𝗧𝗘𝗠\n━━━━━━━━━━━━━━━━━━\nUsage: /gp on - Turn on protection\n/gp off - Turn off protection\n/gp status - Check current status\n━━━━━━━━━━━━━━━━━━\n📋 Features:\n• Anti-Admin Change\n• Anti-Name Change\n• Anti-Image Change",
+    "en": "🛡️ 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡 𝗦𝗬𝗦𝗧𝗘𝗠\n━━━━━━━━━━━━━━━━━━\nUsage: /gp on - Turn on protection\n/gp off - Turn off protection\n/gp status - Check current status\n━━━━━━━━━━━━━━━━━━\n📋 Features:\n• Anti-Admin Change\n• Anti-Name Change\n• Anti-Image Change",
+    "tl": "🛡️ SISTEMA NG PROTEKSYON NG GC\n━━━━━━━━━━━━━━━━━━\n/gp on - I-on ang proteksyon\n/gp off - I-off ang proteksyon\n/gp status - Tingnan ang kalagayan\n━━━━━━━━━━━━━━━━━━\n📋 Mga tampok:\n• Proteksyon sa admin\n• Proteksyon sa pangalan\n• Proteksyon sa larawan"
+  },
+  "m476": {
+    "source": "Show available commands",
+    "en": "Show available commands",
+    "tl": "Ipakita ang mga magagamit na command"
+  },
+  "m477": {
+    "source": "[command name] or [all] or [page number]",
+    "en": "[command name] or [all] or [page number]",
+    "tl": "[pangalan ng command] o [all] o [numero ng pahina]"
+  },
+  "m479": {
+    "source": "╭┈ ❒ [ HELP ⏳ ]\n├ Loading commands...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ HELP ⏳ ]\n├ Loading commands...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ HELP ⏳ ]\n├ Nilo-load ang mga command...\n╰┈➤ pakihintay"
+  },
+  "m480": {
+    "source": "No usage specified",
+    "en": "No usage specified",
+    "tl": "Walang nakasaad na paraan ng paggamit"
+  },
+  "m482": {
+    "source": "❌ No commands found in the commands directory.",
+    "en": "❌ No commands found in the commands directory.",
+    "tl": "❌ Walang nakitang command sa folder."
+  },
+  "m483": {
+    "source": "= 𝘽𝙊𝙏 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙇𝙄𝙎𝙏 =\n\n ━━━━━━༺༻━━━━━━\n╭┈ ❒ 𝗨𝘀𝗲: {0}\n╰┈➤ this prefix to run this commands\n━━━━━━༺༻━━━━━━\n",
+    "en": "= 𝘽𝙊𝙏 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙇𝙄𝙎𝙏 =\n\n ━━━━━━༺༻━━━━━━\n╭┈ ❒ 𝗨𝘀𝗲: {0}\n╰┈➤ this prefix to run this commands\n━━━━━━༺༻━━━━━━\n",
+    "tl": "= LISTAHAN NG COMMAND NG BOT =\n\n━━━━━━༺༻━━━━━━\n╭┈ ❒ Gamitin: {0}\n╰┈➤ ang prefix na ito para sa mga command na kailangan nito\n━━━━━━༺༻━━━━━━\n"
+  },
+  "m484": {
+    "source": "\n━━━━━━━━━━━━\n╭┈ ❒「 {0} 」➪ {1}\n╰┈➤ 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯: {2}\n╰┈➤ 𝘞𝘢𝘪𝘵𝘪𝘯𝘨 𝘛𝘐𝘮𝘦: {3}s\n╰┈➤ 𝘊𝘢𝘵𝘦𝘨𝘰𝘳𝘺: {4}\n━━━━━━━━━━━━\n",
+    "en": "\n━━━━━━━━━━━━\n╭┈ ❒「 {0} 」➪ {1}\n╰┈➤ 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯: {2}\n╰┈➤ 𝘞𝘢𝘪𝘵𝘪𝘯𝘨 𝘛𝘐𝘮𝘦: {3}s\n╰┈➤ 𝘊𝘢𝘵𝘦𝘨𝘰𝘳𝘺: {4}\n━━━━━━━━━━━━\n",
+    "tl": "\n━━━━━━━━━━━━\n╭┈ ❒「 {0} 」➪ {1}\n╰┈➤ Paglalarawan: {2}\n╰┈➤ Oras ng paghihintay: {3}s\n╰┈➤ Kategorya: {4}\n━━━━━━━━━━━━\n"
+  },
+  "m485": {
+    "source": "\n━━━━━━༺༻━━━━━━\n[ 🕜 TIME ]\n{0} || {1} || {2}\n\n𝙏𝙝𝙞𝙨 𝘽𝙤𝙩 𝙈𝙖𝙙𝙚 𝙗𝙮: 𝘡𝘢𝘤𝘩\n",
+    "en": "\n━━━━━━༺༻━━━━━━\n[ 🕜 TIME ]\n{0} || {1} || {2}\n\n𝙏𝙝𝙞𝙨 𝘽𝙤𝙩 𝙈𝙖𝙙𝙚 𝙗𝙮: 𝘡𝘢𝘤𝘩\n",
+    "tl": "\n━━━━━━༺༻━━━━━━\n[ 🕜 ORAS ]\n{0} || {1} || {2}\n\nGumawa ng bot: Zach\n"
+  },
+  "m486": {
+    "source": "📋 𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: {0}\n",
+    "en": "📋 𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: {0}\n",
+    "tl": "📋 Kabuuang command: {0}\n"
+  },
+  "m487": {
+    "source": "🔢 𝗨𝘀𝗲: {0}help <page> (1-{1})\n",
+    "en": "🔢 𝗨𝘀𝗲: {0}help <page> (1-{1})\n",
+    "tl": "🔢 Gamitin: {0}help <pahina> (1-{1})\n"
+  },
+  "m488": {
+    "source": "📜 𝗨𝘀𝗲: {0}help all\n",
+    "en": "📜 𝗨𝘀𝗲: {0}help all\n",
+    "tl": "📜 Gamitin: {0}help all\n"
+  },
+  "m489": {
+    "source": "ℹ️  𝗨𝘀𝗲: {0}help <command>",
+    "en": "ℹ️  𝗨𝘀𝗲: {0}help <command>",
+    "tl": "ℹ️ Gamitin: {0}help <command>"
+  },
+  "m490": {
+    "source": "❌ Invalid page number. Available pages: 1-{0}",
+    "en": "❌ Invalid page number. Available pages: 1-{0}",
+    "tl": "❌ Hindi wastong pahina. Mga pahina: 1-{0}"
+  },
+  "m491": {
+    "source": "ℹ️  𝗨𝘀𝗲: {0}help <command> for details",
+    "en": "ℹ️  𝗨𝘀𝗲: {0}help <command> for details",
+    "tl": "ℹ️ Gamitin: {0}help <command> para sa detalye"
+  },
+  "m492": {
+    "source": "🔍 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗜𝗡𝗙𝗢\n",
+    "en": "🔍 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗜𝗡𝗙𝗢\n",
+    "tl": "🔍 IMPORMASYON NG COMMAND\n"
+  },
+  "m493": {
+    "source": "📛 𝗡𝗮𝗺𝗲: {0}\n",
+    "en": "📛 𝗡𝗮𝗺𝗲: {0}\n",
+    "tl": "📛 Pangalan: {0}\n"
+  },
+  "m494": {
+    "source": "📖 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: {0}\n",
+    "en": "📖 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: {0}\n",
+    "tl": "📖 Paglalarawan: {0}\n"
+  },
+  "m495": {
+    "source": "🔧 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: {0}\n",
+    "en": "🔧 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: {0}\n",
+    "tl": "🔧 Kategorya: {0}\n"
+  },
+  "m496": {
+    "source": "🔄 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: {0}\n",
+    "en": "🔄 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: {0}\n",
+    "tl": "🔄 Bersyon: {0}\n"
+  },
+  "m497": {
+    "source": "👤 𝗖𝗿𝗲𝗱𝗶𝘁𝘀: {0}\n",
+    "en": "👤 𝗖𝗿𝗲𝗱𝗶𝘁𝘀: {0}\n",
+    "tl": "👤 Mga gumawa: {0}\n"
+  },
+  "m498": {
+    "source": "⏱️ 𝗖𝗼𝗼𝗹𝗱𝗼𝘄𝗻: {0}s\n",
+    "en": "⏱️ 𝗖𝗼𝗼𝗹𝗱𝗼𝘄𝗻: {0}s\n",
+    "tl": "⏱️ Oras ng paghihintay: {0}s\n"
+  },
+  "m499": {
+    "source": "💡 𝗨𝘀𝗮𝗴𝗲: {0}{1}\n\n",
+    "en": "💡 𝗨𝘀𝗮𝗴𝗲: {0}{1}\n\n",
+    "tl": "💡 Paggamit: {0}{1}\n\n"
+  },
+  "m500": {
+    "source": "❌ Command \"{0}\" not found. Use \"{1}help 1\" to see available commands.",
+    "en": "❌ Command \"{0}\" not found. Use \"{1}help 1\" to see available commands.",
+    "tl": "❌ Hindi nakita ang command na \"{0}\". Gamitin ang \"{1}help 1\" para sa listahan."
+  },
+  "m501": {
+    "source": "📖 𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n",
+    "en": "📖 𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n",
+    "tl": "📖 LAHAT NG COMMAND\n"
+  },
+  "m502": {
+    "source": "❌ An error occurred while loading commands.",
+    "en": "❌ An error occurred while loading commands.",
+    "tl": "❌ Nagka-error sa pag-load ng mga command."
+  },
+  "m503": {
+    "source": "Knowledge is power.",
+    "en": "Knowledge is power.",
+    "tl": "Ang kaalaman ay kapangyarihan."
+  },
+  "m504": {
+    "source": "Simplicity is the ultimate sophistication.",
+    "en": "Simplicity is the ultimate sophistication.",
+    "tl": "Nasa pagiging simple ang tunay na husay."
+  },
+  "m505": {
+    "source": "Code is like humor. When you have to explain it, it’s bad.",
+    "en": "Code is like humor. When you have to explain it, it’s bad.",
+    "tl": "Ang code ay parang biro. Kapag kailangan pang ipaliwanag, hindi ito maganda."
+  },
+  "m506": {
+    "source": "Stay hungry, stay foolish.",
+    "en": "Stay hungry, stay foolish.",
+    "tl": "Manatiling sabik matuto at handang sumubok."
+  },
+  "m507": {
+    "source": "Beginner's guide",
+    "en": "Beginner's guide",
+    "tl": "Gabay para sa baguhan"
+  },
+  "m508": {
+    "source": "No description",
+    "en": "No description",
+    "tl": "Walang paglalarawan"
+  },
+  "m510": {
+    "source": "❌ No commands found.",
+    "en": "❌ No commands found.",
+    "tl": "❌ Walang nakitang command."
+  },
+  "m511": {
+    "source": "𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧\n━━━━━━━━━━━━━━━\n",
+    "en": "𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧\n━━━━━━━━━━━━━━━\n",
+    "tl": "LISTAHAN NG COMMAND\n━━━━━━━━━━━━━━━\n"
+  },
+  "m512": {
+    "source": "\n╭┈ ❒ [ {0} ] : 𝙋𝙍𝙀𝙁𝙄𝙓\n╰   ⁞ ❏. {1}: {2}\n   📝 {3}\n━━━━━━━━━━━━━━━\n",
+    "en": "\n╭┈ ❒ [ {0} ] : 𝙋𝙍𝙀𝙁𝙄𝙓\n╰   ⁞ ❏. {1}: {2}\n   📝 {3}\n━━━━━━━━━━━━━━━\n",
+    "tl": "\n╭┈ ❒ [ {0} ] : PREFIX\n╰   ⁞ ❏. {1}: {2}\n   📝 {3}\n━━━━━━━━━━━━━━━\n"
+  },
+  "m513": {
+    "source": "\n𝗣𝗮𝗴𝗲: 『{0}/{1}』\n",
+    "en": "\n𝗣𝗮𝗴𝗲: 『{0}/{1}』\n",
+    "tl": "\nPahina: 『{0}/{1}』\n"
+  },
+  "m514": {
+    "source": "🔢 Use: {0}help <page> (1-{1})\n",
+    "en": "🔢 Use: {0}help <page> (1-{1})\n",
+    "tl": "🔢 Gamitin: {0}help <pahina> (1-{1})\n"
+  },
+  "m515": {
+    "source": "📜 Use: {0}help all\n",
+    "en": "📜 Use: {0}help all\n",
+    "tl": "📜 Gamitin: {0}help all\n"
+  },
+  "m516": {
+    "source": "ℹ️ Use: {0}help <command>\n\n",
+    "en": "ℹ️ Use: {0}help <command>\n\n",
+    "tl": "ℹ️ Gamitin: {0}help <command>\n\n"
+  },
+  "m517": {
+    "source": "💡 Random Fact: {0}",
+    "en": "💡 Random Fact: {0}",
+    "tl": "💡 Kaisipan: {0}"
+  },
+  "m518": {
+    "source": "❌ Invalid page. Available: 1-{0}",
+    "en": "❌ Invalid page. Available: 1-{0}",
+    "tl": "❌ Hindi wastong pahina. Mga pahina: 1-{0}"
+  },
+  "m519": {
+    "source": " 「 Command 」\n\n",
+    "en": " 「 Command 」\n\n",
+    "tl": " 「 Command 」\n\n"
+  },
+  "m520": {
+    "source": "➛ Name: {0}\n",
+    "en": "➛ Name: {0}\n",
+    "tl": "➛ Pangalan: {0}\n"
+  },
+  "m521": {
+    "source": "➛ Version: {0}\n",
+    "en": "➛ Version: {0}\n",
+    "tl": "➛ Bersyon: {0}\n"
+  },
+  "m522": {
+    "source": "➛ Category: {0}\n",
+    "en": "➛ Category: {0}\n",
+    "tl": "➛ Kategorya: {0}\n"
+  },
+  "m523": {
+    "source": "➛ Description: {0}\n",
+    "en": "➛ Description: {0}\n",
+    "tl": "➛ Paglalarawan: {0}\n"
+  },
+  "m524": {
+    "source": "➛ Usage: {0}{1}\n",
+    "en": "➛ Usage: {0}{1}\n",
+    "tl": "➛ Paggamit: {0}{1}\n"
+  },
+  "m525": {
+    "source": "➛ Credits: {0}\n",
+    "en": "➛ Credits: {0}\n",
+    "tl": "➛ Mga gumawa: {0}\n"
+  },
+  "m526": {
+    "source": "➛ Cooldown: {0} second(s)\n\n",
+    "en": "➛ Cooldown: {0} second(s)\n\n",
+    "tl": "➛ Oras ng paghihintay: {0} segundo\n\n"
+  },
+  "m527": {
+    "source": "❌ Command \"{0}\" not found.",
+    "en": "❌ Command \"{0}\" not found.",
+    "tl": "❌ Hindi nakita ang command na \"{0}\"."
+  },
+  "m528": {
+    "source": "𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n━━━━━━━━━━━━━━━\n",
+    "en": "𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n━━━━━━━━━━━━━━━\n",
+    "tl": "LAHAT NG COMMAND\n━━━━━━━━━━━━━━━\n"
+  },
+  "m529": {
+    "source": "\n📋 Total Commands: {0}\n",
+    "en": "\n📋 Total Commands: {0}\n",
+    "tl": "\n📋 Kabuuang command: {0}\n"
+  },
+  "m530": {
+    "source": "❌ Error loading help.",
+    "en": "❌ Error loading help.",
+    "tl": "❌ Error sa pag-load ng tulong."
+  },
+  "m532": {
+    "source": "Shows the ID information and description of a sticker",
+    "en": "Shows the ID information and description of a sticker",
+    "tl": "Ipakita ang ID at paglalarawan ng sticker"
+  },
+  "m535": {
+    "source": "╭┈ ❒ [ IDST ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ IDST ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ IDST ⏳ ]\n├ Ipinapadala...\n╰┈➤ pakihintay"
+  },
+  "m536": {
+    "source": "ID: {0}\nCaption: {1}",
+    "en": "ID: {0}\nCaption: {1}",
+    "tl": "ID: {0}\nPaliwanag: {1}"
+  },
+  "m537": {
+    "source": "Only reply sticker",
+    "en": "Only reply sticker",
+    "tl": "Sticker lamang ang i-reply"
+  },
+  "m538": {
+    "source": "Kick user from group",
+    "en": "Kick user from group",
+    "tl": "Alisin ang miyembro sa GC"
+  },
+  "m539": {
+    "source": "[kick] [mention or reply] [reason]",
+    "en": "[kick] [mention or reply] [reason]",
+    "tl": "[kick] [mention o reply] [dahilan]"
+  },
+  "m541": {
+    "source": "╭┈ ❒ [ KICK ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ KICK ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ KICK ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m542": {
+    "source": "❌ | This command can only be used in group chats.",
+    "en": "❌ | This command can only be used in group chats.",
+    "tl": "❌ | Sa GC lamang maaaring gamitin ang command na ito."
+  },
+  "m543": {
+    "source": "❌ | You need to be an admin to use this command.",
+    "en": "❌ | You need to be an admin to use this command.",
+    "tl": "❌ | Kailangan mong maging admin para dito."
+  },
+  "m544": {
+    "source": "❌ | Need Admin Group Chat Privilege",
+    "en": "❌ | Need Admin Group Chat Privilege",
+    "tl": "❌ | Kailangan ng admin access sa GC"
+  },
+  "m545": {
+    "source": "⚠️ 𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📝 𝗨𝘀𝗮𝗴𝗲:\n/kick <mention or reply> <reason>\n/kick <uid> <reason>",
+    "en": "⚠️ 𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📝 𝗨𝘀𝗮𝗴𝗲:\n/kick <mention or reply> <reason>\n/kick <uid> <reason>",
+    "tl": "⚠️ MALI ANG PAGGAMIT\n━━━━━━━━━━━━━━━━━━\n📝 Paggamit:\n/kick <mention o reply> <dahilan>\n/kick <uid> <dahilan>"
+  },
+  "m546": {
+    "source": "❌ | Please mention a user or reply to a message to kick.",
+    "en": "❌ | Please mention a user or reply to a message to kick.",
+    "tl": "❌ | Mag-mention o i-reply ang mensahe ng miyembrong aalisin."
+  },
+  "m547": {
+    "source": "Default You Kicked by The Admins Group Chat",
+    "en": "Default You Kicked by The Admins Group Chat",
+    "tl": "Inalis ng mga admin ng GC"
+  },
+  "m548": {
+    "source": "❌ | You cannot kick yourself.",
+    "en": "❌ | You cannot kick yourself.",
+    "tl": "❌ | Hindi mo maaaring alisin ang sarili mo."
+  },
+  "m549": {
+    "source": "❌ | I cannot kick myself.",
+    "en": "❌ | I cannot kick myself.",
+    "tl": "❌ | Hindi ko maaaring alisin ang sarili ko."
+  },
+  "m550": {
+    "source": "❌ | Cannot kick another admin from the group.",
+    "en": "❌ | Cannot kick another admin from the group.",
+    "tl": "❌ | Hindi maaaring alisin ang kapwa admin sa GC."
+  },
+  "m551": {
+    "source": "✅ 𝗨𝗦𝗘𝗥 𝗞𝗜𝗖𝗞𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬\n━━━━━━━━━━━━━━━━━━\n👤 𝗨𝘀𝗲𝗿: {0}\n📝 𝗥𝗲𝗮𝘀𝗼𝗻: {1}\n👮 𝗞𝗶𝗰𝗸𝗲𝗱 𝗯𝘆: {2}\n━━━━━━━━━━━━━━━━━━\n🗑️ 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟱𝘀",
+    "en": "✅ 𝗨𝗦𝗘𝗥 𝗞𝗜𝗖𝗞𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬\n━━━━━━━━━━━━━━━━━━\n👤 𝗨𝘀𝗲𝗿: {0}\n📝 𝗥𝗲𝗮𝘀𝗼𝗻: {1}\n👮 𝗞𝗶𝗰𝗸𝗲𝗱 𝗯𝘆: {2}\n━━━━━━━━━━━━━━━━━━\n🗑️ 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟱𝘀",
+    "tl": "✅ NAALIS NA ANG MIYEMBRO\n━━━━━━━━━━━━━━━━━━\n👤 Miyembro: {0}\n📝 Dahilan: {1}\n👮 Nag-alis: {2}\n━━━━━━━━━━━━━━━━━━\n🗑️ Buburahin ang mensahe pagkalipas ng 5 segundo"
+  },
+  "m552": {
+    "source": "🚨 𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 𝗕𝗘𝗘𝗡 𝗞𝗜𝗖𝗞𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n👤 𝗬𝗼𝘂𝗿 𝗡𝗮𝗺𝗲: {0}\n📝 𝗥𝗲𝗮𝘀𝗼𝗻: {1}\n👮 𝗞𝗶𝗰𝗸𝗲𝗱 𝗯𝘆: {2}\n👥 𝗚𝗿𝗼𝘂𝗽: {3}\n━━━━━━━━━━━━━━━━━━\n⚠️  𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝗯𝗲𝗲𝗻 𝗿𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗴𝗿𝗼𝘂𝗽",
+    "en": "🚨 𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 𝗕𝗘𝗘𝗡 𝗞𝗜𝗖𝗞𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n👤 𝗬𝗼𝘂𝗿 𝗡𝗮𝗺𝗲: {0}\n📝 𝗥𝗲𝗮𝘀𝗼𝗻: {1}\n👮 𝗞𝗶𝗰𝗸𝗲𝗱 𝗯𝘆: {2}\n👥 𝗚𝗿𝗼𝘂𝗽: {3}\n━━━━━━━━━━━━━━━━━━\n⚠️  𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝗯𝗲𝗲𝗻 𝗿𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗴𝗿𝗼𝘂𝗽",
+    "tl": "🚨 INALIS KA SA GC\n━━━━━━━━━━━━━━━━━━\n👤 Pangalan mo: {0}\n📝 Dahilan: {1}\n👮 Nag-alis: {2}\n👥 GC: {3}\n━━━━━━━━━━━━━━━━━━\n⚠️ Inalis ka na sa GC"
+  },
+  "m553": {
+    "source": "Unknown Group",
+    "en": "Unknown Group",
+    "tl": "Hindi kilalang GC"
+  },
+  "m557": {
+    "source": "❌ 𝗞𝗜𝗖𝗞 𝗙𝗔𝗜𝗟𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n⚠️  Failed to kick user. Please check if:\n• User exists\n• I have permission to remove members\n• User is not an admin\n━━━━━━━━━━━━━━━━━━\n🗑️ 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭𝟬𝘀",
+    "en": "❌ 𝗞𝗜𝗖𝗞 𝗙𝗔𝗜𝗟𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n⚠️  Failed to kick user. Please check if:\n• User exists\n• I have permission to remove members\n• User is not an admin\n━━━━━━━━━━━━━━━━━━\n🗑️ 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭𝟬𝘀",
+    "tl": "❌ HINDI NAALIS ANG MIYEMBRO\n━━━━━━━━━━━━━━━━━━\n⚠️ Suriin kung:\n• Nasa GC ang tao\n• May pahintulot akong mag-alis ng miyembro\n• Hindi admin ang aalisin\n━━━━━━━━━━━━━━━━━━\n🗑️ Buburahin ang mensahe pagkalipas ng 10 segundo"
+  },
+  "m559": {
+    "source": "Get lyrics of a song",
+    "en": "Get lyrics of a song",
+    "tl": "Kunin ang liriko ng kanta"
+  },
+  "m560": {
+    "source": "lyrics [song name]",
+    "en": "lyrics [song name]",
+    "tl": "lyrics [pamagat ng kanta]"
+  },
+  "m561": {
+    "source": "⚠️ Please provide a song name.",
+    "en": "⚠️ Please provide a song name.",
+    "tl": "⚠️ Ilagay ang pamagat ng kanta."
+  },
+  "m563": {
+    "source": "╭┈ ❒ [ LYRICS ⏳ ]\n├ Searching lyrics...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ LYRICS ⏳ ]\n├ Searching lyrics...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ LYRICS ⏳ ]\n├ Searching lyrics...\n╰┈➤ pakihintay"
+  },
+  "m564": {
+    "source": "❌ Lyrics not found.",
+    "en": "❌ Lyrics not found.",
+    "tl": "❌ Hindi nakita ang liriko."
+  },
+  "m565": {
+    "source": "𝗟𝘆𝗿𝗶𝗰𝘀 𝗙𝗼𝘂𝗻𝗱 🎶\n━━━━━━━━━━━━━━━━━━\n\n🎵 𝗧𝗶𝘁𝗹𝗲: {0}\n🎤 𝗔𝗿𝘁𝗶𝘀𝘁: {1}\n🔗 𝗟𝗶𝗻𝗸: {2}\n\n📑 𝗟𝘆𝗿𝗶𝗰𝘀:\n{3}",
+    "en": "𝗟𝘆𝗿𝗶𝗰𝘀 𝗙𝗼𝘂𝗻𝗱 🎶\n━━━━━━━━━━━━━━━━━━\n\n🎵 𝗧𝗶𝘁𝗹𝗲: {0}\n🎤 𝗔𝗿𝘁𝗶𝘀𝘁: {1}\n🔗 𝗟𝗶𝗻𝗸: {2}\n\n📑 𝗟𝘆𝗿𝗶𝗰𝘀:\n{3}",
+    "tl": "Nakita ang liriko 🎶\n━━━━━━━━━━━━━━━━━━\n\n🎵 Pamagat: {0}\n🎤 Mang-aawit: {1}\n🔗 Link: {2}\n\n📑 Liriko:\n{3}"
+  },
+  "m566": {
+    "source": "⚠️ Error: ",
+    "en": "⚠️ Error: ",
+    "tl": "⚠️ Error: "
+  },
+  "m567": {
+    "source": "Restyle a photo with AI - reply to a picture and say what to do",
+    "en": "Restyle a photo with AI - reply to a picture and say what to do",
+    "tl": "Baguhin ang estilo ng larawan gamit ang AI; i-reply ang larawan at sabihin ang gagawin"
+  },
+  "m568": {
+    "source": "<what to do>  (reply to a photo, or paste an image link)",
+    "en": "<what to do>  (reply to a photo, or paste an image link)",
+    "tl": "<gagawin> (i-reply ang larawan o ilagay ang link nito)"
+  },
+  "m570": {
+    "source": "Reply to a photo and tell me what to do with it.",
+    "en": "Reply to a photo and tell me what to do with it.",
+    "tl": "I-reply ang larawan at sabihin kung anong babaguhin."
+  },
+  "m571": {
+    "source": "{0}make make it cartoon",
+    "en": "{0}make make it cartoon",
+    "tl": "{0}make gawing cartoon"
+  },
+  "m572": {
+    "source": "A photo is required",
+    "en": "A photo is required",
+    "tl": "Kailangan ng larawan"
+  },
+  "m573": {
+    "source": "Tell me what to change.",
+    "en": "Tell me what to change.",
+    "tl": "Sabihin kung ano ang babaguhin."
+  },
+  "m574": {
+    "source": "Describe the style you want",
+    "en": "Describe the style you want",
+    "tl": "Ilarawan ang gusto mong estilo"
+  },
+  "m576": {
+    "source": "Couldn't make that: {0}",
+    "en": "Couldn't make that: {0}",
+    "tl": "❌ Hindi ito magawa: {0}"
+  },
+  "m577": {
+    "source": "Try a clearer photo or a simpler description",
+    "en": "Try a clearer photo or a simpler description",
+    "tl": "Subukan ang mas malinaw na larawan o mas simpleng paglalarawan"
+  },
+  "m578": {
+    "source": "Manage group members",
+    "en": "Manage group members",
+    "tl": "Pamahalaan ang mga miyembro ng GC"
+  },
+  "m579": {
+    "source": "👤 𝗥𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n━━━━━━━━━━━━━━━━━━\nUser {0} is banned from this group and has been removed.",
+    "en": "👤 𝗥𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n━━━━━━━━━━━━━━━━━━\nUser {0} is banned from this group and has been removed.",
+    "tl": "👤 INALIS SA GC\n━━━━━━━━━━━━━━━━━━\nNaka-ban si {0} sa GC at inalis na siya."
+  },
+  "m581": {
+    "source": "⚠️ 𝗪𝗮𝗿𝗻𝗶𝗻𝗴\n━━━━━━━━━━━━━━━━━━\n{0}, you attempted to re-add a banned user. This is your first warning.",
+    "en": "⚠️ 𝗪𝗮𝗿𝗻𝗶𝗻𝗴\n━━━━━━━━━━━━━━━━━━\n{0}, you attempted to re-add a banned user. This is your first warning.",
+    "tl": "⚠️ BABALA\n━━━━━━━━━━━━━━━━━━\n{0}, sinubukan mong ibalik ang naka-ban na miyembro. Unang babala mo ito."
+  },
+  "m582": {
+    "source": "👤 𝗥𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n━━━━━━━━━━━━━━━━━━\n{0}, you have been removed for repeatedly attempting to re-add banned users.",
+    "en": "👤 𝗥𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n━━━━━━━━━━━━━━━━━━\n{0}, you have been removed for repeatedly attempting to re-add banned users.",
+    "tl": "👤 INALIS SA GC\n━━━━━━━━━━━━━━━━━━\n{0}, inalis ka dahil paulit-ulit mong ibinabalik ang mga naka-ban na miyembro."
+  },
+  "m583": {
+    "source": "⚠️ 𝗪𝗮𝗿𝗻𝗶𝗻𝗴\n━━━━━━━━━━━━━━━━━━\n{0}, you attempted to re-add a banned user again. This is your final warning.",
+    "en": "⚠️ 𝗪𝗮𝗿𝗻𝗶𝗻𝗴\n━━━━━━━━━━━━━━━━━━\n{0}, you attempted to re-add a banned user again. This is your final warning.",
+    "tl": "⚠️ BABALA\n━━━━━━━━━━━━━━━━━━\n{0}, muli mong sinubukang ibalik ang naka-ban na miyembro. Huling babala mo na ito."
+  },
+  "m586": {
+    "source": "╭┈ ❒ [ MEMBER ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ MEMBER ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ MEMBER ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m587": {
+    "source": "Need Admin Privilege to perform administrative actions.",
+    "en": "Need Admin Privilege to perform administrative actions.",
+    "tl": "Kailangan ng admin access para sa mga aksyong ito."
+  },
+  "m589": {
+    "source": "Failed to check admin privileges.",
+    "en": "Failed to check admin privileges.",
+    "tl": "❌ Hindi masuri ang admin access."
+  },
+  "m590": {
+    "source": "👤 𝗕𝗮𝗻𝗻𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n━━━━━━━━━━━━━━━━━━\nUser {0} has been banned and removed from this group.",
+    "en": "👤 𝗕𝗮𝗻𝗻𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n━━━━━━━━━━━━━━━━━━\nUser {0} has been banned and removed from this group.",
+    "tl": "👤 NAKA-BAN SA GC\n━━━━━━━━━━━━━━━━━━\nNaka-ban at inalis na si {0} sa GC."
+  },
+  "m591": {
+    "source": "Failed to ban user: {0}",
+    "en": "Failed to ban user: {0}",
+    "tl": "❌ Hindi ma-ban ang miyembro: {0}"
+  },
+  "m592": {
+    "source": "⚠️ 𝗔𝗹𝗿𝗲𝗮𝗱𝘆 𝗕𝗮𝗻𝗻𝗲𝗱\n━━━━━━━━━━━━━━━━━━\nUser {0} is already banned from this group.",
+    "en": "⚠️ 𝗔𝗹𝗿𝗲𝗮𝗱𝘆 𝗕𝗮𝗻𝗻𝗲𝗱\n━━━━━━━━━━━━━━━━━━\nUser {0} is already banned from this group.",
+    "tl": "⚠️ NAKA-BAN NA\n━━━━━━━━━━━━━━━━━━\nNaka-ban na si {0} sa GC."
+  },
+  "m593": {
+    "source": "Failed to get user info: {0}",
+    "en": "Failed to get user info: {0}",
+    "tl": "❌ Hindi makuha ang impormasyon ng miyembro: {0}"
+  },
+  "m594": {
+    "source": "❗ 𝗘𝗿𝗿𝗼𝗿\n━━━━━━━━━━━━━━━━━━\nPlease mention a user or provide a user ID to ban.",
+    "en": "❗ 𝗘𝗿𝗿𝗼𝗿\n━━━━━━━━━━━━━━━━━━\nPlease mention a user or provide a user ID to ban.",
+    "tl": "❗ ERROR\n━━━━━━━━━━━━━━━━━━\nMag-mention o maglagay ng ID ng taong iba-ban."
+  },
+  "m595": {
+    "source": "✅ 𝗨𝗻𝗯𝗮𝗻𝗻𝗲𝗱\n━━━━━━━━━━━━━━━━━━\nUser {0} has been unbanned from this group.",
+    "en": "✅ 𝗨𝗻𝗯𝗮𝗻𝗻𝗲𝗱\n━━━━━━━━━━━━━━━━━━\nUser {0} has been unbanned from this group.",
+    "tl": "✅ INALIS ANG BAN\n━━━━━━━━━━━━━━━━━━\nHindi na naka-ban si {0} sa GC."
+  },
+  "m596": {
+    "source": "Failed to unban user: {0}",
+    "en": "Failed to unban user: {0}",
+    "tl": "❌ Hindi maalis ang ban: {0}"
+  },
+  "m597": {
+    "source": "⚠️ 𝗡𝗼𝘁 𝗕𝗮𝗻𝗻𝗲𝗱\n━━━━━━━━━━━━━━━━━━\nUser {0} is not banned from this group.",
+    "en": "⚠️ 𝗡𝗼𝘁 𝗕𝗮𝗻𝗻𝗲𝗱\n━━━━━━━━━━━━━━━━━━\nUser {0} is not banned from this group.",
+    "tl": "⚠️ HINDI NAKA-BAN\n━━━━━━━━━━━━━━━━━━\nHindi naka-ban si {0} sa GC."
+  },
+  "m598": {
+    "source": "❗ 𝗘𝗿𝗿𝗼𝗿\n━━━━━━━━━━━━━━━━━━\nPlease mention a user or provide a user ID to unban.",
+    "en": "❗ 𝗘𝗿𝗿𝗼𝗿\n━━━━━━━━━━━━━━━━━━\nPlease mention a user or provide a user ID to unban.",
+    "tl": "❗ ERROR\n━━━━━━━━━━━━━━━━━━\nMag-mention o maglagay ng ID ng taong aalisan ng ban."
+  },
+  "m599": {
+    "source": "📝 𝗟𝗶𝘀𝘁 𝗼𝗳 𝗕𝗮𝗻𝗻𝗲𝗱 𝗨𝘀𝗲𝗿𝘀\n━━━━━━━━━━━━━━━━━━\nBanned users in this group: {0}",
+    "en": "📝 𝗟𝗶𝘀𝘁 𝗼𝗳 𝗕𝗮𝗻𝗻𝗲𝗱 𝗨𝘀𝗲𝗿𝘀\n━━━━━━━━━━━━━━━━━━\nBanned users in this group: {0}",
+    "tl": "📝 MGA NAKA-BAN\n━━━━━━━━━━━━━━━━━━\nMga naka-ban sa GC: {0}"
+  },
+  "m601": {
+    "source": "📝 𝗟𝗶𝘀𝘁 𝗼𝗳 𝗕𝗮𝗻𝗻𝗲𝗱 𝗨𝘀𝗲𝗿𝘀\n━━━━━━━━━━━━━━━━━━\nNo users are currently banned from this group.",
+    "en": "📝 𝗟𝗶𝘀𝘁 𝗼𝗳 𝗕𝗮𝗻𝗻𝗲𝗱 𝗨𝘀𝗲𝗿𝘀\n━━━━━━━━━━━━━━━━━━\nNo users are currently banned from this group.",
+    "tl": "📝 MGA NAKA-BAN\n━━━━━━━━━━━━━━━━━━\nWalang naka-ban sa GC sa ngayon."
+  },
+  "m602": {
+    "source": "❗ 𝗘𝗿𝗿𝗼𝗿\n━━━━━━━━━━━━━━━━━━\nInvalid command. Usage: /member ban/unban/list [@mention or user ID]",
+    "en": "❗ 𝗘𝗿𝗿𝗼𝗿\n━━━━━━━━━━━━━━━━━━\nInvalid command. Usage: /member ban/unban/list [@mention or user ID]",
+    "tl": "❗ ERROR\n━━━━━━━━━━━━━━━━━━\nHindi wastong command. Paggamit: /member ban/unban/list [@mention o user ID]"
+  },
+  "m603": {
+    "source": "no download key available",
+    "en": "no download key available",
+    "tl": "walang download key"
+  },
+  "m604": {
+    "source": "could not read the video id",
+    "en": "could not read the video id",
+    "tl": "❌ hindi mabasa ang video ID"
+  },
+  "m605": {
+    "source": "no response from the download service",
+    "en": "no response from the download service",
+    "tl": "walang tugon ang serbisyo ng pag-download"
+  },
+  "m606": {
+    "source": "the service rejected this video",
+    "en": "the service rejected this video",
+    "tl": "tinanggihan ng serbisyo ang video"
+  },
+  "m607": {
+    "source": "no streams returned",
+    "en": "no streams returned",
+    "tl": "walang ibinalik na stream"
+  },
+  "m608": {
+    "source": "no video stream available (audio-only result)",
+    "en": "no video stream available (audio-only result)",
+    "tl": "walang video stream; audio lamang ang resulta"
+  },
+  "m609": {
+    "source": "Play and download YouTube music",
+    "en": "Play and download YouTube music",
+    "tl": "Magpatugtog at mag-download ng musika mula sa YouTube"
+  },
+  "m610": {
+    "source": "<song name>",
+    "en": "<song name>",
+    "tl": "<pamagat ng kanta>"
+  },
+  "m612": {
+    "source": "⏳ Music command is in cooldown. Please wait {0} seconds.",
+    "en": "⏳ Music command is in cooldown. Please wait {0} seconds.",
+    "tl": "⏳ Naghihintay pa ang music command. Maghintay ng {0} segundo."
+  },
+  "m613": {
+    "source": "❌ Please provide a song name to search.",
+    "en": "❌ Please provide a song name to search.",
+    "tl": "❌ Ilagay ang pamagat ng kantang hahanapin."
+  },
+  "m614": {
+    "source": "❌ No results found.",
+    "en": "❌ No results found.",
+    "tl": "❌ Walang nakitang resulta."
+  },
+  "m615": {
+    "source": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Downloading...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Downloading...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Dina-download...\n╰┈➤ pakihintay"
+  },
+  "m616": {
+    "source": "🎶 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗬𝗼𝘂𝗧𝘂𝗯𝗲\n━━━━━━━━━━━━━━━━━━\nTitle: {0}\nAuthor: {1}\nDuration: {2}\nYouTube URL: {3}",
+    "en": "🎶 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗬𝗼𝘂𝗧𝘂𝗯𝗲\n━━━━━━━━━━━━━━━━━━\nTitle: {0}\nAuthor: {1}\nDuration: {2}\nYouTube URL: {3}",
+    "tl": "🎶 MUSIKA SA YOUTUBE\n━━━━━━━━━━━━━━━━━━\nPamagat: {0}\nMay-akda: {1}\nTagal: {2}\nURL sa YouTube: {3}"
+  },
+  "m617": {
+    "source": "💾 Reply \"dl\" for the download link\n🎬 Reply \"video\" to get it as a video",
+    "en": "💾 Reply \"dl\" for the download link\n🎬 Reply \"video\" to get it as a video",
+    "tl": "💾 I-reply ang \"dl\" para sa download link\n🎬 I-reply ang \"video\" para sa video"
+  },
+  "m619": {
+    "source": "❌ Error: Unable to fetch music.",
+    "en": "❌ Error: Unable to fetch music.",
+    "tl": "❌ Hindi makuha ang musika."
+  },
+  "m620": {
+    "source": "❌ This message is too old to convert — run the music command again.",
+    "en": "❌ This message is too old to convert — run the music command again.",
+    "tl": "❌ Masyado nang luma ang mensahe para i-convert. Gamitin muli ang music command."
+  },
+  "m621": {
+    "source": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Converting to video...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Converting to video...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ MUSIC ⏳ ]\n├ Converting to video...\n╰┈➤ pakihintay"
+  },
+  "m622": {
+    "source": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n╰┈➤ choosing a quality that fits...",
+    "en": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n╰┈➤ choosing a quality that fits...",
+    "tl": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n╰┈➤ Pinipili ang angkop na kalidad..."
+  },
+  "m623": {
+    "source": "{0}\nSmallest available is {1}MB — over Messenger's 25MB limit.\nReply \"dl\" for the download link instead.",
+    "en": "{0}\nSmallest available is {1}MB — over Messenger's 25MB limit.\nReply \"dl\" for the download link instead.",
+    "tl": "{0}\nAng pinakamaliit ay {1}MB; lampas ito sa 25MB na limitasyon ng Messenger.\nI-reply ang \"dl\" para sa download link."
+  },
+  "m624": {
+    "source": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n├ quality: {1}\n╰┈➤ downloading...",
+    "en": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n├ quality: {1}\n╰┈➤ downloading...",
+    "tl": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n├ kalidad: {1}\n╰┈➤ Dina-download..."
+  },
+  "m625": {
+    "source": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n├ too large — retrying at {1}\n╰┈➤ downloading...",
+    "en": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n├ too large — retrying at {1}\n╰┈➤ downloading...",
+    "tl": "╭┈ ❒ [ MUSIC ⏳ ]\n├ {0}\n├ Masyadong malaki; sinusubukan sa {1}\n╰┈➤ Dina-download..."
+  },
+  "m626": {
+    "source": "video exceeds Messenger's 25MB limit even at the lowest quality",
+    "en": "video exceeds Messenger's 25MB limit even at the lowest quality",
+    "tl": "Lampas pa rin sa 25MB na limitasyon ng Messenger kahit pinakamababang kalidad"
+  },
+  "m628": {
+    "source": "Could not convert to video: ",
+    "en": "Could not convert to video: ",
+    "tl": "❌ Hindi ma-convert sa video: "
+  },
+  "m629": {
+    "source": "📥 Download URL:\n{0}",
+    "en": "📥 Download URL:\n{0}",
+    "tl": "📥 Download URL:\n{0}"
+  },
+  "m631": {
+    "source": "Manage Facebook Messenger notes",
+    "en": "Manage Facebook Messenger notes",
+    "tl": "Pamahalaan ang mga note sa Messenger"
+  },
+  "m632": {
+    "source": "[create/delete/check] [text]",
+    "en": "[create/delete/check] [text]",
+    "tl": "[create/delete/check] [teksto]"
+  },
+  "m634": {
+    "source": "╭┈ ❒ [ NOTE ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ NOTE ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ NOTE ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m635": {
+    "source": "📝 𝗡𝗢𝗧𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗\n━━━━━━━━━━━━━━━━━━\n📌 Usage:\n• note create [text]\n• note delete\n• note check\n💡 Notes last for 24 hours",
+    "en": "📝 𝗡𝗢𝗧𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗\n━━━━━━━━━━━━━━━━━━\n📌 Usage:\n• note create [text]\n• note delete\n• note check\n💡 Notes last for 24 hours",
+    "tl": "📝 COMMAND NA NOTE\n━━━━━━━━━━━━━━━━━━\n📌 Paggamit:\n• note create [teksto]\n• note delete\n• note check\n💡 Tumatagal nang 24 oras ang note"
+  },
+  "m636": {
+    "source": "📝 𝗖𝗥𝗘𝗔𝗧𝗘 𝗡𝗢𝗧𝗘\n━━━━━━━━━━━━━━━━━━\n❌ Please provide text for your note.\n💡 Usage: note create [your text]",
+    "en": "📝 𝗖𝗥𝗘𝗔𝗧𝗘 𝗡𝗢𝗧𝗘\n━━━━━━━━━━━━━━━━━━\n❌ Please provide text for your note.\n💡 Usage: note create [your text]",
+    "tl": "📝 GUMAWA NG NOTE\n━━━━━━━━━━━━━━━━━━\n❌ Ilagay ang teksto ng note.\n💡 Paggamit: note create [teksto mo]"
+  },
+  "m637": {
+    "source": "📝 𝗡𝗢𝗧𝗘 𝗖𝗥𝗘𝗔𝗧𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n✅ Note created successfully!\n📄 Content: {0}\n⏰ Expires in 24 hours",
+    "en": "📝 𝗡𝗢𝗧𝗘 𝗖𝗥𝗘𝗔𝗧𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n✅ Note created successfully!\n📄 Content: {0}\n⏰ Expires in 24 hours",
+    "tl": "📝 NAGAWA NA ANG NOTE\n━━━━━━━━━━━━━━━━━━\n✅ Matagumpay na nagawa!\n📄 Nilalaman: {0}\n⏰ Mawawala pagkalipas ng 24 oras"
+  },
+  "m638": {
+    "source": "No active note found",
+    "en": "No active note found",
+    "tl": "Walang aktibong note"
+  },
+  "m639": {
+    "source": "📝 𝗡𝗢𝗧𝗘 𝗗𝗘𝗟𝗘𝗧𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n✅ Note deleted successfully!",
+    "en": "📝 𝗡𝗢𝗧𝗘 𝗗𝗘𝗟𝗘𝗧𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n✅ Note deleted successfully!",
+    "tl": "📝 NABURA NA ANG NOTE\n━━━━━━━━━━━━━━━━━━\n✅ Matagumpay na nabura!"
+  },
+  "m640": {
+    "source": "📝 𝗖𝗛𝗘𝗖𝗞 𝗡𝗢𝗧𝗘\n━━━━━━━━━━━━━━━━━━\n📭 No active note found\n💡 Create one with: note create [text]",
+    "en": "📝 𝗖𝗛𝗘𝗖𝗞 𝗡𝗢𝗧𝗘\n━━━━━━━━━━━━━━━━━━\n📭 No active note found\n💡 Create one with: note create [text]",
+    "tl": "📝 SURIIN ANG NOTE\n━━━━━━━━━━━━━━━━━━\n📭 Walang aktibong note\n💡 Gumawa gamit ang: note create [teksto]"
+  },
+  "m641": {
+    "source": "📝 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗡𝗢𝗧𝗘\n━━━━━━━━━━━━━━━━━━\n📄 Content: {0}\n🕐 Created: {1}\n⏰ Expires: {2}\n👤 Privacy: {3}",
+    "en": "📝 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗡𝗢𝗧𝗘\n━━━━━━━━━━━━━━━━━━\n📄 Content: {0}\n🕐 Created: {1}\n⏰ Expires: {2}\n👤 Privacy: {3}",
+    "tl": "📝 KASALUKUYANG NOTE\n━━━━━━━━━━━━━━━━━━\n📄 Nilalaman: {0}\n🕐 Ginawa: {1}\n⏰ Mawawala: {2}\n👤 Privacy: {3}"
+  },
+  "m642": {
+    "source": "📝 𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗔𝗖𝗧𝗜𝗢𝗡\n━━━━━━━━━━━━━━━━━━\n❌ Invalid action. Use: create, delete, or check",
+    "en": "📝 𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗔𝗖𝗧𝗜𝗢𝗡\n━━━━━━━━━━━━━━━━━━\n❌ Invalid action. Use: create, delete, or check",
+    "tl": "📝 HINDI WASTONG AKSYON\n━━━━━━━━━━━━━━━━━━\n❌ Gamitin ang create, delete, o check"
+  },
+  "m644": {
+    "source": "No active note",
+    "en": "No active note",
+    "tl": "Walang aktibong tala"
+  },
+  "m645": {
+    "source": "📝 𝗡𝗢 𝗡𝗢𝗧𝗘 𝗙𝗢𝗨𝗡𝗗\n━━━━━━━━━━━━━━━━━━\n❌ No active note to delete\n💡 Create one first with: note create [text]",
+    "en": "📝 𝗡𝗢 𝗡𝗢𝗧𝗘 𝗙𝗢𝗨𝗡𝗗\n━━━━━━━━━━━━━━━━━━\n❌ No active note to delete\n💡 Create one first with: note create [text]",
+    "tl": "📝 WALANG NAKITANG NOTE\n━━━━━━━━━━━━━━━━━━\n❌ Walang aktibong note na mabubura\n💡 Gumawa muna gamit ang: note create [teksto]"
+  },
+  "m646": {
+    "source": "📝 𝗟𝗢𝗚𝗜𝗡 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n❌ Authentication failed\n💡 Please try again later",
+    "en": "📝 𝗟𝗢𝗚𝗜𝗡 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n❌ Authentication failed\n💡 Please try again later",
+    "tl": "📝 ERROR SA PAG-LOGIN\n━━━━━━━━━━━━━━━━━━\n❌ Hindi nakapagpatunay ng pagkakakilanlan\n💡 Subukan muli mamaya"
+  },
+  "m647": {
+    "source": "📝 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n❌ {0}\n💡 Please try again",
+    "en": "📝 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n❌ {0}\n💡 Please try again",
+    "tl": "📝 ERROR\n━━━━━━━━━━━━━━━━━━\n❌ {0}\n💡 Subukan muli"
+  },
+  "m648": {
+    "source": "Search npmjs.com for packages and show details",
+    "en": "Search npmjs.com for packages and show details",
+    "tl": "Maghanap ng package sa npmjs.com at tingnan ang detalye"
+  },
+  "m649": {
+    "source": "[search words] | info [package] | [package]",
+    "en": "[search words] | info [package] | [package]",
+    "tl": "[hinahanap] | info [package] | [package]"
+  },
+  "m650": {
+    "source": "{0} days ago",
+    "en": "{0} days ago",
+    "tl": "{0} araw na ang nakalipas"
+  },
+  "m651": {
+    "source": "{0} month(s) ago",
+    "en": "{0} month(s) ago",
+    "tl": "{0} buwan na ang nakalipas"
+  },
+  "m652": {
+    "source": "{0} year(s) ago",
+    "en": "{0} year(s) ago",
+    "tl": "{0} taon na ang nakalipas"
+  },
+  "m655": {
+    "source": "📝 (no description)",
+    "en": "📝 (no description)",
+    "tl": "📝 (walang paglalarawan)"
+  },
+  "m656": {
+    "source": "no license listed",
+    "en": "no license listed",
+    "tl": "walang nakalistang lisensya"
+  },
+  "m657": {
+    "source": "⬇️ downloads unavailable",
+    "en": "⬇️ downloads unavailable",
+    "tl": "⬇️ hindi makita ang bilang ng download"
+  },
+  "m658": {
+    "source": "⬇️ {0} downloads / week",
+    "en": "⬇️ {0} downloads / week",
+    "tl": "⬇️ {0} download bawat linggo"
+  },
+  "m659": {
+    "source": "🕒 last published {0}",
+    "en": "🕒 last published {0}",
+    "tl": "🕒 huling inilathala {0}"
+  },
+  "m661": {
+    "source": "🔍 \"{0}\" — {1} result(s)",
+    "en": "🔍 \"{0}\" — {1} result(s)",
+    "tl": "🔍 \"{0}\" — {1} resulta"
+  },
+  "m662": {
+    "source": "no description",
+    "en": "no description",
+    "tl": "walang paglalarawan"
+  },
+  "m664": {
+    "source": "   updated {0}",
+    "en": "   updated {0}",
+    "tl": "   na-update {0}"
+  },
+  "m665": {
+    "source": "Reply with a number for details",
+    "en": "Reply with a number for details",
+    "tl": "I-reply ang numero para sa detalye"
+  },
+  "m666": {
+    "source": "Search npmjs.com from Messenger.",
+    "en": "Search npmjs.com from Messenger.",
+    "tl": "Maghanap sa npmjs.com gamit ang Messenger."
+  },
+  "m667": {
+    "source": "{0}npm bio            → search",
+    "en": "{0}npm bio            → search",
+    "tl": "{0}npm bio            → maghanap"
+  },
+  "m668": {
+    "source": "{0}npm info express   → package details",
+    "en": "{0}npm info express   → package details",
+    "tl": "{0}npm info express   → detalye ng package"
+  },
+  "m669": {
+    "source": "Results are live from the npm registry",
+    "en": "Results are live from the npm registry",
+    "tl": "Direkta mula sa npm registry ang mga resulta"
+  },
+  "m670": {
+    "source": "No package named \"{0}\" on npm.",
+    "en": "No package named \"{0}\" on npm.",
+    "tl": "Walang package na \"{0}\" sa npm."
+  },
+  "m671": {
+    "source": "Check the spelling, or search without 'info'",
+    "en": "Check the spelling, or search without 'info'",
+    "tl": "Suriin ang baybay o maghanap nang walang 'info'"
+  },
+  "m672": {
+    "source": "Couldn't reach the npm registry right now.",
+    "en": "Couldn't reach the npm registry right now.",
+    "tl": "❌ Hindi makontak ang npm registry ngayon."
+  },
+  "m673": {
+    "source": "Try again in a moment",
+    "en": "Try again in a moment",
+    "tl": "Subukan muli pagkaraan ng ilang sandali"
+  },
+  "m674": {
+    "source": "Nothing on npm matches \"{0}\".",
+    "en": "Nothing on npm matches \"{0}\".",
+    "tl": "Walang tugma sa \"{0}\" sa npm."
+  },
+  "m675": {
+    "source": "Try different words",
+    "en": "Try different words",
+    "tl": "Subukan ang ibang salita"
+  },
+  "m676": {
+    "source": "Reply with a number from 1 to {0}.",
+    "en": "Reply with a number from 1 to {0}.",
+    "tl": "I-reply ang numero mula 1 hanggang {0}."
+  },
+  "m677": {
+    "source": "Or run the search again",
+    "en": "Or run the search again",
+    "tl": "O maghanap muli"
+  },
+  "m678": {
+    "source": "Couldn't load that package.",
+    "en": "Couldn't load that package.",
+    "tl": "❌ Hindi ma-load ang package."
+  },
+  "m679": {
+    "source": "Leave the group",
+    "en": "Leave the group",
+    "tl": "Umalis sa GC"
+  },
+  "m681": {
+    "source": "Send money",
+    "en": "Send money",
+    "tl": "Magpadala ng pera"
+  },
+  "m682": {
+    "source": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ User not found\n╰┈➤ Use mention or reply",
+    "en": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ User not found\n╰┈➤ Use mention or reply",
+    "tl": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Hindi nakita ang tao\n╰┈➤ Mag-mention o mag-reply"
+  },
+  "m683": {
+    "source": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Invalid amount",
+    "en": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Invalid amount",
+    "tl": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Hindi wastong halaga"
+  },
+  "m684": {
+    "source": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Not enough money\n╰┈➤ Balance: {0} 💰",
+    "en": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Not enough money\n╰┈➤ Balance: {0} 💰",
+    "tl": "╭┈ ❒ [ PAY ❌ ]\n╰┈➤ Kulang ang pera\n╰┈➤ Balanse: {0} 💰"
+  },
+  "m685": {
+    "source": "🎉 {0} reached 10K coins!",
+    "en": "🎉 {0} reached 10K coins!",
+    "tl": "🎉 Umabot na sa 10K coins si {0}!"
+  },
+  "m686": {
+    "source": "💎 {0} reached 1M coins!",
+    "en": "💎 {0} reached 1M coins!",
+    "tl": "💎 Umabot na sa 1M coins si {0}!"
+  },
+  "m687": {
+    "source": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ Sending money...",
+    "en": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ Sending money...",
+    "tl": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ Ipinapadala ang pera..."
+  },
+  "m688": {
+    "source": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ 🔄 Finding user...\n╰┈➤ Please wait...",
+    "en": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ 🔄 Finding user...\n╰┈➤ Please wait...",
+    "tl": "╭┈ ❒ [ PAY 💸 ]\n╰┈➤ 🔄 Hinahanap ang tao...\n╰┈➤ Sandali lang..."
+  },
+  "m689": {
+    "source": "╭┈ ❒ [ PAYMENT SUCCESS ✅ ]\n╰┈➤ Sent: {0} 💰\n╰┈➤ Tax for Zycke DPWH Corporation: {1} 📉\n╰┈➤ Received: {2} 💵\n╰┈➤ Balance: {3} 🏦",
+    "en": "╭┈ ❒ [ PAYMENT SUCCESS ✅ ]\n╰┈➤ Sent: {0} 💰\n╰┈➤ Tax for Zycke DPWH Corporation: {1} 📉\n╰┈➤ Received: {2} 💵\n╰┈➤ Balance: {3} 🏦",
+    "tl": "╭┈ ❒ [ MATAGUMPAY ANG PAGPADALA ✅ ]\n╰┈➤ Ipinadala: {0} 💰\n╰┈➤ Buwis para sa Zycke DPWH Corporation: {1} 📉\n╰┈➤ Natanggap: {2} 💵\n╰┈➤ Balanse: {3} 🏦"
+  },
+  "m698": {
+    "source": "%1 is not an invalid number",
+    "en": "%1 is not a valid number",
+    "tl": "Hindi wastong numero ang %1"
+  },
+  "m699": {
+    "source": "Refused %1 thread!",
+    "en": "Refused %1 thread!",
+    "tl": "Tinanggihan ang %1 GC!"
+  },
+  "m700": {
+    "source": "Your box has been approved to use bot",
+    "en": "Your box has been approved to use bot",
+    "tl": "Naaprubahan na ang GC para sa bot"
+  },
+  "m701": {
+    "source": "Approved successfully %1 threads!",
+    "en": "Approved successfully %1 threads!",
+    "tl": "Naaprubahan na ang %1 GC!"
+  },
+  "m702": {
+    "source": "Can't get the pending list!",
+    "en": "Can't get the pending list!",
+    "tl": "❌ Hindi makuha ang listahan ng naghihintay na GC!"
+  },
+  "m703": {
+    "source": "»「PENDING」«❮ The whole number of threads to approve is: %1 thread ❯\n\n%2",
+    "en": "»「PENDING」«❮ The whole number of threads to approve is: %1 thread ❯\n\n%2",
+    "tl": "»「PENDING」«❮ Bilang ng GC na aaprubahan: %1 ❯\n\n%2"
+  },
+  "m704": {
+    "source": "「PENDING」There is no thread in the pending list",
+    "en": "「PENDING」There is no thread in the pending list",
+    "tl": "「PENDING」Walang GC na naghihintay ng pag-apruba"
+  },
+  "m706": {
+    "source": "╭┈ ❒ [ PENDING ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ PENDING ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ PENDING ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m708": {
+    "source": "Comment on phub style",
+    "en": "Comment on phub style",
+    "tl": "Gumawa ng komento na phub-style"
+  },
+  "m709": {
+    "source": "phub [text]",
+    "en": "phub [text]",
+    "tl": "phub [teksto]"
+  },
+  "m710": {
+    "source": "╭┈ ❒ [ PHUB ❌ ]\n╰┈➤ Please enter comment text",
+    "en": "╭┈ ❒ [ PHUB ❌ ]\n╰┈➤ Please enter comment text",
+    "tl": "╭┈ ❒ [ PHUB ❌ ]\n╰┈➤ Ilagay ang teksto ng komento"
+  },
+  "m712": {
+    "source": "╭┈ ❒ [ PHUB ⏳ ]\n╰┈➤ Generating comment...",
+    "en": "╭┈ ❒ [ PHUB ⏳ ]\n╰┈➤ Generating comment...",
+    "tl": "╭┈ ❒ [ PHUB ⏳ ]\n╰┈➤ Ginagawa ang komento..."
+  },
+  "m715": {
+    "source": "╭┈ ❒ [ PHUB 📸 ]\n╰┈➤ Here's your comment",
+    "en": "╭┈ ❒ [ PHUB 📸 ]\n╰┈➤ Here's your comment",
+    "tl": "╭┈ ❒ [ PHUB 📸 ]\n╰┈➤ Narito ang komento mo"
+  },
+  "m716": {
+    "source": "╭┈ ❒ [ PHUB ❌ ]\n╰┈➤ Error while generating image",
+    "en": "╭┈ ❒ [ PHUB ❌ ]\n╰┈➤ Error while generating image",
+    "tl": "╭┈ ❒ [ PHUB ❌ ]\n╰┈➤ Error sa paggawa ng larawan"
+  },
+  "m717": {
+    "source": "Pick and send video",
+    "en": "Pick and send video",
+    "tl": "Pumili at magpadala ng video"
+  },
+  "m718": {
+    "source": "[page]",
+    "en": "[page]",
+    "tl": "[pahina]"
+  },
+  "m719": {
+    "source": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Reply number (1-{0})",
+    "en": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Reply number (1-{0})",
+    "tl": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ I-reply ang numero (1-{0})"
+  },
+  "m720": {
+    "source": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Fetching video...\n╰┈➤ Please wait...",
+    "en": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Fetching video...\n╰┈➤ Please wait...",
+    "tl": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Kinukuha ang video...\n╰┈➤ Sandali lang..."
+  },
+  "m721": {
+    "source": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Cannot extract video",
+    "en": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Cannot extract video",
+    "tl": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Hindi makuha ang video"
+  },
+  "m722": {
+    "source": "╭┈ ❒ [ PINAYFLIX ✅ ]\n╰┈➤ Sending video...",
+    "en": "╭┈ ❒ [ PINAYFLIX ✅ ]\n╰┈➤ Sending video...",
+    "tl": "╭┈ ❒ [ PINAYFLIX ✅ ]\n╰┈➤ Ipinapadala ang video..."
+  },
+  "m723": {
+    "source": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Download failed",
+    "en": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Download failed",
+    "tl": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Hindi na-download"
+  },
+  "m724": {
+    "source": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Failed to fetch video",
+    "en": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Failed to fetch video",
+    "tl": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Hindi makuha ang video"
+  },
+  "m725": {
+    "source": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Loading videos...",
+    "en": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Loading videos...",
+    "tl": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Nilo-load ang mga video..."
+  },
+  "m726": {
+    "source": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ No videos found",
+    "en": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ No videos found",
+    "tl": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Walang nakitang video"
+  },
+  "m727": {
+    "source": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Reply with number (1-4)\n\n",
+    "en": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ Reply with number (1-4)\n\n",
+    "tl": "╭┈ ❒ [ PINAYFLIX 🎬 ]\n╰┈➤ I-reply ang numero (1-4)\n\n"
+  },
+  "m728": {
+    "source": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ API error",
+    "en": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ API error",
+    "tl": "╭┈ ❒ [ PINAYFLIX ❌ ]\n╰┈➤ Error sa API"
+  },
+  "m730": {
+    "source": "Tag all members",
+    "en": "Tag all members",
+    "tl": "I-tag ang lahat ng miyembro"
+  },
+  "m731": {
+    "source": "[text]",
+    "en": "[text]",
+    "tl": "[teksto]"
+  },
+  "m733": {
+    "source": "╭┈ ❒ [ PING ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ PING ⏳ ]\n├ Working...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ PING ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m734": {
+    "source": "📢 Attention everyone!",
+    "en": "📢 Attention everyone!",
+    "tl": "📢 Pakinggan ng lahat!"
+  },
+  "m735": {
+    "source": "╭┈ ❒ [ PING 📢 ]\n╰┈➤ Calling all members...\n\n{0}",
+    "en": "╭┈ ❒ [ PING 📢 ]\n╰┈➤ Calling all members...\n\n{0}",
+    "tl": "╭┈ ❒ [ PING 📢 ]\n╰┈➤ Tinatawag ang lahat ng miyembro...\n\n{0}"
+  },
+  "m736": {
+    "source": "╭┈ ❒ [ PING ❌ ]\n╰┈➤ Failed to tag members",
+    "en": "╭┈ ❒ [ PING ❌ ]\n╰┈➤ Failed to tag members",
+    "tl": "╭┈ ❒ [ PING ❌ ]\n╰┈➤ Hindi ma-tag ang mga miyembro"
+  },
+  "m737": {
+    "source": "Search images on Pinterest",
+    "en": "Search images on Pinterest",
+    "tl": "Maghanap ng larawan sa Pinterest"
+  },
+  "m738": {
+    "source": "<search words> [-number]   e.g. pinterest cat aesthetic -6",
+    "en": "<search words> [-number]   e.g. pinterest cat aesthetic -6",
+    "tl": "<hinahanap> [-bilang] halimbawa: pinterest cat aesthetic -6"
+  },
+  "m740": {
+    "source": "Give me something to search for.",
+    "en": "Give me something to search for.",
+    "tl": "Ilagay ang gusto mong hanapin."
+  },
+  "m742": {
+    "source": "{0}pinterest anime wallpaper -9   (9 images)",
+    "en": "{0}pinterest anime wallpaper -9   (9 images)",
+    "tl": "{0}pinterest anime wallpaper -9   (9 na larawan)"
+  },
+  "m743": {
+    "source": "Up to 12 images at a time",
+    "en": "Up to 12 images at a time",
+    "tl": "Hanggang 12 larawan sa bawat paggamit"
+  },
+  "m744": {
+    "source": "Nothing came back for \"{0}\".",
+    "en": "Nothing came back for \"{0}\".",
+    "tl": "Walang resulta para sa \"{0}\"."
+  },
+  "m745": {
+    "source": "Found the pins but couldn't download them.",
+    "en": "Found the pins but couldn't download them.",
+    "tl": "❌ Nakita ang mga pin pero hindi ma-download."
+  },
+  "m746": {
+    "source": "The image host may be blocking this server",
+    "en": "The image host may be blocking this server",
+    "tl": "Maaaring bina-block ng imbakan ng larawan ang server na ito"
+  },
+  "m747": {
+    "source": "📌 {0} — {1} image(s)",
+    "en": "📌 {0} — {1} image(s)",
+    "tl": "📌 {0} — {1} larawan"
+  },
+  "m748": {
+    "source": "Search failed: {0}",
+    "en": "Search failed: {0}",
+    "tl": "❌ Hindi makapaghanap: {0}"
+  },
+  "m749": {
+    "source": "Check config.json → cedds.pinterest",
+    "en": "Check config.json → cedds.pinterest",
+    "tl": "Suriin ang config.json → cedds.pinterest"
+  },
+  "m750": {
+    "source": "generate image from polination",
+    "en": "generate image from polination",
+    "tl": "Gumawa ng larawan gamit ang Pollinations"
+  },
+  "m751": {
+    "source": "query",
+    "en": "query",
+    "tl": "paglalarawan"
+  },
+  "m752": {
+    "source": "put text/query",
+    "en": "put text/query",
+    "tl": "Maglagay ng teksto o paglalarawan"
+  },
+  "m754": {
+    "source": "╭┈ ❒ [ POLI ⏳ ]\n├ Generating...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ POLI ⏳ ]\n├ Generating...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ POLI ⏳ ]\n├ Ginagawa...\n╰┈➤ pakihintay"
+  },
+  "m755": {
+    "source": "Here is what I Generated...",
+    "en": "Here is what I Generated...",
+    "tl": "Ito ang nagawa kong larawan..."
+  },
+  "m757": {
+    "source": "❌ Failed to generate image. Please try again.",
+    "en": "❌ Failed to generate image. Please try again.",
+    "tl": "❌ Hindi magawa ang larawan. Subukan muli."
+  },
+  "m758": {
+    "source": "Auto response for prefix inquiries",
+    "en": "Auto response for prefix inquiries",
+    "tl": "Awtomatikong sagot sa tanong tungkol sa prefix"
+  },
+  "m767": {
+    "source": "║  🤖 𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫  🤖  \n",
+    "en": "║  🤖 𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫  🤖  \n",
+    "tl": "║ 🤖 PREFIX NG BOT 🤖\n"
+  },
+  "m768": {
+    "source": "📌 My prefix is:  {0}\n\n",
+    "en": "📌 My prefix is:  {0}\n\n",
+    "tl": "📌 Ang prefix ko ay: {0}\n\n"
+  },
+  "m769": {
+    "source": "💡 Example: {0}help\n\n",
+    "en": "💡 Example: {0}help\n\n",
+    "tl": "💡 Halimbawa: {0}help\n\n"
+  },
+  "m770": {
+    "source": "✨ Type {0}help to see all commands!",
+    "en": "✨ Type {0}help to see all commands!",
+    "tl": "✨ I-type ang {0}help para makita ang lahat ng command!"
+  },
+  "m772": {
+    "source": "╭┈ ❒ [ PREFIX ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ PREFIX ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ PREFIX ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m773": {
+    "source": "Generate quote image (HD fixed)",
+    "en": "Generate quote image (HD fixed)",
+    "tl": "Gumawa ng HD na larawan ng sipi"
+  },
+  "m774": {
+    "source": "Please provide quote text",
+    "en": "Please provide quote text",
+    "tl": "Ilagay ang teksto ng sipi"
+  },
+  "m776": {
+    "source": "╭┈ ❒ [ QUOTE ⏳ ]\n├ Generating quote...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ QUOTE ⏳ ]\n├ Generating quote...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ QUOTE ⏳ ]\n├ Generating quote...\n╰┈➤ pakihintay"
+  },
+  "m777": {
+    "source": "Upload failed",
+    "en": "Upload failed",
+    "tl": "❌ Hindi na-upload"
+  },
+  "m778": {
+    "source": "Quote generated",
+    "en": "Quote generated",
+    "tl": "Nagawa na ang sipi"
+  },
+  "m780": {
+    "source": "Failed to generate quote",
+    "en": "Failed to generate quote",
+    "tl": "❌ Hindi magawa ang sipi"
+  },
+  "m782": {
+    "source": "Get your current rank on the bot system with a frame based on your level, remake rank_card from canvacord",
+    "en": "Get your current rank on the bot system with a frame based on your level, remake rank_card from canvacord",
+    "tl": "Tingnan ang kasalukuyang ranggo mo at frame ayon sa iyong level"
+  },
+  "m787": {
+    "source": "Restarts the bot",
+    "en": "Restarts the bot",
+    "tl": "I-restart ang bot"
+  },
+  "m793": {
+    "source": "🔃 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗣𝗿𝗼𝗰𝗲𝘀𝘀\n━━━━━━━━━━━━━━━━━━\nBot is restarting...",
+    "en": "🔃 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗣𝗿𝗼𝗰𝗲𝘀𝘀\n━━━━━━━━━━━━━━━━━━\nBot is restarting...",
+    "tl": "🔃 NAGRE-RESTART\n━━━━━━━━━━━━━━━━━━\nNagre-restart ang bot..."
+  },
+  "m795": {
+    "source": "Rock Paper Scissors (10% win + EXP)",
+    "en": "Rock Paper Scissors (10% win + EXP)",
+    "tl": "Bato-bato-pick (10% tsansa ng panalo at EXP)"
+  },
+  "m797": {
+    "source": "╭┈ ❒ [ RPS ⏳ ]\n├ Rolling...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ RPS ⏳ ]\n├ Rolling...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ RPS ⏳ ]\n├ Rolling...\n╰┈➤ pakihintay"
+  },
+  "m798": {
+    "source": "❌ Use: rps ✌️200 or rps rock 200",
+    "en": "❌ Use: rps ✌️200 or rps rock 200",
+    "tl": "❌ Gamitin: rps ✌️200 o rps rock 200"
+  },
+  "m799": {
+    "source": "❌ Invalid choice",
+    "en": "❌ Invalid choice",
+    "tl": "❌ Hindi wastong pinili"
+  },
+  "m800": {
+    "source": "╭┈ ❒ [ RPS ]\n╰┈➤ You: {0}\n╰┈➤ Bot: {1}\n╰┈➤ {2}: {3} 💰{4}\n╰┈➤ Balance: {5} 🏦",
+    "en": "╭┈ ❒ [ RPS ]\n╰┈➤ You: {0}\n╰┈➤ Bot: {1}\n╰┈➤ {2}: {3} 💰{4}\n╰┈➤ Balance: {5} 🏦",
+    "tl": "╭┈ ❒ [ RPS ]\n╰┈➤ Pinili mo: {0}\n╰┈➤ Bot: {1}\n╰┈➤ {2}: {3} 💰{4}\n╰┈➤ Balanse: {5} 🏦"
+  },
+  "m801": {
+    "source": "🤝 Tie",
+    "en": "🤝 Tie",
+    "tl": "🤝 Tabla"
+  },
+  "m802": {
+    "source": "text to voice speech messages",
+    "en": "text to voice speech messages",
+    "tl": "Gawing boses ang tekstong mensahe"
+  },
+  "m803": {
+    "source": "Text to speech messages",
+    "en": "Text to speech messages",
+    "tl": "Gawing boses ang tekstong mensahe"
+  },
+  "m804": {
+    "source": "Sends a message to all groups and can only be done by the admin.",
+    "en": "Sends a message to all groups and can only be done by the admin.",
+    "tl": "Magpadala ng abiso sa lahat ng GC; para lamang sa bot admin"
+  },
+  "m805": {
+    "source": "[Text]",
+    "en": "[Text]",
+    "tl": "[Teksto]"
+  },
+  "m807": {
+    "source": "╭┈ ❒ [ SENDNOTI ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SENDNOTI ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SENDNOTI ⏳ ]\n├ Ipinapadala...\n╰┈➤ pakihintay"
+  },
+  "m808": {
+    "source": "› A message from the Admin:\n\n{0}",
+    "en": "› A message from the Admin:\n\n{0}",
+    "tl": "› Mensahe mula sa admin:\n\n{0}"
+  },
+  "m810": {
+    "source": "› Sent the notification successfully.",
+    "en": "› Sent the notification successfully.",
+    "tl": "› Naipadala na ang abiso."
+  },
+  "m811": {
+    "source": "› No eligible group threads found to send the message to.",
+    "en": "› No eligible group threads found to send the message to.",
+    "tl": "› Walang angkop na GC na mapapadalhan ng abiso."
+  },
+  "m812": {
+    "source": "Set money or exp for user",
+    "en": "Set money or exp for user",
+    "tl": "Itakda ang pera o EXP ng gumagamit"
+  },
+  "m814": {
+    "source": "╭┈ ❒ [ SETMONEY ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SETMONEY ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SETMONEY ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m815": {
+    "source": "╭┈ ❒ [ SETMONEY/SETEXP ]\n╰┈➤ Usage:\n╰┈➤ setmoney money <amount> @mention\n╰┈➤ setmoney exp <amount> @mention\n╰┈➤ setmoney money 1000 @user\n╰┈➤ setmoney exp 500 reply to message",
+    "en": "╭┈ ❒ [ SETMONEY/SETEXP ]\n╰┈➤ Usage:\n╰┈➤ setmoney money <amount> @mention\n╰┈➤ setmoney exp <amount> @mention\n╰┈➤ setmoney money 1000 @user\n╰┈➤ setmoney exp 500 reply to message",
+    "tl": "╭┈ ❒ [ SETMONEY/SETEXP ]\n╰┈➤ Paggamit:\n╰┈➤ setmoney money <halaga> @mention\n╰┈➤ setmoney exp <halaga> @mention\n╰┈➤ setmoney money 1000 @user\n╰┈➤ setmoney exp 500 habang naka-reply sa mensahe"
+  },
+  "m816": {
+    "source": "❌ Invalid type! Use 'money' or 'exp'",
+    "en": "❌ Invalid type! Use 'money' or 'exp'",
+    "tl": "❌ Hindi wastong uri! Gamitin ang 'money' o 'exp'"
+  },
+  "m817": {
+    "source": "❌ Invalid amount! Enter a valid number",
+    "en": "❌ Invalid amount! Enter a valid number",
+    "tl": "❌ Hindi wastong halaga! Maglagay ng wastong numero"
+  },
+  "m818": {
+    "source": "❌ User not found! Mention, reply, or provide user ID",
+    "en": "❌ User not found! Mention, reply, or provide user ID",
+    "tl": "❌ Hindi nakita ang tao! Mag-mention, mag-reply o maglagay ng user ID"
+  },
+  "m819": {
+    "source": "╭┈ ❒ [ ADMIN SET {0} ✅ ]\n╰┈➤ User: {1}\n╰┈➤ {2}: {3} → {4}\n╰┈➤ Updated by: {5}",
+    "en": "╭┈ ❒ [ ADMIN SET {0} ✅ ]\n╰┈➤ User: {1}\n╰┈➤ {2}: {3} → {4}\n╰┈➤ Updated by: {5}",
+    "tl": "╭┈ ❒ [ ITINAKDA NG ADMIN: {0} ✅ ]\n╰┈➤ Gumagamit: {1}\n╰┈➤ {2}: {3} → {4}\n╰┈➤ Nag-update: {5}"
+  },
+  "m820": {
+    "source": "Share a contact of a certain userID",
+    "en": "Share a contact of a certain userID",
+    "tl": "Ibahagi ang contact ng napiling user ID"
+  },
+  "m821": {
+    "source": "Hello this is your contact!",
+    "en": "Hello this is your contact!",
+    "tl": "Narito ang contact mo!"
+  },
+  "m822": {
+    "source": "Execute shell commands",
+    "en": "Execute shell commands",
+    "tl": "Patakbuhin ang shell command"
+  },
+  "m825": {
+    "source": "╭┈ ❒ [ SHELL ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SHELL ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SHELL ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m826": {
+    "source": "❌ Please provide a command to run.",
+    "en": "❌ Please provide a command to run.",
+    "tl": "❌ Ilagay ang command na patatakbuhin."
+  },
+  "m827": {
+    "source": "⚠️ Error:\n{0}",
+    "en": "⚠️ Error:\n{0}",
+    "tl": "⚠️ Error:\n{0}"
+  },
+  "m828": {
+    "source": "⚠️ Stderr:\n{0}",
+    "en": "⚠️ Stderr:\n{0}",
+    "tl": "⚠️ Stderr:\n{0}"
+  },
+  "m829": {
+    "source": "✅ Command executed, but no output.",
+    "en": "✅ Command executed, but no output.",
+    "tl": "✅ Napatakbo ang command ngunit walang output."
+  },
+  "m830": {
+    "source": "📟 Output:\n{0}",
+    "en": "📟 Output:\n{0}",
+    "tl": "📟 Resulta:\n{0}"
+  },
+  "m831": {
+    "source": "Ship two users 💖",
+    "en": "Ship two users 💖",
+    "tl": "Itambal ang dalawang tao 💖"
+  },
+  "m832": {
+    "source": "Please mention 1 or 2 users or reply to someone",
+    "en": "Please mention 1 or 2 users or reply to someone",
+    "tl": "Mag-mention ng isa o dalawang tao, o mag-reply sa isang tao"
+  },
+  "m834": {
+    "source": "╭┈ ❒ [ SHIP ⏳ ]\n├ Shipping...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SHIP ⏳ ]\n├ Shipping...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SHIP ⏳ ]\n├ Shipping...\n╰┈➤ pakihintay"
+  },
+  "m835": {
+    "source": "Shipped 💖",
+    "en": "Shipped 💖",
+    "tl": "Naitambal na 💖"
+  },
+  "m837": {
+    "source": "Failed to process ship image",
+    "en": "Failed to process ship image",
+    "tl": "❌ Hindi maproseso ang larawan ng tambalan"
+  },
+  "m838": {
+    "source": "Generate random tiktok girl videos",
+    "en": "Generate random tiktok girl videos",
+    "tl": "Kumuha ng random na video ng babae sa TikTok"
+  },
+  "m839": {
+    "source": "❌ No video found!",
+    "en": "❌ No video found!",
+    "tl": "❌ Walang nakitang video!"
+  },
+  "m840": {
+    "source": "╭─〔 𝙎𝙃𝙊𝙏𝙄 𝙑𝙄𝘿𝙀𝙊 〕─⬣\n👤 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚: {0}\n📛 𝙉𝙞𝙘𝙠𝙣𝙖𝙢𝙚: {1}\n🌍 𝙍𝙚𝙜𝙞𝙤𝙣: {2}\n🎬 𝘿𝙪𝙧𝙖𝙩𝙞𝙤𝙣: {3}s\n╰──────────────⬣",
+    "en": "╭─〔 𝙎𝙃𝙊𝙏𝙄 𝙑𝙄𝘿𝙀𝙊 〕─⬣\n👤 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚: {0}\n📛 𝙉𝙞𝙘𝙠𝙣𝙖𝙢𝙚: {1}\n🌍 𝙍𝙚𝙜𝙞𝙤𝙣: {2}\n🎬 𝘿𝙪𝙧𝙖𝙩𝙞𝙤𝙣: {3}s\n╰──────────────⬣",
+    "tl": "╭─〔 SHOTI VIDEO 〕─⬣\n👤 Username: {0}\n📛 Palayaw: {1}\n🌍 Rehiyon: {2}\n🎬 Tagal: {3}s\n╰──────────────⬣"
+  },
+  "m841": {
+    "source": "❌ Error downloading video!",
+    "en": "❌ Error downloading video!",
+    "tl": "❌ Error sa pag-download ng video!"
+  },
+  "m842": {
+    "source": "❌ Failed to fetch video!",
+    "en": "❌ Failed to fetch video!",
+    "tl": "❌ Hindi makuha ang video!"
+  },
+  "m843": {
+    "source": "Engage in conversation with Sim!",
+    "en": "Engage in conversation with Sim!",
+    "tl": "Makipag-usap kay Sim!"
+  },
+  "m844": {
+    "source": "Chat with sim",
+    "en": "Chat with sim",
+    "tl": "Makipag-chat kay Sim"
+  },
+  "m846": {
+    "source": "╭┈ ❒ [ SIM ⏳ ]\n├ Thinking...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SIM ⏳ ]\n├ Thinking...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SIM ⏳ ]\n├ Thinking...\n╰┈➤ pakihintay"
+  },
+  "m847": {
+    "source": "Please type a message...",
+    "en": "Please type a message...",
+    "tl": "Mag-type ng mensahe..."
+  },
+  "m849": {
+    "source": "You are not authorized to use the add function!",
+    "en": "You are not authorized to use the add function!",
+    "tl": "Wala kang pahintulot na gamitin ang add!"
+  },
+  "m850": {
+    "source": "Add function activated.",
+    "en": "Add function activated.",
+    "tl": "Naka-on na ang pagdagdag."
+  },
+  "m851": {
+    "source": "Having some error on getting JSON",
+    "en": "Having some error on getting JSON",
+    "tl": "Nagka-error sa pagkuha ng JSON"
+  },
+  "m852": {
+    "source": "Add function deactivated.",
+    "en": "Add function deactivated.",
+    "tl": "Naka-off na ang pagdagdag."
+  },
+  "m854": {
+    "source": "You are not authorized to use the delete function.",
+    "en": "You are not authorized to use the delete function.",
+    "tl": "Wala kang pahintulot na gamitin ang delete."
+  },
+  "m855": {
+    "source": "Delete function activated. You can now delete words and responses",
+    "en": "Delete function activated. You can now delete words and responses",
+    "tl": "Naka-on na ang pagbura. Maaari nang magbura ng mga salita at sagot."
+  },
+  "m856": {
+    "source": "Delete function deactivated.",
+    "en": "Delete function deactivated.",
+    "tl": "Naka-off na ang pagbura."
+  },
+  "m857": {
+    "source": "Delete function is currently deactivated.",
+    "en": "Delete function is currently deactivated.",
+    "tl": "Kasalukuyang naka-off ang pagbura."
+  },
+  "m858": {
+    "source": "Successfully deleted the response \"{0}\" from the word \"{1}\"",
+    "en": "Successfully deleted the response \"{0}\" from the word \"{1}\"",
+    "tl": "Nabura na ang sagot na \"{0}\" mula sa salitang \"{1}\""
+  },
+  "m859": {
+    "source": "The response \"{0}\" does not exist in the word \"{1}\"",
+    "en": "The response \"{0}\" does not exist in the word \"{1}\"",
+    "tl": "Walang sagot na \"{0}\" sa salitang \"{1}\""
+  },
+  "m860": {
+    "source": "Successfully deleted the entire responses inside the word \"{0}\"",
+    "en": "Successfully deleted the entire responses inside the word \"{0}\"",
+    "tl": "Nabura na ang lahat ng sagot sa salitang \"{0}\""
+  },
+  "m861": {
+    "source": "The word \"{0}\" does not exist in the responses",
+    "en": "The word \"{0}\" does not exist in the responses",
+    "tl": "Walang salitang \"{0}\" sa mga sagot"
+  },
+  "m862": {
+    "source": "Add function is currently deactivated.",
+    "en": "Add function is currently deactivated.",
+    "tl": "Kasalukuyang naka-off ang pagdagdag."
+  },
+  "m863": {
+    "source": "Successfully added \"{0}\" as a new word with the response: \"{1}\"",
+    "en": "Successfully added \"{0}\" as a new word with the response: \"{1}\"",
+    "tl": "Naidagdag ang salitang \"{0}\" kasama ang sagot na \"{1}\""
+  },
+  "m864": {
+    "source": "ℹ️ Currently, I have no response for that yet, but you can kindly teach me. Check the current folder's cache/DAN/readme.md for usage instructions.",
+    "en": "ℹ️ Currently, I have no response for that yet, but you can kindly teach me. Check the current folder's cache/DAN/readme.md for usage instructions.",
+    "tl": "ℹ️ Wala pa akong sagot diyan, pero maaari mo akong turuan. Tingnan ang cache/DAN/readme.md para sa paraan ng paggamit."
+  },
+  "m865": {
+    "source": "An error occurred while processing the request.",
+    "en": "An error occurred while processing the request.",
+    "tl": "❌ Nagka-error sa pagproseso ng kahilingan."
+  },
+  "m867": {
+    "source": "Slot (win = no deduct, lose = deduct)",
+    "en": "Slot (win = no deduct, lose = deduct)",
+    "tl": "Slot: walang bawas kapag panalo, may bawas kapag talo"
+  },
+  "m868": {
+    "source": "[bet]",
+    "en": "[bet]",
+    "tl": "[taya]"
+  },
+  "m869": {
+    "source": "⏳ Please wait...",
+    "en": "⏳ Please wait...",
+    "tl": "⏳ Sandali lang..."
+  },
+  "m870": {
+    "source": "❌ Not enough money\n💰 Balance: {0}",
+    "en": "❌ Not enough money\n💰 Balance: {0}",
+    "tl": "❌ Kulang ang pera\n💰 Balanse: {0}"
+  },
+  "m872": {
+    "source": "╭┈ ❒ [ SLOT ⏳ ]\n├ Spinning...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SLOT ⏳ ]\n├ Spinning...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SLOT ⏳ ]\n├ Spinning...\n╰┈➤ pakihintay"
+  },
+  "m873": {
+    "source": "╭─── SLOT {0} ───╮\n[ {1} | {2} | {3} ]\n{4}: {5} 💰\nBalance: {6} 🏦\n╰──────────────╯",
+    "en": "╭─── SLOT {0} ───╮\n[ {1} | {2} | {3} ]\n{4}: {5} 💰\nBalance: {6} 🏦\n╰──────────────╯",
+    "tl": "╭─── SLOT {0} ───╮\n[ {1} | {2} | {3} ]\n{4}: {5} 💰\nBalanse: {6} 🏦\n╰──────────────╯"
+  },
+  "m874": {
+    "source": "You Win",
+    "en": "You Win",
+    "tl": "Panalo ka"
+  },
+  "m875": {
+    "source": "You Lose",
+    "en": "You Lose",
+    "tl": "Talo ka"
+  },
+  "m876": {
+    "source": "❌ Error occurred",
+    "en": "❌ Error occurred",
+    "tl": "❌ Nagkaroon ng error"
+  },
+  "m877": {
+    "source": "Search and download audio from Spotify",
+    "en": "Search and download audio from Spotify",
+    "tl": "Maghanap at mag-download ng audio sa Spotify"
+  },
+  "m878": {
+    "source": "/spotify <song name>",
+    "en": "/spotify <song name>",
+    "tl": "/spotify <pamagat ng kanta>"
+  },
+  "m879": {
+    "source": "❓ 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📍 Please provide a song name or artist\nExample: /spotify Shape of You\n━━━━━━━━━━━━━━━━━━",
+    "en": "❓ 𝗨𝗦𝗔𝗚𝗘\n━━━━━━━━━━━━━━━━━━\n📍 Please provide a song name or artist\nExample: /spotify Shape of You\n━━━━━━━━━━━━━━━━━━",
+    "tl": "❓ PAGGAMIT\n━━━━━━━━━━━━━━━━━━\n📍 Ilagay ang pamagat ng kanta o mang-aawit\nHalimbawa: /spotify Shape of You\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m881": {
+    "source": "╭┈ ❒ [ SPOTIFY ⏳ ]\n├ Searching...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SPOTIFY ⏳ ]\n├ Searching...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SPOTIFY ⏳ ]\n├ Naghahanap...\n╰┈➤ pakihintay"
+  },
+  "m882": {
+    "source": "❌ 𝗡𝗼 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗳𝗼𝘂𝗻𝗱",
+    "en": "❌ 𝗡𝗼 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗳𝗼𝘂𝗻𝗱",
+    "tl": "❌ Walang nakitang resulta"
+  },
+  "m883": {
+    "source": "Invalid download URL response",
+    "en": "Invalid download URL response",
+    "tl": "Hindi wastong download URL ang ibinalik"
+  },
+  "m884": {
+    "source": "🎵 𝗦𝗣𝗢𝗧𝗜𝗙𝗬 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n🎤 𝗔𝗿𝘁𝗶𝘀𝘁: {1}\n✅ 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘀𝗼𝗻𝗴\n━━━━━━━━━━━━━━━━━━",
+    "en": "🎵 𝗦𝗣𝗢𝗧𝗜𝗙𝗬 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n━━━━━━━━━━━━━━━━━━\n📝 𝗧𝗶𝘁𝗹𝗲: {0}\n🎤 𝗔𝗿𝘁𝗶𝘀𝘁: {1}\n✅ 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘀𝗼𝗻𝗴\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🎵 PAG-DOWNLOAD SA SPOTIFY\n━━━━━━━━━━━━━━━━━━\n📝 Pamagat: {0}\n🎤 Mang-aawit: {1}\n✅ Na-download na ang kanta\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m886": {
+    "source": "❌ 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n💀 𝗘𝗿𝗿𝗼𝗿: {0}\n💡 𝗣𝗹𝗲𝗮𝘀𝗲 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻 𝗹𝗮𝘁𝗲𝗿\n━━━━━━━━━━━━━━━━━━",
+    "en": "❌ 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\n💀 𝗘𝗿𝗿𝗼𝗿: {0}\n💡 𝗣𝗹𝗲𝗮𝘀𝗲 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻 𝗹𝗮𝘁𝗲𝗿\n━━━━━━━━━━━━━━━━━━",
+    "tl": "❌ ERROR\n━━━━━━━━━━━━━━━━━━\n💀 Error: {0}\n💡 Subukan muli mamaya\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m887": {
+    "source": "Show system status and memory information",
+    "en": "Show system status and memory information",
+    "tl": "Ipakita ang kalagayan ng system at memorya"
+  },
+  "m890": {
+    "source": "╭┈ ❒ [ STATS ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ STATS ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ STATS ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m891": {
+    "source": "❌ Bad",
+    "en": "❌ Bad",
+    "tl": "❌ Mahina"
+  },
+  "m892": {
+    "source": "⚠️ Average",
+    "en": "⚠️ Average",
+    "tl": "⚠️ Katamtaman"
+  },
+  "m893": {
+    "source": "✅ Good",
+    "en": "✅ Good",
+    "tl": "✅ Mabuti"
+  },
+  "m894": {
+    "source": "🖥️ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗦𝗧𝗔𝗧𝗨𝗦\n━━━━━━━━━━━━━━━━━━\n📟 𝗢𝗦: {0} {1}\n💾 𝗥𝗔𝗠: {2}GB / {3}GB ({4}% used)\n💿 𝗦𝗧𝗢𝗥𝗔𝗚𝗘: {5}\n⏰ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗕𝗼𝘁: {6}d {7}h {8}m {9}s\n📊 𝗦𝘆𝘀𝘁𝗲𝗺: {10}\n🆔 𝗛𝗼𝘀𝘁 𝗜𝗗: {11}\n⚡ 𝗡𝗼𝗱𝗲𝗷𝘀 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: {12}\n━━━━━━━━━━━━━━━━━━",
+    "en": "🖥️ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗦𝗧𝗔𝗧𝗨𝗦\n━━━━━━━━━━━━━━━━━━\n📟 𝗢𝗦: {0} {1}\n💾 𝗥𝗔𝗠: {2}GB / {3}GB ({4}% used)\n💿 𝗦𝗧𝗢𝗥𝗔𝗚𝗘: {5}\n⏰ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗕𝗼𝘁: {6}d {7}h {8}m {9}s\n📊 𝗦𝘆𝘀𝘁𝗲𝗺: {10}\n🆔 𝗛𝗼𝘀𝘁 𝗜𝗗: {11}\n⚡ 𝗡𝗼𝗱𝗲𝗷𝘀 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: {12}\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🖥️ KALAGAYAN NG SYSTEM\n━━━━━━━━━━━━━━━━━━\n📟 OS: {0} {1}\n💾 RAM: {2}GB / {3}GB ({4}% ang gamit)\n💿 Imbakan: {5}\n⏰ Tagal ng pagtakbo ng bot: {6} araw {7} oras {8} minuto {9} segundo\n📊 System: {10}\n🆔 Host ID: {11}\n⚡ Bersyon ng Node.js: {12}\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m896": {
+    "source": "❌ | 𝖤𝗋𝗋𝗈𝗋 𝖿𝖾𝗍𝖼𝗁𝗂𝗇𝗀 𝗌𝗒𝗌𝗍𝖾𝗆 𝗌𝗍𝖺𝗍𝗎𝗌",
+    "en": "❌ | 𝖤𝗋𝗋𝗈𝗋 𝖿𝖾𝗍𝖼𝗁𝗂𝗇𝗀 𝗌𝗒𝗌𝗍𝖾𝗆 𝗌𝗍𝖺𝗍𝗎𝗌",
+    "tl": "❌ | Hindi makuha ang kalagayan ng system"
+  },
+  "m897": {
+    "source": "Generate Supreme logo",
+    "en": "Generate Supreme logo",
+    "tl": "Gumawa ng logo na Supreme"
+  },
+  "m898": {
+    "source": "Please enter text",
+    "en": "Please enter text",
+    "tl": "Maglagay ng teksto"
+  },
+  "m900": {
+    "source": "╭┈ ❒ [ SUPREME ⏳ ]\n├ Generating image...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ SUPREME ⏳ ]\n├ Generating image...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ SUPREME ⏳ ]\n├ Generating image...\n╰┈➤ pakihintay"
+  },
+  "m901": {
+    "source": "Image generated",
+    "en": "Image generated",
+    "tl": "Nagawa na ang larawan"
+  },
+  "m903": {
+    "source": "Failed to generate image",
+    "en": "Failed to generate image",
+    "tl": "❌ Hindi magawa ang larawan"
+  },
+  "m905": {
+    "source": "Get box id and group image",
+    "en": "Get box id and group image",
+    "tl": "Kunin ang ID at larawan ng GC"
+  },
+  "m908": {
+    "source": "╭┈ ❒ [ TID ⏳ ]\n├ Getting thread info...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ TID ⏳ ]\n├ Getting thread info...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ TID ⏳ ]\n├ Getting thread info...\n╰┈➤ pakihintay"
+  },
+  "m909": {
+    "source": "❯ Thread ID: {0}\n\n❯ This thread does not have an image.",
+    "en": "❯ Thread ID: {0}\n\n❯ This thread does not have an image.",
+    "tl": "❯ ID ng GC: {0}\n\n❯ Walang larawan ang GC na ito."
+  },
+  "m910": {
+    "source": "image download timed out",
+    "en": "image download timed out",
+    "tl": "Lumampas sa oras ng paghihintay ang pag-download ng larawan"
+  },
+  "m911": {
+    "source": "❯ Thread ID: {0}\n\n❯ Group Thread Image:",
+    "en": "❯ Thread ID: {0}\n\n❯ Group Thread Image:",
+    "tl": "❯ ID ng GC: {0}\n\n❯ Larawan ng GC:"
+  },
+  "m912": {
+    "source": "❯ Thread ID: {0}\n\n❯ Could not fetch the group image: {1}",
+    "en": "❯ Thread ID: {0}\n\n❯ Could not fetch the group image: {1}",
+    "tl": "❯ ID ng GC: {0}\n\n❯ Hindi makuha ang larawan ng GC: {1}"
+  },
+  "m913": {
+    "source": "Get TikTok user profile info",
+    "en": "Get TikTok user profile info",
+    "tl": "Kunin ang impormasyon ng profile sa TikTok"
+  },
+  "m915": {
+    "source": "Please provide a TikTok username.",
+    "en": "Please provide a TikTok username.",
+    "tl": "Ilagay ang username sa TikTok."
+  },
+  "m917": {
+    "source": "╭┈ ❒ [ TIKSTALK ⏳ ]\n├ Fetching profile...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ TIKSTALK ⏳ ]\n├ Fetching profile...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ TIKSTALK ⏳ ]\n├ Fetching profile...\n╰┈➤ pakihintay"
+  },
+  "m918": {
+    "source": "❌ User not found.",
+    "en": "❌ User not found.",
+    "tl": "❌ Hindi nakita ang tao."
+  },
+  "m919": {
+    "source": "𝗧𝗶𝗸𝗧𝗼𝗸 𝗨𝘀𝗲𝗿 𝗦𝘁𝗮𝗹𝗸\n━━━━━━━━━━━━━━━━━━\n\n",
+    "en": "𝗧𝗶𝗸𝗧𝗼𝗸 𝗨𝘀𝗲𝗿 𝗦𝘁𝗮𝗹𝗸\n━━━━━━━━━━━━━━━━━━\n\n",
+    "tl": "IMPORMASYON NG TIKTOK\n━━━━━━━━━━━━━━━━━━\n\n"
+  },
+  "m921": {
+    "source": "👤 𝗡𝗶𝗰𝗸𝗻𝗮𝗺𝗲: {0}\n",
+    "en": "👤 𝗡𝗶𝗰𝗸𝗻𝗮𝗺𝗲: {0}\n",
+    "tl": "👤 Palayaw: {0}\n"
+  },
+  "m922": {
+    "source": "🔗 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: {0}\n",
+    "en": "🔗 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: {0}\n",
+    "tl": "🔗 Username: {0}\n"
+  },
+  "m923": {
+    "source": "📝 𝗦𝗶𝗴𝗻𝗮𝘁𝘂𝗿𝗲: {0}\n",
+    "en": "📝 𝗦𝗶𝗴𝗻𝗮𝘁𝘂𝗿𝗲: {0}\n",
+    "tl": "📝 Paglalarawan: {0}\n"
+  },
+  "m925": {
+    "source": "🎥 𝗩𝗶𝗱𝗲𝗼 𝗖𝗼𝘂𝗻𝘁: {0}\n",
+    "en": "🎥 𝗩𝗶𝗱𝗲𝗼 𝗖𝗼𝘂𝗻𝘁: {0}\n",
+    "tl": "🎥 Bilang ng video: {0}\n"
+  },
+  "m926": {
+    "source": "👥 𝗙𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴: {0}\n",
+    "en": "👥 𝗙𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴: {0}\n",
+    "tl": "👥 Sinusundan: {0}\n"
+  },
+  "m927": {
+    "source": "👥 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀: {0}\n",
+    "en": "👥 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀: {0}\n",
+    "tl": "👥 Mga tagasubaybay: {0}\n"
+  },
+  "m928": {
+    "source": "❤️ 𝗟𝗶𝗸𝗲𝘀 (𝗛𝗲𝗮𝗿𝘁𝘀): {0}\n",
+    "en": "❤️ 𝗟𝗶𝗸𝗲𝘀 (𝗛𝗲𝗮𝗿𝘁𝘀): {0}\n",
+    "tl": "❤️ Mga like: {0}\n"
+  },
+  "m929": {
+    "source": "👍 𝗗𝗶𝗴𝗴 𝗖𝗼𝘂𝗻𝘁: {0}",
+    "en": "👍 𝗗𝗶𝗴𝗴 𝗖𝗼𝘂𝗻𝘁: {0}",
+    "tl": "👍 Bilang ng digg: {0}"
+  },
+  "m931": {
+    "source": "Top richest",
+    "en": "Top richest",
+    "tl": "Mga may pinakamalaking balanse"
+  },
+  "m932": {
+    "source": "❌ Database corrupted (invalid JSON)",
+    "en": "❌ Database corrupted (invalid JSON)",
+    "tl": "❌ Sira ang database (hindi wastong JSON)"
+  },
+  "m933": {
+    "source": "❌ No users with money yet",
+    "en": "❌ No users with money yet",
+    "tl": "❌ Wala pang may pera"
+  },
+  "m934": {
+    "source": "╭┈ ❒ [ LEADERBOARD ]\n╰┈➤ Loading top players...",
+    "en": "╭┈ ❒ [ LEADERBOARD ]\n╰┈➤ Loading top players...",
+    "tl": "╭┈ ❒ [ RANGGO ]\n╰┈➤ Nilo-load ang mga nangungunang manlalaro..."
+  },
+  "m935": {
+    "source": "╭┈ ❒ [ TOP MONEY ]\n",
+    "en": "╭┈ ❒ [ TOP MONEY ]\n",
+    "tl": "╭┈ ❒ [ PINAKAMALAKING BALANSE ]\n"
+  },
+  "m936": {
+    "source": "╰┈➤ {0}. {1} - {2} coins\n",
+    "en": "╰┈➤ {0}. {1} - {2} coins\n",
+    "tl": "╰┈➤ {0}. {1} - {2} barya\n"
+  },
+  "m937": {
+    "source": "Top EXP leaderboard (like topmoney)",
+    "en": "Top EXP leaderboard (like topmoney)",
+    "tl": "Mga may pinakamataas na EXP"
+  },
+  "m938": {
+    "source": "╭┈ ❒ [ TOP EXP ]\n",
+    "en": "╭┈ ❒ [ TOP EXP ]\n",
+    "tl": "╭┈ ❒ [ PINAKAMATAAS NA EXP ]\n"
+  },
+  "m939": {
+    "source": "     📊 Level: {0}\n",
+    "en": "     📊 Level: {0}\n",
+    "tl": "     📊 Antas: {0}\n"
+  },
+  "m942": {
+    "source": "Trump tweet generator",
+    "en": "Trump tweet generator",
+    "tl": "Gumawa ng larawan ng tweet na Trump-style"
+  },
+  "m943": {
+    "source": "╭┈ ❒ [ TRUMP ❌ ]\n╰┈➤ Please enter text",
+    "en": "╭┈ ❒ [ TRUMP ❌ ]\n╰┈➤ Please enter text",
+    "tl": "╭┈ ❒ [ TRUMP ❌ ]\n╰┈➤ Maglagay ng teksto"
+  },
+  "m945": {
+    "source": "╭┈ ❒ [ TRUMP ⏳ ]\n╰┈➤ Generating...",
+    "en": "╭┈ ❒ [ TRUMP ⏳ ]\n╰┈➤ Generating...",
+    "tl": "╭┈ ❒ [ TRUMP ⏳ ]\n╰┈➤ Ginagawa..."
+  },
+  "m947": {
+    "source": "╭┈ ❒ [ TRUMP 📰 ]\n╰┈➤ Generated successfully",
+    "en": "╭┈ ❒ [ TRUMP 📰 ]\n╰┈➤ Generated successfully",
+    "tl": "╭┈ ❒ [ TRUMP 📰 ]\n╰┈➤ Matagumpay na nagawa"
+  },
+  "m948": {
+    "source": "╭┈ ❒ [ TRUMP ❌ ]\n╰┈➤ Failed to generate",
+    "en": "╭┈ ❒ [ TRUMP ❌ ]\n╰┈➤ Failed to generate",
+    "tl": "╭┈ ❒ [ TRUMP ❌ ]\n╰┈➤ Hindi magawa"
+  },
+  "m949": {
+    "source": "Get the user's Facebook UID.",
+    "en": "Get the user's Facebook UID.",
+    "tl": "Kunin ang Facebook UID ng gumagamit"
+  },
+  "m951": {
+    "source": "╭┈ ❒ [ UID ⏳ ]\n├ Processing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ UID ⏳ ]\n├ Processing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ UID ⏳ ]\n├ Pinoproseso...\n╰┈➤ pakihintay"
+  },
+  "m952": {
+    "source": "Removes the bot's message's font by reacting to the bot's message",
+    "en": "Removes the bot's message's font by reacting to the bot's message",
+    "tl": "Alisin ang espesyal na font sa mensahe ng bot gamit ang reaction"
+  },
+  "m953": {
+    "source": "⚠️ This command needs the 'fontstyles' package.\nRun: npm install fontstyles",
+    "en": "⚠️ This command needs the 'fontstyles' package.\nRun: npm install fontstyles",
+    "tl": "⚠️ Kailangan ng command na ito ang fontstyles.\nPatakbuhin: npm install fontstyles"
+  },
+  "m957": {
+    "source": "Unsend bot's messages",
+    "en": "Unsend bot's messages",
+    "tl": "Bawiin ang mensahe ng bot"
+  },
+  "m960": {
+    "source": "╭┈ ❒ [ UNSEND ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ UNSEND ⏳ ]\n├ Sending...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ UNSEND ⏳ ]\n├ Ipinapadala...\n╰┈➤ pakihintay"
+  },
+  "m961": {
+    "source": "Can't remove other people's messages.",
+    "en": "Can't remove other people's messages.",
+    "tl": "❌ Hindi ko mabubura ang mensahe ng ibang tao."
+  },
+  "m962": {
+    "source": "You can't unsend a message out of nowhere. Please reply to a message first.",
+    "en": "You can't unsend a message out of nowhere. Please reply to a message first.",
+    "tl": "I-reply muna ang mensahe ng bot na gusto mong bawiin."
+  },
+  "m963": {
+    "source": "Show system uptime, OS, RAM, and storage info",
+    "en": "Show system uptime, OS, RAM, and storage info",
+    "tl": "Ipakita ang tagal ng pagtakbo, OS, RAM at imbakan"
+  },
+  "m966": {
+    "source": "╭┈ ❒ [ UPT ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ UPT ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ UPT ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m967": {
+    "source": "Storage info not available",
+    "en": "Storage info not available",
+    "tl": "Hindi makuha ang impormasyon ng imbakan"
+  },
+  "m968": {
+    "source": "{0} GB free / {1} GB total",
+    "en": "{0} GB free / {1} GB total",
+    "tl": "{0} GB ang libre / {1} GB ang kabuuan"
+  },
+  "m969": {
+    "source": "📊 System Info 📊\n🖥 OS: {0} {1}\n📂 Arch: {2}\n⏱ Uptime: {3}\n💾 RAM: {4} GB free / {5} GB total\n📦 Storage: {6}\n⚙️ CPU: {7} ({8} cores)\n📈 Load Avg: {9}",
+    "en": "📊 System Info 📊\n🖥 OS: {0} {1}\n📂 Arch: {2}\n⏱ Uptime: {3}\n💾 RAM: {4} GB free / {5} GB total\n📦 Storage: {6}\n⚙️ CPU: {7} ({8} cores)\n📈 Load Avg: {9}",
+    "tl": "📊 IMPORMASYON NG SYSTEM 📊\n🖥 OS: {0} {1}\n📂 Arkitektura: {2}\n⏱ Tagal ng pagtakbo: {3}\n💾 RAM: {4} GB ang libre / {5} GB ang kabuuan\n📦 Imbakan: {6}\n⚙️ CPU: {7} ({8} core)\n📈 Karaniwang load: {9}"
+  },
+  "m970": {
+    "source": "Ban or unblock users",
+    "en": "Ban or unblock users",
+    "tl": "I-ban o alisin ang ban ng gumagamit"
+  },
+  "m971": {
+    "source": "[unban/ban/search] [ID or text]",
+    "en": "[unban/ban/search] [ID or text]",
+    "tl": "[unban/ban/search] [ID o teksto]"
+  },
+  "m972": {
+    "source": "All commands",
+    "en": "All commands",
+    "tl": "Lahat ng command"
+  },
+  "m973": {
+    "source": "[ Ban User ] Banned user: %1",
+    "en": "[ Ban User ] Banned user: %1",
+    "tl": "[ Ban ] Naka-ban na ang gumagamit: %1"
+  },
+  "m974": {
+    "source": "[ Unban User ] Unbanned user %1",
+    "en": "[ Unban User ] Unbanned user %1",
+    "tl": "[ Unban ] Inalis ang ban ni %1"
+  },
+  "m975": {
+    "source": "[ banCommand User ] Banned command with user: %1",
+    "en": "[ banCommand User ] Banned command with user: %1",
+    "tl": "[ Ban command ] Ipinagbawal ang command para sa: %1"
+  },
+  "m976": {
+    "source": "[ UnbanCommand User ] Unbanned command %1 with user: %2",
+    "en": "[ UnbanCommand User ] Unbanned command %1 with user: %2",
+    "tl": "[ Unban command ] Pinayagan ang command na %1 para kay %2"
+  },
+  "m977": {
+    "source": "%1 Can't do what you request",
+    "en": "%1 Can't do what you request",
+    "tl": "%1 Hindi magawa ang kahilingan mo"
+  },
+  "m978": {
+    "source": "%1 ID you import doesn't exist in database",
+    "en": "%1 ID you import doesn't exist in database",
+    "tl": "%1 Wala sa database ang ibinigay na ID"
+  },
+  "m979": {
+    "source": "[ Ban User ] User %1 has been banned before %2 %3",
+    "en": "[ Ban User ] User %1 has been banned before %2 %3",
+    "tl": "[ Ban ] Dati nang naka-ban si %1 %2 %3"
+  },
+  "m980": {
+    "source": "[ Unban User ] User hasn't been banned before",
+    "en": "[ Unban User ] User hasn't been banned before",
+    "tl": "[ Unban ] Hindi naka-ban ang gumagamit"
+  },
+  "m981": {
+    "source": "%1 You have to import the command you want to ban!",
+    "en": "%1 You have to import the command you want to ban!",
+    "tl": "%1 Ilagay ang command na ipagbabawal!"
+  },
+  "m982": {
+    "source": "[ UnbanCommand User ] User ID hasn't been banned before",
+    "en": "[ UnbanCommand User ] User ID hasn't been banned before",
+    "tl": "[ Unban command ] Hindi pa naka-ban ang user ID"
+  },
+  "m983": {
+    "source": "[ Ban User ] You are requesting to ban user:\n- User ID and name who you want to ban: %1%2\n\n❮ Reaction this message to complete ❯",
+    "en": "[ Ban User ] You are requesting to ban user:\n- User ID and name who you want to ban: %1%2\n\n❮ Reaction this message to complete ❯",
+    "tl": "[ Ban ] Hiling mong i-ban ang gumagamit:\n- ID at pangalan: %1%2\n\n❮ Mag-react dito para kumpirmahin ❯"
+  },
+  "m984": {
+    "source": "[ Unban User ] You are requesting to unban user:\n- User ID and name who you want to ban: %1\n\n❮ Reaction this message to complete ❯",
+    "en": "[ Unban User ] You are requesting to unban user:\n- User ID and name who you want to ban: %1\n\n❮ Reaction this message to complete ❯",
+    "tl": "[ Unban ] Hiling mong alisin ang ban:\n- ID at pangalan: %1\n\n❮ Mag-react dito para kumpirmahin ❯"
+  },
+  "m985": {
+    "source": "[ banCommand User ] You are requesting to ban command with user:\n - User ID and name who you want to ban: %1\n- Commands: %2\n\n❮ Reaction this message to complete ❯",
+    "en": "[ banCommand User ] You are requesting to ban command with user:\n - User ID and name who you want to ban: %1\n- Commands: %2\n\n❮ Reaction this message to complete ❯",
+    "tl": "[ Ban command ] Hiling mong ipagbawal ang command:\n- ID at pangalan: %1\n- Mga command: %2\n\n❮ Mag-react dito para kumpirmahin ❯"
+  },
+  "m986": {
+    "source": "[ UnbanCommand User ] You are requesting to unban command with user:\n - User ID and name: %1\n- Commands: %2\n\n❮ Reaction this message to complete ❯",
+    "en": "[ UnbanCommand User ] You are requesting to unban command with user:\n - User ID and name: %1\n- Commands: %2\n\n❮ Reaction this message to complete ❯",
+    "tl": "[ Unban command ] Hiling mong payagan muli ang command:\n- ID at pangalan: %1\n- Mga command: %2\n\n❮ Mag-react dito para kumpirmahin ❯"
+  },
+  "m987": {
+    "source": "This is your result: \n",
+    "en": "This is your result: \n",
+    "tl": "Narito ang resulta:\n"
+  },
+  "m988": {
+    "source": "There is no result with your input!",
+    "en": "There is no result with your input!",
+    "tl": "Walang resulta para sa inilagay mo!"
+  },
+  "m989": {
+    "source": "[ User List ]There are %1 banned user, here are %2 user\n\n%3",
+    "en": "[ User List ]There are %1 banned user, here are %2 user\n\n%3",
+    "tl": "[ Listahan ] May %1 naka-ban; narito ang %2:\n\n%3"
+  },
+  "m990": {
+    "source": "[ Info User ] Here is some information about the user who you want to find:\n- User ID and name: %1n- Banned?: %2 %3 %4\n- Command banned?: %5",
+    "en": "[ Info User ] Here is some information about the user who you want to find:\n- User ID and name: %1n- Banned?: %2 %3 %4\n- Command banned?: %5",
+    "tl": "[ Impormasyon ] Impormasyon ng hinahanap na gumagamit:\n- ID at pangalan: %1\n- Naka-ban?: %2 %3 %4\n- May ipinagbabawal na command?: %5"
+  },
+  "m992": {
+    "source": "[ Ban User ]",
+    "en": "[ Ban User ]",
+    "tl": "[ I-ban ang gumagamit ]"
+  },
+  "m993": {
+    "source": "[ Unban User ]",
+    "en": "[ Unban User ]",
+    "tl": "[ Alisin ang ban ]"
+  },
+  "m994": {
+    "source": "[ banCommand User ]",
+    "en": "[ banCommand User ]",
+    "tl": "[ Ipagbawal ang command ]"
+  },
+  "m995": {
+    "source": "[ UnbanCommand User ]",
+    "en": "[ UnbanCommand User ]",
+    "tl": "[ Payagan ang command ]"
+  },
+  "m997": {
+    "source": "╭┈ ❒ [ USER ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ USER ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ USER ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m998": {
+    "source": "[ BanCommand User ]",
+    "en": "[ BanCommand User ]",
+    "tl": "[ Ipagbawal ang command ]"
+  },
+  "m999": {
+    "source": "[ Info User ]",
+    "en": "[ Info User ]",
+    "tl": "[ Impormasyon ng gumagamit ]"
+  },
+  "m1000": {
+    "source": "YES: {0}",
+    "en": "YES: {0}",
+    "tl": "OO: {0}"
+  },
+  "m1002": {
+    "source": "Phát video thông qua link YouTube hoặc từ khoá tìm kiếm",
+    "en": "Play a video from a YouTube link or search term",
+    "tl": "Magpatugtog ng video gamit ang link sa YouTube o mga salitang hahanapin"
+  },
+  "m1003": {
+    "source": "[searchVideos]",
+    "en": "[searchVideos]",
+    "tl": "[hanaping video]"
+  },
+  "m1006": {
+    "source": "not installed (npm install btch-downloader)",
+    "en": "not installed (npm install btch-downloader)",
+    "tl": "hindi naka-install (npm install btch-downloader)"
+  },
+  "m1007": {
+    "source": "no mp4 link in the response",
+    "en": "no mp4 link in the response",
+    "tl": "walang mp4 link sa tugon"
+  },
+  "m1008": {
+    "source": "not installed (npm install ruhend-scraper)",
+    "en": "not installed (npm install ruhend-scraper)",
+    "tl": "hindi naka-install (npm install ruhend-scraper)"
+  },
+  "m1009": {
+    "source": "this version has no youtube function",
+    "en": "this version has no youtube function",
+    "tl": "walang youtube function ang bersyong ito"
+  },
+  "m1010": {
+    "source": "no download endpoint configured",
+    "en": "no download endpoint configured",
+    "tl": "walang naka-set na endpoint ng pag-download"
+  },
+  "m1011": {
+    "source": "{0}: no combined stream",
+    "en": "{0}: no combined stream",
+    "tl": "{0}: walang pinagsamang stream"
+  },
+  "m1012": {
+    "source": "no piped instance answered",
+    "en": "no piped instance answered",
+    "tl": "walang Piped instance na sumagot"
+  },
+  "m1014": {
+    "source": "no invidious instance answered",
+    "en": "no invidious instance answered",
+    "tl": "walang Invidious instance na sumagot"
+  },
+  "m1015": {
+    "source": "no downloadable format for this video",
+    "en": "no downloadable format for this video",
+    "tl": "walang mada-download na format para sa video"
+  },
+  "m1016": {
+    "source": "the smallest version is {0}MB, over the 25MB limit",
+    "en": "the smallest version is {0}MB, over the 25MB limit",
+    "tl": "ang pinakamaliit na bersyon ay {0}MB; lampas sa 25MB na limitasyon"
+  },
+  "m1017": {
+    "source": "file went over the 25MB limit while downloading",
+    "en": "file went over the 25MB limit while downloading",
+    "tl": "Lumampas sa 25MB ang file habang dina-download"
+  },
+  "m1018": {
+    "source": "no keys available",
+    "en": "no keys available",
+    "tl": "walang key na magagamit"
+  },
+  "m1019": {
+    "source": "every key refused",
+    "en": "every key refused",
+    "tl": "tinanggihan ang lahat ng key"
+  },
+  "m1020": {
+    "source": "key out of quota (403)",
+    "en": "key out of quota (403)",
+    "tl": "ubos na ang quota ng key (403)"
+  },
+  "m1021": {
+    "source": "request failed",
+    "en": "request failed",
+    "tl": "❌ hindi natuloy ang kahilingan"
+  },
+  "m1022": {
+    "source": "refused this video",
+    "en": "refused this video",
+    "tl": "tinanggihan ang video na ito"
+  },
+  "m1028": {
+    "source": "Could not download this video.\n",
+    "en": "Could not download this video.\n",
+    "tl": "❌ Hindi ma-download ang video.\n"
+  },
+  "m1029": {
+    "source": "\nAll sources failed for this one. Try another video, or edit ",
+    "en": "\nAll sources failed for this one. Try another video, or edit ",
+    "tl": "\nWalang gumana sa mga pinagmulan. Subukan ang ibang video o baguhin ang "
+  },
+  "m1031": {
+    "source": "The download came back empty.",
+    "en": "The download came back empty.",
+    "tl": "Walang laman ang na-download."
+  },
+  "m1032": {
+    "source": "The file could not be sent because it is larger than 25MB.",
+    "en": "The file could not be sent because it is larger than 25MB.",
+    "tl": "Hindi maipadala ang file dahil lampas ito sa 25MB."
+  },
+  "m1033": {
+    "source": "Choose from 1 -> {0}, baby. I love you ❤️",
+    "en": "Choose from 1 to {0}.",
+    "tl": "Pumili mula 1 hanggang {0}. ❤️"
+  },
+  "m1035": {
+    "source": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Downloading...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Downloading...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Dina-download...\n╰┈➤ pakihintay"
+  },
+  "m1036": {
+    "source": "Unable to send this file! ",
+    "en": "Unable to send this file! ",
+    "tl": "❌ Hindi maipadala ang file na ito! "
+  },
+  "m1037": {
+    "source": "» Search cannot be left blank!",
+    "en": "» Search cannot be left blank!",
+    "tl": "» Hindi maaaring blangko ang hahanapin!"
+  },
+  "m1038": {
+    "source": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Searching...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Searching...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ VIDEO ⏳ ]\n├ Naghahanap...\n╰┈➤ pakihintay"
+  },
+  "m1039": {
+    "source": "» No results found.",
+    "en": "» No results found.",
+    "tl": "» Walang nakitang resulta."
+  },
+  "m1040": {
+    "source": "»🔎 Have {0} the list matches your search keyword:\n\n{1}» Please reply (reply by number) choose one of the above searches",
+    "en": "»🔎 Have {0} the list matches your search keyword:\n\n{1}» Please reply (reply by number) choose one of the above searches",
+    "tl": "»🔎 May {0} resulta na tugma sa hinahanap mo:\n\n{1}» I-reply ang numero ng napiling video"
+  },
+  "m1041": {
+    "source": "The request could not be processed due to a module error: ",
+    "en": "The request could not be processed due to a module error: ",
+    "tl": "❌ Hindi maproseso ang kahilingan dahil sa error ng module: "
+  },
+  "m1042": {
+    "source": "Warn system for group management",
+    "en": "Warn system for group management",
+    "tl": "Sistema ng babala para sa pamamahala ng GC"
+  },
+  "m1045": {
+    "source": "╭┈ ❒ [ WARN ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ WARN ⏳ ]\n├ Executing...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ WARN ⏳ ]\n├ Isinasagawa...\n╰┈➤ pakihintay"
+  },
+  "m1046": {
+    "source": "⚠️ | Invalid usage!\n━━━━━━━━━━━━━━━━━━\n📝 | Usage:\n/warn <mention or reply> <reason>\n/warn clear <mention or uid>\n/warn list",
+    "en": "⚠️ | Invalid usage!\n━━━━━━━━━━━━━━━━━━\n📝 | Usage:\n/warn <mention or reply> <reason>\n/warn clear <mention or uid>\n/warn list",
+    "tl": "⚠️ | Mali ang paggamit!\n━━━━━━━━━━━━━━━━━━\n📝 | Paggamit:\n/warn <mention o reply> <dahilan>\n/warn clear <mention o uid>\n/warn list"
+  },
+  "m1047": {
+    "source": "📝 | No users have been warned in this group.",
+    "en": "📝 | No users have been warned in this group.",
+    "tl": "📝 | Wala pang nabigyan ng babala sa GC na ito."
+  },
+  "m1048": {
+    "source": "📋 𝗪𝗔𝗥𝗡 𝗟𝗜𝗦𝗧\n━━━━━━━━━━━━━━━━━━\n",
+    "en": "📋 𝗪𝗔𝗥𝗡 𝗟𝗜𝗦𝗧\n━━━━━━━━━━━━━━━━━━\n",
+    "tl": "📋 LISTAHAN NG BABALA\n━━━━━━━━━━━━━━━━━━\n"
+  },
+  "m1049": {
+    "source": "👤 𝗨𝘀𝗲𝗿: {0}\n⚠️ 𝗪𝗮𝗿𝗻𝘀: {1}\n📝 𝗟𝗮𝘀𝘁 𝗥𝗲𝗮𝘀𝗼𝗻: {2}\n━━━━━━━━━━━━━━━━━━\n",
+    "en": "👤 𝗨𝘀𝗲𝗿: {0}\n⚠️ 𝗪𝗮𝗿𝗻𝘀: {1}\n📝 𝗟𝗮𝘀𝘁 𝗥𝗲𝗮𝘀𝗼𝗻: {2}\n━━━━━━━━━━━━━━━━━━\n",
+    "tl": "👤 Miyembro: {0}\n⚠️ Mga babala: {1}\n📝 Huling dahilan: {2}\n━━━━━━━━━━━━━━━━━━\n"
+  },
+  "m1050": {
+    "source": "❌ | Please mention a user or provide UID to clear warns.",
+    "en": "❌ | Please mention a user or provide UID to clear warns.",
+    "tl": "❌ | Mag-mention o maglagay ng UID para alisin ang mga babala."
+  },
+  "m1051": {
+    "source": "❌ | This user has no warnings to clear.",
+    "en": "❌ | This user has no warnings to clear.",
+    "tl": "❌ | Walang babala ang miyembrong ito."
+  },
+  "m1052": {
+    "source": "✅ | Successfully cleared all warnings for {0}",
+    "en": "✅ | Successfully cleared all warnings for {0}",
+    "tl": "✅ | Inalis na ang lahat ng babala kay {0}"
+  },
+  "m1053": {
+    "source": "❌ | Failed to clear warnings.",
+    "en": "❌ | Failed to clear warnings.",
+    "tl": "❌ | Hindi maalis ang mga babala."
+  },
+  "m1054": {
+    "source": "❌ | Please mention a user or reply to a message to warn.",
+    "en": "❌ | Please mention a user or reply to a message to warn.",
+    "tl": "❌ | Mag-mention o i-reply ang mensahe ng taong bibigyan ng babala."
+  },
+  "m1055": {
+    "source": "⚠️ 𝗪𝗔𝗥𝗡 𝗦𝗬𝗦𝗧𝗘𝗠\n━━━━━━━━━━━━━━━━━━\n👤 𝗨𝘀𝗲𝗿: {0}\n⚠️ 𝗪𝗮𝗿𝗻 𝗖𝗼𝘂𝗻𝘁: {1}\n📝 𝗥𝗲𝗮𝘀𝗼𝗻: {2}\n━━━━━━━━━━━━━━━━━━\n💡 𝗡𝗼𝘁𝗲: 3 warnings will result in automatic removal from group.",
+    "en": "⚠️ 𝗪𝗔𝗥𝗡 𝗦𝗬𝗦𝗧𝗘𝗠\n━━━━━━━━━━━━━━━━━━\n👤 𝗨𝘀𝗲𝗿: {0}\n⚠️ 𝗪𝗮𝗿𝗻 𝗖𝗼𝘂𝗻𝘁: {1}\n📝 𝗥𝗲𝗮𝘀𝗼𝗻: {2}\n━━━━━━━━━━━━━━━━━━\n💡 𝗡𝗼𝘁𝗲: 3 warnings will result in automatic removal from group.",
+    "tl": "⚠️ SISTEMA NG BABALA\n━━━━━━━━━━━━━━━━━━\n👤 Miyembro: {0}\n⚠️ Bilang ng babala: {1}\n📝 Dahilan: {2}\n━━━━━━━━━━━━━━━━━━\n💡 Sa 3 babala, awtomatikong aalisin sa GC."
+  },
+  "m1056": {
+    "source": "🚨 𝗨𝗦𝗘𝗥 𝗥𝗘𝗠𝗢𝗩𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n👤 𝗨𝘀𝗲𝗿: {0}\n❌ 𝗥𝗲𝗮𝘀𝗼𝗻: Reached {1} warnings\n📝 𝗟𝗮𝘀𝘁 𝗪𝗮𝗿𝗻: {2}\n━━━━━━━━━━━━━━━━━━\n⚠️  𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮𝗹𝗹𝘆 𝗿𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝗴𝗿𝗼𝘂𝗽",
+    "en": "🚨 𝗨𝗦𝗘𝗥 𝗥𝗘𝗠𝗢𝗩𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n👤 𝗨𝘀𝗲𝗿: {0}\n❌ 𝗥𝗲𝗮𝘀𝗼𝗻: Reached {1} warnings\n📝 𝗟𝗮𝘀𝘁 𝗪𝗮𝗿𝗻: {2}\n━━━━━━━━━━━━━━━━━━\n⚠️  𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮𝗹𝗹𝘆 𝗿𝗲𝗺𝗼𝘃𝗲𝗱 𝗳𝗿𝗼𝗺 𝗴𝗿𝗼𝘂𝗽",
+    "tl": "🚨 INALIS ANG MIYEMBRO\n━━━━━━━━━━━━━━━━━━\n👤 Miyembro: {0}\n❌ Dahilan: Umabot sa {1} babala\n📝 Huling babala: {2}\n━━━━━━━━━━━━━━━━━━\n⚠️ Awtomatikong inalis sa GC"
+  },
+  "m1057": {
+    "source": "❌ | Failed to remove {0} from group. The user might be the group admin or I don't have permission to remove members.",
+    "en": "❌ | Failed to remove {0} from group. The user might be the group admin or I don't have permission to remove members.",
+    "tl": "❌ | Hindi maalis si {0} sa GC. Maaaring admin siya o wala akong pahintulot na mag-alis."
+  },
+  "m1058": {
+    "source": "🚨 | Warning: {0} has 2 warnings! One more warning will result in automatic removal from the group.",
+    "en": "🚨 | Warning: {0} has 2 warnings! One more warning will result in automatic removal from the group.",
+    "tl": "🚨 | Babala: May 2 babala na si {0}! Isa pa at awtomatiko nang aalisin sa GC."
+  },
+  "m1059": {
+    "source": "❌ | Failed to save warn data.",
+    "en": "❌ | Failed to save warn data.",
+    "tl": "❌ | Hindi ma-save ang mga babala."
+  },
+  "m1060": {
+    "source": "Get accurate weather information with photo",
+    "en": "Get accurate weather information with photo",
+    "tl": "Kumuha ng impormasyon ng panahon kasama ang larawan"
+  },
+  "m1061": {
+    "source": "[city name]",
+    "en": "[city name]",
+    "tl": "[pangalan ng lungsod]"
+  },
+  "m1062": {
+    "source": "🌤️ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗\n━━━━━━━━━━━━━━━━━━\n📝 Please provide a city name\n💡 Usage: weather manila\n💡 Example: weather new york",
+    "en": "🌤️ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗\n━━━━━━━━━━━━━━━━━━\n📝 Please provide a city name\n💡 Usage: weather manila\n💡 Example: weather new york",
+    "tl": "🌤️ COMMAND NG PANAHON\n━━━━━━━━━━━━━━━━━━\n📝 Ilagay ang pangalan ng lungsod\n💡 Paggamit: weather manila\n💡 Halimbawa: weather new york"
+  },
+  "m1064": {
+    "source": "╭┈ ❒ [ WEATHER ⏳ ]\n├ Getting weather information...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ WEATHER ⏳ ]\n├ Getting weather information...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ WEATHER ⏳ ]\n├ Getting weather information...\n╰┈➤ pakihintay"
+  },
+  "m1065": {
+    "source": "❌ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\nCity not found. Please check the spelling and try again.",
+    "en": "❌ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\nCity not found. Please check the spelling and try again.",
+    "tl": "❌ ERROR SA PANAHON\n━━━━━━━━━━━━━━━━━━\nHindi nakita ang lungsod. Suriin ang baybay at subukan muli."
+  },
+  "m1066": {
+    "source": "🌤️ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡\n━━━━━━━━━━━━━━━━━━\n",
+    "en": "🌤️ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡\n━━━━━━━━━━━━━━━━━━\n",
+    "tl": "🌤️ IMPORMASYON NG PANAHON\n━━━━━━━━━━━━━━━━━━\n"
+  },
+  "m1067": {
+    "source": "📍 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: {0}, {1}\n",
+    "en": "📍 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: {0}, {1}\n",
+    "tl": "📍 Lokasyon: {0}, {1}\n"
+  },
+  "m1068": {
+    "source": "📊 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: {0}\n",
+    "en": "📊 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻: {0}\n",
+    "tl": "📊 Kalagayan: {0}\n"
+  },
+  "m1069": {
+    "source": "🌡️ 𝗧𝗲𝗺𝗽𝗲𝗿𝗮𝘁𝘂𝗿𝗲: {0}°C\n",
+    "en": "🌡️ 𝗧𝗲𝗺𝗽𝗲𝗿𝗮𝘁𝘂𝗿𝗲: {0}°C\n",
+    "tl": "🌡️ Temperatura: {0}°C\n"
+  },
+  "m1070": {
+    "source": "🤔 𝗙𝗲𝗲𝗹𝘀 𝗹𝗶𝗸𝗲: {0}°C\n",
+    "en": "🤔 𝗙𝗲𝗲𝗹𝘀 𝗹𝗶𝗸𝗲: {0}°C\n",
+    "tl": "🤔 Pakiramdam na temperatura: {0}°C\n"
+  },
+  "m1071": {
+    "source": "💧 𝗛𝘂𝗺𝗶𝗱𝗶𝘁𝘆: {0}%\n",
+    "en": "💧 𝗛𝘂𝗺𝗶𝗱𝗶𝘁𝘆: {0}%\n",
+    "tl": "💧 Halumigmig: {0}%\n"
+  },
+  "m1072": {
+    "source": "💨 𝗪𝗶𝗻𝗱 𝗦𝗽𝗲𝗲𝗱: {0} m/s\n",
+    "en": "💨 𝗪𝗶𝗻𝗱 𝗦𝗽𝗲𝗲𝗱: {0} m/s\n",
+    "tl": "💨 Bilis ng hangin: {0} m/s\n"
+  },
+  "m1073": {
+    "source": "👁️ 𝗩𝗶𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝘆: {0} km\n",
+    "en": "👁️ 𝗩𝗶𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝘆: {0} km\n",
+    "tl": "👁️ Lawak ng tanaw: {0} km\n"
+  },
+  "m1074": {
+    "source": "📊 𝗣𝗿𝗲𝘀𝘀𝘂𝗿𝗲: {0} hPa\n",
+    "en": "📊 𝗣𝗿𝗲𝘀𝘀𝘂𝗿𝗲: {0} hPa\n",
+    "tl": "📊 Presyon: {0} hPa\n"
+  },
+  "m1075": {
+    "source": "🌅 𝗦𝘂𝗻𝗿𝗶𝘀𝗲: {0}\n",
+    "en": "🌅 𝗦𝘂𝗻𝗿𝗶𝘀𝗲: {0}\n",
+    "tl": "🌅 Pagsikat ng araw: {0}\n"
+  },
+  "m1076": {
+    "source": "🌇 𝗦𝘂𝗻𝘀𝗲𝘁: {0}\n",
+    "en": "🌇 𝗦𝘂𝗻𝘀𝗲𝘁: {0}\n",
+    "tl": "🌇 Paglubog ng araw: {0}\n"
+  },
+  "m1077": {
+    "source": "❌ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\nFailed to get weather information. Please try again later.",
+    "en": "❌ 𝗪𝗘𝗔𝗧𝗛𝗘𝗥 𝗘𝗥𝗥𝗢𝗥\n━━━━━━━━━━━━━━━━━━\nFailed to get weather information. Please try again later.",
+    "tl": "❌ ERROR SA PANAHON\n━━━━━━━━━━━━━━━━━━\nHindi makuha ang impormasyon ng panahon. Subukan muli mamaya."
+  },
+  "m1078": {
+    "source": "💨 𝗪𝗶𝗻𝗱 𝗦𝗽𝗲𝗲𝗱: {0} km/h\n",
+    "en": "💨 𝗪𝗶𝗻𝗱 𝗦𝗽𝗲𝗲𝗱: {0} km/h\n",
+    "tl": "💨 Bilis ng hangin: {0} km/h\n"
+  },
+  "m1079": {
+    "source": "📊 𝗣𝗿𝗲𝘀𝘀𝘂𝗿𝗲: {0} mb\n",
+    "en": "📊 𝗣𝗿𝗲𝘀𝘀𝘂𝗿𝗲: {0} mb\n",
+    "tl": "📊 Presyon: {0} mb\n"
+  },
+  "m1080": {
+    "source": "Work to earn money",
+    "en": "Work to earn money",
+    "tl": "Magtrabaho para kumita ng pera"
+  },
+  "m1081": {
+    "source": "╭┈ ❒ [ WORK ❌ ]\n╰┈➤ You already worked\n╰┈➤ Come back in {0}m {1}s",
+    "en": "╭┈ ❒ [ WORK ❌ ]\n╰┈➤ You already worked\n╰┈➤ Come back in {0}m {1}s",
+    "tl": "╭┈ ❒ [ WORK ❌ ]\n╰┈➤ Nakapagtrabaho ka na\n╰┈➤ Bumalik pagkalipas ng {0} minuto at {1} segundo"
+  },
+  "m1082": {
+    "source": "👨‍💻 Developer",
+    "en": "👨‍💻 Developer",
+    "tl": "👨‍💻 Tagagawa ng software"
+  },
+  "m1083": {
+    "source": "🚗 Driver",
+    "en": "🚗 Driver",
+    "tl": "🚗 Tsuper"
+  },
+  "m1084": {
+    "source": "🍳 Chef",
+    "en": "🍳 Chef",
+    "tl": "🍳 Kusinero"
+  },
+  "m1085": {
+    "source": "🏗️ Builder",
+    "en": "🏗️ Builder",
+    "tl": "🏗️ Manggagawa sa konstruksiyon"
+  },
+  "m1086": {
+    "source": "🎥 Streamer",
+    "en": "🎥 Streamer",
+    "tl": "🎥 Tagapag-stream"
+  },
+  "m1087": {
+    "source": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Starting job...",
+    "en": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Starting job...",
+    "tl": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Sinisimulan ang trabaho..."
+  },
+  "m1088": {
+    "source": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Working hard...\n╰┈➤ Please wait...",
+    "en": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Working hard...\n╰┈➤ Please wait...",
+    "tl": "╭┈ ❒ [ WORK 💼 ]\n╰┈➤ Nagtatrabaho...\n╰┈➤ Sandali lang..."
+  },
+  "m1089": {
+    "source": "╭┈ ❒ [ WORK COMPLETE ✅ ]\n╰┈➤ Job: {0}\n╰┈➤ Earned: +{1} coins 💰\n╰┈➤ Balance: {2} coins 🏦",
+    "en": "╭┈ ❒ [ WORK COMPLETE ✅ ]\n╰┈➤ Job: {0}\n╰┈➤ Earned: +{1} coins 💰\n╰┈➤ Balance: {2} coins 🏦",
+    "tl": "╭┈ ❒ [ TAPOS NA ANG TRABAHO ✅ ]\n╰┈➤ Trabaho: {0}\n╰┈➤ Kinita: +{1} barya 💰\n╰┈➤ Balanse: {2} barya 🏦"
+  },
+  "m1091": {
+    "source": "❌ Error saving data",
+    "en": "❌ Error saving data",
+    "tl": "❌ Error sa pag-save ng data"
+  },
+  "m1092": {
+    "source": "Generate an aesthetic quote image",
+    "en": "Generate an aesthetic quote image",
+    "tl": "Gumawa ng magandang larawan ng sipi"
+  },
+  "m1093": {
+    "source": "wq [text | author | color]",
+    "en": "wq [text | author | color]",
+    "tl": "wq [teksto | may-akda | kulay]"
+  },
+  "m1094": {
+    "source": "Usage: wq [text | author | color (white/black)]",
+    "en": "Usage: wq [text | author | color (white/black)]",
+    "tl": "Paggamit: wq [teksto | may-akda | kulay (white/black)]"
+  },
+  "m1096": {
+    "source": "╭┈ ❒ [ WQ ⏳ ]\n├ Generating image...\n╰┈➤ please wait",
+    "en": "╭┈ ❒ [ WQ ⏳ ]\n├ Generating image...\n╰┈➤ please wait",
+    "tl": "╭┈ ❒ [ WQ ⏳ ]\n├ Generating image...\n╰┈➤ pakihintay"
+  },
+  "m1097": {
+    "source": "𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗤𝘂𝗼𝘁𝗲\n━━━━━━━━━━━━━━━━━━\n\n\"{0}\"\n- {1}",
+    "en": "𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗤𝘂𝗼𝘁𝗲\n━━━━━━━━━━━━━━━━━━\n\n\"{0}\"\n- {1}",
+    "tl": "LARAWAN NG SIPI\n━━━━━━━━━━━━━━━━━━\n\n\"{0}\"\n- {1}"
+  },
+  "m1098": {
+    "source": "🔥 Legend",
+    "en": "🔥 Legend",
+    "tl": "🔥 Alamat"
+  },
+  "m1099": {
+    "source": "👑 Master",
+    "en": "👑 Master",
+    "tl": "👑 Dalubhasa"
+  },
+  "m1100": {
+    "source": "🏆 Elite",
+    "en": "🏆 Elite",
+    "tl": "🏆 Nangunguna"
+  },
+  "m1101": {
+    "source": "⚔️ Pro",
+    "en": "⚔️ Pro",
+    "tl": "⚔️ Bihasa"
+  },
+  "m1102": {
+    "source": "🧑 Player",
+    "en": "🧑 Player",
+    "tl": "🧑 Manlalaro"
+  },
+  "m1103": {
+    "source": "🐣 Noob",
+    "en": "🐣 Noob",
+    "tl": "🐣 Baguhan"
+  },
+  "m1104": {
+    "source": "✨ XP System\n\n🎉 {0} gained {1} XP\n📊 Level: {2}\n🏷️ Rank: {3}",
+    "en": "✨ XP System\n\n🎉 {0} gained {1} XP\n📊 Level: {2}\n🏷️ Rank: {3}",
+    "tl": "✨ Sistema ng XP\n\n🎉 Nakakuha si {0} ng {1} XP\n📊 Antas: {2}\n🏷️ Ranggo: {3}"
+  },
+  "m1105": {
+    "source": "🎊 LEVEL UP!\n\n👤 {0}\n⬆️ Level: {1} → {2}\n🏷️ New Rank: {3}",
+    "en": "🎊 LEVEL UP!\n\n👤 {0}\n⬆️ Level: {1} → {2}\n🏷️ New Rank: {3}",
+    "tl": "🎊 TUMAAS ANG ANTAS!\n\n👤 {0}\n⬆️ Antas: {1} → {2}\n🏷️ Bagong ranggo: {3}"
+  },
+  "m1108": {
+    "source": "Group Information Update",
+    "en": "Group Information Update",
+    "tl": "Pagbabago ng impormasyon ng GC"
+  },
+  "m1109": {
+    "source": "[ GROUP UPDATE ]\n❯ USER UPDATE {0} Became a group admin",
+    "en": "[ GROUP UPDATE ]\n❯ USER UPDATE {0} Became a group admin",
+    "tl": "[ UPDATE NG GC ]\n❯ Naging admin si {0}"
+  },
+  "m1110": {
+    "source": "[ GROUP UPDATE ]\n❯ Remove user's admin position {0}",
+    "en": "[ GROUP UPDATE ]\n❯ Remove user's admin position {0}",
+    "tl": "[ UPDATE NG GC ]\n❯ Inalis ang pagka-admin ni {0}"
+  },
+  "m1111": {
+    "source": "deleted nickname",
+    "en": "deleted nickname",
+    "tl": "inalis ang palayaw"
+  },
+  "m1112": {
+    "source": "[ GROUP ]\n❯ Updated nickname for {0}: {1}.",
+    "en": "[ GROUP ]\n❯ Updated nickname for {0}: {1}.",
+    "tl": "[ GC ]\n❯ Bagong palayaw ni {0}: {1}."
+  },
+  "m1113": {
+    "source": "[ GROUP UPDATE ]\n❯ {0}.",
+    "en": "[ GROUP UPDATE ]\n❯ {0}.",
+    "tl": "[ UPDATE NG GC ]\n❯ {0}."
+  },
+  "m1114": {
+    "source": "Updated Group Name to: {0}",
+    "en": "Updated Group Name to: {0}",
+    "tl": "Pinalitan ang pangalan ng GC ng: {0}"
+  },
+  "m1115": {
+    "source": "Cleared the Group Name",
+    "en": "Cleared the Group Name",
+    "tl": "Inalis ang pangalan ng GC"
+  },
+  "m1116": {
+    "source": "[ GROUP UPDATE ]\n❯ {0}\n❯ Original Emoji: {1}",
+    "en": "[ GROUP UPDATE ]\n❯ {0}\n❯ Original Emoji: {1}",
+    "tl": "[ UPDATE NG GC ]\n❯ {0}\n❯ Dating emoji: {1}"
+  },
+  "m1117": {
+    "source": "[ GROUP UPDATE ]\n❯ {0} STARTED A {1}CALL.",
+    "en": "[ GROUP UPDATE ]\n❯ {0} STARTED A {1}CALL.",
+    "tl": "[ UPDATE NG GC ]\n❯ Nagsimula si {0} ng {1}tawag."
+  },
+  "m1118": {
+    "source": "[ GROUP UPDATE ]\n❯ {0} call has ended.\n❯ Call duration: {1}",
+    "en": "[ GROUP UPDATE ]\n❯ {0} call has ended.\n❯ Call duration: {1}",
+    "tl": "[ UPDATE NG GC ]\n❯ Tapos na ang {0}tawag.\n❯ Tagal: {1}"
+  },
+  "m1119": {
+    "source": "❯ [ GROUP UPDATE ]\n❯ {0} Joined the {1} call.",
+    "en": "❯ [ GROUP UPDATE ]\n❯ {0} Joined the {1} call.",
+    "tl": "❯ [ UPDATE NG GC ]\n❯ Sumali si {0} sa {1}tawag."
+  },
+  "m1120": {
+    "source": "» [ GROUP UPDATE ] Theme {0} added effect: {1}\nEmoij: {2}\nTotal {3} word effect added",
+    "en": "» [ GROUP UPDATE ] Theme {0} added effect: {1}\nEmoij: {2}\nTotal {3} word effect added",
+    "tl": "» [ UPDATE NG GC ] Tema: {0}; idinagdag na epekto: {1}\nEmoji: {2}\nKabuuang epekto sa salita: {3}"
+  },
+  "m1121": {
+    "source": "No emoji ",
+    "en": "No emoji ",
+    "tl": "Walang emoji "
+  },
+  "m1122": {
+    "source": "[ GROUP UPDATE ]\n❯ {0}",
+    "en": "[ GROUP UPDATE ]\n❯ {0}",
+    "tl": "[ UPDATE NG GC ]\n❯ {0}"
+  },
+  "m1124": {
+    "source": "Group protection system against unauthorized changes",
+    "en": "Group protection system against unauthorized changes",
+    "tl": "Proteksyon ng GC laban sa mga pagbabagong walang pahintulot"
+  },
+  "m1125": {
+    "source": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗔𝗖𝗧𝗜𝗩𝗘\n━━━━━━━━━━━━━━━━━━\n❌ Unauthorized admin promotion detected!\n🧹 Both users demoted.\n━━━━━━━━━━━━━━━━━━",
+    "en": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗔𝗖𝗧𝗜𝗩𝗘\n━━━━━━━━━━━━━━━━━━\n❌ Unauthorized admin promotion detected!\n🧹 Both users demoted.\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🛡️ AKTIBO ANG PROTEKSYON\n━━━━━━━━━━━━━━━━━━\n❌ May ginawang admin nang walang pahintulot!\n🧹 Inalis ang pagka-admin ng dalawang sangkot.\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m1126": {
+    "source": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗔𝗖𝗧𝗨𝗩𝗘\n━━━━━━━━━━━━━━━━━━\n❌ An admin was removed without permission!\n✅ Admin restored.\n━━━━━━━━━━━━━━━━━━",
+    "en": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗔𝗖𝗧𝗨𝗩𝗘\n━━━━━━━━━━━━━━━━━━\n❌ An admin was removed without permission!\n✅ Admin restored.\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🛡️ AKTIBO ANG PROTEKSYON\n━━━━━━━━━━━━━━━━━━\n❌ Inalis ang isang admin nang walang pahintulot!\n✅ Ibinalik ang pagka-admin.\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m1127": {
+    "source": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗡𝗔𝗠𝗘 𝗚𝗨𝗔𝗥𝗗\n━━━━━━━━━━━━━━━━━━\n❌ Group name changed twice without permission!\n⏪ Name restored and user removed.\n━━━━━━━━━━━━━━━━━━",
+    "en": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗡𝗔𝗠𝗘 𝗚𝗨𝗔𝗥𝗗\n━━━━━━━━━━━━━━━━━━\n❌ Group name changed twice without permission!\n⏪ Name restored and user removed.\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🛡️ PROTEKSYON NG PANGALAN\n━━━━━━━━━━━━━━━━━━\n❌ Dalawang beses binago ang pangalan ng GC nang walang pahintulot!\n⏪ Ibinalik ang pangalan at inalis ang gumawa.\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m1128": {
+    "source": "⚠️ 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 𝗡𝗔𝗠𝗘 𝗚𝗨𝗔𝗥𝗗\n━━━━━━━━━━━━━━━━━━\n⚠️ Group name change attempt {0}/2 detected!\n⏪ Name has been restored.\n━━━━━━━━━━━━━━━━━━",
+    "en": "⚠️ 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 𝗡𝗔𝗠𝗘 𝗚𝗨𝗔𝗥𝗗\n━━━━━━━━━━━━━━━━━━\n⚠️ Group name change attempt {0}/2 detected!\n⏪ Name has been restored.\n━━━━━━━━━━━━━━━━━━",
+    "tl": "⚠️ BABALA SA PANGALAN\n━━━━━━━━━━━━━━━━━━\n⚠️ Pagtatangkang baguhin ang pangalan: {0}/2!\n⏪ Ibinalik ang pangalan.\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m1129": {
+    "source": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗣𝗜𝗖 𝗣𝗥𝗢𝗧𝗘𝗖𝗧\n━━━━━━━━━━━━━━━━━━\n❌ Group image changed unauthorized!\n⏪ Image restored and user kicked.\n━━━━━━━━━━━━━━━━━━",
+    "en": "🛡️ 𝗔𝗡𝗧𝗜-𝗥𝗢𝗕𝗕𝗘𝗥𝗬 𝗣𝗜𝗖 𝗣𝗥𝗢𝗧𝗘𝗖𝗧\n━━━━━━━━━━━━━━━━━━\n❌ Group image changed unauthorized!\n⏪ Image restored and user kicked.\n━━━━━━━━━━━━━━━━━━",
+    "tl": "🛡️ PROTEKSYON NG LARAWAN\n━━━━━━━━━━━━━━━━━━\n❌ Binago ang larawan ng GC nang walang pahintulot!\n⏪ Ibinalik ang larawan at inalis ang gumawa.\n━━━━━━━━━━━━━━━━━━"
+  },
+  "m1131": {
+    "source": "GROUP UPDATE NOTIFICATION",
+    "en": "GROUP UPDATE NOTIFICATION",
+    "tl": "ABISO NG UPDATE NG GC"
+  },
+  "m1133": {
+    "source": "🌙 midnight",
+    "en": "🌙 midnight",
+    "tl": "🌙 hatinggabi"
+  },
+  "m1134": {
+    "source": "🌅 early morning",
+    "en": "🌅 early morning",
+    "tl": "🌅 madaling-araw"
+  },
+  "m1135": {
+    "source": "☀️ noon",
+    "en": "☀️ noon",
+    "tl": "☀️ tanghali"
+  },
+  "m1136": {
+    "source": "🌤️ afternoon",
+    "en": "🌤️ afternoon",
+    "tl": "🌤️ hapon"
+  },
+  "m1137": {
+    "source": "🌆 evening",
+    "en": "🌆 evening",
+    "tl": "🌆 gabi"
+  },
+  "m1138": {
+    "source": "👋 Hey there!",
+    "en": "👋 Hey there!",
+    "tl": "👋 Kumusta!"
+  },
+  "m1139": {
+    "source": "✅ Group connection in {0} at {1} success!\n\n➡️ Current commands: {2}\n➡️ Bot prefix: {3}\n➡️ Version: {4}\n➡️ Admin: ‹{5}›\n➡️ Facebook: ‹{6}›\n➡️ Use {7}help to view command details\n➡️ Added bot at: ✨ {8} ✨ ‹{9}›",
+    "en": "✅ Group connection in {0} at {1} success!\n\n➡️ Current commands: {2}\n➡️ Bot prefix: {3}\n➡️ Version: {4}\n➡️ Admin: ‹{5}›\n➡️ Facebook: ‹{6}›\n➡️ Use {7}help to view command details\n➡️ Added bot at: ✨ {8} ✨ ‹{9}›",
+    "tl": "✅ Nakakonekta na sa {0} ngayong {1}!\n\n➡️ Mga command: {2}\n➡️ Prefix ng bot: {3}\n➡️ Bersyon: {4}\n➡️ Admin: ‹{5}›\n➡️ Facebook: ‹{6}›\n➡️ Gamitin ang {7}help para sa detalye\n➡️ Idinagdag ang bot: ✨ {8} ✨ ‹{9}›"
+  },
+  "m1140": {
+    "source": "Welcome to {0}",
+    "en": "Welcome to {0}",
+    "tl": "Maligayang pagdating sa {0}"
+  },
+  "m1141": {
+    "source": "Member {0}{1}",
+    "en": "Member {0}{1}",
+    "tl": "Miyembro {0}{1}"
+  },
+  "m1142": {
+    "source": "🌟 Welcome new member {name} to the group {threadName}\n➡️ URL Profile:\nhttps://www.facebook.com/profile.php?id={iduser}\n➡️ {type} are the group's {soThanhVien}{0} member\n➡️ Added to the group by: {author}\n➡️ Added by facebook link: https://www.facebook.com/profile.php?id={uidAuthor}\n━━━━━━━━━━━━━━━━\n[ {time} - {thu} ]",
+    "en": "🌟 Welcome new member {name} to the group {threadName}\n➡️ URL Profile:\nhttps://www.facebook.com/profile.php?id={iduser}\n➡️ {type} are the group's {soThanhVien}{0} member\n➡️ Added to the group by: {author}\n➡️ Added by facebook link: https://www.facebook.com/profile.php?id={uidAuthor}\n━━━━━━━━━━━━━━━━\n[ {time} - {thu} ]",
+    "tl": "🌟 Maligayang pagdating {name} sa GC na {threadName}\n➡️ Profile:\nhttps://www.facebook.com/profile.php?id={iduser}\n➡️ Bilang ng miyembro: {soThanhVien}{0}\n➡️ Nagdagdag: {author}\n➡️ Profile ng nagdagdag: https://www.facebook.com/profile.php?id={uidAuthor}\n━━━━━━━━━━━━━━━━\n[ {time} - {thu} ]"
+  },
+  "m1144": {
+    "source": "Notifies bots or people leaving the group",
+    "en": "Notifies bots or people leaving the group",
+    "tl": "Mag-abiso kapag may bot o taong umalis sa GC"
+  },
+  "m1145": {
+    "source": "has been kicked",
+    "en": "has been kicked",
+    "tl": "inalis sa GC"
+  },
+  "m1146": {
+    "source": "decided to leave",
+    "en": "decided to leave",
+    "tl": "kusang umalis"
+  },
+  "m1147": {
+    "source": "Kicked : Leave",
+    "en": "Kicked : Leave",
+    "tl": "Inalis sa GC"
+  },
+  "m1148": {
+    "source": "Left the group",
+    "en": "Left the group",
+    "tl": "Umalis sa GC"
+  },
+  "m1149": {
+    "source": "🚪 {0} has been Disconnected from this Group Chat\nReason: {1}\n👥 Remaining members: {2}",
+    "en": "🚪 {0} has been Disconnected from this Group Chat\nReason: {1}\n👥 Remaining members: {2}",
+    "tl": "🚪 Wala na si {0} sa GC na ito\nDahilan: {1}\n👥 Natitirang miyembro: {2}"
+  },
+  "m1150": {
+    "source": "Good evening",
+    "en": "Good evening",
+    "tl": "Magandang gabi"
+  },
+  "m1151": {
+    "source": "Good morning",
+    "en": "Good morning",
+    "tl": "Magandang umaga"
+  },
+  "m1152": {
+    "source": "Good afternoon",
+    "en": "Good afternoon",
+    "tl": "Magandang hapon"
+  },
+  "m1153": {
+    "source": "╭┈ ❒ [ COOLDOWN ✅ ]",
+    "en": "╭┈ ❒ [ COOLDOWN ✅ ]",
+    "tl": "╭┈ ❒ [ PAGHIHINTAY ✅ ]"
+  },
+  "m1154": {
+    "source": "├ {0}{1} is ready now",
+    "en": "├ {0}{1} is ready now",
+    "tl": "├ Maaari nang gamitin ang {0}{1}"
+  },
+  "m1155": {
+    "source": "╰┈➤ go ahead",
+    "en": "╰┈➤ go ahead",
+    "tl": "╰┈➤ Maaari ka nang magpatuloy"
+  },
+  "m1156": {
+    "source": "╭┈ ❒ [ COOLDOWN ⏳ ]",
+    "en": "╭┈ ❒ [ COOLDOWN ⏳ ]",
+    "tl": "╭┈ ❒ [ PAGHIHINTAY ⏳ ]"
+  },
+  "m1157": {
+    "source": "├ {0}{1} is still cooling down",
+    "en": "├ {0}{1} is still cooling down",
+    "tl": "├ Naghihintay pa ang {0}{1}"
+  },
+  "m1158": {
+    "source": "├ {0}  {1}s left",
+    "en": "├ {0}  {1}s left",
+    "tl": "├ {0}  {1}s ang natitira"
+  },
+  "m1159": {
+    "source": "╰┈➤ I'll edit this when it's ready",
+    "en": "╰┈➤ I'll edit this when it's ready",
+    "tl": "╰┈➤ Babaguhin ko ito kapag maaari nang gamitin"
+  },
+  "m1164": {
+    "source": "╰┈➤ Type {0}help to see everything I can do",
+    "en": "╰┈➤ Type {0}help to see everything I can do",
+    "tl": "╰┈➤ I-type ang {0}help para makita ang mga kaya kong gawin"
+  },
+  "m1166": {
+    "source": "├ My prefix in this chat is:  {0}",
+    "en": "├ My prefix in this chat is:  {0}",
+    "tl": "├ Ang prefix ko sa GC na ito ay: {0}"
+  },
+  "m1167": {
+    "source": "├ Example:  {0}help  ·  {1}ping",
+    "en": "├ Example:  {0}help  ·  {1}ping",
+    "tl": "├ Halimbawa: {0}help · {1}ping"
+  },
+  "m1168": {
+    "source": "[ MODE ] - Only bot admin can use bot",
+    "en": "[ MODE ] - Only bot admin can use bot",
+    "tl": "[ MODE ] - Bot admin lamang ang maaaring gumamit ng bot"
+  },
+  "m1169": {
+    "source": "├ I don't have a command called \"{0}\".",
+    "en": "├ I don't have a command called \"{0}\".",
+    "tl": "├ Wala akong command na \"{0}\"."
+  },
+  "m1170": {
+    "source": "├ Did you mean {0}{1}?",
+    "en": "├ Did you mean {0}{1}?",
+    "tl": "├ Ang ibig mo bang sabihin ay {0}{1}?"
+  },
+  "wordDescription": {
+    "source": "Description",
+    "en": "Description",
+    "tl": "Paglalarawan"
+  },
+  "wordCategory": {
+    "source": "Category",
+    "en": "Category",
+    "tl": "Kategorya"
+  },
+  "wordUsage": {
+    "source": "Usage",
+    "en": "Usage",
+    "tl": "Paggamit"
+  },
+  "wordCredits": {
+    "source": "Credits",
+    "en": "Credits",
+    "tl": "Mga gumawa"
+  },
+  "wordError": {
+    "source": "Error",
+    "en": "Error",
+    "tl": "Error"
+  },
+  "wordYes": {
+    "source": "Yes",
+    "en": "Yes",
+    "tl": "Oo"
+  },
+  "wordNo": {
+    "source": "No",
+    "en": "No",
+    "tl": "Hindi"
+  },
+  "wordPage": {
+    "source": "Page",
+    "en": "Page",
+    "tl": "Pahina"
+  },
+  "wordName": {
+    "source": "Name",
+    "en": "Name",
+    "tl": "Pangalan"
+  },
+  "wordTotal": {
+    "source": "Total",
+    "en": "Total",
+    "tl": "Kabuuan"
+  },
+  "wordStatus": {
+    "source": "Status",
+    "en": "Status",
+    "tl": "Katayuan"
+  },
+  "wordTime": {
+    "source": "Time",
+    "en": "Time",
+    "tl": "Oras"
+  },
+  "wordUser": {
+    "source": "User",
+    "en": "User",
+    "tl": "User"
+  },
+  "wordMember": {
+    "source": "Member",
+    "en": "Member",
+    "tl": "Miyembro"
+  },
+  "wordGroup": {
+    "source": "Group",
+    "en": "Group",
+    "tl": "Grupo"
+  },
+  "wordAdmin": {
+    "source": "Admin",
+    "en": "Admin",
+    "tl": "Admin"
+  },
+  "wordMoney": {
+    "source": "Money",
+    "en": "Money",
+    "tl": "Pera"
+  },
+  "wordLevel": {
+    "source": "Level",
+    "en": "Level",
+    "tl": "Antas"
+  },
+  "wordRank": {
+    "source": "Rank",
+    "en": "Rank",
+    "tl": "Ranggo"
+  },
+  "wordBalance": {
+    "source": "Balance",
+    "en": "Balance",
+    "tl": "Balanse"
+  },
+  "wordSuccess": {
+    "source": "Success",
+    "en": "Success",
+    "tl": "Tagumpay"
+  },
+  "wordFailed": {
+    "source": "Failed",
+    "en": "Failed",
+    "tl": "Nabigo"
+  },
+  "wordUnknown": {
+    "source": "Unknown",
+    "en": "Unknown",
+    "tl": "Hindi kilala"
+  },
+  "wordGeneral": {
+    "source": "General",
+    "en": "General",
+    "tl": "Pangkalahatan"
+  },
+  "wordNoUsage": {
+    "source": "No usage specified",
+    "en": "No usage specified",
+    "tl": "Walang nakasaad na paggamit"
+  },
+  "wordNoDescription": {
+    "source": "No description",
+    "en": "No description",
+    "tl": "Walang paglalarawan"
+  },
+  "wordWaiting": {
+    "source": "Waiting Time",
+    "en": "Waiting Time",
+    "tl": "Oras ng paghihintay"
+  },
+  "cmd.image.target": {
+    "source": "Mention someone or reply to their message.",
+    "en": "Mention someone or reply to their message.",
+    "tl": "Mag-mention ng tao o mag-reply sa mensahe niya.",
+    "ilo": "I-mention ti maysa a tao wenno sungbatan ti mensahena.",
+    "ceb": "Pag-mention og tawo o pag-reply sa iyang mensahe.",
+    "hil": "Mag-mention sang tawo ukon magsabat sa iya mensahe."
+  },
+  "cmd.image.example": {
+    "source": "Example: {0}{1} @user",
+    "en": "Example: {0}{1} @user",
+    "tl": "Halimbawa: {0}{1} @user",
+    "ilo": "Kas pagarigan: {0}{1} @user",
+    "ceb": "Pananglitan: {0}{1} @user",
+    "hil": "Halimbawa: {0}{1} @user"
+  },
+  "cmd.image.ready": {
+    "source": "The image is ready!",
+    "en": "The image is ready!",
+    "tl": "Handa na ang larawan!",
+    "ilo": "Nakasaganan ti ladawan!",
+    "ceb": "Andam na ang hulagway!",
+    "hil": "Handa na ang laragway!"
+  },
+  "cmd.image.wait": {
+    "source": "Preparing the image...",
+    "en": "Preparing the image...",
+    "tl": "Inihahanda ang larawan...",
+    "ilo": "Isagsagana ti ladawan...",
+    "ceb": "Giandam ang hulagway...",
+    "hil": "Ginapreparar ang laragway..."
+  },
+  "cmd.image.failed": {
+    "source": "Could not generate the image. Please try again later.",
+    "en": "Could not generate the image. Please try again later.",
+    "tl": "Hindi mabuo ang larawan. Subukan muli mamaya.",
+    "ilo": "Saan a maaramid ti ladawan. Padasem manen inton agangay.",
+    "ceb": "Dili mahimo ang hulagway. Sulayi pag-usab unya.",
+    "hil": "Indi mahimo ang laragway. Tilawi liwat sa ulihi."
+  },
+  "cmd.image.userID": {
+    "source": "User ID: {0}",
+    "en": "User ID: {0}",
+    "tl": "ID ng gumagamit: {0}",
+    "ilo": "ID ti agar-aramat: {0}",
+    "ceb": "ID sa tiggamit: {0}",
+    "hil": "ID sang manug-gamit: {0}"
+  },
+  "cmd.ai.contactIntro": {
+    "source": "Here is your contact!",
+    "en": "Here is your contact!",
+    "tl": "Narito ang contact mo!",
+    "ilo": "Adtoy ti contact mo!",
+    "ceb": "Ania ang imong contact!",
+    "hil": "Ari ang imo contact!"
+  },
+  "cmd.ai.contactShared": {
+    "source": "✅ Contact shared, {0}.",
+    "en": "✅ Contact shared, {0}.",
+    "tl": "✅ Naibahagi na ang contact mo, {0}.",
+    "ilo": "✅ Naibinglayen ti contact mo, {0}.",
+    "ceb": "✅ Napaambit na ang imong contact, {0}.",
+    "hil": "✅ Napaambit na ang imo contact, {0}."
+  },
+  "cmd.ai.contactUnavailable": {
+    "source": "❌ Could not share your contact, {0}.",
+    "en": "❌ Could not share your contact, {0}.",
+    "tl": "❌ Hindi maibahagi ang contact mo, {0}.",
+    "ilo": "❌ Saan a maibinglay ti contact mo, {0}.",
+    "ceb": "❌ Dili mapaambit ang imong contact, {0}.",
+    "hil": "❌ Indi mapaambit ang imo contact, {0}."
+  },
+  "cmd.ai.greeting.morning": {
+    "source": "Good morning, {0}! How can I help you today?",
+    "en": "Good morning, {0}! How can I help you today?",
+    "tl": "Magandang umaga, {0}! Paano kita matutulungan ngayon?",
+    "ilo": "Naimbag a bigat, {0}! Kasano ka a matulungan ita?",
+    "ceb": "Maayong buntag, {0}! Unsa akong ikatabang nimo karon?",
+    "hil": "Maayong aga, {0}! Ano ang akon mabulig sa imo subong?"
+  },
+  "cmd.ai.greeting.afternoon": {
+    "source": "Good afternoon, {0}! How can I help you today?",
+    "en": "Good afternoon, {0}! How can I help you today?",
+    "tl": "Magandang hapon, {0}! Paano kita matutulungan ngayon?",
+    "ilo": "Naimbag a malem, {0}! Kasano ka a matulungan ita?",
+    "ceb": "Maayong hapon, {0}! Unsa akong ikatabang nimo karon?",
+    "hil": "Maayong hapon, {0}! Ano ang akon mabulig sa imo subong?"
+  },
+  "cmd.ai.greeting.evening": {
+    "source": "Good evening, {0}! How can I help you today?",
+    "en": "Good evening, {0}! How can I help you today?",
+    "tl": "Magandang gabi, {0}! Paano kita matutulungan ngayon?",
+    "ilo": "Naimbag a rabii, {0}! Kasano ka a matulungan ita?",
+    "ceb": "Maayong gabii, {0}! Unsa akong ikatabang nimo karon?",
+    "hil": "Maayong gab-i, {0}! Ano ang akon mabulig sa imo subong?"
+  },
+  "cmd.ai.emptyResponse": {
+    "source": "{0}: no response received",
+    "en": "{0}: no response received",
+    "tl": "{0}: walang natanggap na sagot",
+    "ilo": "{0}: awan ti naawat a sungbat",
+    "ceb": "{0}: walay nadawat nga tubag",
+    "hil": "{0}: wala sang nabaton nga sabat"
+  },
+  "cmd.ai.requestFailed": {
+    "source": "{0}: request failed",
+    "en": "{0}: request failed",
+    "tl": "{0}: hindi nagtagumpay ang kahilingan",
+    "ilo": "{0}: saan a nagballigi ti kiddaw",
+    "ceb": "{0}: wala molampos ang hangyo",
+    "hil": "{0}: wala nagmadinalag-on ang pangabay"
+  },
+  "cmd.ai.providerFailed": {
+    "source": "├ ❌ {0} — currently unavailable",
+    "en": "├ ❌ {0} — currently unavailable",
+    "tl": "├ ❌ {0} — kasalukuyang hindi magamit",
+    "ilo": "├ ❌ {0} — saan a mausar ita",
+    "ceb": "├ ❌ {0} — dili magamit karon",
+    "hil": "├ ❌ {0} — indi magamit subong"
+  },
+  "cmd.say.usage": {
+    "source": "Enter text or reply to a text message.\n├ Example: {0}say Hello\n├ Optional voice code: {0}say en Hello",
+    "en": "Enter text or reply to a text message.\n├ Example: {0}say Hello\n├ Optional voice code: {0}say en Hello",
+    "tl": "Maglagay ng teksto o mag-reply sa mensaheng may teksto.\n├ Halimbawa: {0}say Kumusta\n├ Opsyonal na voice code: {0}say tl Kumusta",
+    "ilo": "Mangikabil ti teksto wenno sungbatan ti mensahe nga addaan teksto.\n├ Kas pagarigan: {0}say Naimbag nga aldaw\n├ Opsyonal a voice code: {0}say ilo Naimbag nga aldaw",
+    "ceb": "Pagsulod og teksto o pag-reply sa mensahe nga adunay teksto.\n├ Pananglitan: {0}say Kumusta\n├ Opsyonal nga voice code: {0}say ceb Kumusta",
+    "hil": "Magbutang sang teksto ukon magsabat sa mensahe nga may teksto.\n├ Halimbawa: {0}say Kamusta\n├ Opsyonal nga voice code: {0}say hil Kamusta"
+  },
+  "cmd.say.failed": {
+    "source": "Could not create audio for voice code {0}. The provider may not support this voice. Try again or choose another code, for example: {1}say en Hello",
+    "en": "Could not create audio for voice code {0}. The provider may not support this voice. Try again or choose another code, for example: {1}say en Hello",
+    "tl": "Hindi makagawa ng audio para sa voice code na {0}. Maaaring hindi suportado ng provider ang boses na ito. Subukan muli o pumili ng ibang code, halimbawa: {1}say en Hello",
+    "ilo": "Saan a maaramid ti audio para iti voice code a {0}. Mabalin a saan a suportado ti provider daytoy a boses. Padasem manen wenno agpili ti sabali a code, kas pagarigan: {1}say en Hello",
+    "ceb": "Dili makahimo og audio para sa voice code nga {0}. Posibleng wala kini suportahi sa provider. Sulayi pag-usab o pagpili og laing code, pananglitan: {1}say en Hello",
+    "hil": "Indi makahimo sang audio para sa voice code nga {0}. Mahimo nga wala ini ginasuportahan sang provider. Tilawi liwat ukon magpili sang iban nga code, halimbawa: {1}say en Hello"
+  },
+  "cmd.rank.level": {
+    "source": "Level {0}",
+    "en": "Level {0}",
+    "tl": "Antas {0}",
+    "ilo": "Lebel {0}",
+    "ceb": "Ang-ang {0}",
+    "hil": "Lebel {0}"
+  },
+  "cmd.rank.failed": {
+    "source": "❌ Could not create the XP card. Please try again later.",
+    "en": "❌ Could not create the XP card. Please try again later.",
+    "tl": "❌ Hindi magawa ang XP card. Subukan muli mamaya.",
+    "ilo": "❌ Saan a maaramid ti XP card. Padasem manen inton agangay.",
+    "ceb": "❌ Dili mahimo ang XP card. Sulayi pag-usab unya.",
+    "hil": "❌ Indi mahimo ang XP card. Tilawi liwat sa ulihi."
+  },
+  "cmd.jail.description": {
+    "source": "Jail someone 🔒",
+    "en": "Jail someone 🔒",
+    "tl": "Gumawa ng larawang nakakulong ang napiling tao 🔒",
+    "ilo": "Mangaramid ti ladawan ti napili a tao iti pagbaludan 🔒",
+    "ceb": "Paghimo og hulagway nga napriso ang gipiling tawo 🔒",
+    "hil": "Maghimo sang laragway nga napriso ang napili nga tawo 🔒"
+  },
+  "cmd.kiss.description": {
+    "source": "Kiss two users 💋",
+    "en": "Kiss two users 💋",
+    "tl": "Gumawa ng larawang naghahalikan ang dalawang tao 💋",
+    "ilo": "Mangaramid ti ladawan ti dua a tao nga aginnungngo 💋",
+    "ceb": "Paghimo og hulagway nga naghalok ang duha ka tawo 💋",
+    "hil": "Maghimo sang laragway nga nagahalukan ang duha ka tawo 💋"
+  },
+  "cmd.nigga.description": {
+    "source": "Generate image",
+    "en": "Generate image",
+    "tl": "Gumawa ng larawan",
+    "ilo": "Mangaramid ti ladawan",
+    "ceb": "Paghimo og hulagway",
+    "hil": "Maghimo sang laragway"
+  },
+  "cmd.pet.description": {
+    "source": "Pet someone 🐾",
+    "en": "Pet someone 🐾",
+    "tl": "Gumawa ng larawang hinahaplos ang napiling tao 🐾",
+    "ilo": "Mangaramid ti ladawan a mangipakita ti panangapros iti napili a tao 🐾",
+    "ceb": "Paghimo og hulagway nga gihaplos ang gipiling tawo 🐾",
+    "hil": "Maghimo sang laragway nga ginahaplos ang napili nga tawo 🐾"
+  },
+  "cmd.wanted.description": {
+    "source": "Wanted poster",
+    "en": "Wanted poster",
+    "tl": "Gumawa ng poster ng pinaghahanap na tao",
+    "ilo": "Mangaramid ti poster ti tao a sapsapulen",
+    "ceb": "Paghimo og poster sa gipangita nga tawo",
+    "hil": "Maghimo sang poster sang ginapangita nga tawo"
+  },
+  "cmd.rank.description": {
+    "source": "XP Rank Card",
+    "en": "XP Rank Card",
+    "tl": "Larawan ng ranggo at antas ng XP",
+    "ilo": "Ladawan ti ranggo ken lebel ti XP",
+    "ceb": "Hulagway sa ranggo ug ang-ang sa XP",
+    "hil": "Laragway sang ranggo kag lebel sang XP"
+  },
+  "cmd.say.description": {
+    "source": "text to voice speech messages",
+    "en": "text to voice speech messages",
+    "tl": "Gawing boses ang teksto",
+    "ilo": "Pagbalinen a boses ti teksto",
+    "ceb": "Himoang tingog ang teksto",
+    "hil": "Himuon nga tingog ang teksto"
+  },
+  "cmd.out.description": {
+    "source": "Leave the group",
+    "en": "Leave the group",
+    "tl": "Umalis sa grupo",
+    "ilo": "Pumanaw iti grupo",
+    "ceb": "Biya sa grupo",
+    "hil": "Maghalin sa grupo"
+  },
+  "cmd.update.description": {
+    "source": "Show the two-minute update notice",
+    "en": "Show the two-minute update notice",
+    "tl": "Ipakita ang abiso ng pag-update sa loob ng dalawang minuto",
+    "ilo": "Ipakita ti pakaammo ti panag-update iti uneg ti dua a minuto",
+    "ceb": "Ipakita ang pahibalo sa pag-update sulod sa duha ka minutos",
+    "hil": "Ipakita ang pahibalo sang pag-update sa sulod sang duha ka minuto"
+  },
+  "cmd.image.usage": {
+    "source": "[mention or reply]",
+    "en": "[mention or reply]",
+    "tl": "[mag-mention o mag-reply]",
+    "ilo": "[i-mention wenno sungbatan]",
+    "ceb": "[pag-mention o pag-reply]",
+    "hil": "[mag-mention ukon magsabat]"
+  },
+  "cmd.say.helpUsage": {
+    "source": "say [voice code] <text> or reply to a message",
+    "en": "say [voice code] <text> or reply to a message",
+    "tl": "say [voice code] <teksto> o mag-reply sa mensahe",
+    "ilo": "say [voice code] <teksto> wenno sungbatan ti mensahe",
+    "ceb": "say [voice code] <teksto> o pag-reply sa mensahe",
+    "hil": "say [voice code] <teksto> ukon magsabat sa mensahe"
+  },
+  "cmd.out.usage": {
+    "source": "out [thread ID]",
+    "en": "out [thread ID]",
+    "tl": "out [ID ng grupo]",
+    "ilo": "out [ID ti grupo]",
+    "ceb": "out [ID sa grupo]",
+    "hil": "out [ID sang grupo]"
+  },
+  "cmd.image.title": {
+    "source": "IMAGE",
+    "en": "IMAGE",
+    "tl": "LARAWAN",
+    "ilo": "LADAWAN",
+    "ceb": "HULAGWAY",
+    "hil": "LARAGWAY"
+  }
+}

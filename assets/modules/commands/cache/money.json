@@ -1,0 +1,81 @@
+{
+  "100064763179341": {
+    "money": 1e+38,
+    "lastWork": 1774317331125,
+    "lastDaily": 1774193725178,
+    "notified10k": true,
+    "notified1m": true
+  },
+  "100091666517001": {
+    "money": 10984,
+    "lastWork": 1774359428549,
+    "lastDaily": 1774276869338,
+    "lastUpdate": 1774358541358
+  },
+  "61576667625373": {
+    "money": 6789,
+    "lastWork": 1774360460896
+  },
+  "100094999395673": {
+    "money": 1054,
+    "lastWork": 1774360701491,
+    "lastDaily": 1774317518806,
+    "notified10k": true,
+    "streak": -3
+  },
+  "100036956043695": {
+    "money": 4779,
+    "lastDaily": 1774191656497,
+    "lastWork": 1774339164204,
+    "streak": null
+  },
+  "100073075982056": {
+    "money": 636617,
+    "lastWork": 1774353973635,
+    "lastDaily": 1774353985534,
+    "notified10k": true,
+    "notified1m": true,
+    "streak": -4
+  },
+  "100092230072458": {
+    "money": 0,
+    "lastDaily": 1774227809792,
+    "xp": 10000,
+    "lastUpdate": 1774358479790
+  },
+  "61576093437262": {
+    "money": 0,
+    "lastDaily": 1774238710134
+  },
+  "100053595398462": {
+    "money": 201480000,
+    "lastDaily": 1774239674547,
+    "lastWork": 1774239689403,
+    "notified10k": true,
+    "notified1m": true,
+    "streak": null
+  },
+  "100078673028343": {
+    "money": 1073672,
+    "lastWork": 1774360469599,
+    "lastDaily": 1774277401769,
+    "notified10k": true,
+    "notified1m": true,
+    "streak": -3
+  },
+  "61581397191023": {
+    "money": 24225,
+    "notified10k": true
+  },
+  "100093800786776": {
+    "money": 0,
+    "lastDaily": 1774315987911
+  },
+  "61578953563209": {
+    "money": 1045,
+    "lastWork": 1774345641973
+  },
+  "61557138515206": {
+    "money": 850
+  }
+}
