@@ -4,7 +4,7 @@ const path = require("path");
 
 const APPSTATE_PATH = path.join(__dirname, "appstatett.json");
 
-// Login options
+
 const options = {
   logLevel: "info",
   forceLogin: true,
@@ -13,13 +13,13 @@ const options = {
   userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 };
 
-// Your credentials (use environment variables in production!)
+
 const credentials = {
   email: process.env.FB_EMAIL || "chiwarr@xitroo.com",
   password: process.env.FB_PASSWORD || "renwen00",
 };
 
-// Callback handler
+
 function callback(err, api) {
   if (err) {
     console.error("❌ Login failed:", err);
@@ -29,10 +29,9 @@ function callback(err, api) {
   console.log("✅ Successfully logged in!");
   console.log("👤 User ID:", api.getCurrentUserID());
 
-  // Get appState from the logged-in session
   const appState = api.getAppState();
 
-  // Save appState to appstate.json
+
   try {
     fs.writeFileSync(
       APPSTATE_PATH,
@@ -45,11 +44,11 @@ function callback(err, api) {
     console.error("❌ Failed to save appState.json:", saveErr);
   }
 
-  // Exit after successful save (remove this if you want to keep the bot running)
+
   process.exit(0);
 }
 
-// Check if appstate.json exists and try cookie login first
+
 if (fs.existsSync(APPSTATE_PATH)) {
   console.log("🔑 Found appstate.json, attempting login with cookies...");
   try {
@@ -77,7 +76,7 @@ if (fs.existsSync(APPSTATE_PATH)) {
   emailPasswordLogin();
 }
 
-// Email & Password login function
+
 function emailPasswordLogin() {
   login(
     {
